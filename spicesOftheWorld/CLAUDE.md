@@ -55,11 +55,11 @@ interactive checklist artifact). See `docs/open-tasks.md` for what's left.
 **2026-07-16/17 — Agent 2 build in progress:** Google Sheets/YouTube/other
 Google credentials also connected in n8n (beyond just Drive). Embeddings
 choice decided: **OpenAI embeddings** (`text-embedding-3-small`), not
-Ollama — OpenAI API key obtained and added as an n8n credential. Next:
-finish uploading `knowledge-base/` to a Google Drive folder (as plain
-files, not converted to Google Docs), then start Part A of the walkthrough
-(create the "Agent 2 — Knowledge & Brand Voice" workflow itself — no nodes
-built yet).
+Ollama — OpenAI API key obtained and added as an n8n credential.
+`knowledge-base/` content uploaded as plain files (not converted to Google
+Docs) to a Drive folder named "fudi people knowledge base". Next: start
+Part A of the walkthrough (create the "Agent 2 — Knowledge & Brand Voice"
+workflow itself — no nodes built yet).
 
 The canonical blueprint text (citation rules, the Named Influences benchmark
 set, and the $0-to-start cost breakdown) lives at `docs/system-blueprint.md`.

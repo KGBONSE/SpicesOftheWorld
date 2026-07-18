@@ -9,7 +9,9 @@ repo. What's left is genuinely short.
 
 - [x] Install n8n locally (Docker) and add Anthropic + Google Drive
       credentials — see `workflows/n8n/local-install-steps.md`
-- [x] Connect Google Drive with the `knowledge-base/` folder
+- [x] Connect Google Drive with the `knowledge-base/` folder — uploaded as
+      plain files to a Drive folder named "fudi people knowledge base"
+      (2026-07-17)
 - [ ] Build Agent 2 in n8n, paste in `agents/agent-2-knowledge-voice.md`,
       test with a few spice questions — step-by-step:
       `workflows/n8n/agent-2-3-build-walkthrough.md` Part A
