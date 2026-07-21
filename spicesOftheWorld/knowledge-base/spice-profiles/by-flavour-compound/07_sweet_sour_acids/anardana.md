@@ -19,3 +19,12 @@ Hexanal contributes green, fruity, grassy notes; limonene adds citrus/herby char
 
 ## Culinary Uses & Technique
 Popular in northern India as a souring agent for curries, pakoras, and chutneys; Iranian dishes like fesenjan (a chicken and walnut stew) combine anardana with pomegranate molasses for richer flavour. Its tart-yet-fruity profile balances roughly 23% sugar content, 11% acid content, and 5% tannin — all of which dissolve in water, so it can be added directly to watery sauces without needing oil.
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Antioxidant/heart health:** carries pomegranate's polyphenolic antioxidants, which help stop LDL cholesterol from oxidising, plus links to lower blood pressure.
+- **Digestive:** dietary fibre content supports healthy digestion and helps prevent constipation.
+- **Heart/nutrient profile:** rich in fibre, folate and potassium, all supportive of heart health.
+- Most research is on fresh pomegranate juice/arils rather than the dried spice specifically, but the core compounds carry over.
+
+**On-camera line (generic attribution):** "Research shows anardana carries real pomegranate antioxidants, not just its sour-fruity bite."
+*(Sources, private — not spoken: [VitaLibrary](https://vitalibrary.com/anardana-seed-benefits-nutrition/), [1mg](https://www.1mg.com/articles/7-amazing-health-benefits-of-pomegranate/))*

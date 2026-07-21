@@ -19,3 +19,12 @@ Pinene dominates, giving a woody, spicy, camphorous character. Alpha-terpeneol, 
 
 ## Culinary Uses & Technique
 Juniper's clean, citrus qualities suit meat particularly well — its acids have a mild tenderizing effect. Berries don't need roasting but benefit from crushing or grinding to speed release of the terpene-rich oils, which spread easily through oil and alcohol but dissolve poorly in water.
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Antimicrobial:** juniper berry extracts have inhibited growth of common bacteria (E. coli, Staphylococcus aureus) in lab tests, in some cases comparably to a conventional antibiotic.
+- **Blood sugar & weight:** animal studies found juniper extract reduced body weight and fasting blood sugar in mice on a high-fat diet.
+- **Broader traditional profile:** reported anti-inflammatory, antifungal and antioxidant activity, though almost entirely from lab/animal studies, not human trials.
+- **Caution:** avoid in pregnancy and for anyone with kidney disease or on lithium — worth knowing even though it's rarely spoken on camera.
+
+**On-camera line (generic attribution):** "Research suggests juniper has real antibacterial and antioxidant properties, beyond its role in gin."
+*(Sources, private — not spoken: [Healthline](https://www.healthline.com/nutrition/juniper-berries), [Today's Dietitian](https://www.todaysdietitian.com/herbs-spices-juniper-berries/))*

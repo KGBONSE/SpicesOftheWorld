@@ -22,3 +22,12 @@ Galangal's flavour has been likened to a mix of cardamom, ginger, and saffron, w
 
 ## Blends Featuring Galangal
 Khao kua, Bumbu
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Anti-inflammatory:** galangal compounds suppress TNF-alpha, a protein linked to inflammatory damage when overstimulated.
+- **Cancer research (early-stage):** lab studies on compounds like galangin show anti-cancer activity, including one Iranian study where galangal extract reduced gastric cancer cells.
+- **Digestive:** promotes gastric motility and gut microbiome balance, easing nausea and bloating.
+- Mostly lab/preliminary research — avoid overstating the cancer angle on camera specifically.
+
+**On-camera line (generic attribution):** "Research shows galangal has real anti-inflammatory and digestive benefits, on top of its warming, peppery kick."
+*(Sources, private — not spoken: [Dr. Axe](https://draxe.com/nutrition/galangal/), [North Penn Now](https://northpennnow.com/news/2025/oct/06/4-surprising-health-benefits-of-galangal/))*

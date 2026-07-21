@@ -22,3 +22,13 @@ Often used purely for its staining ability, but annatto also brings a peppery, s
 
 ## Blends Featuring Annatto
 Achiote paste (for marinades)
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Antioxidant:** annatto's carotenoids (bixin, norbixin) neutralise free radicals and may protect against oxidative-stress-linked chronic disease.
+- **Heart health:** early research suggests annatto may help lower blood pressure and LDL cholesterol.
+- **Eye health:** its carotenoids help absorb harmful light and may guard against cataracts.
+- **Antimicrobial/digestive:** shows activity against various pathogens; its fibre supports digestion.
+- Culinary amounts are small (a pinch for colour), so treat health effects as a bonus, not the main reason to use it.
+
+**On-camera line (generic attribution):** "Research shows annatto isn't just for colour — its antioxidants are genuinely linked to heart and eye health."
+*(Sources, private — not spoken: [VitaLibrary](https://vitalibrary.com/annatto-nutrition-benefits-safety/), [Healthline](https://www.healthline.com/nutrition/annatto))*

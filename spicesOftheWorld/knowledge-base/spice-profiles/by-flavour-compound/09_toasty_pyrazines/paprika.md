@@ -22,3 +22,13 @@ Appreciated for earthy, smoky flavour, spicy heat, and natural sugar sweetness �
 
 ## Blends Featuring Paprika
 Jamaican jerk rub, Chimichurri, BBQ rub
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Heart health:** paprika's carotenoids have lowered LDL and total cholesterol in a 12-week human study.
+- **Eye health:** its lutein and zeaxanthin content is linked to a lower risk of cataracts and age-related macular degeneration.
+- **Inflammation/pain:** capsaicin content (higher in hotter varieties) has anti-inflammatory and pain-relief properties.
+- **Blood sugar:** capsaicin may also improve insulin sensitivity and help regulate blood sugar.
+- Sweet/mild paprika has much less capsaicin than hot varieties, so the pain/blood-sugar angle applies most to hotter paprikas.
+
+**On-camera line (generic attribution):** "Research shows paprika's carotenoids genuinely support heart and eye health, on top of that smoky colour."
+*(Sources, private — not spoken: [Healthline](https://www.healthline.com/nutrition/paprika-benefits), [Dr. Axe](https://draxe.com/nutrition/paprika/))*

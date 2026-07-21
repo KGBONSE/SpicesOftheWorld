@@ -21,3 +21,13 @@ When heated in fat, asafoetida develops a flavour similar to fried onions and ga
 
 ## Blends Featuring Asafoetida
 Chaat masala, Gunpowder
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Digestive:** relaxes intestinal muscle and reduces bloating/gas/cramping — one study found 81% of people with digestive complaints felt better after taking it; some evidence supports IBS relief.
+- **Respiratory:** acts as an expectorant and bronchodilator, traditionally used for asthma, bronchitis and chronic cough.
+- **Heart health:** shown to act as a vasodilator, helping lower blood pressure and blood lipids.
+- **Blood sugar:** animal research suggests it may stimulate insulin secretion and improve sensitivity.
+- Mostly animal/lab studies so far — but this is also asafoetida's most traditional use (Ayurvedic digestive aid), so the digestive claim is on solid ground either way.
+
+**On-camera line (generic attribution):** "Research shows hing genuinely earns its place as a digestive aid — that's not just an old Ayurvedic claim."
+*(Sources, private — not spoken: [Healthline](https://healthline.com/nutrition/asafoetida-benefits), [Jiva Ayurveda](https://www.jiva.com/herbs/hing-asafoetida-benefits-uses-healing-properties))*

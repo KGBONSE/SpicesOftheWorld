@@ -143,6 +143,16 @@ Both video files are 70–80MB — under GitHub's 100MB hard limit, but worth
 knowing before pushing (repo gets noticeably heavier; consider Git LFS if
 more raw footage gets added).
 
+**2026-07-21 — Health Benefits added to all 50 spice profiles:** since the
+book doesn't cover health benefits, Kofi asked for these to be researched
+externally so viewers get real nutritional/wellness value alongside the
+history and flavour science. Every spice-profile file (both
+`core-profiles-master.md` and `by-flavour-compound/`) now has a Health
+Benefits section — research-backed bullets, an evidence-strength note,
+and a generic spoken attribution line ("research shows...") rather than
+naming specific studies on camera, matching the existing citation
+convention. Sources logged privately per entry.
+
 ## Knowledge base (from *The Science of Spice*)
 
 `knowledge-base/` is now populated — see `knowledge-base/README.md` for the

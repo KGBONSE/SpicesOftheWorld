@@ -22,3 +22,12 @@ Sharp and acidic, reminiscent of lemon balm, with a spicy earthy woody aroma —
 
 ## Blends Featuring Sumac
 Za'atar
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Cardiometabolic:** the most reliably-shown benefit — sumac lowers triglycerides, with some evidence for improved HDL, LDL and total cholesterol.
+- **Blood sugar:** studies suggest it may help regulate blood sugar and improve insulin sensitivity.
+- **Antioxidant:** rich in flavonoids and polyphenols, with antibacterial and anti-inflammatory effects shown in lab research.
+- Sumac research is newer than for spices like turmeric, but toxicity studies confirm it's very safe — a good, low-risk spice to make a genuine health claim about.
+
+**On-camera line (generic attribution):** "Research shows sumac genuinely helps with cholesterol and blood sugar — it's one of the more promising spices coming out of newer studies."
+*(Sources, private — not spoken: [PMC — Sumac and Human Metabolic Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12671535/), [Open Access Government](https://www.openaccessgovernment.org/research-sumac-diets-antioxidant-health-benefits/161250/))*

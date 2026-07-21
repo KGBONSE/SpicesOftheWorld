@@ -22,3 +22,14 @@ Cacao nibs are earthy, bitter, and fragrant, with a nut-like crunch — unlike c
 
 ## Blends Featuring Cacao
 Mole mix
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Antioxidant:** unsweetened cocoa/cacao contains more antioxidants (flavanols) than green tea or red wine.
+- **Heart health:** regularly lowers LDL cholesterol and can produce small but real reductions in blood pressure.
+- **Brain/cognition:** human clinical studies show cocoa flavanols can improve general cognition and working memory, especially in older adults.
+- **Mood:** stimulates serotonin and dopamine release, genuinely linked to feelings of pleasure and relaxation.
+- **Gut health:** cacao polyphenols encourage growth of beneficial gut bacteria (Lactobacillus, Bifidobacterium).
+- Raw/less-processed cacao retains more of these compounds than roasted cocoa powder — worth a line if contrasting the two on camera.
+
+**On-camera line (generic attribution):** "Research shows raw cacao is genuinely one of the most antioxidant-dense foods there is — more than green tea or red wine."
+*(Sources, private — not spoken: [Healthline](https://www.healthline.com/nutrition/cocoa-powder-nutrition-benefits), [PMC — Cocoa Flavanols and Metabolic Syndrome](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6520706/))*

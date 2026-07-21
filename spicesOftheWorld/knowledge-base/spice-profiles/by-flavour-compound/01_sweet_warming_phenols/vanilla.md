@@ -18,3 +18,12 @@ Vanillin makes up about 85% of vanilla's flavour, but more than 250 additional c
 
 ## Culinary Uses & Technique
 Historically confined to sweet cookery, vanilla is increasingly used in savoury dishes, especially fish and seafood — though it can easily overpower a dish if overused. Many of vanilla's trace compounds evaporate quickly, so seeds should be used immediately and cooked over low heat to preserve subtlety. Vanilla varies significantly by origin: Madagascar/Réunion vanilla is rich and balanced; Mexican vanilla carries wine-like, fruity notes; Tahitian vanilla (the most expensive) has cherry-chocolate and liquorice notes; South Asian vanilla has lower vanillin content and a gentler, smokier flavour.
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Antioxidant activity:** vanillin has shown strong free-radical-scavenging ability in lab studies, helping limit lipid damage to cells.
+- **Anti-inflammatory effects:** vanilla compounds have reduced inflammation markers in laboratory research.
+- **Mood/relaxation:** animal studies suggest vanillin's scent alone can ease anxiety-like behaviour, and small clinical studies found it can help soothe distressed infants.
+- Evidence is genuinely early-stage — mostly animal/lab studies, not human trials, so keep any spoken claim soft.
+
+**On-camera line (generic attribution):** "Research suggests vanilla's compounds have real calming, antioxidant properties — though most of that evidence is still early-stage."
+*(Sources, private — not spoken: [McCormick Science Institute](https://www.mccormickscienceinstitute.com/our-research/scientific-overviews/vanilla-potential-health-benefits), [WebMD](https://www.webmd.com/diet/health-benefits-vanilla))*

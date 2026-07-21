@@ -120,8 +120,17 @@ if you grew up in Nigeria. Same spice mix, same fire, two names for
 basically the same street food. That's the whole story of this episode in
 one bite.
 
+Before anything touches the fire, soak your wooden skewers first — that's
+what stops them burning while the meat cooks. Season the meat lightly to
+start, then once it's on the fire, depending on how tough the cut is, keep
+spraying it with water or beer as it cooks, to keep it tender. Once it's
+close to done, take it off, put it in a bowl, and rub the Yaji mix into it
+properly — then it goes back on the fire just to finish.
+
 **[ON-SCREEN TEXT]:** "CHINCHINGA (Ghana) / SUYA (Nigeria) — same mix, same fire"
-**[B-ROLL]:** Grilling footage, finished skewers, close-up of the crust
+**[B-ROLL]:** Skewers soaking, grilling footage, spraying water/beer on the
+meat, rubbing Yaji on in the bowl, finished skewers back on the fire,
+close-up of the crust
 
 ## Africa Link / Throughline Close
 
@@ -157,3 +166,8 @@ variant over the general market-atmosphere version.
 Only real open item: test-cook the Yaji v1 ratio card above (added
 2026-07-16, untested) and log the adjustments before this locks in for
 filming.
+
+**2026-07-21:** Added Kofi's actual grilling technique to The Dish section
+(soak skewers, light season, spray water/beer for tenderness depending on
+cut, rub Yaji on partway through, finish on the fire) — his own cooking
+method, not from the book.

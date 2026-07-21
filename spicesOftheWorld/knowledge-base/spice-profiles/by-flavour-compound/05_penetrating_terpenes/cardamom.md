@@ -22,3 +22,12 @@ Highly aromatic and versatile for both sweet and savoury dishes. Whole pods suit
 
 ## Blends Featuring Cardamom
 Turkish baharat, Advieh, Hawaij, Durban curry masala, Vindaloo paste, Shandong spice bag, Finnish gingerbread spice
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Heart health:** 3g/day cardamom supplementation has lowered LDL cholesterol by up to 22% and systolic blood pressure by over 8 points in studies; a 2023 meta-analysis found it reduced inflammatory markers (CRP, TNF, IL-6).
+- **Oral health:** strong antibacterial action against mouth bacteria linked to bad breath, cavities and gum disease.
+- **Blood sugar:** supplementation has improved glycemic control markers (HbA1c, insulin resistance).
+- **Caveat:** these effects come from concentrated supplement doses — cooking with cardamom won't deliver the same concentration, worth noting if a specific claim is made on camera.
+
+**On-camera line (generic attribution):** "Research shows cardamom genuinely supports heart health and blood sugar — though you'd need more than a pinch in your cooking to match the studies."
+*(Sources, private — not spoken: [GoodRx](https://www.goodrx.com/well-being/diet-nutrition/cardamom-benefits), [Medical News Today](https://www.medicalnewstoday.com/articles/326532))*

@@ -22,3 +22,13 @@ Produces a pungent heat that is neither flavour nor fragrance but a pain-like se
 
 ## Blends Featuring Black Pepper
 Turkish baharat, Chaat masala, Nanjing spice bag, Quatre épices
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Nutrient absorption:** piperine famously boosts absorption of other nutrients, including iron, beta-carotene, and turmeric's curcumin — genuinely useful pairing knowledge for a cooking channel.
+- **Metabolic health:** piperine has improved blood lipid profiles (lower total cholesterol, LDL, triglycerides) in overweight/obese individuals.
+- **Antioxidant/anti-inflammatory:** shown to reduce markers of inflammation and oxidative stress in people with metabolic syndrome.
+- **Digestive:** may boost nutrient absorption and support gut microbiota, prebiotic-like.
+- Most mechanistic evidence is from animal/lab studies, but the piperine-boosts-absorption finding is well-established and directly useful for pairing advice (e.g. black pepper + turmeric).
+
+**On-camera line (generic attribution):** "Research shows black pepper genuinely helps your body absorb other nutrients better — that's not an old wives' tale, it's real chemistry."
+*(Sources, private — not spoken: [Medical News Today](https://www.medicalnewstoday.com/articles/black-pepper-benefits), [McCormick Science Institute](https://www.mccormickscienceinstitute.com/our-research/scientific-overviews/potential-health-benefits-of-black-pepper))*

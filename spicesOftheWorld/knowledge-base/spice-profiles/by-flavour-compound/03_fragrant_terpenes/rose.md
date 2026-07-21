@@ -22,3 +22,12 @@ Rose's potent, oil-soluble flavour compounds can easily overpower a dish — thi
 
 ## Blends Featuring Rose
 Advieh
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Antioxidant:** rose petals are rich in ellagitannins, which have anti-inflammatory properties and may help protect cells' DNA from damage.
+- **Digestive:** traditionally used, with some research support, as a mild digestive aid/laxative.
+- **Mood/stress:** rose's geraniol content has shown anxiety-reducing effects in animal studies; rose tea is traditionally used to ease period pain and mood.
+- Clinical research is still limited and mostly on extracts, not tea/culinary use — keep claims modest, and note edible roses must be untreated (not florist roses).
+
+**On-camera line (generic attribution):** "Research suggests rose petals have real antioxidant and calming properties, beyond how they smell."
+*(Sources, private — not spoken: [ScienceDirect — Edible rose flowers](https://www.sciencedirect.com/science/article/abs/pii/S0963996922010353), [Netmeds](https://www.netmeds.com/c/health-library/post/rose-petals-nutrition-health-benefits-uses-and-side-effects))*

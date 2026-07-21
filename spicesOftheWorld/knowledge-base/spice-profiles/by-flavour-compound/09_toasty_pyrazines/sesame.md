@@ -18,3 +18,13 @@ Pyrazines and 2-furyl-methanthiol give roasted sesame its nutty, coffee-like, ro
 
 ## Culinary Uses & Technique
 Used in everything from sweets (Indian til laddoos, Middle Eastern halva) to savoury dips like tahini and hummus; the Japanese sprinkle gomashio (sesame-and-salt) over rice and noodles. Untoasted seeds carry subtle flavour; toasting triggers a Maillard-type reaction between proteins and sugars, forming nutty pyrazines and sulphurous, roasted-meat compounds. Darker (black) seeds carry heavier, spicier aromas suited to savoury dishes; pale seeds work better for milder recipes and pastes.
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Heart health:** in a study, 40g of hulled sesame seeds daily for two months cut LDL cholesterol by 10% and triglycerides by 8%.
+- **Antioxidant:** sesamin and sesamolin, sesame's signature lignans, show antioxidant and antibacterial properties.
+- **Bone health:** sesame lignans have shown promise supporting bone healing in people with osteoporosis, though mainly in early/animal research.
+- **Nutrient-dense:** good source of healthy fats, protein, B vitamins, minerals and fibre.
+- Benefits need regular, substantial intake (tablespoons, not a sprinkle) to show clinically — worth a caveat if quoting the LDL figure.
+
+**On-camera line (generic attribution):** "Research shows sesame seeds genuinely help cholesterol when eaten regularly — this isn't just a garnish."
+*(Sources, private — not spoken: [Healthline](https://www.healthline.com/nutrition/sesame-seeds), [GoodRx](https://www.goodrx.com/well-being/diet-nutrition/are-sesame-seeds-good-for-you-benefits))*

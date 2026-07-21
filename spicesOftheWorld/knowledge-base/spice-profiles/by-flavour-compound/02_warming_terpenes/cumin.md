@@ -21,3 +21,12 @@ An essential component of Indian, North African, Levantine, and Mexican cuisine.
 
 ## Blends Featuring Cumin
 Turkish baharat, Za'atar, Advieh, Dukkah, Hawaij, Chaat masala, Shandong spice bag, BBQ rub
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Digestive relief:** cumin extract has significantly relieved IBS symptoms (bloating, pain, urgency) in early clinical studies, backing its long folk use for diarrhoea.
+- **Blood sugar & cholesterol:** cumin powder in yogurt reduced LDL cholesterol and triglycerides while raising HDL in one study; other research links it to better glucose control.
+- **Weight management:** several early studies suggest cumin can support weight loss as part of an overall healthy diet.
+- **Antimicrobial:** lab studies show cumin limits growth of bacteria including E. coli.
+
+**On-camera line (generic attribution):** "Research shows cumin does more than flavour a dish — it's been linked to real digestive and metabolic benefits."
+*(Sources, private — not spoken: [Healthline](https://www.healthline.com/nutrition/9-benefits-of-cumin), [Nutrition Today](https://journals.lww.com/nutritiontodayonline/fulltext/2021/05000/cumin__potential_health_benefits.8.aspx))*

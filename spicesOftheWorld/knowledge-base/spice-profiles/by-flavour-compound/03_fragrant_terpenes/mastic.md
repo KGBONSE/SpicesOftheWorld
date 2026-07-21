@@ -19,3 +19,12 @@ Pinene makes up as much as 80% of mastic's chemical profile, giving it its subtl
 
 ## Culinary Uses & Technique
 In Turkey mastic flavours Turkish delight; in Lebanon it's used in eggless ice cream scented with rosewater; in Egypt it flavours red meat and poultry dishes, often alongside cardamom. Best ground before use and mixed with sugar, salt, or flour to prevent it sticking to the grinder and to help disperse it through a dish. Note: adding whole mastic directly to a watery broth risks it clumping into a sticky, plastic-like mass, since its myrcene molecules form long polymer chains in water.
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Oral health:** a 2023 review of 14 studies found chewing mastic gum inhibits plaque buildup, supporting its 2,500-year use as a chew.
+- **Cholesterol & blood sugar:** clinical research found mastic gum lowered total cholesterol (strongest in overweight/obese people) and reduced glucose levels in healthy adults.
+- **Digestive health:** traditionally — and in research — used to protect against gastric/duodenal ulcers and soothe inflammatory bowel symptoms.
+- Long-term safety data is limited, so keep claims to short-term, studied effects.
+
+**On-camera line (generic attribution):** "Research shows mastic gum genuinely helps with cholesterol and gut health, not just as an old Greek chewing habit."
+*(Sources, private — not spoken: [Medical News Today](https://www.medicalnewstoday.com/articles/mastic-gum), [Greco Gum](https://grecogum.com/blog/mastic-gum-benefits))*

@@ -22,3 +22,12 @@ Fresh curry leaves have a mild, citrusy fragrance that turns musky and floral wh
 
 ## Blends Featuring Curry Leaf
 Gunpowder
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Blood sugar:** curry leaf compounds inhibit the enzyme that breaks starch into sugar, blunting post-meal blood sugar spikes — in lab tests, performing comparably to a prescription diabetes drug.
+- **Heart health:** in a human study, postmenopausal women eating curry leaf for 45 days saw total cholesterol drop by about 31 mg/dl.
+- **Antioxidant/brain health:** high antioxidant capacity; animal research shows it may reduce oxidative brain damage and slow processes linked to Alzheimer's.
+- Cholesterol-lowering results in animal studies used concentrated extracts far beyond typical cooking amounts — the human 45-day study is the stronger evidence to lean on.
+
+**On-camera line (generic attribution):** "Research shows curry leaf genuinely helps with blood sugar and cholesterol — one of the better human-trial results on this list."
+*(Sources, private — not spoken: [ScienceInsights](https://scienceinsights.org/what-is-curry-leaf-good-for-key-health-benefits/), [Healthline](https://www.healthline.com/nutrition/curry-leaves-benefits))*

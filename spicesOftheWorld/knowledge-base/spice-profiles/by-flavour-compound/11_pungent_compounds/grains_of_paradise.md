@@ -22,3 +22,12 @@ Widely used in North and West African seasoning blends for meat stews and soups;
 
 ## Blends Featuring Grains of Paradise
 Mbongo mix
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Metabolism/weight:** research published in the British Journal of Nutrition found grains of paradise can increase energy expenditure and fat oxidation, including activating brown fat tissue that burns calories for heat — a genuinely notable, specific finding.
+- **Antioxidant/anti-inflammatory:** rich in phenolic compounds that fight cellular damage and reduce inflammation linked to chronic disease.
+- **Digestive:** traditionally eases stomach pain, ulcers and diarrhoea.
+- Given this is Fudi People's flagship Episode 1 spice, this is a strong, specific health hook worth featuring on camera.
+
+**On-camera line (generic attribution):** "Research shows grains of paradise can genuinely rev up your metabolism — there's real science behind this one, not just history."
+*(Sources, private — not spoken: [Klarity Health Library](https://my.klarity.health/health-benefits-of-grains-of-paradise/), [Naked Nutrition](https://nakednutrition.com/blogs/supplements/grains-of-paradise-benefits))*

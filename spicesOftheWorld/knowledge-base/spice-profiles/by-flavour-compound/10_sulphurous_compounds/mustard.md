@@ -22,3 +22,13 @@ White mustard seeds are mild and used in pickling and American yellow mustard; b
 
 ## Blends Featuring Mustard
 Panch phoran, Vindaloo paste
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Anti-inflammatory/heart:** glucosinolates in mustard seed show antimicrobial and anti-inflammatory action, linked to lower cardiovascular risk; its omega-3 content supports heart and neurological health.
+- **Blood sugar:** mustard seed extract has shown meaningful anti-diabetic effects, improving insulin sensitivity in research.
+- **Skin:** studied as a possible anti-inflammatory aid for skin conditions like psoriasis and contact dermatitis (animal research).
+- **Cooking safety bonus:** using mustard as a marinade/coating for grilled meat has been shown to reduce formation of harmful compounds (HCAs/PAHs) from charring — genuinely useful for a grilling-focused channel.
+- Most human-relevant evidence is preliminary — the marinade/HCA-reduction finding is the most directly useful one for on-camera cooking tips.
+
+**On-camera line (generic attribution):** "Research shows a mustard marinade doesn't just add flavour before grilling — it can genuinely cut down on harmful compounds that form when meat chars."
+*(Sources, private — not spoken: [PMC — Glucosinolates and Omega-3 from Mustard Seeds](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9459965/), [Organic Facts](https://www.organicfacts.net/health-benefits/herbs-and-spices/mustard.html))*

@@ -21,3 +21,12 @@ Fresh or dried leaves yield fragrant, warm flavours gradually when added at the 
 
 ## Blends Featuring Bay
 Burmese garam masala, Nanjing spice bag, Mulling spice, Khmeli-suneli
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Antibacterial:** lab studies show bay leaf inhibits growth of several bacteria, including E. coli and Staph.
+- **Blood sugar/cholesterol:** early research found ground bay leaf alongside diabetes medication lowered pre-meal blood sugar and cholesterol; separately, 1–3g of bay leaf daily was linked to 26% lower cholesterol.
+- **Sleep:** bay's linalool content increased sleep duration in one study.
+- Evidence is mostly animal/lab-based — few human clinical trials exist, so keep spoken claims soft.
+
+**On-camera line (generic attribution):** "Research shows bay leaf may genuinely help with blood sugar and cholesterol, not just flavour in a stew."
+*(Sources, private — not spoken: [Healthline](https://www.healthline.com/health/5-possible-uses-for-bay-leaf), [McCormick Science Institute](https://www.mccormickscienceinstitute.com/our-research/scientific-overviews/bay-leaf-potential-health-benefits))*

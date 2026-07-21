@@ -18,3 +18,14 @@ Tartaric acid and sugars form the sour, sharp backbone. Furfural adds sweet, bre
 
 ## Culinary Uses & Technique
 Essential across Africa, Asia, the Middle East, and India in chutneys, sauces, curries, soups, and drinks — often used as a fruitier alternative to lemon juice. Its flavour compounds dissolve readily in water, unusually for a spice, so there's no need to fry it in oil to release flavour. High acid and sugar content (roughly 50% of pulp mass) means blocks can be stored for a year or more. The tough seeds are edible too — roasted, soaked, and peeled, or boiled/fried — with a pleasant peanut-like taste.
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Antioxidant:** rich in vitamin C, polyphenols and flavonoids, helping protect cells from free-radical damage.
+- **Heart health:** tamarind extract has lowered total cholesterol, LDL and triglycerides while raising HDL in studies.
+- **Blood sugar:** shown to inhibit enzymes involved in carbohydrate digestion, which may help regulate blood sugar.
+- **Joint health:** research suggests it can ease joint inflammation and swelling.
+- **Weight management:** tamarind seed compounds may affect hunger hormones, supporting fullness.
+- One of the more broadly-supported spices here across several health angles — good candidate to actually feature since it's already flagged HIGH PRIORITY for Fudi People.
+
+**On-camera line (generic attribution):** "Research shows tamarind genuinely supports heart health and blood sugar, on top of that sour-sweet punch it brings to a dish."
+*(Sources, private — not spoken: [Medical News Today](https://www.medicalnewstoday.com/articles/tamarind-benefits), [Cleveland Clinic](https://health.clevelandclinic.org/tamarind))*

@@ -22,3 +22,12 @@ Whole pods add raw pepperiness to soups, porridges, stews, and sauces; ground po
 
 ## Blends Featuring Grains of Selim
 Yaji
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Respiratory:** traditionally used across Africa for bronchitis, colds and asthma-type symptoms; the bark/pod is credited with genuine respiratory-supporting properties.
+- **Digestive:** stimulates digestive enzymes and supports gut bacteria — research links regular use to reduced IBS symptoms.
+- **Anti-inflammatory & heart:** natural compounds may ease inflammation (helpful for arthritis-type pain) and support heart health via cholesterol/circulation benefits.
+- This is genuinely one of the better-documented African spices for traditional-medicine-to-modern-research crossover — a good one to actually feature, given it's core to the Yaji story.
+
+**On-camera line (generic attribution):** "Research shows grains of Selim isn't just West Africa's forgotten pepper — it's genuinely tied to gut and respiratory health too."
+*(Sources, private — not spoken: [VitaLibrary](https://vitalibrary.com/grains-of-selim-health-benefits/), [Grazia](https://graziamagazine.com/us/articles/grains-selim-must-have-african-spice-gut-health/))*

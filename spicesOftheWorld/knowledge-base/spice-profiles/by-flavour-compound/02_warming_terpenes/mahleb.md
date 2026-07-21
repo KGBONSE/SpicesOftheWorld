@@ -19,3 +19,12 @@ Coumarin — a lactone compound — gives mahleb its creamy, sweet-clover, apric
 
 ## Culinary Uses & Technique
 Mainly a baking spice, mahleb adds fruit-and-nut character to both sweet and savoury dishes. Only the dioxolane and some bitter phenols dissolve well in water, so cooking mahleb in water-based liquids risks a "green," bitter result — best avoided. Grinding releases short-lived oils; letting ground mahleb rest briefly allows bitter phenols to evaporate before use. Adding it to fats helps its sweet, woody flavours come through, and heat application softens bitterness while allowing cherry-like fruitiness to emerge.
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Digestive comfort:** traditionally used for gastrointestinal heaviness and mild cramping — the most plausible, best-supported benefit.
+- **Anti-inflammatory/antioxidant:** mahleb's phenolic compounds show antioxidant and anti-inflammatory activity in early research.
+- **Fibre & micronutrients:** contains dietary fibre plus vitamins A, C and E.
+- Evidence here is thin and mostly preclinical/traditional — treat any spoken claim as modest, not a cure-all.
+
+**On-camera line (generic attribution):** "Research suggests mahleb has real digestive and antioxidant properties, alongside its traditional use in Middle Eastern baking."
+*(Sources, private — not spoken: [VitaLibrary](https://vitalibrary.com/mahleb-digestive-antioxidant-benefits/), [Foods Trend](https://foodstrend.com/mahleb-benefits-usage-what-does-it-do/))*

@@ -22,3 +22,12 @@ A versatile spice, often paired with earthy cumin to form the backbone of savour
 
 ## Blends Featuring Coriander
 Zhug, Dukkah, Durban curry masala, Malaysian fish curry paste, Chimichurri
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Blood sugar:** coriander seed extracts have shown a hypoglycemic effect, helping glucose tolerance in animal studies.
+- **Heart health:** shown to shift cholesterol balance favourably (lower LDL, higher HDL) in animal research, and acts as a mild diuretic that may help lower blood pressure.
+- **Antioxidant/anti-inflammatory:** rich in antioxidants; linalool, its dominant compound, has shown anxiety-reducing effects in human studies.
+- Most of the strongest evidence is still animal-based — keep any spoken claim to "may help" territory.
+
+**On-camera line (generic attribution):** "Research shows coriander seed does real work on blood sugar and cholesterol, not just flavour."
+*(Sources, private — not spoken: [Healthline](https://www.healthline.com/nutrition/coriander-benefits), [Dr. Axe](https://draxe.com/nutrition/coriander/))*

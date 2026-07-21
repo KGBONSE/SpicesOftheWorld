@@ -21,3 +21,13 @@ Fruity, very tart, slightly resinous with a citrus tang — used much like lemon
 
 ## Blends Featuring Amchoor
 Chaat masala
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Digestive:** used in Ayurveda to ease acidity, aid digestion, and relieve constipation and flatulence.
+- **Iron content:** a notable source of iron, traditionally valued for pregnant women and iron-deficiency anaemia.
+- **Immune support:** good vitamin A and C content supports immune function.
+- **Salt reduction bonus:** its bright tartness can stand in for some added salt, indirectly supporting healthy blood pressure.
+- Direct clinical research on amchoor itself is limited — benefits are largely extrapolated from mango's known nutrient profile.
+
+**On-camera line (generic attribution):** "Research shows amchoor brings real iron and vitamin C to a dish, not just tang."
+*(Sources, private — not spoken: [Netmeds](https://www.netmeds.com/c/health-library/post/amchur-powder-dry-mango-powder-health-benefits-nutrition-uses-recipes-and-side-effects), [Tastylicious](https://tastylicious.com/mango-powder-benefits/))*

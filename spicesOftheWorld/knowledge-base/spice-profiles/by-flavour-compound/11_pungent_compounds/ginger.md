@@ -22,3 +22,14 @@ Has a hot-spice, citrusy, woody taste; the dried form is stronger and more aroma
 
 ## Blends Featuring Ginger
 Advieh, Yaji, Leche de tigre
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Nausea relief:** ginger's best-established, most clinically consistent benefit — multiple trials confirm it reduces nausea and vomiting; the NHS itself recommends it.
+- **Anti-inflammatory/antioxidant:** gingerol and shogaol compounds show strong antioxidant and anti-inflammatory activity.
+- **Digestive health:** supports gastric motility, helping IBS and general digestive comfort.
+- **Menstrual pain:** shown in research to be about as effective as common pain relievers (mefenamic acid, ibuprofen) for period pain.
+- **Blood sugar:** supplementation has meaningfully reduced fasting blood sugar and HbA1c in people with type 2 diabetes over 8–13 weeks.
+- One of the most robustly-evidenced spices in this whole knowledge base — safe to lean on confidently on camera.
+
+**On-camera line (generic attribution):** "Research genuinely backs ginger more than almost any other spice — nausea relief alone is well-established clinically, not just folk wisdom."
+*(Sources, private — not spoken: [Healthline](https://www.healthline.com/nutrition/11-proven-benefits-of-ginger), [NCBI — Ginger for Healthy Ageing](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9110206/))*

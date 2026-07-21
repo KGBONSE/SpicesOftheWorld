@@ -22,3 +22,13 @@ Garlic amplifies and unites other flavours in savoury cooking, forming (with oni
 
 ## Blends Featuring Garlic
 Niter kibbeh, Mbongo mix, Nuoc cham, Shichimi-togarashi, BBQ rub
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Heart health:** garlic modestly lowers blood pressure (especially in mild hypertension) and cholesterol, and increases fibrinolytic (clot-dissolving) activity.
+- **Immune support:** aged garlic extract reduced cold/flu severity and missed work/school days in a clinical study.
+- **Broad disease prevention:** antioxidant, anti-inflammatory and lipid-lowering effects studied across cardiovascular, metabolic and blood-sugar conditions.
+- **Detox:** allicin has been shown to help reduce blood lead levels in at-risk workers.
+- **Important caveat:** garlic's cancer-fighting claims remain inconclusive, and cold-prevention claims are based on weak evidence — avoid stating those as settled fact on camera. Also relevant: those on blood thinners should be cautious with high garlic intake.
+
+**On-camera line (generic attribution):** "Research shows garlic genuinely supports heart health and immunity — one of the most well-studied spices there is."
+*(Sources, private — not spoken: [Healthline](https://www.healthline.com/nutrition/11-proven-health-benefits-of-garlic), [American Heart Association](https://www.heart.org/en/news/2021/04/19/sorting-folklore-from-fact-on-the-health-benefits-of-garlic))*

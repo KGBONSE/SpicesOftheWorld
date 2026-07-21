@@ -22,3 +22,12 @@ The root's intense sweetness and lingering warmth mean it should be used sparing
 
 ## Blends Featuring Liquorice
 Nanjing spice bag, Five-spice powder
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Oral health:** liquorice extract can suppress the bacteria behind tooth decay, and a liquorice rinse has been shown to reduce canker sore size and pain.
+- **Sore throat:** a small clinical study found liquorice gargle worked as well as a conventional medicated gargle before surgery.
+- **Digestive comfort:** liquorice root extract has shown effectiveness against functional dyspepsia (heartburn, nausea, indigestion).
+- **Caution:** liquorice contains glycyrrhizin, which in large/regular amounts can raise blood pressure and affect potassium levels — worth a spoken caution if featured, similar to the cassia/coumarin note elsewhere in this knowledge base.
+
+**On-camera line (generic attribution):** "Research shows liquorice root has real soothing properties for the throat and gut — though it's one to enjoy in moderation."
+*(Sources, private — not spoken: [Medical News Today](https://www.medicalnewstoday.com/articles/323761), [NCCIH](https://www.nccih.nih.gov/health/licorice-root))*

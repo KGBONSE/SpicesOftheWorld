@@ -19,3 +19,13 @@ Pineapple ketone and pyruvic acid give a sweet, fruity, brown-sugar-caramel char
 
 ## Culinary Uses & Technique
 Rich, warm, almost vanilla-like flavour resembling milk chocolate but without cacao's bitterness — a good sugar source in its own right. Roasting causes amino acids and sugars to react, creating nutty, coffee-and-chocolate-like compounds but reducing sweetness. Whole pods suit slow-cook dishes; for quick-cook dishes, grind pods or soak until soft.
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Cholesterol:** carob pulp has reduced total and LDL cholesterol in clinical research over as little as 6 weeks.
+- **Blood sugar:** carob is a rich source of D-pinitol, a compound linked to improved insulin sensitivity.
+- **Digestive:** its fibre bulks up digestion and has even shown promise reducing acute diarrhoea duration in children when paired with oral rehydration.
+- **Weight management:** fibre content supports fullness, useful for appetite control.
+- A genuinely useful "chocolate without the caffeine/bitterness" health angle for the episode framing.
+
+**On-camera line (generic attribution):** "Research shows carob genuinely helps with cholesterol and blood sugar — a chocolatey flavour with real substance behind it."
+*(Sources, private — not spoken: [WebMD](https://www.webmd.com/vitamins-supplements/carob), [RxList](https://www.rxlist.com/supplements/carob.htm))*

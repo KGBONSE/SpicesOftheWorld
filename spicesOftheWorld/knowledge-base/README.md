@@ -5,6 +5,17 @@ Paraphrased content from Dr Stuart Farrimond's *The Science of Spice*
 imported here. Every fact is paraphrased, not quoted — the book is cited
 on camera as the source, never read verbatim.
 
+**2026-07-21 — Health Benefits added to all 50 spice profiles.** The book
+doesn't cover health benefits, so this is external web research (not
+Farrimond), added as a `## Health Benefits` / `### Health Benefits`
+section on every entry in both `spice-profiles/core-profiles-master.md`
+and `spice-profiles/by-flavour-compound/`. Each section has 3–5
+research-backed bullets, an honest note on evidence strength (lab/animal
+vs. human trials), and a suggested generic on-camera attribution line
+("research shows...") rather than naming specific studies aloud — sources
+are logged privately in each entry for traceability, same convention as
+the book's page references.
+
 ## Structure
 
 - **`regional/`** — 7 files, one per continent/region (Africa, Middle

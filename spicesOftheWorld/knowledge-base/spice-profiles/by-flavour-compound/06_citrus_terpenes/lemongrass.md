@@ -21,3 +21,12 @@ Enlivens curries, stir-fries, pickles, salads, and soups. Most of its flavour co
 
 ## Blends Featuring Lemongrass
 Khao kua
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Cardiovascular/metabolic:** lemongrass essential oils have shown cholesterol-lowering and glucose-control benefits in research.
+- **Antioxidant/anti-inflammatory:** contains several antioxidants that scavenge free radicals, plus anti-inflammatory and antimicrobial activity shown in lab/animal studies.
+- **Stomach protection:** in rat studies, lemongrass infusion reduced stomach lining damage from alcohol exposure.
+- **Caveat:** despite its reputation as a calming tea, clinical trials in humans did NOT find lemongrass tea reduced anxiety — worth avoiding that specific claim on camera.
+
+**On-camera line (generic attribution):** "Research shows lemongrass has real cholesterol and antioxidant benefits — though the calming-tea reputation isn't actually backed by human studies."
+*(Sources, private — not spoken: [Healthline](https://www.healthline.com/health/food-nutrition/lemongrass-tea), [News-Medical](https://www.news-medical.net/health/What-is-Lemongrass-Bioactive-Compounds-Uses-Benefits-and-Safety.aspx))*

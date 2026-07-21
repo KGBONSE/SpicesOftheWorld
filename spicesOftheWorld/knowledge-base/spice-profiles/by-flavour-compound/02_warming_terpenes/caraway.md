@@ -21,3 +21,12 @@ A key component of central European dishes, and of the North African blends tabi
 
 ## Blends Featuring Caraway
 Harissa
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Weight/metabolism:** a 2013 randomized trial found caraway extract over 90 days reduced weight and body fat with no other diet/exercise changes.
+- **Digestive health:** research links caraway to fewer IBS symptoms and improved gut microbiome balance; caraway oil has eased IBS discomfort in trials.
+- **Blood sugar:** studies found caraway seed intake improved blood sugar levels and HbA1c (a longer-term blood sugar marker).
+- **Antimicrobial:** caraway's carvone and limonene compounds show effectiveness against several bacteria in lab studies.
+
+**On-camera line (generic attribution):** "Studies suggest caraway can genuinely help with digestion and even blood sugar control."
+*(Sources, private — not spoken: [Healthline](https://www.healthline.com/nutrition/caraway), [PMC — Antiobesity Effect of Caraway Extract](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3844184/))*

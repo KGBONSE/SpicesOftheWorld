@@ -22,3 +22,12 @@ Essential to Chinese cooking, comprising two of the five key flavours of Chinese
 
 ## Blends Featuring Sichuan Pepper
 Timur ko chhop, Shichimi-togarashi
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Antioxidant:** researchers have identified 140+ potentially antioxidant compounds in Sichuan pepper, capable of neutralising free radicals linked to inflammation, ageing and heart disease.
+- **Digestive:** animal research shows Sichuan pepper extract can reduce gastric mucosal damage and promote tissue regeneration, suggesting benefits for ulcers and gut health.
+- **Pain relief:** in a clinical study, topical Sichuan pepper oil reduced knee osteoarthritis pain and inflammation about as well as standard anti-inflammatory drugs, with fewer side effects.
+- Genuinely one of the more surprising, well-studied results in this batch — the osteoarthritis finding is a real clinical trial, not just lab work.
+
+**On-camera line (generic attribution):** "Research shows Sichuan pepper's numbing tingle comes with real antioxidant and anti-inflammatory power behind it."
+*(Sources, private — not spoken: [ScienceDirect — Sichuan pepper review](https://www.sciencedirect.com/science/article/abs/pii/S0924224422001807), [Organic Facts](https://www.organicfacts.net/sichuan-pepper.html))*

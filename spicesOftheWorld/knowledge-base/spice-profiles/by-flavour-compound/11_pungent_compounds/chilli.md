@@ -44,3 +44,13 @@ Appears in countless cuisines worldwide, valued as much for flavour as heat, par
 
 ## Blends Featuring Chilli
 Harissa, Yaji, Timur ko chhop, Vindaloo paste, Gunpowder, Shichimi-togarashi, Chilli black bean sauce, Mole mix, BBQ rub, Arrabiata sauce
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Heart health:** large population studies link regular chilli/capsaicin consumption to lower cardiovascular disease risk and lower all-cause mortality.
+- **Weight management:** capsaicin can boost energy expenditure and reduce appetite, aiding fat loss alongside a healthy diet.
+- **Pain relief:** capsaicin acts on TRPV1 receptors, giving it real analgesic and anti-inflammatory effects, useful for chronic pain conditions.
+- **Neuroprotection:** shown to be neuroprotective and cognitively supportive in research, with possible relevance to Alzheimer's/Parkinson's.
+- **Caution:** excessive intake can irritate the gut and worsen reflux — worth a balancing line given how central chilli is to Fudi People's brand.
+
+**On-camera line (generic attribution):** "Research shows chilli does real work for heart health and metabolism, on top of that unmistakable heat."
+*(Sources, private — not spoken: [Healthline](https://www.healthline.com/nutrition/foods/chili-peppers), [Mayo Clinic Press](https://mcpress.mayoclinic.org/nutrition-fitness/the-health-benefits-of-spicy-foods/))*

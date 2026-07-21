@@ -49,6 +49,15 @@ This file currently has **complete profiles for 9 spices**: Cinnamon, Cassia, Cl
 
 **Releasing the flavour:** cinnamaldehyde doesn't dissolve in water and needs time to escape cinnamon's woody structure. Add it early in cooking; fat and alcohol help disperse it.
 
+### Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Blood sugar/cholesterol:** as little as half a teaspoon a day is linked to improved blood sugar, cholesterol, LDL and triglycerides, especially in people with diabetes or metabolic syndrome.
+- **Insulin function:** cinnamon extracts have been shown to boost insulin activity several-fold in research.
+- **Antioxidant/anti-inflammatory:** broad evidence for anti-inflammatory, antimicrobial and antioxidant effects, mostly from lab/animal studies.
+- This is true (Ceylon) cinnamon — much lower coumarin than cassia, so it's the safer one to recommend for regular/higher-dose use (see Cassia's coumarin caution below).
+
+**On-camera line (generic attribution):** "Research shows even a small daily amount of true cinnamon can genuinely help blood sugar and cholesterol."
+*(Sources, private — not spoken: [Healthline](https://www.healthline.com/nutrition/10-proven-benefits-of-cinnamon), [McCormick Science Institute](https://www.mccormickscienceinstitute.com/our-research/scientific-overviews/potential-health-benefits-of-cinnamon))*
+
 ---
 
 ## CASSIA — "Sweet, Peppery, Astringent"
@@ -78,6 +87,15 @@ This file currently has **complete profiles for 9 spices**: Cinnamon, Cassia, Cl
 
 **⚠️ Coumarin caution (genuine on-camera safety note):** excessive coumarin can cause temporary liver damage — recommend true cinnamon over cassia for regular consumers. Max weekly: children 3.5g, adults 7g.
 
+### Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Blood sugar:** a randomized controlled trial found cassia cinnamon lowered HbA1c by 0.83% in type 2 diabetes patients over 3 months, versus 0.37% with usual care — a real, human-trial result. Does not appear to help type 1 diabetes.
+- **How it works:** contains hydroxychalcone, which improves insulin sensitivity; also helps cells absorb glucose via an insulin-independent pathway.
+- **Antioxidant/anti-inflammatory:** cinnamaldehyde and cinnamic acid content give general antioxidant and anti-cancer research interest.
+- **Same coumarin caution applies here more strongly** — cassia is the higher-coumarin type, so the safety note above is the more important message to pair with any cassia health claim on camera.
+
+**On-camera line (generic attribution):** "Research shows cassia cinnamon genuinely helps blood sugar control in real diabetes trials — though it's the type to use in moderation, not by the spoonful."
+*(Sources, private — not spoken: [Rupa Health](https://www.rupahealth.com/post/cassia-cinnamon-for-diabetes-are-you-eating-the-right-kind-of-cinnamon-for-your-blood-sugar), [RxList](https://www.rxlist.com/supplements/cassia_cinnamon.htm))*
+
 ---
 
 ## CLOVE — "Sweet, Astringent, Camphorous" *(partial — blending science/food partners not yet captured)*
@@ -94,6 +112,16 @@ This file currently has **complete profiles for 9 spices**: Cinnamon, Cassia, Cl
 **Region of cultivation:** Indonesia is the world's largest producer.
 
 *Gap: re-upload the Clove pages' "Kitchen Creativity" spread (compound breakdown, food partners, blends to try) to complete this entry.*
+
+### Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Antimicrobial:** clove's eugenol (about 85% of its essential oil) inhibits a wide range of bacteria, including E. coli, and is used in mouthwashes for oral health.
+- **Pain relief:** clove oil combined with a local anaesthetic reduced pain in a clinical trial; it's long been used for dental/tooth pain specifically.
+- **Anti-inflammatory:** eugenol shows strong anti-inflammatory and analgesic properties in research.
+- **Brain health:** eugenol can cross the blood-brain barrier and shows neuroprotective effects in research.
+- **Caution:** lab studies hint at anti-cancer effects, but only at concentrations far higher than normal cooking use — avoid overstating this one on camera.
+
+**On-camera line (generic attribution):** "Research shows clove's eugenol has real pain-relief and antibacterial power — that's exactly why it's been used for toothache for centuries."
+*(Sources, private — not spoken: [Cleveland Clinic](https://health.clevelandclinic.org/benefits-of-cloves), [PMC — Eugenol Pharmacological Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC8357497/))*
 
 ---
 
@@ -136,6 +164,15 @@ Picrocrocin gives the lingering bitter taste; safranal produces much of the dist
 **Recipe example — Spiced Scallops with Saffron Beurre Blanc** *(serves 6, prep 30 min + 1hr soak, cook 2hr25 + cooling)*: grind saffron, soak 1 hour in warm water. Make a spiced dried-mushroom-and-fennel seasoning to coat scallops. Reduce wine vinegar and white wine with diced shallot and peppercorns; whisk in saffron and its soaking water; emulsify with cubed butter over low heat; sharpen with lemon. Sear spice-coated scallops 1–2 min per side; plate with beurre blanc, scatter chives.
 - *Variation ideas:* swap fennel/ginger for curry leaves, mustard, and cumin for a South Indian-style seasoning; use cumin and hot smoked paprika for a Mediterranean palette; crack peppercorns for stronger pepper notes.
 
+### Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Mood/mental health:** a 2019 research review found saffron significantly more effective than placebo for mild-to-moderate depression, with 30mg/day showing results comparable to standard antidepressants.
+- **Heart/metabolic:** saffron extract has reduced triglycerides, total cholesterol and LDL in dyslipidemia patients; 60mg/day over 12 weeks reduced BMI and waist circumference versus placebo.
+- **Brain health:** its antioxidants (crocin, crocetin, safranal) show neuroprotective effects, with research interest in Alzheimer's and Parkinson's.
+- One of the most clinically well-supported spices in this whole knowledge base — genuinely strong human-trial evidence, not just lab work. Safe to lean on with more confidence than most other spices here.
+
+**On-camera line (generic attribution):** "Research shows saffron does real, clinically-tested work for mood — it's genuinely one of the best-studied spices for mental health."
+*(Sources, private — not spoken: [Healthline](https://www.healthline.com/nutrition/saffron), [Cleveland Clinic](https://health.clevelandclinic.org/benefits-of-saffron))*
+
 ---
 
 ## POPPY — "Nutty, Mild, Green"
@@ -171,6 +208,16 @@ Poppy seeds are rich in linoleic acid, which sensitizes taste buds to sweet, sal
 **Release the flavour:** rich diverse amino acids mean toasting produces sweet, earthy, nutty, onion-like, and smoky flavours. Heat 130–175°C (266–347°F); above 175°C burnt/bitter flavours predominate due to small seed size and fragile oils. Microscopic ridges increase surface area for more compound production.
 
 **Food partners:** vegetables (potato purée, celeriac remoulade, scattered over roasting carrots); pastry (savoury shortcrust for quiche/tart); fruit (honey-citrus dressing for fruit salad); sweet bakes (almond/lemon/orange cake crunch, combine with honey, drizzle over baklava); oily fish (ground white seeds in sauce for trout/salmon, Indian-spiced).
+
+### Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Bone health:** manganese-rich — one tablespoon provides nearly 30% of daily manganese needs, supporting bone strength and joint health.
+- **Heart health:** linoleic acid content has been shown to lower LDL cholesterol and may reduce coronary heart disease risk.
+- **Digestive:** fibre content supports gut health and blood sugar control.
+- **Antibacterial:** poppy seed extract has shown activity against Staphylococcus aureus in lab research.
+- Research here is thinner than most spices, partly because of the plant's opium-related legal history limiting study funding — worth noting culinary poppy seeds carry no such effect.
+
+**On-camera line (generic attribution):** "Research shows poppy seeds are genuinely rich in manganese and heart-healthy fats — nothing to do with what they're best known for historically."
+*(Sources, private — not spoken: [Dr. Axe](https://draxe.com/nutrition/poppy-seeds/), [Vinmec](https://www.vinmec.com/eng/blog/6-outstanding-benefits-of-poppy-seeds-en))*
 
 ---
 
@@ -209,6 +256,16 @@ Ajwain and thyme share the same main flavour compound — thymol — also found 
 
 **Release the flavour:** dry-roast whole seeds for a more rounded, nutty/roasted taste (mainly pyrazines) — this also dampens the penetrating icy quality as thymol evaporates/degrades. Proteins and sugars react at ~140°C (284°F) to form new flavour compounds; thymol begins to degrade at 90–100°C (194–212°F).
 
+### Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Digestive:** a genuinely strong traditional-and-research match — ajwain improves gastric juice secretion and protects the gut lining, easing acidity, indigestion and bloating.
+- **Blood pressure/heart:** thymol may act like a calcium-channel blocker (the mechanism behind common blood pressure medication), and studies suggest it may lower LDL cholesterol too.
+- **Antibacterial/antifungal:** thymol and carvacrol block growth of bacteria including salmonella and E. coli, and fungi, in lab studies.
+- **Cough relief:** shown to reduce coughing in animal studies, comparably to codeine.
+- Most direct evidence is still animal-based, but the digestive angle is well-supported by both tradition and mechanism.
+
+**On-camera line (generic attribution):** "Research shows ajwain genuinely earns its reputation as a digestive fix, right down to the gastric-juice level."
+*(Sources, private — not spoken: [Healthline](https://www.healthline.com/nutrition/carom-seeds), [Signos](https://www.signos.com/blog/carom-seeds))*
+
 ---
 
 ## CELERY SEED — "Bitter, Savoury, Lemony"
@@ -245,6 +302,16 @@ The most abundant compound is citrus-scented limonene, with lesser herbal seline
 **Homemade celery salt:** toast celery seeds lightly in a dry pan to remove moisture; crush with sea salt using a pestle and mortar (ratio 1 part celery seed to 6 parts salt). Good for Bloody Marys, soups, cold salads, dips.
 
 **Release the flavour:** flavours dissolve best in oil, but several compounds are sensitive to temperatures at either end of the hot–cold spectrum. Bitter substances are destroyed by heat — toast seeds at the start of cooking to mellow bitterness. Phthalides turn to vapour when seeds are ground, but chilling beforehand slows the rate of evaporation.
+
+### Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Cholesterol:** clinical trials show ~1.34g/day of celery seed can lower triglycerides, though effects on total/LDL/HDL cholesterol are less consistent.
+- **Blood pressure/blood sugar:** shown to have real antihypertensive effects, plus early evidence of lowering blood glucose in prediabetic patients.
+- **Antibacterial:** lab research found celery seed extract effective against H. pylori, the bacteria linked to stomach ulcers.
+- **Nutrient-dense:** rich in calcium, manganese and iron.
+- Human research is still limited and mixed on the cholesterol front — lean on the blood pressure and blood sugar findings as the stronger claims.
+
+**On-camera line (generic attribution):** "Research shows celery seed genuinely helps blood pressure and blood sugar — real clinical trials, not just an old home remedy."
+*(Sources, private — not spoken: [PMC — Celery meta-analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC12321563/), [Healthline](https://www.healthline.com/nutrition/celery-seed-benefits))*
 
 ---
 
@@ -286,6 +353,16 @@ Turmeric's dominant earthy notes come from turmerone and ar-turmerone, found in 
 
 **Release the flavour:** frying in fat above 130°C (266°F) causes flavour compound molecules to disperse and form new compounds — this doesn't happen in boiling water.
 
+### Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Joint/arthritis pain:** standardised turmeric extract (~1000mg/day curcumin) over 8–12 weeks reduced osteoarthritis symptoms about as well as ibuprofen or diclofenac in a meta-analysis — a genuinely strong, human-trial result.
+- **Blood sugar:** curcumin supplementation significantly reduces fasting blood glucose, HbA1c, and insulin resistance in clinical research.
+- **Heart health:** curcumin may protect against multiple steps in the heart disease process.
+- **Pairs with black pepper:** curcumin is famously poorly absorbed on its own — piperine (from black pepper, see that entry) significantly boosts its uptake, a genuinely useful pairing fact for on-camera cooking advice.
+- Curcumin makes up only a few percent of turmeric by weight, so studies using concentrated extracts show far stronger effects than a pinch in cooking will — worth the caveat if quoting the arthritis figure specifically.
+
+**On-camera line (generic attribution):** "Research shows turmeric's curcumin genuinely rivals painkillers for joint pain in real trials — and it works even better paired with black pepper."
+*(Sources, private — not spoken: [Harvard Health](https://www.health.harvard.edu/healthy-aging-and-longevity/turmeric-benefits-a-look-at-the-evidence), [Healthline](https://www.healthline.com/nutrition/top-10-evidence-based-health-benefits-of-turmeric))*
+
 ---
 
 ## FENUGREEK — "Bittersweet, Warm, Musty"
@@ -322,6 +399,16 @@ Fenugreek's flavour is dominated by sotolon, a sweet lactone compound tasting li
 **Blends to try:** Niter kibbeh, Durban curry masala, Panch phoran, Vindaloo paste, Khmeli-suneli (all cross-referenced in your regional files).
 
 **Release the flavour:** galactomannan, a special emulsifier in the seeds, forms a gel in liquid dishes, allowing oil and water to mix, and helps thicken sauces. Extract galactomannan by soaking seeds in water overnight or simmering. Grinding releases it faster. Lightly toasting seeds creates nutty, coffee-and-chocolate roasted pyrazine flavours.
+
+### Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Blood sugar:** small clinical studies show fenugreek powder (in hot water or bread) lowers blood sugar levels in people with diabetes — one of its best-supported uses.
+- **Breastfeeding:** widely used to boost milk supply, though most of this evidence is anecdotal rather than rigorous clinical research.
+- **Cholesterol:** some evidence it can lower cholesterol and triglycerides.
+- **Other promising areas:** small studies suggest benefit for mild asthma, metabolic syndrome, and menopausal/PCOS symptoms — all still early-stage.
+- Overall research quality is mixed — solid on blood sugar, genuinely uncertain on much of the rest, so keep claims outside blood sugar fairly soft.
+
+**On-camera line (generic attribution):** "Research shows fenugreek genuinely helps blood sugar — that's the best-supported claim, even though it's used traditionally for a lot more."
+*(Sources, private — not spoken: [Healthline](https://www.healthline.com/nutrition/fenugreek), [Cleveland Clinic](https://health.clevelandclinic.org/fenugreek))*
 
 ---
 

@@ -22,3 +22,12 @@ Nutmeg's flavour oils are among the most volatile of any spice — pre-ground nu
 
 ## Blends Featuring Nutmeg
 Turkish baharat, Bumbu, Jamaican jerk rub, Mulling spice, Quatre épices
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Antioxidant:** nutmeg's phenolic compounds and essential oils help neutralise free radicals and reduce oxidative stress.
+- **Anti-inflammatory:** eugenol and safrole in nutmeg's oils show anti-inflammatory and mild pain-relieving effects in lab studies.
+- **Antibacterial:** test-tube research found nutmeg extract fights bacteria linked to cavities and gum disease.
+- **Important safety note:** benefits apply at normal culinary doses only — high intakes of nutmeg are genuinely neurotoxic. Worth a clear spoken caution given how easy it is to over-grate.
+
+**On-camera line (generic attribution):** "Research shows nutmeg has real antioxidant and antibacterial properties — but a little truly goes a long way, since too much can be harmful."
+*(Sources, private — not spoken: [News-Medical](https://www.news-medical.net/health/Is-Nutmeg-Good-for-You-Evidence-Based-Benefits-for-Brain-Heart-and-Immunity.aspx), [Healthline](https://www.healthline.com/nutrition/nutmeg-benefits))*

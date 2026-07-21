@@ -21,3 +21,12 @@ Fennel seeds are notable for flavouring Italian salami and feature throughout So
 
 ## Blends Featuring Fennel
 Panch phoran, Five-spice powder
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Digestion:** fennel's fibre and volatile compounds relax intestinal muscle, easing gas and bloating — its best-supported traditional use.
+- **Heart/metabolic markers:** small studies show fennel seed intake lowering total cholesterol, LDL, triglycerides and fasting glucose, with HDL rising slightly.
+- **Antioxidant activity:** fennel consumption has been linked to increased blood antioxidant markers in early studies.
+- Most human trials are small — treat as promising, not proven.
+
+**On-camera line (generic attribution):** "Research shows fennel seeds can genuinely help settle digestion after a meal."
+*(Sources, private — not spoken: [WebMD](https://webmd.com/diet/health-benefits-fennel-seeds), [Healthline](https://www.healthline.com/health/fennel-seeds-for-gas), [Journal of Health, Wellness and Community Research](https://www.jhwcr.com/index.php/jhwcr/article/view/1417))*

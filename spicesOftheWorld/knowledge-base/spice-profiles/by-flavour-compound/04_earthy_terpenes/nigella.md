@@ -21,3 +21,12 @@ A punchy spice with mild heat and a bitter, herby, charred-onion character, wide
 
 ## Blends Featuring Nigella
 Panch phoran
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Heart/metabolic:** supplementation has improved lipid profiles (lower triglycerides, LDL, total cholesterol; higher HDL) in research on dyslipidemia.
+- **Anti-inflammatory/antioxidant:** thymoquinone, nigella's main bioactive compound, reduces oxidative stress and inflammation, and supports immune function.
+- **Broader applications:** preliminary support found for diabetes, hypertension, obesity, asthma, allergic rhinitis, and skin conditions like atopic dermatitis.
+- One of the better-researched spices on this list, though larger human trials are still called for.
+
+**On-camera line (generic attribution):** "Research shows nigella seeds do real work on cholesterol and inflammation — it's genuinely one of the more studied spices out there."
+*(Sources, private — not spoken: [PMC — Black Cumin Comprehensive Review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8225153/), [News-Medical](https://www.news-medical.net/news/20240213/Black-cumin-Ancient-superseed-with-modern-health-benefits.aspx))*

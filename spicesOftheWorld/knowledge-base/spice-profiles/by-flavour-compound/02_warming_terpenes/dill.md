@@ -18,3 +18,12 @@ D-carvone dominates dill's flavour profile, giving it a spicy character with men
 
 ## Culinary Uses & Technique
 Dill's flavour resembles a cross between anise and a milder caraway. Toasting creates new nutty flavour compounds; both new and existing compounds dissolve poorly in water, so cooking in oil or fat helps release the flavour. Dill's compounds also dissolve well in alcohol, which is part of why fermentation-based pickling works so effectively for dill pickles.
+
+## Health Benefits *(not from the book — external research, added 2026-07-21)*
+- **Cardiovascular:** dill extract/tablets improved lipid profile, blood glucose, and liver enzymes in a one-month study; dill's flavonoids are linked to lower heart disease/stroke risk.
+- **Digestive/antispasmodic:** lab studies confirm dill extracts relax muscle tissue, backing its traditional use for flatulence and cramping.
+- **Blood sugar:** dill's eugenol content has been shown to help regulate blood glucose.
+- Many traditional claims (liver, urinary, infection uses) still lack solid evidence — stick to the digestion/heart angle on camera.
+
+**On-camera line (generic attribution):** "Research shows dill isn't just a garnish — it's genuinely linked to better cholesterol and blood sugar numbers."
+*(Sources, private — not spoken: [McCormick Science Institute](https://www.mccormickscienceinstitute.com/our-research/scientific-overviews/dill-potential-health-benefits), [Dr. Axe](https://draxe.com/nutrition/dill-weed/))*
