@@ -16,3 +16,12 @@ Close-up on ripening sweetcorn tassels with Kofi and daughter softly out of fram
 
 ---
 *Note: all four photos share the same wardrobe/setting (pink-striped polo, polytunnel), so they cut together well as a single sequence for a farm-visit or provenance segment.*
+
+## kofi-solo-potting-seedlings-home-garden.jpg
+Kofi alone (grey tank top, green shorts, glasses), candid genuine smile, hands mid-task potting tomato seedlings at a home garden potting bench — wooden fence backdrop, not the Sidcup polytunnel. Frame pulled from raw video (`MVI_0135.MP4`, t=11s, 2020-05-20 shoot), landscape 16:9 — will need reframing/crop for vertical thumbnail use. **Good for**: solo "meet the farmer" thumbnails where family framing isn't wanted, work-in-progress/process shots. Closes the "farm-work-clothes solo shot" gap noted in `docs/open-tasks.md`.
+
+## harvest-crate-beans-corn-apples-courgettes.jpg
+Blue harvest crate on a wooden table: green beans, sweetcorn cobs, apples, cherry tomatoes, plus two large courgettes alongside, cherry tomatoes/chillies/broad beans scattered in front. No people. **Good for**: ingredient/harvest B-roll, "the blend" segment thumbnails, colour-rich cutaways.
+
+## harvest-spread-tomatoes-chillies-eggplants-peas.jpg
+Wide harvest layout: bowls of red/yellow tomatoes, a bowl of broad beans, a crate overflowing with cherry tomatoes, white mini-eggplants, a large sugar-snap pea bowl, and a big variety of chillies (scotch bonnet, cayenne, habanero types) fanned out in front. No people. **Good for**: spice/chilli-forward thumbnails, variety/abundance shots, ingredient close-ups.

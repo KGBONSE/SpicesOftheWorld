@@ -27,8 +27,13 @@ repo. What's left is genuinely short.
       blending-science half + whatever else `knowledge-base/spice-profiles/
       by-flavour-compound/00_INDEX.md` shows as missing) — see
       `knowledge-base/README.md`
-- [ ] Source a market photo and a farm-work-clothes shot of Kofi alone —
-      the two thumbnail angles still missing from `thumbnails/reference-photos/`
+- [x] Farm-work-clothes solo shot of Kofi — added 2026-07-24,
+      `thumbnails/reference-photos/kofi-solo-potting-seedlings-home-garden.jpg`
+      (pulled from raw video `MVI_0135.MP4`, home garden not the Sidcup farm)
+- [x] Market thumbnail photo — decided 2026-07-24 not to pursue; too long
+      since the Mokola Market visit for a real photo. Market stays a
+      spoken/narrated element via `audio/Mokola_voice_over_2.m4a` instead of
+      a thumbnail source.
 - [ ] Transcribe the 6 raw voice memos in `audio/raw-voice-memos/` (via
       Whisper or manually) and fold any new patterns into
       `docs/brand-voice.md` — strengthens the voice profile beyond the 2
@@ -41,7 +46,7 @@ repo. What's left is genuinely short.
 - [ ] Agent 1 (Trends & Outlier Scout) — deliberately deprioritised, no
       dependency on Agents 2/3
 - [ ] Agent 4 build-out — needs a real outlier thumbnail to reference
-      (Agent 1) plus the two missing photos above
+      (Agent 1); the reference-photo gap is now closed
 - [ ] Agent 5 (Editing) and Agent 6 (Publishing) — Phase 2+
 
 ## Reference
