@@ -44,8 +44,27 @@ repo. What's left is genuinely short.
         workflow edits, only wiped on a full n8n restart. Set
         `clearStore: true` on the Insert-mode Simple Vector Store node so
         the next full run replaces the stale index instead of adding to
-        it. **Next step: run the full "Test workflow" (not single-node
-        execute) on Agent 2, then re-test chat.**
+        it.
+      - **2026-07-25, third round:** the Google credential itself needed
+        reconnecting (OAuth refresh token had expired — the Cloud project
+        was still in "Testing" publishing status, which caps tokens at 7
+        days; switched to "In production" to stop this recurring weekly).
+        After reconnecting, the Download step failed with "Export only
+        supports Docs Editors files" — decoded the real error from n8n's
+        execution DB and found the cause: "Search files and folders"
+        returns 60 items from the Drive folder, but 6 of them are actual
+        **subfolders** (`spice-profiles`, `regional`, `recipes`,
+        `compound-reference`, `superseded`, `by-flavour-compound-batch`),
+        not files — the Download node chokes trying to export the first
+        folder it hits as if it were a Google Doc. Good news found in the
+        same check: all ~54 real files ARE direct children of the target
+        folder already (no recursive subfolder traversal needed — good
+        news given Drive's search API isn't recursive). Fixed by setting
+        `filter.whatToSearch: "files"` on the search node, which excludes
+        folders server-side via Drive's own query syntax.
+      - **Next step: run the full "Execute workflow" (from the Manual
+        Trigger node specifically, not a single-node test) on Agent 2,
+        then re-test chat.**
       - **One step only doable in the n8n UI (not automatable headlessly):**
         open `http://localhost:5678` → Agent 2 workflow → run the Manual
         Trigger ("Agent 2 — Knowledge & Brand Voice") once to build the
