@@ -24,6 +24,13 @@ repo. What's left is genuinely short.
       - Agent 3 had a stray leftover "ou are a helpful assistant" fragment
         tacked onto its system prompt, and a malformed date expression in
         its Google Sheets step — both fixed
+      - **2026-07-25, found while testing:** Agent 2's AI Agent node had
+        its prompt hardcoded to `{{ $json.topic }}`, but the Chat Trigger
+        (used for manual testing) outputs `chatInput`, not `topic` — so
+        typing into the chat panel hit "No prompt specified". Only worked
+        by luck when called from Agent 3, which explicitly maps
+        `chatInput` → `topic`. Fixed to `{{ $json.topic || $json.chatInput }}`
+        so both paths work.
       - **One step only doable in the n8n UI (not automatable headlessly):**
         open `http://localhost:5678` → Agent 2 workflow → run the Manual
         Trigger ("Agent 2 — Knowledge & Brand Voice") once to build the
