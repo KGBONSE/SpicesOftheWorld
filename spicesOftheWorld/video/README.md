@@ -76,10 +76,20 @@ into the Mokola Market video.
 
 ## Gap
 
-Mix `Mokola_voice_over_2.m4a` into the Mokola Market video per the ffmpeg
-pipeline above (step 4: mix in the voiceover track) — not yet done.
 Additional transcripts beyond the two already-analysed Mokola Market
 clips are still wanted to strengthen the voice profile further (2 of the
-recommended 5–10 processed so far). The 7 raw source clips backing the
+recommended 5–10 processed so far).
+
+## Done — 2026-07-25: voiceover mixed in
+
+`Fudi_People_Mokola_Market_with_voiceover.mp4` — voiceover plays for the
+first 53 seconds (`Mokola_voice_over_2.m4a`'s full length), then the
+original video's own audio picks back up for the remaining ~82 seconds.
+Chosen over the literal step-4 command (which would have replaced all
+audio and truncated the video to match the 53-second voiceover, dropping
+over a minute of footage) or leaving the tail silent. Video stream
+untouched (`-c:v copy`); audio re-encoded as AAC. **Not yet checked by
+ear** — worth a playback listen to confirm the handoff at 0:53 sounds
+smooth before treating this as final. The 7 raw source clips backing the
 new B-roll above remain in `myprojectphotos/` (not in the repo) in case
 different segments are needed later.

@@ -96,9 +96,13 @@ repo. What's left is genuinely short.
         every n8n restart. After any Docker restart, re-open Agent 2 and
         run the Manual Trigger's "Execute workflow" once before using
         either agent again.
-- [ ] Mix `audio/Mokola_voice_over_2.m4a` into
-      `video/Fudi_People_Mokola_Market.mp4` (ffmpeg step 4 in
-      `video/README.md` — not yet done)
+- [x] Mix `audio/Mokola_voice_over_2.m4a` into
+      `video/Fudi_People_Mokola_Market.mp4` (2026-07-25) —
+      `video/Fudi_People_Mokola_Market_with_voiceover.mp4`: voiceover
+      plays over the first 53s, original audio continues after (full
+      2:15 length kept, not truncated to the voiceover's length). See
+      `video/README.md`. Not yet checked by ear — worth a listen before
+      treating as final.
 - [x] Pick an Episode 1 topic and draft a script — West Africa (Ghana +
       Nigeria), Yaji/suya: `scripts/episode-01-west-africa-yaji.md`. Only
       open item on it: test-cook the Yaji blend to lock in real ratios
