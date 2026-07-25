@@ -33,6 +33,6 @@ Once both credentials exist, follow `05-n8n-setup-guide.md` for the exact node-b
 
 ## Status as of this export
 
-- n8n instance: **not yet set up**
+- n8n instance: **Done**
 - Model choice: **Claude (Anthropic API)** — confirmed
 - Google Drive: **not yet connected**

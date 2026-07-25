@@ -41,7 +41,7 @@ and that split still shows up in the cooking today.
 
 ## 3. Trade & Migration History
 
-Jollof travelled — east, across West Africa, all the way to Nigeria. And
+Jollof travelled — east, across West Africa, all the way to Nigeria and Ghana. And
 by the time it got there, it had picked up grains of paradise and grains
 of selim — the same two spices from last episode's Yaji. Grains of selim
 itself has its own long trade story too — it went north to Europe in the
@@ -49,7 +49,7 @@ Middle Ages as a cheaper stand-in for black pepper, until the Portuguese
 opened a direct sea route to Asia and the world moved on to the real
 thing. Senegal never did.
 
-**[ON-SCREEN TEXT]:** "One dish, one spice, two countries — Senegal to Nigeria"
+**[ON-SCREEN TEXT]:** "One dish, one spice, three countries — Senegal to Nigeria and Ghana"
 **[B-ROLL]:** Trade route map animation
 
 ## 4. The Science
