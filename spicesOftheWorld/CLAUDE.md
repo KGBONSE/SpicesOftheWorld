@@ -57,9 +57,22 @@ Google credentials also connected in n8n (beyond just Drive). Embeddings
 choice decided: **OpenAI embeddings** (`text-embedding-3-small`), not
 Ollama — OpenAI API key obtained and added as an n8n credential.
 `knowledge-base/` content uploaded as plain files (not converted to Google
-Docs) to a Drive folder named "fudi people knowledge base". Next: start
-Part A of the walkthrough (create the "Agent 2 — Knowledge & Brand Voice"
-workflow itself — no nodes built yet).
+Docs) to a Drive folder named "fudi people knowledge base".
+
+**2026-07-25 — Agent 2 & 3 built and wired.** Both workflows existed in
+n8n already (built 2026-07-17 to 07-23, just never reflected here) —
+system prompts pasted in, Anthropic/OpenAI/Google Drive/Google Sheets
+credentials all connected. Found and fixed via n8n's CLI (no UI/API-key
+access needed — export → patch JSON → re-import): Agent 2's knowledge-base
+retrieval tool wasn't actually connected to its AI Agent node (would've
+answered from general knowledge, not the spice files), and its Google
+Drive step only listed filenames, never downloaded content. Agent 3 had a
+stray text fragment in its system prompt and a malformed date expression,
+both fixed. **Still needs a manual step in the n8n UI**: the knowledge
+base index is an in-memory vector store, lost on every n8n restart — run
+Agent 2's Manual Trigger once (each time after a restart) to (re)build it,
+then test per `workflows/n8n/agent-2-3-build-walkthrough.md` A9. See
+`docs/open-tasks.md`.
 
 The canonical blueprint text (citation rules, the Named Influences benchmark
 set, and the $0-to-start cost breakdown) lives at `docs/system-blueprint.md`.

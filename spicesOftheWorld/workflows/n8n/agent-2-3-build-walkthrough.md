@@ -1,5 +1,17 @@
 # Agent 2 & 3 — Build Walkthrough (n8n)
 
+**2026-07-25 update:** both workflows below are already built in n8n (were
+built 2026-07-17 to 07-23, just not reflected here until now — check
+`docs/open-tasks.md` for current state before assuming this is still a
+to-do list). Two real wiring bugs were found and fixed via the n8n CLI:
+Agent 2's knowledge-base tool wasn't connected to its AI Agent, and its
+Google Drive step never downloaded file content (listed filenames only).
+The one thing still needed is a manual step in the n8n UI — the knowledge
+base index is in-memory and doesn't survive a restart, so run Agent 2's
+Manual Trigger once (after every n8n restart) before testing. The steps
+below are kept as reference for how it's structured / how to rebuild if
+needed, not as a fresh checklist.
+
 Detailed, click-by-click version of `setup-guide.md`. Follow top to bottom
 and tick each box as you go. Assumes you've already completed:
 - [x] n8n installed and running locally (`local-install-steps.md`)

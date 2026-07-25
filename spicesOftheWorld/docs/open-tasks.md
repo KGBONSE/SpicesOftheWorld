@@ -12,11 +12,25 @@ repo. What's left is genuinely short.
 - [x] Connect Google Drive with the `knowledge-base/` folder — uploaded as
       plain files to a Drive folder named "fudi people knowledge base"
       (2026-07-17)
-- [ ] Build Agent 2 in n8n, paste in `agents/agent-2-knowledge-voice.md`,
-      test with a few spice questions — step-by-step:
-      `workflows/n8n/agent-2-3-build-walkthrough.md` Part A
-- [ ] Chain Agent 3 (`agents/agent-3-script-writer.md`) on top once
-      Agent 2's voice output checks out — same walkthrough, Part B
+- [x] Build Agent 2 in n8n and chain Agent 3 on top — turns out this was
+      already ~90% built (2026-07-17 to 07-23, not reflected in this doc
+      until now). Found and fixed 2026-07-25 via n8n's CLI
+      (export/patch/re-import — no UI access needed):
+      - Agent 2's knowledge-base retrieval tool was never actually
+        connected to the AI Agent node — it would have answered from
+        Claude's general knowledge, not your spice files
+      - The Google Drive step only listed files, never downloaded their
+        content — added a Download step so the Data Loader gets real text
+      - Agent 3 had a stray leftover "ou are a helpful assistant" fragment
+        tacked onto its system prompt, and a malformed date expression in
+        its Google Sheets step — both fixed
+      - **One step only doable in the n8n UI (not automatable headlessly):**
+        open `http://localhost:5678` → Agent 2 workflow → run the Manual
+        Trigger ("Agent 2 — Knowledge & Brand Voice") once to build the
+        index. It's an in-memory vector store — **lost on every n8n
+        restart**, so this needs re-running after any Docker restart, not
+        just once ever. Then test with the two questions in
+        `workflows/n8n/agent-2-3-build-walkthrough.md` A9.
 - [ ] Mix `audio/Mokola_voice_over_2.m4a` into
       `video/Fudi_People_Mokola_Market.mp4` (ffmpeg step 4 in
       `video/README.md` — not yet done)
