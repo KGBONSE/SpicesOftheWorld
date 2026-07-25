@@ -7,7 +7,7 @@
 Each entry is a deep dive on **one spice**: botany, history, and the flavour chemistry that explains *why* it pairs with what it pairs with. This is your primary source for segment 3 (the science) and segment 4 (blend ratios) of your episode framework. Where a "Blends to try" cross-reference exists, it points back to recipes in your regional knowledge files or the World of Spice Recipes file.
 
 ## ⚠️ Coverage gap — read before using this file for episode planning
-This file currently has **complete profiles for 9 spices**: Cinnamon, Cassia, Clove (partial), Saffron, Poppy, Ajwain, Celery Seed, Turmeric, Fenugreek.
+This file currently has **complete profiles for 9 spices**: Cinnamon, Cassia, Clove, Saffron, Poppy, Ajwain, Celery Seed, Turmeric, Fenugreek. (Clove completed 2026-07-25 — blending science/food partners added from the book's "Kitchen Creativity" spread, previously missing.)
 
 **Missing entries** (discussed conversationally in past chats but never saved to a file, so not reconstructable in full accurate detail): Allspice, Anise, Star Anise, Fennel, Liquorice, Mahleb, Vanilla, Nutmeg, Mace, Caraway, Dill, Annatto, Mastic, Juniper, Rose, Coriander, Cumin, Nigella, Grains of Selim, Black Cardamom, Cardamom, Bay, Galangal, Dried Lime, Lemon Myrtle, Lemongrass, Amchoor, Anardana, Sumac, Tamarind, Carob, Barberry, Cacao, Paprika, Wattle, Sesame, Garlic, Asafoetida, Curry Leaf, Mustard, Grains of Paradise, Black Pepper, Sichuan Pepper, Ginger, Chilli.
 
@@ -98,20 +98,39 @@ This file currently has **complete profiles for 9 spices**: Cinnamon, Cassia, Cl
 
 ---
 
-## CLOVE — "Sweet, Astringent, Camphorous" *(partial — blending science/food partners not yet captured)*
+## CLOVE — "Sweet, Astringent, Camphorous"
 
 **Botanical name:** *Syzygium aromaticum*
-**Also known as:** "Nail spice"
+**Also known as:** "Nail spice" — in many languages the common name translates as "nail spice," due to its shape
 **Major flavour compound:** Eugenol
 **Parts used:** Flower bud
+**Flavour group:** Sweet Warming Phenols
 
-**The plant:** tropical evergreen, volcanic loamy soil. Buds are picked twice a year just as they turn pinky-red, then sun-dried until dark brown and hardened.
+**The plant:** tropical evergreen, volcanic loamy soil. Buds are picked twice a year just as they turn pinky-red and are almost ready to open, then sun-dried until dark brown and hardened. The tree flourishes for over five years and can remain productive for 100 years.
+
+**Buying/storage tips:** ground cloves lose their flavour quickly, so it's better to buy whole and grind as needed — roughly twelve whole cloves is equivalent to a teaspoon of ground. Look for cloves that are plump, not shrivelled or broken, with the majority still holding their rounded "tops" (the unopened petals of the flower); press the "stem" with a fingernail to test for quality — oil should ooze out.
+
+**Non-culinary uses:** flavouring *kretek* cigarettes in Indonesia; some dental products; traditionally used to treat nausea, indigestion, and inflammation.
 
 **Spice story:** the Moluccas (Spice Islands) were once the only source of cloves, nutmeg, and mace for almost two millennia. Han dynasty courtiers (206 BCE–220 CE) used cloves to sweeten breath; Romans named it *clavus* (nail), using it as incense/perfume. Venice held an early monopoly; the Portuguese, Dutch, Spanish, and English fought for control, with the Dutch winning out — until Pierre Poivre smuggled clove seedlings to Mauritius in the 18th century, breaking the monopoly.
 
-**Region of cultivation:** Indonesia is the world's largest producer.
+**Region of cultivation:** Indonesia is the world's largest producer, although most of its crop is used domestically by the *kretek* cigarette industry — other major producers are Madagascar and Tanzania, with lesser amounts from India, Sri Lanka, and Pakistan.
 
-*Gap: re-upload the Clove pages' "Kitchen Creativity" spread (compound breakdown, food partners, blends to try) to complete this entry.*
+### Blending science
+| Compound | Character | Pairing route | Partner spices |
+|---|---|---|---|
+| Eugenol | Medicinal, woody, warming | Pair with other warming spices that contain some eugenol | Allspice (sweet, peppery warmth); liquorice (sweetness, eucalyptus-like notes); nutmeg or cinnamon, used sparingly (warm spicy notes); bay leaf and fenugreek (excellent savoury pairings) |
+| Caryophyllene | Woody, spicy, bitter | Draw out the spicier side with more caryophyllene-carrying spices | Grains of paradise (peppery warmth, penetrating spiciness); black pepper (warmth, woody notes); cacao (rich, roasted, bitter flavours) |
+
+Clove has the highest eugenol content of any spice — this perfumed, warming phenol compound has a eucalyptus-like scent and a sweetening effect on the tongue. Its flavour profile is rounded off by green-banana-like methyl amylketone and minty methyl salicylate.
+
+**Food partners:** tomatoes and red cabbage (a pinch in tomato sauce, or when braising red cabbage); peaches (the fruit shares eugenol, making it a natural pairing — preserve in a sugar syrup infused with cinnamon, fresh ginger, and whole cloves, 2–3 per peach); beef and pork (a few whole cloves in a beef stew, pork braise, or classic French pot-au-feu, or in the masala for a Keralan beef curry); milk (a clove or two infused into milk before scalding, for a white sauce or an Indian kheer/payasam pudding); hot drinks (a whole clove infused into tea or coffee for sweetness without the calories — also an essential aromatic in mulled wine or cider).
+
+**Blends to try:** Pilau masala (East Africa file — same blend as episode 6), Vindaloo paste (`recipes/world-of-spice-recipes.md` — Goan Vindaloo), Finnish gingerbread spice (`recipes/world-of-spice-recipes.md` — Piparkakut).
+
+**Releasing the flavour:** clove's main flavour compounds, eugenol and caryophyllene, are oil-based — they evaporate quickly once released and barely dissolve in water. Use whole cloves, or grind just before adding; add early to give the flavour time to diffuse out of the woody matrix; some oil/fat and/or alcohol is needed to distribute the compounds through a dish.
+
+**⚠️ Use sparingly:** clove's antiseptic properties make it a common pickling spice, but its powerful flavour is usually tamed by blending it with other similarly warming spices to soften its dominance.
 
 ### Health Benefits *(not from the book — external research, added 2026-07-21)*
 - **Antimicrobial:** clove's eugenol (about 85% of its essential oil) inhibits a wide range of bacteria, including E. coli, and is used in mouthwashes for oral health.

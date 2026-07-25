@@ -25,9 +25,10 @@ the book's page references.
   episode segments 1–2 (personal hook, geography/history).
 
 - **`spice-profiles/core-profiles-master.md`** — 9 spices, full
-  botany/history/blending-science profiles: Cinnamon, Cassia, Saffron,
-  Poppy, Ajwain, Celery Seed, Turmeric, Fenugreek (Clove: history only,
-  blending science still missing).
+  botany/history/blending-science profiles: Cinnamon, Cassia, Clove,
+  Saffron, Poppy, Ajwain, Celery Seed, Turmeric, Fenugreek. (Clove's
+  blending science/food partners were completed 2026-07-25, from the
+  book's "Kitchen Creativity" spread — previously history-only.)
 
 - **`spice-profiles/by-flavour-compound/`** — 41 more spices, organized
   by the book's own flavour-compound groupings (sweet warming phenols,
@@ -59,8 +60,9 @@ the book's page references.
 
 ## Remaining gap
 
-Roughly 2 of ~52 spices are still not written up (see
-`spice-profiles/core-profiles-master.md`'s Clove entry and
-`spice-profiles/by-flavour-compound/00_INDEX.md` for what's covered).
-Close this by re-uploading the relevant book pages/photos and asking for
-them to be added in the same structure as the rest.
+Clove's gap closed 2026-07-25 (book pp.84–85 re-uploaded). At most 1 of
+~52 spices may still be incomplete — check
+`spice-profiles/by-flavour-compound/00_INDEX.md` against the book's
+contents page if a specific gap needs confirming. Close any remaining gap
+by re-uploading the relevant book pages/photos and asking for them to be
+added in the same structure as the rest.

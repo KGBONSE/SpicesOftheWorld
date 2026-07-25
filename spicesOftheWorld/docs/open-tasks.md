@@ -23,10 +23,11 @@ repo. What's left is genuinely short.
 - [x] Pick an Episode 1 topic and draft a script — West Africa (Ghana +
       Nigeria), Yaji/suya: `scripts/episode-01-west-africa-yaji.md`. Only
       open item on it: test-cook the Yaji blend to lock in real ratios
-- [ ] Re-upload book photos for the last ~2 spice profiles (Clove's
-      blending-science half + whatever else `knowledge-base/spice-profiles/
-      by-flavour-compound/00_INDEX.md` shows as missing) — see
-      `knowledge-base/README.md`
+- [x] Re-upload book photos for Clove's blending-science half (2026-07-25,
+      book pp.84–85) — `core-profiles-master.md`'s Clove entry is now
+      complete (blending science, food partners, blends to try, releasing
+      the flavour). At most 1 of ~52 spices may still be incomplete — see
+      `knowledge-base/README.md`.
 - [x] Farm-work-clothes solo shot of Kofi — added 2026-07-24,
       `thumbnails/reference-photos/kofi-solo-potting-seedlings-home-garden.jpg`
       (pulled from raw video `MVI_0135.MP4`, home garden not the Sidcup farm)
