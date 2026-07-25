@@ -40,6 +40,17 @@ repo. What's left is genuinely short.
       transcripts already processed, not blocking
 - [ ] Locate/re-source raw Mokola Market video clips if the compiled video
       in `video/` ever needs rebuilding (source contact: Ghana-based)
+- [x] Process the 7 raw seed-to-harvest video clips from `myprojectphotos/`
+      (2026-07-25) — pulled 5 more thumbnail stills and cut/normalised 7
+      B-roll segments into `video/`, see `thumbnails/index.md` and
+      `video/README.md`. Segments are unedited raw cuts, not compiled into
+      a finished sequence — that's still open if wanted.
+- [x] Process `PHOTO-2026-07-24-23-18-31.zip` (WhatsApp export, Downloads,
+      2026-07-25) — 5 current-day stills copied in and a talking-to-camera
+      video normalised into two clips, see `thumbnails/index.md` and
+      `video/README.md`. The presenter clip's narration hasn't been
+      listened to/transcribed yet — worth doing before using it as a real
+      intro.
 
 ## Not started (later phases, per blueprint build order)
 
