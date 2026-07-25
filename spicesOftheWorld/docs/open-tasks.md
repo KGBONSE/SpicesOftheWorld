@@ -62,6 +62,17 @@ repo. What's left is genuinely short.
         news given Drive's search API isn't recursive). Fixed by setting
         `filter.whatToSearch: "files"` on the search node, which excludes
         folders server-side via Drive's own query syntax.
+      - **2026-07-25, fourth round:** with folders excluded, the Default
+        Data Loader still failed — "Unsupported mime type:
+        application/vnd.openxmlformats-officedocument.spreadsheetml.sheet".
+        The loader only supports PDF/CSV/EPub/Docx/Text/JSON, not
+        spreadsheets, and `compound-reference/spice-compound-pairing-reference.xlsx`
+        is the one non-.md file in the knowledge base. Its data is already
+        duplicated in prose/table form in `core-profiles-master.md`, so
+        added a small Code node ("Keep markdown files only") between
+        Search and Download that keeps only items ending in `.md` —
+        simpler and more robust than trying to special-case one file's
+        mime type.
       - **Next step: run the full "Execute workflow" (from the Manual
         Trigger node specifically, not a single-node test) on Agent 2,
         then re-test chat.**
