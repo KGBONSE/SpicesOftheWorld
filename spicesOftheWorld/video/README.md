@@ -76,9 +76,8 @@ into the Mokola Market video.
 
 ## Gap
 
-Additional transcripts beyond the two already-analysed Mokola Market
-clips are still wanted to strengthen the voice profile further (2 of the
-recommended 5–10 processed so far).
+Voice profile now has 8 processed transcripts (2 reflective narration +
+6 farm vlogs transcribed 2026-07-26) — see `docs/brand-voice.md`.
 
 ## Done — 2026-07-25: voiceover mixed in
 

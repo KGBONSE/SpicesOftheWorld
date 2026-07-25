@@ -7,6 +7,12 @@ independently-written memory passage. Patterns confirmed across all three
 samples are treated as core, load-bearing signatures rather than one-off
 tics — see `voice-recording-transcripts.md` for the raw source material.
 
+**2026-07-26:** added a second source set — 6 raw farm voice memos,
+transcribed locally (`faster-whisper`). These are a different kind of
+recording (live vlog, not reflective narration), so they're analysed
+separately below under "Farm vlog register" rather than folded into the
+core signatures above, which stay specific to reflective narration.
+
 ## Core voice characteristics
 
 - **Warm, memory-driven, and unhurried.** The narration doesn't state
@@ -94,6 +100,58 @@ When drafting or reviewing a script:
    single sentence
 5. If a reference to his mother appears, check it arose naturally from
    the memory rather than being inserted for effect
+
+## Farm vlog register (a second, distinct register — added 2026-07-26)
+
+Everything above was built from **reflective narration** — Kofi
+recounting a memory after the fact, likely with some thought given
+beforehand. The 6 raw voice memos transcribed 2026-07-26 (see
+`voice-recording-transcripts.md`, Transcripts C–H) are a completely
+different kind of recording: **live, present-tense farm-update vlogs**,
+talking to camera while walking through the polytunnel or harvesting.
+Same person, same underlying warmth, but a genuinely different register
+— useful for anyone editing this raw farm footage, or writing narration
+meant to sit *over* it.
+
+- **Consistent opener**: "Hello, hello, Fudi people" — every single one of
+  the 6 memos opens this way. A clear, repeatable greeting formula, distinct
+  from the memory-first Hook opener used in scripted narration.
+- **Self-dating, like a log entry**: several memos state the date and
+  sometimes the time before anything else ("Today is the 7th of June,
+  2026, and it's exactly 11:37 in the morning") — a documentary,
+  keeping-a-record instinct.
+- **Consistent sign-off**: "Look after yourself, look after each other"
+  closes nearly every memo, sometimes followed by "bye," "cheers, bye,"
+  or "speak to you soon." This register's equivalent of "planted the
+  seeds for…" as a load-bearing, repeatable close — but a different
+  phrase for a different context (vlog sign-off vs. reflective-narration
+  bridge). Don't merge the two.
+- **Present-tense, real-time description** — narrating what's in front
+  of him as he sees it ("look at that," "oh my god," "wow"), not
+  recollecting. Unscripted and unpolished by design.
+- **Heavy repetition as rhythm/emphasis**, more pronounced than in the
+  reflective register — doubling and tripling words or short phrases
+  ("twist it, twist it, twist it," "really good, really good, really
+  good," "we're doing okay, we're doing okay").
+- **Visible thinking-out-loud** — mid-sentence self-corrections and word
+  searches left in ("What do you call it? Oh, of course"), genuine
+  uncertainty rather than polished delivery.
+- **Real expertise surfaces unprompted** — practical growing knowledge
+  (pot size vs. fruit size, twist-don't-cut harvesting technique, why
+  smaller pots yield faster but smaller harvests) comes out naturally
+  mid-ramble, not as a lecture. This is a good source of genuine,
+  specific detail for future "the blend"/growing-process segments.
+- **Family presence**: at least one memo has him working alongside a
+  helper, giving casual real-time instruction. Warm, unforced — matches
+  the brand's family-forward thumbnail photos.
+
+**When to use which register:** the reflective register (rest of this
+doc) for scripted narration — Hook, Close, voiceover sitting over
+B-roll. This vlog register for anything using Kofi's actual farm-vlog
+audio directly (e.g. if raw clips like the ones in `video/` ever get cut
+with his real voice-over-shoulder audio rather than silent B-roll under
+narration), or as a model for how an unscripted "in the moment" farm
+segment should sound if one is ever wanted.
 
 ## Maintenance
 

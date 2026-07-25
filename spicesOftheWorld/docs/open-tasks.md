@@ -118,10 +118,17 @@ repo. What's left is genuinely short.
       since the Mokola Market visit for a real photo. Market stays a
       spoken/narrated element via `audio/Mokola_voice_over_2.m4a` instead of
       a thumbnail source.
-- [ ] Transcribe the 6 raw voice memos in `audio/raw-voice-memos/` (via
-      Whisper or manually) and fold any new patterns into
-      `docs/brand-voice.md` — strengthens the voice profile beyond the 2
-      transcripts already processed, not blocking
+- [x] Transcribe the 6 raw voice memos in `audio/raw-voice-memos/`
+      (2026-07-26, via locally-installed `faster-whisper` — `openai-whisper`
+      failed to install due to a Windows path-length limit on one of
+      PyTorch's license files, so switched to the lighter dependency-free
+      alternative). Raw transcripts in `docs/voice-recording-transcripts.md`
+      (Transcripts C–H). These turned out to be a different kind of
+      recording from the first two (live present-tense farm vlogs, not
+      reflective narration) — documented as a separate "Farm vlog
+      register" in `docs/brand-voice.md` rather than merged into the
+      core signatures, since merging them would have blurred two
+      genuinely different registers together.
 - [ ] Locate/re-source raw Mokola Market video clips if the compiled video
       in `video/` ever needs rebuilding (source contact: Ghana-based)
 - [x] Process the 7 raw seed-to-harvest video clips from `myprojectphotos/`

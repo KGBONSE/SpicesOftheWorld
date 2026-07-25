@@ -135,9 +135,10 @@ signatures confirmed across all three are treated as core:
 - References to his late mother ("God bless her soul") — only when they
   arise naturally, never inserted for effect
 - Full profile: `docs/brand-voice.md`. Raw source transcripts (for
-  traceability): `docs/voice-recording-transcripts.md`. Only 2 of the
-  recommended 5–10 transcripts have been processed so far — more would
-  strengthen the profile further, but isn't blocking.
+  traceability): `docs/voice-recording-transcripts.md`. 8 transcripts
+  processed as of 2026-07-26 (2 reflective narration + 6 farm vlogs,
+  the latter transcribed locally via `faster-whisper` and analysed as a
+  distinct "farm vlog register" — see `docs/brand-voice.md`).
 
 ## Video & audio production pipeline (ffmpeg — established pattern)
 
