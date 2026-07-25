@@ -77,6 +77,13 @@ test-cooking to lock in your own before filming.)*
 
 ## 6. The Dish — Pilau Rice
 
+That same warm cumin-cardamom-clove profile shows up in Zanzibar biryani
+too — a close cousin, layered instead of one-pot — and in kuku paka, East
+Africa's coconut chicken curry. Pilau's the simplest way to taste it
+first, so that's where we're starting.
+
+**[ON-SCREEN TEXT]:** "Same spice profile also builds: Zanzibar biryani · kuku paka (coconut chicken)"
+
 That toasted, fragrant masala goes straight into the onions, and the rice
 cooks in it from there — every grain carrying that spice. Simple, but it's
 the whole East African coast in one pot.
@@ -113,3 +120,7 @@ the Ginger/Clove profiles in `knowledge-base/spice-profiles/`.
 
 Open items: your personal hook/angle (marked above), and test-cooking the
 Pilau Masala ratios (spice list is exact from the source, quantities are not).
+
+**2026-07-25:** Added a quick "other dishes" mention (Zanzibar biryani,
+kuku paka) at the top of The Dish section, per the new episode framework
+beat 5 pattern. General culinary knowledge, not from the book.

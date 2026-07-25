@@ -71,7 +71,9 @@ Every episode follows six beats:
 2. Geography and origin
 3. History
 4. The blend
-5. The dish
+5. The dish — quick one-line mentions of 2–3 other real regional dishes
+   using the same blend, then dive deep into cooking one of them in full
+   (added 2026-07-25; not yet retrofitted into the 8 drafted Africa scripts)
 6. Throughline close — links back to the brand
 
 Five episodes drafted so far, all in `scripts/`, following the confirmed

@@ -79,6 +79,13 @@ your own ratio there.)*
 
 ## 6. The Dish
 
+Harissa turns up all over Maghrebi cooking — stirred into couscous broth,
+spooned into shakshuka's tomato-and-pepper sauce, rubbed onto merguez
+before it hits the grill. But the pairing that shows off cumin and
+cinnamon best is the one we're doing today.
+
+**[ON-SCREEN TEXT]:** "Harissa also lives in: couscous · shakshuka · merguez"
+
 Stir that harissa through a tagine already built on cumin and cinnamon —
 fruit, meat, that slow-cooked warmth — and you've got the Maghreb on a
 plate. Harissa doesn't need its own dish, really — it's the thing that
@@ -117,3 +124,7 @@ Cumin/Cinnamon profiles in `knowledge-base/spice-profiles/`.
 Open items: your personal hook/angle (marked above), and test-cooking the
 ground-spice ratios in harissa (chilli and garlic quantities are exact
 from the source; the rest is "to taste").
+
+**2026-07-25:** Added a quick "other uses" mention (couscous, shakshuka,
+merguez) at the top of The Dish section, per the new episode framework
+beat 5 pattern. General culinary knowledge, not from the book.

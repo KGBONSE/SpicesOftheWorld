@@ -80,6 +80,13 @@ same as the Yaji blend last episode. Worth test-cooking before filming.)*
 
 ## 6. The Dish — Poulet Yassa
 
+That same yassa marinade shows up on more than just chicken — poisson
+yassa, made with fish, is just as common in Senegal, and some say it's
+actually the original version; lamb yassa is a regular too. Today, though,
+we're doing it the way most people outside Senegal know it first.
+
+**[ON-SCREEN TEXT]:** "Same marinade, different protein: poisson yassa (fish) · yassa mouton (lamb)"
+
 Chicken, marinated in that sharp, mustardy yassa base, then grilled or
 braised down with those caramelised onions. Sour, rich, unmistakably
 Senegalese.
@@ -115,3 +122,8 @@ Full draft, ready to read/shoot except the hook. Every fact traces to
 
 Open items: your personal hook memory (marked above), and test-cooking the
 yassa marinade to lock in real ratios.
+
+**2026-07-25:** Added a quick "other proteins" mention (poisson/fish
+yassa, yassa mouton/lamb) at the top of The Dish section, per the new
+episode framework beat 5 pattern. General culinary knowledge, not from
+the book.

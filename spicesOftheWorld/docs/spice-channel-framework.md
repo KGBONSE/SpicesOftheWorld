@@ -20,7 +20,13 @@ How it moved: trade, colonization, migration, diaspora. Why it became central to
 Break down the actual spice blend used in that region/country — ratios, what each spice contributes.
 
 **5. The dish (5–8 min)**
-Cook a real regional dish using that blend, tying back to your farm-grown or brand spices where possible.
+Quick mention (one sentence each, no lingering) of 2–3 other real dishes
+from the region that use this same spice/blend — gives viewers a sense of
+its range before you narrow in. Then: "but today, we're making ___" and
+cook that one dish in full, tying back to your farm-grown or brand spices
+where possible. The other dishes named must be real and grounded (book,
+knowledge-base, or Kofi's own knowledge) — never invented just to pad the
+list, and never allowed to turn into their own segment.
 
 **6. Close — the throughline**
 Connect back to your journey/brand without a hard sell. "This is why I grow my own chilies."
@@ -70,7 +76,8 @@ Give me, with sources where possible:
 1. Geographic origin and where it's grown/traded today
 2. Trade/migration history — how it spread, colonial or diaspora links
 3. The typical blend recipe/ratios used in this region
-4. One classic dish using it, with a simple home-cookable recipe
+4. 2–3 real dishes from the region that use this blend, one sentence each,
+   then ONE of them picked for a full, simple home-cookable recipe/method
 5. Any direct historical link to West Africa or the spice trade routes I could reference on-camera
 Keep it factual and cite sources — I'm scripting a video, not writing an essay.
 ```

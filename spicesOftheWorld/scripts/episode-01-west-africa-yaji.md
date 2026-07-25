@@ -114,6 +114,14 @@ then salt last.
 
 ## 6. The Dish
 
+Yaji doesn't stop at skewers, by the way — the same mix gets rubbed onto
+kilishi, that dried, spiced beef jerky you'll find in the same markets,
+and it's just as often dusted straight onto roasted plantain, corn, or
+boiled eggs as a street-food seasoning on its own. But the one we're
+actually making today is the one it's most famous for.
+
+**[ON-SCREEN TEXT]:** "Yaji also seasons: kilishi (dried beef) · roasted plantain/corn · boiled eggs"
+
 And what Yaji is really for is grilled meat skewers, coated in this dry
 rub before they hit the fire — chinchinga, if you grew up in Ghana; suya,
 if you grew up in Nigeria. Same spice mix, same fire, two names for
@@ -171,3 +179,9 @@ filming.
 (soak skewers, light season, spray water/beer for tenderness depending on
 cut, rub Yaji on partway through, finish on the fire) — his own cooking
 method, not from the book.
+
+**2026-07-25:** Added a quick "other uses" mention (kilishi, roasted
+plantain/corn, boiled eggs) at the top of The Dish section, per the new
+episode framework beat 5 pattern. General culinary knowledge, not from
+the book — worth a quick gut-check against Kofi's own experience before
+filming, same as the chinchinga/suya link above.

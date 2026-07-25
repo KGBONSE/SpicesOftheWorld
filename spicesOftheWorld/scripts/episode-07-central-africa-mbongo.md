@@ -83,6 +83,12 @@ peanuts for njangsa. No exact quantities given in the source.)*
 
 ## 6. The Dish
 
+Njangsa on its own — one of the seeds in this mix — is also what gives
+ndolé, Cameroon's national dish, its bitter-greens depth. Today, though,
+we're staying with what the full mix was actually built for.
+
+**[ON-SCREEN TEXT]:** "Njangsa also builds: ndolé (Cameroon's national dish)"
+
 This mix flavours mbongo tchobi — Cameroon's "black stew." Rich, dark,
 built entirely around spices most people watching this have never
 tasted.
@@ -124,3 +130,10 @@ more than the others.
 **A note on tone:** this is the one episode where I'd push back gently on
 rushing to film — the slave-trade thread deserves real thought about how
 you want to handle it on camera, more than a quick read-through.
+
+**2026-07-25:** Added a single "other dish" mention (ndolé, via njangsa)
+at the top of The Dish section, per the new episode framework beat 5
+pattern — kept to just one, not the usual 2–3, since this episode's other
+spices (bobimbi, mbongo, calabash nutmeg) don't have a second dish I'm
+confident enough in to name. General culinary knowledge, not from the
+book.

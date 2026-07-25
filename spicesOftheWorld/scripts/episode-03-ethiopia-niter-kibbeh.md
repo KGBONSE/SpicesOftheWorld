@@ -74,14 +74,16 @@ minutes, then strain it through muslin.
 **[ON-SCREEN TEXT]:** "NITER KIBBEH: 500g butter + onion, garlic, ginger, fenugreek, cumin, korarima/cardamom, turmeric, oregano, basil, sage — simmer 20 min, strain"
 **[B-ROLL]:** Butter melting, spices going in, straining through muslin
 
-## 6. The Dish
+## 6. The Dish — Doro Wat
 
-Niter kibbeh isn't the finished dish — it's the base. This is what goes
-into Ethiopia's slow-simmered stews, stirred through greens and lentils,
-the flavour underneath everything.
+Niter kibbeh isn't a finished dish on its own — it's the base under
+Ethiopia's most famous stews. Kitfo, the minced-beef dish, gets it
+stirred straight through; misir wat, the red lentil stew, leans on it
+too. But the dish it's most identified with is doro wat, Ethiopia's
+national chicken stew — so that's the one we're building today.
 
-**[ON-SCREEN TEXT]:** "The base under Ethiopia's stews"
-**[B-ROLL]:** Stew simmering, niter kibbeh being stirred in
+**[ON-SCREEN TEXT]:** "Niter kibbeh also builds: kitfo (minced beef) · misir wat (lentil stew)"
+**[B-ROLL]:** Stew simmering, niter kibbeh being stirred in, doro wat plated
 
 ## Africa Link / Throughline Close
 
@@ -112,3 +114,11 @@ needed for the blend. Every other fact traces to
 `knowledge-base/spice-profiles/core-profiles-master.md`.
 
 Open item: your personal hook memory/angle (marked above).
+
+**2026-07-25:** The Dish section previously named no specific final dish
+(just "Ethiopia's stews") — per the new episode framework beat 5 pattern,
+added quick mentions of kitfo and misir wat, then named doro wat
+specifically as the dish to cook. General culinary knowledge (doro wat as
+Ethiopia's national dish, kitfo/misir wat both commonly built on niter
+kibbeh), not from the book — worth a source check before filming since
+this goes further than the source material did.

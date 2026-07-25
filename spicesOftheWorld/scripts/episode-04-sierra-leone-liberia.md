@@ -77,6 +77,13 @@ contact before filming.)*
 
 ## 6. The Dish — Dumboy
 
+That same Scotch bonnet-ginger base turns up all over Sierra Leonean and
+Liberian cooking, not just pepper soup — cassava leaf stew and groundnut
+soup both lean on it too. But pepper soup's the one that pairs with what
+we're making today.
+
+**[ON-SCREEN TEXT]:** "Same base also flavours: cassava leaf stew · groundnut soup"
+
 In Liberia, that same pepper soup gets served with dumboy — cassava,
 boiled and pounded until it's smooth and stretchy, almost like a dough.
 It's eaten communally, everyone pulling from the same bowl — it's less a
@@ -123,3 +130,9 @@ especially the pepper soup spice ratios.
 - [Liberian cuisine — Wikipedia](https://en.wikipedia.org/wiki/Liberian_cuisine)
 - [Liberia Tourism — Exploring the Flavors of Liberia](https://enjoyliberia.travel/blog/post/exploring-the-flavors-of-liberia-what-to-know-ab-2/)
 - [True Liberia — Inside Liberia's Kitchens](https://www.trueliberia.com/blog/inside-liberias-kitchens-10-must-try-traditional-dishes)
+
+**2026-07-25:** Added a quick "other dishes" mention (cassava leaf stew,
+groundnut soup) at the top of The Dish section, per the new episode
+framework beat 5 pattern — same general-research basis as the rest of
+this episode, so treat it with the same "verify before filming" caution
+noted above.

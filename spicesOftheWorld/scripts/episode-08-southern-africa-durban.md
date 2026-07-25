@@ -76,6 +76,13 @@ series — cumin, cinnamon, ginger, fenugreek, cardamom, cloves.)*
 
 ## 6. The Dish
 
+That same masala is what's inside Durban's most famous export — bunny
+chow, curry ladled into a hollowed-out loaf of bread — and it turns up in
+Durban-style samoosas too. Today we're making it the classic way, in a
+bowl.
+
+**[ON-SCREEN TEXT]:** "Same masala also builds: bunny chow · Durban samoosas"
+
 Durban curry, built entirely on that masala — the same blend, different
 protein depending on what's local. Simple to make the point: this tastes
 like India because it is India, just grown into something South African
@@ -117,3 +124,11 @@ quantities are not).
 
 This closes the Africa arc — 8 episodes, all in `scripts/`. Next per
 `docs/spice-channel-framework.md`: Arc 3, starting with the Caribbean.
+
+**2026-07-25:** Added a quick "other dishes" mention (bunny chow, Durban
+samoosas) at the top of The Dish section, per the new episode framework
+beat 5 pattern. Bunny chow is grounded — there's already a worked recipe
+in `knowledge-base/recipes/world-of-spice-recipes.md` ("Durban Beef Bunny
+Chow") — worth a look if a future episode ever wants to make bunny chow
+itself the deep-dive instead. Samoosas mention is general culinary
+knowledge, not from the book.
