@@ -31,6 +31,21 @@ repo. What's left is genuinely short.
         by luck when called from Agent 3, which explicitly maps
         `chatInput` → `topic`. Fixed to `{{ $json.topic || $json.chatInput }}`
         so both paths work.
+      - **2026-07-25, second round of testing:** after the prompt fix, the
+        agent answered but said it could only see filenames, not real
+        file content. Root cause found via n8n's execution DB
+        (`database.sqlite`, `execution_data` table): the full indexing
+        chain (Search files → Download → Vector Store insert) had never
+        actually been run since the fixes went in — only the Manual
+        Trigger node in isolation had been tested. What the agent was
+        retrieving was **stale data from 2026-07-23**, left in memory
+        from before any of these fixes, when the pipeline had the same
+        "filename only, no real content" bug. In-memory store survives
+        workflow edits, only wiped on a full n8n restart. Set
+        `clearStore: true` on the Insert-mode Simple Vector Store node so
+        the next full run replaces the stale index instead of adding to
+        it. **Next step: run the full "Test workflow" (not single-node
+        execute) on Agent 2, then re-test chat.**
       - **One step only doable in the n8n UI (not automatable headlessly):**
         open `http://localhost:5678` → Agent 2 workflow → run the Manual
         Trigger ("Agent 2 — Knowledge & Brand Voice") once to build the
