@@ -73,16 +73,16 @@ repo. What's left is genuinely short.
         Search and Download that keeps only items ending in `.md` —
         simpler and more robust than trying to special-case one file's
         mime type.
-      - **Next step: run the full "Execute workflow" (from the Manual
-        Trigger node specifically, not a single-node test) on Agent 2,
-        then re-test chat.**
-      - **One step only doable in the n8n UI (not automatable headlessly):**
-        open `http://localhost:5678` → Agent 2 workflow → run the Manual
-        Trigger ("Agent 2 — Knowledge & Brand Voice") once to build the
-        index. It's an in-memory vector store — **lost on every n8n
-        restart**, so this needs re-running after any Docker restart, not
-        just once ever. Then test with the two questions in
-        `workflows/n8n/agent-2-3-build-walkthrough.md` A9.
+      - **2026-07-25, confirmed working end to end:** index build (59
+        real markdown files, verified via n8n's execution DB — actual
+        file text, not filenames) and the chat test both succeeded. Agent
+        2 is genuinely retrieving and voicing real knowledge-base content.
+      - **Standing reminder:** the vector store is in-memory — wiped on
+        every n8n restart. After any Docker restart, re-open Agent 2 and
+        run the Manual Trigger's "Execute workflow" once before using
+        either agent again. Not yet re-tested: a full Agent 3 chain run
+        (script output end to end) now that Agent 2 is fixed — worth
+        doing before treating Agent 3's output as reliable.
 - [ ] Mix `audio/Mokola_voice_over_2.m4a` into
       `video/Fudi_People_Mokola_Market.mp4` (ffmpeg step 4 in
       `video/README.md` — not yet done)
