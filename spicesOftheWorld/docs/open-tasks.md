@@ -77,12 +77,25 @@ repo. What's left is genuinely short.
         real markdown files, verified via n8n's execution DB — actual
         file text, not filenames) and the chat test both succeeded. Agent
         2 is genuinely retrieving and voicing real knowledge-base content.
+      - **2026-07-25, full Agent 3 chain confirmed working:** tested with
+        "Grains of Paradise, Ghana episode" — produced a complete 7-section
+        shooting script (two hook versions, on-voice throughout, proper
+        B-ROLL/ON-SCREEN TEXT cues, correctly self-flagged 2
+        `[NEEDS VERIFICATION]` items instead of inventing facts), and it
+        logged correctly to the Google Sheet (Date/Topic/Text/Status all
+        populated). The whole pipeline — Agent 2 retrieval → Agent 3
+        script writing → Sheet logging — is genuinely working end to end.
+      - **Minor scope note, not fixed:** Agent 2 itself returned an
+        already-script-shaped response ("Here's the full Ghana episode
+        script...") instead of sticking to research facts per its own
+        system prompt — Agent 3 still built a proper final script on top,
+        so it didn't hurt the result, but it means Agent 2 is doing (and
+        costing) more than designed. Worth tightening Agent 2's prompt to
+        stick to facts-only if token cost becomes a concern.
       - **Standing reminder:** the vector store is in-memory — wiped on
         every n8n restart. After any Docker restart, re-open Agent 2 and
         run the Manual Trigger's "Execute workflow" once before using
-        either agent again. Not yet re-tested: a full Agent 3 chain run
-        (script output end to end) now that Agent 2 is fixed — worth
-        doing before treating Agent 3's output as reliable.
+        either agent again.
 - [ ] Mix `audio/Mokola_voice_over_2.m4a` into
       `video/Fudi_People_Mokola_Market.mp4` (ffmpeg step 4 in
       `video/README.md` — not yet done)
