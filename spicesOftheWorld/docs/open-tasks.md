@@ -144,9 +144,9 @@ repo. What's left is genuinely short.
 - [x] Process `PHOTO-2026-07-24-23-18-31.zip` (WhatsApp export, Downloads,
       2026-07-25) — 5 current-day stills copied in and a talking-to-camera
       video normalised into two clips, see `thumbnails/index.md` and
-      `video/README.md`. The presenter clip's narration hasn't been
-      listened to/transcribed yet — worth doing before using it as a real
-      intro.
+      `video/README.md`. **2026-07-26: Kofi listened to the presenter
+      clip's narration and confirmed it's usable** — clear to use as a
+      real intro.
 
 ## Not started (later phases, per blueprint build order)
 

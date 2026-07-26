@@ -57,8 +57,8 @@ quality than the other source footage, but the first clip in the whole
 library where Kofi actually talks to camera rather than just working):
 
 - `Presenter_Intro_Talking_Clip.mp4` — Kofi talking directly to camera in
-  the polytunnel, hand gestures, narrating (content of the narration not
-  transcribed — worth a listen before using as a real intro)
+  the polytunnel, hand gestures, narrating. **Confirmed usable by Kofi
+  2026-07-26** (listened himself) — clear to use as a real intro.
 - `Harvest_Cutting_Closeup_Clip.mp4` — hands-on close-up, cutting/harvesting
   with a knife, same session
 
