@@ -87,8 +87,34 @@ original video's own audio picks back up for the remaining ~82 seconds.
 Chosen over the literal step-4 command (which would have replaced all
 audio and truncated the video to match the 53-second voiceover, dropping
 over a minute of footage) or leaving the tail silent. Video stream
-untouched (`-c:v copy`); audio re-encoded as AAC. **Not yet checked by
-ear** — worth a playback listen to confirm the handoff at 0:53 sounds
-smooth before treating this as final. The 7 raw source clips backing the
-new B-roll above remain in `myprojectphotos/` (not in the repo) in case
-different segments are needed later.
+untouched (`-c:v copy`); audio re-encoded as AAC. The 7 raw source clips
+backing the new B-roll above remain in `myprojectphotos/` (not in the
+repo) in case different segments are needed later.
+
+## Done — 2026-07-26: voiceover swapped to the generic "stall" version
+
+After listening to the first mix, Kofi decided he preferred different
+narration for this video: the "stall" memory used as Episode 1's Personal
+Hook (`scripts/episode-01-west-africa-yaji.md`), trimmed to a **generic,
+spice-agnostic version** so this compiled intro can open any episode, not
+just Episode 1. Episode 1's own script is unchanged — it keeps the full
+version, including the grains-of-paradise line.
+
+Recorded by Kofi as `New Recording 5.m4a` (51.78s), kept in the repo as
+`audio/Mokola_voice_over_generic.m4a`. Re-mixed the same way as before —
+voiceover over the intro, original audio continuing after — replacing
+`Fudi_People_Mokola_Market_with_voiceover.mp4`.
+
+**As actually recorded** (transcribed for the record — light natural
+variation from the drafted version above is expected and fine, this is
+what's actually in the video):
+
+> "Growing up in Ghana, there was one store at Mokola Market. My mom, God
+> blessed, so, would always stop at before we even got to the fish,
+> before the plantain, before the Kobi, before anything else. She'll pick
+> up a handful of these small ready brown seeds, crack one between the
+> fingers, and let me smell it. With sharp, pepperish, warm, nothing like
+> the black pepper I knew from school dinners back home. That smell
+> planted the seeds for everything that came after. My love for spices,
+> for farming, for cooking, and all that good stuff that I've been doing
+> all these years."

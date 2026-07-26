@@ -2,24 +2,29 @@
 
 ## `Mokola_voice_over_2.m4a`
 
-Recorded voiceover (53 sec), reading the mum/Mokola Market memory. Replaces
-an earlier take that wasn't good enough to use.
+Recorded voiceover (53 sec), reading the general market-atmosphere
+version of the mum/Mokola Market memory. Was mixed into
+`video/Fudi_People_Mokola_Market_with_voiceover.mp4` on 2026-07-25, then
+superseded 2026-07-26 by `Mokola_voice_over_generic.m4a` below — kept
+here for reference, not currently used in the video.
 
-**Update (2026-07-15):** the compiled Mokola Market video this was meant
-for turned out not to be lost after all — `video/Fudi_People_Mokola_Market.mp4`
-was recovered from a different chat export. This voiceover is **not yet
-mixed into it** — see `video/README.md` step 4 of the ffmpeg pipeline.
+## `Mokola_voice_over_generic.m4a`
+
+**Currently used in the market intro video.** Recorded 2026-07-26,
+reading the "stall" memory (same story as Episode 1's Personal Hook)
+trimmed to a spice-agnostic version, so this compiled intro can open any
+episode rather than being tied to Episode 1. See `video/README.md` for
+the full text and mix details.
 
 ## `raw-voice-memos/`
 
-Six untranscribed voice memos (`IMG_3382.mp3`, `IMG_4410.mp3`,
-`IMG_4436.mp3`, `IMG_4438.mp3`, `IMG_4442.mp3`, `IMG_4455.mp3`), found
-alongside the other exported project files. **Not yet transcribed or
-analysed** — a real candidate for closing the "more transcripts needed"
-gap in `docs/brand-voice.md` (only 2 of the recommended 5–10 have been
-processed so far). Run these through Whisper (per the blueprint's Agent 5
-editing pipeline) or transcribe manually, then fold any new patterns into
-`docs/brand-voice.md` and `docs/voice-recording-transcripts.md`.
+Six voice memos (`IMG_3382.mp3`, `IMG_4410.mp3`, `IMG_4436.mp3`,
+`IMG_4438.mp3`, `IMG_4442.mp3`, `IMG_4455.mp3`), transcribed 2026-07-26
+via locally-installed `faster-whisper` — turned out to be a distinct
+"farm vlog" register (live, present-tense) rather than reflective
+narration. Raw transcripts in `docs/voice-recording-transcripts.md`
+(Transcripts C–H); patterns folded into `docs/brand-voice.md`'s "Farm
+vlog register" section.
 
 ## Naming note
 

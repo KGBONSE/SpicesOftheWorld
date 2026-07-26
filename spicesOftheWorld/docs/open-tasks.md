@@ -101,8 +101,13 @@ repo. What's left is genuinely short.
       `video/Fudi_People_Mokola_Market_with_voiceover.mp4`: voiceover
       plays over the first 53s, original audio continues after (full
       2:15 length kept, not truncated to the voiceover's length). See
-      `video/README.md`. Not yet checked by ear — worth a listen before
-      treating as final.
+      `video/README.md`.
+- [x] **2026-07-26:** swapped to different narration per Kofi's request
+      after listening — a generic, spice-agnostic trim of Episode 1's
+      "stall" Hook, so this intro can open any episode. Recorded by Kofi
+      (`audio/Mokola_voice_over_generic.m4a`) and re-mixed into
+      `video/Fudi_People_Mokola_Market_with_voiceover.mp4`. See
+      `video/README.md` for the as-recorded transcript.
 - [x] Pick an Episode 1 topic and draft a script — West Africa (Ghana +
       Nigeria), Yaji/suya: `scripts/episode-01-west-africa-yaji.md`. Only
       open item on it: test-cook the Yaji blend to lock in real ratios
