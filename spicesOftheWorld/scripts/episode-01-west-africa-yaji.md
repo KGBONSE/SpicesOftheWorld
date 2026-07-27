@@ -76,16 +76,16 @@ activate the kind of fat tissue that burns calories for heat.
 ## 5. The Blend — Yaji
 
 This is the one that ties Ghana and Nigeria together for me — Yaji. It's
-grains of selim, whole Ashanti pepper, crushed kuli-kuli — that's crushed
-peanut puffs — ginger powder, cayenne pepper flakes, a crumbled stock
+grains of selim, whole Ashanti pepper,(any good dry chillies) crushed kuli-kuli — that's crushed
+peanut puffs — ginger powder, a crumbled stock
 cube, salt, and black pepper, all combined into one dry rub. Same mix,
 whether you call it chinchinga or suya.
 
-**[ON-SCREEN TEXT]:** "YAJI: grains of selim + Ashanti pepper + kuli-kuli + ginger + cayenne + stock cube + salt + black pepper"
+**[ON-SCREEN TEXT]:** "YAJI: grains of selim + Fudi people mix smoked dry chillis or any dry chillis + kuli-kuli + ginger  pow+ stock cube + salt + black pepper"
 **[B-ROLL]:** Hands mixing the dry rub, close-up texture shots
 
 *(Note: the book gives the ingredient list, not exact measurements — worth
-test-cooking a batch and locking in your own ratios before this airs.)*
+test-cooking a batch and locking in your own ratios before this airs.)
 
 ### Test Batch Card — Yaji v1 (untested, for your kitchen)
 
@@ -98,21 +98,22 @@ locks in for filming.
 |---|---|---|
 | Crushed kuli-kuli (peanut puffs) | 4 tbsp | Bulk/base — carries everything else |
 | Ground grains of selim | 1 tsp | Musky backbone — potent, start low |
-| Ground Ashanti pepper (or whole, cracked) | 1 tsp | Citrus-tinged heat |
 | Cayenne pepper flakes | 1–2 tsp | Adjust to your real heat tolerance |
+| Fudi people mix smoked dry chillies (or any good dry chillies |1 spoon| Adjust to your real heat tolerance |
 | Ginger powder | 1 tsp | Warmth |
 | Crumbled stock cube | 1 cube | Umami/salt — reduce added salt if cube is salty |
 | Salt | ½ tsp, to taste | Add after tasting with the stock cube in |
 | Black pepper | ½ tsp | Background heat |
 
-**How to test:** mix dry, rub onto a small batch of meat (2–3 skewers'
-worth), grill, taste. Adjust cayenne first (heat), then grains of
-selim/Ashanti pepper (how musky/citrusy vs. straightforward you want it),
+
+
+**How to test:** mix dry, rub onto a small batch of meat, grill, taste. Adjust chilllies  first (heat), then grains of
+selim/Fudi pepper (how musky/citrusy vs. straightforward you want it),
 then salt last.
 
 **Log your changes here once tested:**
-- [ ] Heat level — more/less cayenne?
-- [ ] Grains of selim/Ashanti pepper — more/less musk?
+- [ ] Heat level — more/less chillies?
+- [ ] Grains of selim/Fudi people mix smoked dry chillies  — more/less musk?
 - [ ] Salt/stock cube balance
 - [ ] Final locked ratio
 
@@ -196,3 +197,16 @@ profile in `knowledge-base/spice-profiles/by-flavour-compound/11_pungent_compoun
 — external research, not from the book, matching the existing citation
 convention (generic "research shows..." attribution, no named studies
 spoken aloud).
+
+**2026-07-27:** Built `video/episode-01-rough-cut-DRAFT.mp4`, a rough cut
+of this whole script — see `video/README.md` for the full breakdown.
+First pass used flat placeholder cards for Hook/Science/Blend/Dish;
+rebuilt same day to use real material instead once a closer look found
+it: the real Mokola Market video+voiceover for the Hook (approximate
+match, flagged), real chilli/harvest photos for Science and Blend, a real
+~10s audio excerpt of Kofi talking about smoking/crushing chillies
+(`audio/raw-voice-memos/IMG_3382.mp3`) under the Blend section, and real
+hands-on footage as a Dish stand-in. Every approximation is flagged
+on-screen, not passed off as final. Genuine remaining gap, unchanged: no
+footage of Yaji actually being mixed or grilled, and no recording of this
+episode's exact script lines — those still need Kofi.

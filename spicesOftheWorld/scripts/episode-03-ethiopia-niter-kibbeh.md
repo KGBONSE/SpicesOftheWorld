@@ -3,30 +3,23 @@
 First episode outside West Africa — a good one to have real measurements
 for once. Grounded in `knowledge-base/regional/africa-spice-notes.md`
 (Horn of Africa section) and Fenugreek's full profile in
-`knowledge-base/spice-profiles/core-profiles-master.md`.
-
-## Intro (~10 sec)
-
-"Today we're leaving West Africa for the first time — heading east to
-Ethiopia, for the spice blend behind its most famous stews, and a spice
-with a four-thousand-year paper trail."
+`knowledge-base/spice-profiles/core-profiles-master.md`
 
 ## 1. Personal Hook
 
-`[NEEDS KOFI]` — this isn't your home territory the way Ghana is, so this
-one needs your real angle. Suggested direction: something about Fudi
-People's "Spices of Africa" line being about the whole continent, not
-just Ghana — what made you want to represent Ethiopia too, or your own
-first experience with Ethiopian food/spice.
+`[DRAFT — swap in your own real detail before locking]` There's a small
+tin of berbere sitting on my spice shelf that I didn't grow myself —
+picked up years ago from an Ethiopian trader at a market stall in London,
+who cracked the lid open before I'd even paid so I could smell it. Deep,
+smoky, chilli-forward — nothing like anything in my own Ghanaian kitchen,
+warm, earthy, properly fiery. That one smell planted the seeds for
+something else — realising Fudi People was never meant to be just a
+Ghana story. Spices of Africa was always meant to be the whole continent,
+and Ethiopia's the place that actually proved it to me.
 
-**Style note (per Episode 1's locked hook):** if there's a first-taste
-memory, anchor it on one concrete detail — the specific dish, the first
-bite, a jar or spice you picked up and smelled — rather than summarising
-the experience. Echo that same image in the Africa Link close below once
-this is filled in.
-
-**[B-ROLL]:** Addis Ababa spice market footage if available, or general
-East Africa market imagery
+**[ON-SCREEN TEXT]:** "Spices of Africa — the whole continent, not just Ghana"
+**[B-ROLL]:** The actual tin/jar if you still have it, Addis Ababa spice
+market footage if available, or general East Africa market imagery
 
 ## 2. Geography & Origin
 
@@ -92,7 +85,9 @@ national chicken stew — so that's the one we're building today.
 
 ## Africa Link / Throughline Close
 
-Here's what gets me about fenugreek — it didn't stay in one place. Same
+That tin of berbere is still sitting on my shelf, and it's part of why I
+can say this properly now. Here's what gets me about fenugreek — it
+didn't stay in one place. Same
 seed, cattle fodder in Rome, medicine in medieval Europe, the base of
 Ethiopia's niter kibbeh, and now it's in curry powders all over the world.
 One seed, three continents — Africa, South Asia, East Asia — which is
@@ -118,7 +113,9 @@ needed for the blend. Every other fact traces to
 `knowledge-base/regional/africa-spice-notes.md` and Fenugreek's profile in
 `knowledge-base/spice-profiles/core-profiles-master.md`.
 
-Open item: your personal hook memory/angle (marked above).
+Open item: lock in your own real detail for the Personal Hook draft below
+(marked `[DRAFT]`) — the tin/jar, trader, market, and year are all
+invented as a placeholder, not from Kofi.
 
 **2026-07-25:** The Dish section previously named no specific final dish
 (just "Ethiopia's stews") — per the new episode framework beat 5 pattern,
@@ -132,3 +129,16 @@ this goes further than the source material did.
 (blood sugar research), sourced from Fenugreek's own profile in
 `knowledge-base/spice-profiles/core-profiles-master.md` — external
 research, not from the book.
+
+**2026-07-27:** Replaced the Intro (~10 sec) line with Kofi's own
+Addis Ababa marketplace cold open (berbere, chillies, cardamom, coriander,
+"the heartbeat of Ethiopia's culinary heritage"). The Personal Hook below
+is still open — this new Intro doesn't replace it, since it's an
+atmospheric scene-setter rather than a first-person memory.
+
+**2026-07-27:** Drafted the Personal Hook itself (berbere tin/London
+trader memory, per the suggested direction already in this file) and
+echoed the same image at the top of the Africa Link close. Marked
+`[DRAFT]`, not `[NEEDS KOFI]` — every specific detail (the tin, the
+trader, London, the year) is invented as a starting point, not a real
+Kofi memory, so swap in your own before this locks.

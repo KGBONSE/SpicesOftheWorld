@@ -15,19 +15,21 @@ secret."
 
 ## 1. Personal Hook
 
-`[NEEDS KOFI]` — one real memory to open on. Suggested direction: something
-about jollof rice specifically — whose jollof was "the best" growing up,
-a party or gathering where it showed up, anything that's actually yours.
-(Keeping the mum/Mokola Market memory reserved for episodes where it
-arises naturally, not reused every time — per the brand voice rule.)
+There's one pot of jollof I still measure every other plate against —
+not my mum's, my best friend's mum's, growing up. She was Senegalese, and
+at the time I didn't think anything of that, I just knew hers tasted
+different from anyone else's. She'd cook it in this huge, blackened pot
+nobody else was allowed to touch, and I can still picture the exact
+moment she lifted that lid — thick, smoky, tomatoey steam rolling out
+before you'd even seen the rice underneath. Everyone said their own
+jollof was the best. Looking back now, hers actually had a reason to be
+one of the best I have tasted.
 
-**Style note (per Episode 1's locked hook):** anchor on one concrete
-object or gesture — whose pot it was, a specific hand stirring, the smell
-rising off it as the lid came up — rather than describing the occasion in
-general terms. Echo that same image in the Africa Link close below once
-this is filled in.
 
-**[B-ROLL]:** Jollof rice cooking/plating footage
+**[ON-SCREEN TEXT]:** "Whose jollof was really the best?"
+**[B-ROLL]:** The actual pot if it still exists, a lid lifting off a pot
+of jollof, steam rising, otherwise general jollof rice cooking/plating
+footage
 
 ## 2. Geography & Origin
 
@@ -100,7 +102,8 @@ Senegalese.
 
 ## Africa Link / Throughline Close
 
-Jollof started right here, in Senegal, and it only became the Ghana and
+That blackened pot is long gone, but I can still hear that lid coming
+off. Jollof started right here, in Senegal, and it only became the Ghana and
 Nigeria dish we know once it travelled and picked up spices from somewhere
 else. That's exactly what I'm doing now, from the other direction — taking
 West Africa's spices out to London, growing them on a farm in Sidcup, and
@@ -124,8 +127,10 @@ Full draft, ready to read/shoot except the hook. Every fact traces to
 `knowledge-base/regional/africa-spice-notes.md` and
 `knowledge-base/spice-profiles/by-flavour-compound/05_penetrating_terpenes/grains_of_selim.md`.
 
-Open items: your personal hook memory (marked above), and test-cooking the
-yassa marinade to lock in real ratios.
+Open items: read over the Personal Hook's exact wording below and adjust
+to match your real memory (the core detail — your best friend's Senegalese
+mum's jollof — is real, but the phrasing is still a draft), and
+test-cooking the yassa marinade to lock in real ratios.
 
 **2026-07-25:** Added a quick "other proteins" mention (poisson/fish
 yassa, yassa mouton/lamb) at the top of The Dish section, per the new
@@ -136,3 +141,11 @@ the book.
 (gut/respiratory research), sourced from grains of selim's own profile in
 `knowledge-base/spice-profiles/by-flavour-compound/05_penetrating_terpenes/grains_of_selim.md`
 — external research, not from the book.
+
+**2026-07-27:** Drafted the Personal Hook itself and echoed the same
+lid/pot image at the top of the Africa Link close. Updated same day per
+Kofi's correction: it's his childhood best friend's mum, not an auntie —
+she was Senegalese, which sets up a nice payoff into Geography & Origin
+revealing jollof actually started in Senegal. The blackened pot, the open
+flame, and the exact phrasing are still a draft (Kofi confirmed the
+person/detail is real, not the wording) — read it over before locking.
