@@ -58,7 +58,12 @@ which brings a bitter, almost medicinal edge to the broth. Between the
 Scotch bonnet heat, the ginger, and that bitterness, pepper soup is built
 to feel like it's doing you good while it warms you up.
 
-**[ON-SCREEN TEXT]:** "Calabash nutmeg — bitter, medicinal edge"
+And that "doing you good" feeling isn't just in your head — ginger's one
+of the most genuinely well-evidenced spices going, especially for
+digestion and nausea, and uda, the same grains of selim from episode one,
+has real research behind it too, for gut and respiratory health.
+
+**[ON-SCREEN TEXT]:** "Calabash nutmeg — bitter, medicinal edge" / "Research genuinely backs ginger for digestion" / "Uda (grains of selim) — tied to gut and respiratory health"
 **[B-ROLL]:** Pepper soup simmering, close-up of pods/spices
 
 ## 5. The Blend — Pepper Soup Spice
@@ -136,3 +141,10 @@ groundnut soup) at the top of The Dish section, per the new episode
 framework beat 5 pattern — same general-research basis as the rest of
 this episode, so treat it with the same "verify before filming" caution
 noted above.
+
+**2026-07-27:** Added a Health Benefits line to The Science section,
+reusing ginger's and grains of selim's own profiles (`knowledge-base/spice-profiles/by-flavour-compound/11_pungent_compounds/ginger.md`
+and `.../05_penetrating_terpenes/grains_of_selim.md`) since both are
+genuinely the same spices covered elsewhere, just under this region's own
+names — calabash nutmeg itself has no written profile/health-benefits
+section in the knowledge base, so it's left out here rather than guessed.

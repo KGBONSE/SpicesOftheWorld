@@ -57,7 +57,7 @@ even once we do branch out.
 **Arc 2 complete — all 8 Africa episodes drafted.**
 
 **Arc 3 — Beyond Africa (diaspora + trade-route links) — next**
-9. Caribbean — direct line from West African diaspora
+9. Caribbean ✅ drafted — allspice, jerk, calabash nutmeg's forced crossing via the slave trade (`scripts/episode-09-caribbean-jerk.md`)
 10. South Asia — garam masala, curry powder's actual history
 11. East Asia — five-spice, Sichuan pepper
 12. Middle East — za'atar, baharat

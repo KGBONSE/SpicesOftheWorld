@@ -50,6 +50,20 @@ These are unedited normalised segments, not compiled sequences — pick
 and trim further at actual edit time depending on which episode/segment
 they're cut into.
 
+**Added 2026-07-27 — compiled into a sequence:** `Seed_To_Harvest_Sequence.mp4`
+(3:40, 720x1280) concatenates all 7 clips above (already-matching codecs —
+h264/yuvj420p + AAC 48kHz stereo, so `-c copy` concat worked cleanly) into
+one continuous seed-to-harvest arc, in this order: Seed_Sowing_Solo →
+Seed_Sowing_Bonding → Tomato_Potting_Solo → Watering_Pots_Solo →
+Family_Planting_Patio → Lettuce_Harvest_Family → Chard_Harvest_Allotment —
+sowing through potting/watering through planting through harvest, solo
+clips leading into the family ones. Same fade re-encode pass as step 3 of
+the established pipeline (1s fade in/out); original ambient audio kept
+throughout, no voiceover mixed in (none written for this sequence yet).
+This is a full-length reference reel, not a finished edit — still meant to
+be cut down/re-ordered per episode at actual edit time; the 7 individual
+source clips above remain available separately for that.
+
 **Added 2026-07-25 — current-day talking-to-camera clip**, from a
 WhatsApp video Kofi sent 2026-07-24 (`VIDEO-2026-07-24-23-18-32.mp4`,
 2:53 total, portrait, WhatsApp-compressed ~800kbps — noticeably lower

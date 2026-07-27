@@ -61,7 +61,11 @@ distinctive musky, wood-smoke aroma. Most of that smokiness sits right in
 the pod itself, so you grind it just before using it if you want the full
 effect. They even brew it into coffee here — café touba.
 
-**[ON-SCREEN TEXT]:** "Smoked during drying = the wood-smoke note" / "Grind just before use"
+And grains of selim isn't just a flavour story — it's genuinely one of the
+better-documented African spices when it comes to health research too,
+tied to real gut and respiratory benefits, not just tradition.
+
+**[ON-SCREEN TEXT]:** "Smoked during drying = the wood-smoke note" / "Grind just before use" / "Research shows grains of selim is genuinely tied to gut and respiratory health"
 **[B-ROLL]:** Close-up of pods, grinding, café touba pour
 
 ## 5. The Blend — Yassa Marinade
@@ -127,3 +131,8 @@ yassa marinade to lock in real ratios.
 yassa, yassa mouton/lamb) at the top of The Dish section, per the new
 episode framework beat 5 pattern. General culinary knowledge, not from
 the book.
+
+**2026-07-27:** Added a Health Benefits line to The Science section
+(gut/respiratory research), sourced from grains of selim's own profile in
+`knowledge-base/spice-profiles/by-flavour-compound/05_penetrating_terpenes/grains_of_selim.md`
+— external research, not from the book.

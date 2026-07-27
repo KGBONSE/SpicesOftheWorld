@@ -64,7 +64,11 @@ a compound in there, discovered fairly recently, that triggers a numbing,
 cooling sensation on your tongue — even though nutmeg doesn't taste cold
 at all.
 
-**[ON-SCREEN TEXT]:** "Nutmeg's numbing sensation — a real compound, not just heat"
+True nutmeg's got real antioxidant and antibacterial research behind it
+too — though it comes with a genuine caution: a little truly goes a long
+way, because too much nutmeg is actually harmful, not just overpowering.
+
+**[ON-SCREEN TEXT]:** "Nutmeg's numbing sensation — a real compound, not just heat" / "Research shows real benefits — but a little truly goes a long way"
 **[B-ROLL]:** Close-up of grating nutmeg/calabash nutmeg
 
 ## 5. The Blend — Mbongo Mix
@@ -137,3 +141,11 @@ pattern — kept to just one, not the usual 2–3, since this episode's other
 spices (bobimbi, mbongo, calabash nutmeg) don't have a second dish I'm
 confident enough in to name. General culinary knowledge, not from the
 book.
+
+**2026-07-27:** Added a Health Benefits line to The Science section
+(antioxidant/antibacterial, plus the genuine over-dosing caution),
+sourced from true Nutmeg's profile in
+`knowledge-base/spice-profiles/by-flavour-compound/02_warming_terpenes/nutmeg.md`
+— calabash nutmeg is a different plant with no profile of its own, so
+this is explicitly about true nutmeg's chemistry, same caveat the
+Science section above already makes.

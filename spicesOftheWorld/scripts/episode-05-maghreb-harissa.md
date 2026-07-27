@@ -60,7 +60,11 @@ cinnamaldehyde, adds an earthier warming depth right alongside it. Toast
 the cumin seeds first, bruise them, dry-fry them, and you get roasted
 notes you just don't get from the raw seed.
 
-**[ON-SCREEN TEXT]:** "Cumin + cinnamon share real chemistry — toast the seeds first"
+Both of these carry real research weight too — cumin's been linked to
+genuine digestive and metabolic benefits, and even a small daily amount of
+true cinnamon shows up in studies improving blood sugar and cholesterol.
+
+**[ON-SCREEN TEXT]:** "Cumin + cinnamon share real chemistry — toast the seeds first" / "Research backs both spices for digestion, blood sugar and cholesterol"
 **[B-ROLL]:** Seeds toasting, close-up
 
 ## 5. The Blend — Harissa
@@ -128,3 +132,13 @@ from the source; the rest is "to taste").
 **2026-07-25:** Added a quick "other uses" mention (couscous, shakshuka,
 merguez) at the top of The Dish section, per the new episode framework
 beat 5 pattern. General culinary knowledge, not from the book.
+
+**2026-07-27:** Added a Health Benefits line to The Science section
+(digestive/metabolic for cumin, blood sugar/cholesterol for true
+cinnamon), sourced from both spices' own profiles in
+`knowledge-base/spice-profiles/by-flavour-compound/02_warming_terpenes/cumin.md`
+and `knowledge-base/spice-profiles/core-profiles-master.md` — external
+research, not from the book. Note: the cinnamon profile's benefits are
+for true (Ceylon) cinnamon specifically, lower-coumarin than cassia — this
+episode doesn't specify which, worth checking which one Kofi actually uses
+in the tagine before filming.

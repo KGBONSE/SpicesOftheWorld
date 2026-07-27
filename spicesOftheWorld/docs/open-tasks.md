@@ -147,6 +147,29 @@ repo. What's left is genuinely short.
       `video/README.md`. **2026-07-26: Kofi listened to the presenter
       clip's narration and confirmed it's usable** — clear to use as a
       real intro.
+- [x] Compile the 7 seed-to-harvest B-roll clips into a finished sequence
+      (2026-07-27) — `video/Seed_To_Harvest_Sequence.mp4` (3:40), sowing
+      through potting/watering through planting through harvest, same
+      concat + fade pipeline. Still a full reference reel, not a locked
+      edit — see `video/README.md`.
+- [x] Retrofit Health Benefits into all 9 episode scripts (2026-07-27) —
+      the 2026-07-21 Health Benefits work only ever landed in
+      `knowledge-base/spice-profiles/`, never in the actual scripts in
+      `scripts/`. Added a short researched line + on-screen text into each
+      episode's existing Science section (not a new beat — kept the
+      6-beat template intact), sourced from each episode's own featured
+      spice's profile. Two gaps surfaced and are flagged in the relevant
+      scripts rather than guessed at: calabash nutmeg (Episodes 4 & 7) and
+      allspice (Episode 9) have no written profile/Health Benefits section
+      in the knowledge base at all — worth writing those if either spice
+      gets featured again.
+- [x] Draft Episode 9 — Caribbean, opening Arc 3 (2026-07-27) —
+      `scripts/episode-09-caribbean-jerk.md`, allspice/jerk, picks up
+      Episode 7's calabash-nutmeg/slave-trade thread directly. Open items:
+      personal hook and one marinade trial (the rub's own ratios are
+      already locked from the source, unusually). Flagged a small
+      continuity mismatch with Episode 8's closing text — see that
+      script's Status section.
 
 ## Not started (later phases, per blueprint build order)
 

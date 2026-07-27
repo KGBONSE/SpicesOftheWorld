@@ -17,7 +17,7 @@ that once rivalled black pepper across Europe."
 
 Growing up in Ghana, there was one stall at Mokola Market my mum, God bless
 her soul, would always stop at — before we even got to the fish, before the
-plantain, before anything else. She'd pick up a handful of these small,
+plantain, before the Koobi, before anything else. She'd pick up a handful of these small,
 reddish-brown seeds, crack one between her fingers, and let me smell it.
 Sharp, peppery, warm — nothing like the black pepper I knew from school
 dinners back home. That smell planted the seeds for everything that came
@@ -66,7 +66,11 @@ almost smoky, from a compound called fenchone. And here's a tip if you're
 cooking with grains of paradise at home: it's gentler than black pepper,
 so you'll want two to three times as much to get the same punch.
 
-**[ON-SCREEN TEXT]:** "Paradol = ginger's heat compound" / "Use 2–3x more than black pepper"
+And there's real modern research behind this one too, not just history —
+grains of paradise has actually been shown to rev up metabolism, even
+activate the kind of fat tissue that burns calories for heat.
+
+**[ON-SCREEN TEXT]:** "Paradol = ginger's heat compound" / "Use 2–3x more than black pepper" / "Research shows grains of paradise can genuinely rev up your metabolism"
 **[B-ROLL]:** Close-up of ground spice, grinding action
 
 ## 5. The Blend — Yaji
@@ -185,3 +189,10 @@ plantain/corn, boiled eggs) at the top of The Dish section, per the new
 episode framework beat 5 pattern. General culinary knowledge, not from
 the book — worth a quick gut-check against Kofi's own experience before
 filming, same as the chinchinga/suya link above.
+
+**2026-07-27:** Added a Health Benefits line to The Science section
+(metabolism/brown-fat research), sourced from grains of paradise's own
+profile in `knowledge-base/spice-profiles/by-flavour-compound/11_pungent_compounds/grains_of_paradise.md`
+— external research, not from the book, matching the existing citation
+convention (generic "research shows..." attribution, no named studies
+spoken aloud).

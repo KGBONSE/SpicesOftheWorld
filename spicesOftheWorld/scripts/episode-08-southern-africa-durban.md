@@ -58,7 +58,11 @@ mostly from linalool, that lilac-floral note. And here's a nice callback —
 coriander bridges with cumin, the spice from our Maghreb episode, through
 a shared compound called cymene. Different regions, same chemistry.
 
-**[ON-SCREEN TEXT]:** "Coriander + cumin share real chemistry — cymene"
+Coriander's picking up real research interest too — early studies point
+to genuine blood sugar and cholesterol benefits, alongside cumin's own
+digestive and metabolic backing from a couple of episodes ago.
+
+**[ON-SCREEN TEXT]:** "Coriander + cumin share real chemistry — cymene" / "Research points to real blood sugar and cholesterol benefits"
 **[B-ROLL]:** Close-up of coriander seeds, toasting
 
 ## 5. The Blend — Durban Curry Masala
@@ -132,3 +136,11 @@ in `knowledge-base/recipes/world-of-spice-recipes.md` ("Durban Beef Bunny
 Chow") — worth a look if a future episode ever wants to make bunny chow
 itself the deep-dive instead. Samoosas mention is general culinary
 knowledge, not from the book.
+
+**2026-07-27:** Added a Health Benefits line to The Science section
+(blood sugar/cholesterol for coriander, callback to cumin's own benefits
+from Episode 5), sourced from Coriander's profile in
+`knowledge-base/spice-profiles/by-flavour-compound/03_fragrant_terpenes/coriander.md`
+— external research, not from the book. Note: most of coriander's
+evidence there is animal-based, so the profile itself flags keeping any
+spoken claim to "may help" territory rather than stating it as settled.

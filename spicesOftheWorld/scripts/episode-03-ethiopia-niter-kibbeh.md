@@ -60,7 +60,12 @@ you toast the seeds before using them, you get these nutty, roasted,
 almost coffee-and-chocolate notes from compounds called pyrazines. That's
 the move — toast them first.
 
-**[ON-SCREEN TEXT]:** "Sotolon = the maple-syrup note" / "Toast the seeds first"
+And fenugreek's one of the better-supported spices in this whole
+series health-wise — research genuinely backs it for blood sugar, which
+is exactly the kind of everyday benefit worth knowing sits inside
+something this old.
+
+**[ON-SCREEN TEXT]:** "Sotolon = the maple-syrup note" / "Toast the seeds first" / "Research shows fenugreek genuinely helps blood sugar"
 **[B-ROLL]:** Seeds toasting in a pan, close-up
 
 ## 5. The Blend — Niter Kibbeh
@@ -122,3 +127,8 @@ specifically as the dish to cook. General culinary knowledge (doro wat as
 Ethiopia's national dish, kitfo/misir wat both commonly built on niter
 kibbeh), not from the book — worth a source check before filming since
 this goes further than the source material did.
+
+**2026-07-27:** Added a Health Benefits line to The Science section
+(blood sugar research), sourced from Fenugreek's own profile in
+`knowledge-base/spice-profiles/core-profiles-master.md` — external
+research, not from the book.

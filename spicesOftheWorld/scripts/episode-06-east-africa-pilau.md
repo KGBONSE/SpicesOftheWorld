@@ -60,7 +60,12 @@ ginger, it actually gets hotter, not milder. Gingerol converts into
 shogaol, which carries twice the heat, even though you lose some of the
 fresh citrus notes along the way.
 
-**[ON-SCREEN TEXT]:** "Dried ginger = hotter than fresh, not milder"
+Ginger's actually one of the most solidly research-backed spices out
+there — nausea relief alone is well-established clinically, not just
+folk wisdom, and clove holds its own too, especially for pain relief and
+fighting bacteria.
+
+**[ON-SCREEN TEXT]:** "Dried ginger = hotter than fresh, not milder" / "Research genuinely backs ginger for nausea, clove for pain relief"
 **[B-ROLL]:** Fresh vs dried ginger side by side
 
 ## 5. The Blend — Pilau Masala
@@ -124,3 +129,9 @@ Pilau Masala ratios (spice list is exact from the source, quantities are not).
 **2026-07-25:** Added a quick "other dishes" mention (Zanzibar biryani,
 kuku paka) at the top of The Dish section, per the new episode framework
 beat 5 pattern. General culinary knowledge, not from the book.
+
+**2026-07-27:** Added a Health Benefits line to The Science section
+(nausea relief for ginger, pain relief/antibacterial for clove), sourced
+from `knowledge-base/spice-profiles/by-flavour-compound/11_pungent_compounds/ginger.md`
+and Clove's profile in `knowledge-base/spice-profiles/core-profiles-master.md`
+— external research, not from the book.
