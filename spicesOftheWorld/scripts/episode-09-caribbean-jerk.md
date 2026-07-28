@@ -163,8 +163,9 @@ book-grounded bridge — but Episode 8's on-screen text may be worth a
 small edit later so the two episodes don't contradict each other on
 screen.
 
-This opens Arc 3. Next per `docs/spice-channel-framework.md`: South Asia —
-garam masala, curry powder's actual history.
+This opens Arc 3. Next per `docs/spice-channel-framework.md`: North India
+— garam masala, first of a 6-episode South Asia sub-arc (one episode per
+book region, same rule the Africa arc followed).
 
 **2026-07-27:** Added a Health Benefits line to The Science section, using
 true Nutmeg's profile (`knowledge-base/spice-profiles/by-flavour-compound/02_warming_terpenes/nutmeg.md`)

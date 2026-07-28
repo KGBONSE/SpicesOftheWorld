@@ -13,18 +13,18 @@ place where this whole series is about to point somewhere completely new."
 
 ## 1. Personal Hook
 
-`[NEEDS KOFI]` — not personal territory the way Ghana is. Suggested
-direction: this is the last stop before the series leaves Africa for the
-first time — a natural moment to reflect on the seven regions already
-covered, or on what surprised you most researching this one.
+`[DRAFT — swap in your own real detail before locking]` Before I filmed
+this one, I actually laid out all seven blends from this series so far,
+right here on my kitchen table — Yaji, Yassa, niter kibbeh, harissa,
+pilau masala, mbongo mix, one after another. And looking at that whole
+row, spice by spice, region by region, is what made me realise this is
+the last stop before we leave Africa completely. Eight regions, eight
+completely different stories, and somehow it's all still one continent,
+one throughline.
 
-**Style note (per Episode 1's locked hook):** ground the reflection in one
-concrete image — a shelf or table with all seven blends lined up, a
-specific spice from each region — rather than summarising the journey in
-general terms. Echo that same image in the Africa Link close below once
-this is filled in.
-
-**[B-ROLL]:** Map graphic, Durban/South Africa footage if available
+**[ON-SCREEN TEXT]:** "Seven blends. One continent. One more stop."
+**[B-ROLL]:** The row of blends on your table if you still have them, map
+graphic, Durban/South Africa footage if available
 
 ## 2. Geography & Origin
 
@@ -97,7 +97,8 @@ too.
 
 ## Africa Link / Throughline Close
 
-Eight episodes, eight regions, and I think this is the perfect place to
+That row of blends is still laid out on my table as I say this. Eight
+episodes, eight regions, and I think this is the perfect place to
 pause — because Durban's curry tradition is the clearest sign yet that
 this story was always going to leave Africa eventually. The same way
 spices moved into Ghana, into Zanzibar, into Cameroon, they moved into
@@ -122,9 +123,10 @@ Full draft, ready to read/shoot except the hook. Every fact traces to
 `knowledge-base/regional/africa-spice-notes.md` (Southern Africa section)
 and the Coriander profile in `knowledge-base/spice-profiles/`.
 
-Open items: your personal hook/angle (marked above), and test-cooking the
-Durban Curry Masala ratios (spice list is exact from the source,
-quantities are not).
+Open items: lock in your own real detail for the Personal Hook draft below
+(marked `[DRAFT]`) — the row of blends laid out on your table is invented
+as a placeholder, not from Kofi — and test-cooking the Durban Curry
+Masala ratios (spice list is exact from the source, quantities are not).
 
 This closes the Africa arc — 8 episodes, all in `scripts/`. Next per
 `docs/spice-channel-framework.md`: Arc 3, starting with the Caribbean.
@@ -144,3 +146,9 @@ from Episode 5), sourced from Coriander's profile in
 — external research, not from the book. Note: most of coriander's
 evidence there is animal-based, so the profile itself flags keeping any
 spoken claim to "may help" territory rather than stating it as settled.
+
+**2026-07-28:** Drafted the Personal Hook itself (all seven blends from
+the series laid out on the kitchen table) and echoed the same image at
+the top of the Africa Link close. Marked `[DRAFT]`, not `[NEEDS KOFI]` —
+every specific detail is invented as a starting point, not a real Kofi
+memory, so swap in your own before this locks.

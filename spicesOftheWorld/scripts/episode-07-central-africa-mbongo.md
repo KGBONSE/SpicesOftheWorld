@@ -14,17 +14,17 @@ need to tell you straight."
 
 ## 1. Personal Hook
 
-`[NEEDS KOFI]` — not personal territory the way Ghana is. Suggested
-direction: the surprise that "grains of paradise" is used locally as a
-name for four completely different spices — a real point of confusion
-worth being upfront about on camera.
+`[DRAFT — swap in your own real detail before locking]` I had two small
+bags out on the counter researching this one — one labelled grains of
+paradise, one labelled mbongo — and it wasn't until I actually picked them
+both up and looked closely that I realised how easy it'd be to mix them
+up. Locally, "grains of paradise" gets used as a name for four completely
+different spices, and holding two of them side by side like that is what
+made it real for me, not just a fact on a page.
 
-**Style note (per Episode 1's locked hook):** ground the confusion in a
-concrete moment — literally holding two or more of these spices side by
-side and realising they share a name — rather than explaining it as a
-fact. Echo that same image in the Africa Link close below once this is
-filled in (this episode's close already carries real weight — keep any
-echo restrained, matching its tone).
+**[ON-SCREEN TEXT]:** "One name. Four different spices."
+**[B-ROLL]:** The two bags/spices side by side if you still have them,
+otherwise Central African market/farm footage if available, or map graphic
 
 **[B-ROLL]:** Map graphic, Central African market/farm footage if available
 
@@ -102,7 +102,9 @@ tasted.
 
 ## Africa Link / Throughline Close
 
-I want to sit with this one instead of rushing past it. Calabash nutmeg
+Those two bags are still on my counter. One name, four spices, was a
+funny mix-up at the start of this episode. What I found next wasn't funny
+at all. I want to sit with this one instead of rushing past it. Calabash nutmeg
 travelling to the Caribbean wasn't trade in the way ginger or cumin
 travelled — it went there through the slave trade, carried by force, not
 choice. That's part of Africa's spice story too, and I'm not going to
@@ -127,7 +129,9 @@ Full draft, ready to read/shoot except the hook. Every fact traces to
 `knowledge-base/regional/africa-spice-notes.md` (Central Africa section)
 and the Nutmeg profile in `knowledge-base/spice-profiles/`.
 
-Open item: your personal hook/angle (marked above). No blend ratios given
+Open items: lock in your own real detail for the Personal Hook draft below
+(marked `[DRAFT]`) — the two bags of spices are invented as a placeholder,
+not from Kofi. No blend ratios given
 in the source at all for Mbongo Mix — treat this one as a starting point
 more than the others.
 
@@ -149,3 +153,11 @@ sourced from true Nutmeg's profile in
 — calabash nutmeg is a different plant with no profile of its own, so
 this is explicitly about true nutmeg's chemistry, same caveat the
 Science section above already makes.
+
+**2026-07-28:** Drafted the Personal Hook itself (two bags of spices on
+the counter, realising "grains of paradise" names four different things)
+and echoed the same image at the top of the Africa Link close, kept
+deliberately brief per this episode's tone note before pivoting into the
+heavier material. Marked `[DRAFT]`, not `[NEEDS KOFI]` — every specific
+detail is invented as a starting point, not a real Kofi memory, so swap
+in your own before this locks.

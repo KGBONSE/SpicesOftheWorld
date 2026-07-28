@@ -58,11 +58,22 @@ even once we do branch out.
 
 **Arc 3 — Beyond Africa (diaspora + trade-route links) — next**
 9. Caribbean ✅ drafted — allspice, jerk, calabash nutmeg's forced crossing via the slave trade (`scripts/episode-09-caribbean-jerk.md`)
-10. South Asia — garam masala, curry powder's actual history
-11. East Asia — five-spice, Sichuan pepper
-12. Middle East — za'atar, baharat
 
-Order matters: build a loyal African-food audience first, then expand outward — each new region should reference back to Ghana/West Africa where trade or diaspora links exist.
+**South Asia sub-arc — one episode per book region, same rule the Africa arc followed (never one episode for a whole continent/subcontinent):**
+
+10. North India ✅ drafted — garam masala, the "curry powder" colonial-flattening myth, pays off the Episode 1 Malabar-pepper thread and Episode 6's "two jars" setup (`scripts/episode-10-north-india-garam-masala.md`)
+11. Himalayan Belt ✅ drafted — timur, fenugreek (pays off Episode 3's "one seed, three continents" promise — continent two), Timur ko Chhop (`scripts/episode-11-himalayan-belt-timur.md`)
+12. Central India ✅ drafted — chaat masala, amchoor, asafoetida (`scripts/episode-12-central-india-chaat-masala.md`)
+13. East India & Bangladesh ✅ drafted — panch phoran, mustard, Masor Tenga fish curry (`scripts/episode-13-east-india-bangladesh-panch-phoran.md`)
+14. West India ✅ drafted — vindaloo paste, Goa's Portuguese thread, Goan Vindaloo (`scripts/episode-14-west-india-vindaloo.md`)
+15. South India & Sri Lanka ✅ drafted — gunpowder, tamarind, Sri Lanka's cinnamon monopoly, the star-anise thread into East Asia, closes the sub-arc (`scripts/episode-15-south-india-sri-lanka-gunpowder.md`)
+
+**South Asia sub-arc complete — all 6 episodes drafted, one per book region.**
+
+16. East Asia — five-spice, Sichuan pepper
+17. Middle East — za'atar, baharat
+
+Order matters: build a loyal African-food audience first, then expand outward — each new region should reference back to Ghana/West Africa where trade or diaspora links exist. South Asia gets the same "no shortcuts" treatment Africa did — corrected 2026-07-28 after Episode 10 was first drafted as a single compressed "South Asia" episode.
 
 ---
 

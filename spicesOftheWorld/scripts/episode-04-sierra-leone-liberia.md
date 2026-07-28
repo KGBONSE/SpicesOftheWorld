@@ -13,18 +13,19 @@ different name."
 
 ## 1. Personal Hook
 
-`[NEEDS KOFI]` — same situation as Ethiopia: not personal territory for
-you. Suggested direction: the surprise of researching this and finding
-the same grains of selim from Episode 1 turning up again, just called
-"uda" here — the small-world feeling of West Africa's spice map.
+`[DRAFT — swap in your own real detail before locking]` There's a small
+tin on my spice shelf labelled "uda" — a Sierra Leonean contact sent it
+over while I was researching this episode. When I opened it and smelled
+it, I actually stopped for a second, because it was exactly the same
+smell as the grains of selim sitting right next to it, the ones from
+episode one. Same musky, smoky note. Different name, different country,
+same seed. That's the moment this whole series started feeling smaller to
+me, in a good way — like West Africa's spice map is one connected thing,
+not fifty separate stories.
 
-**Style note (per Episode 1's locked hook):** ground the "surprise" in a
-physical moment rather than narrating it as a research finding — e.g.
-holding the actual grains of selim/uda from your own stock and realising
-it's the same seed. Echo that same image in the Africa Link close below
-once this is filled in.
-
-**[B-ROLL]:** Coastal West Africa footage if available, or map graphic
+**[ON-SCREEN TEXT]:** "Same seed. Different country. Different name."
+**[B-ROLL]:** The two tins/pods side by side if you still have them,
+otherwise coastal West Africa footage if available, or map graphic
 
 ## 2. Geography & Origin
 
@@ -99,6 +100,7 @@ side dish, more a whole way of eating together.
 
 ## Africa Link / Throughline Close
 
+That tin of uda is still on my shelf, right next to the grains of selim.
 That's three episodes now where grains of selim has shown up — Yaji in
 Ghana and Nigeria, café touba in Senegal, and now uda in Sierra Leone's
 pepper soup. One spice, the whole coast. And Liberia's own story — people
@@ -127,6 +129,10 @@ starting point to verify rather than a locked fact set. Worth checking
 against a Sierra Leonean or Liberian source/contact before filming,
 especially the pepper soup spice ratios.
 
+Open item: lock in your own real detail for the Personal Hook draft below
+(marked `[DRAFT]`) — the tin, the Sierra Leonean contact, are invented as
+a placeholder, not from Kofi.
+
 ### Sources
 - [Sierra Leone Web — Sierra Leonean Recipes](https://www.sierra-leone.org/recipes.html)
 - [FoodNerdy — Key flavors and spices in Sierra Leonean cuisine](https://foodnerdy.com/blog/what-are-the-key-flavors-and-spices-used-in-sierra-leonean-cuisine/)
@@ -148,3 +154,10 @@ and `.../05_penetrating_terpenes/grains_of_selim.md`) since both are
 genuinely the same spices covered elsewhere, just under this region's own
 names — calabash nutmeg itself has no written profile/health-benefits
 section in the knowledge base, so it's left out here rather than guessed.
+
+**2026-07-28:** Drafted the Personal Hook itself (a tin of uda from a
+Sierra Leonean contact, realising it's the same seed as episode one's
+grains of selim) and echoed the same tin image at the top of the Africa
+Link close. Marked `[DRAFT]`, not `[NEEDS KOFI]` — every specific detail
+is invented as a starting point, not a real Kofi memory, so swap in your
+own before this locks.

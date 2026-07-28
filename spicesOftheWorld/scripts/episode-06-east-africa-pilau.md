@@ -13,18 +13,17 @@ island that was once one of the wealthiest spice ports on earth."
 
 ## 1. Personal Hook
 
-`[NEEDS KOFI]` — not personal territory the way Ghana is. Suggested
-direction: this region is the book's own "strongest link to South Asia" —
-a nice moment to hint at where the series is eventually heading, once
-Africa's done.
+`[DRAFT — swap in your own real detail before locking]` I've got two jars
+sitting next to each other on my own kitchen shelf — one from Spices of
+Africa, one from Spices of South Asia. Picking up a cardamom pod while
+researching this episode, doing the reading on Zanzibar, it hit me that
+this one pod is basically the bridge between those two jars. Ginger,
+clove, cardamom — moving through Zanzibar from India centuries ago, and
+now sitting on my own shelf, one brand, two lines, connected by one spice.
 
-**Style note (per Episode 1's locked hook):** ground the "hint at what's
-next" in one concrete object — a specific spice jar from the Spices of
-South Asia line sitting on the shelf next to the Africa one, or a single
-cardamom pod — rather than stating the connection outright. Echo that
-same image in the Africa Link close below once this is filled in.
-
-**[B-ROLL]:** Coastal East Africa/Zanzibar footage if available, or map graphic
+**[ON-SCREEN TEXT]:** "One brand. Two lines. One spice."
+**[B-ROLL]:** The two jars on your shelf if you can film them, coastal
+East Africa/Zanzibar footage if available, or map graphic
 
 ## 2. Geography & Origin
 
@@ -98,6 +97,7 @@ the whole East African coast in one pot.
 
 ## Africa Link / Throughline Close
 
+Those two jars are still sitting on my shelf, right next to each other.
 This is the one — the book calls East Africa the strongest direct link to
 South Asia we've got, because the same routes that built Zanzibar's spice
 trade carried cardamom, clove, and pepper in from India in the first
@@ -123,8 +123,10 @@ Full draft, ready to read/shoot except the hook. Every fact traces to
 `knowledge-base/regional/africa-spice-notes.md` (East Africa section) and
 the Ginger/Clove profiles in `knowledge-base/spice-profiles/`.
 
-Open items: your personal hook/angle (marked above), and test-cooking the
-Pilau Masala ratios (spice list is exact from the source, quantities are not).
+Open items: lock in your own real detail for the Personal Hook draft below
+(marked `[DRAFT]`) — the two jars on your shelf are invented as a
+placeholder, not from Kofi — and test-cooking the Pilau Masala ratios
+(spice list is exact from the source, quantities are not).
 
 **2026-07-25:** Added a quick "other dishes" mention (Zanzibar biryani,
 kuku paka) at the top of The Dish section, per the new episode framework
@@ -135,3 +137,9 @@ beat 5 pattern. General culinary knowledge, not from the book.
 from `knowledge-base/spice-profiles/by-flavour-compound/11_pungent_compounds/ginger.md`
 and Clove's profile in `knowledge-base/spice-profiles/core-profiles-master.md`
 — external research, not from the book.
+
+**2026-07-28:** Drafted the Personal Hook itself (two jars, Spices of
+Africa and Spices of South Asia, side by side on the shelf) and echoed
+the same image at the top of the Africa Link close. Marked `[DRAFT]`, not
+`[NEEDS KOFI]` — every specific detail is invented as a starting point,
+not a real Kofi memory, so swap in your own before this locks.

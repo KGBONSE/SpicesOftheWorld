@@ -170,6 +170,44 @@ repo. What's left is genuinely short.
       already locked from the source, unusually). Flagged a small
       continuity mismatch with Episode 8's closing text — see that
       script's Status section.
+- [x] Draft Personal Hooks for Episodes 4–8 (2026-07-28) — Sierra
+      Leone/Liberia, Maghreb, East Africa, Central Africa, Southern
+      Africa all had `[NEEDS KOFI]` placeholders; each now has a `[DRAFT]`
+      hook built on that episode's own suggested direction (a tin of uda,
+      a harissa jar, two shelf jars, two spice bags, a table of seven
+      blends), echoed in each episode's Africa Link close per the locked
+      Episode 1 style. Every specific detail is invented as a starting
+      point, not a real Kofi memory — open item on all five is swapping
+      in the real detail before locking. Done in parallel while Kofi was
+      out filming Episode 1.
+- [x] Draft Episode 10 — North India, continuing Arc 3 (2026-07-28) —
+      `scripts/episode-10-north-india-garam-masala.md`, garam masala plus
+      the "curry powder" colonial-flattening history. Directly pays off
+      two threads planted earlier: Episode 6's "two jars on the shelf"
+      setup, and Episode 1's Malabar-coast pepper (the "real" black
+      pepper that displaced grains of paradise). Open items: personal
+      hook and a source-check on the curry-powder history claim (general
+      knowledge, not from the book).
+- [x] Correct South Asia's scope to match the Africa arc's own rule
+      (2026-07-28) — Episode 10 was first drafted as a single compressed
+      "South Asia" episode, which broke the "one episode per book region"
+      pattern all 8 Africa episodes followed. Renamed/rescoped as the
+      first of a 6-episode South Asia sub-arc (Episodes 10–15: North
+      India, Himalayan Belt, Central India, East India & Bangladesh, West
+      India, South India & Sri Lanka), matching
+      `south-asia-spice-notes.md`'s own structure. East Asia and Middle
+      East now Episodes 16–17. See `docs/spice-channel-framework.md`.
+- [x] Draft Episodes 11–15, completing the South Asia sub-arc (2026-07-28)
+      — Himalayan Belt (timur, pays off Episode 3's fenugreek "three
+      continents" promise), Central India (chaat masala), East India &
+      Bangladesh (panch phoran + the real Masor Tenga fish curry recipe),
+      West India (vindaloo paste + the real Goan Vindaloo recipe, Goa's
+      Portuguese-dish backstory), and South India & Sri Lanka (gunpowder,
+      closes the sub-arc and hands off to East Asia via the star-anise
+      thread). All 6 South Asia episodes now drafted, one per book
+      region, matching the Africa arc's own rule. Every episode's Personal
+      Hook is a `[DRAFT]` placeholder — same open item as Episodes 4–8.
+      Done in parallel while Kofi was out filming Episode 1.
 
 ## Not started (later phases, per blueprint build order)
 

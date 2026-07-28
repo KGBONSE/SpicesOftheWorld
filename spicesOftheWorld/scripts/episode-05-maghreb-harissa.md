@@ -13,18 +13,18 @@ East and Europe."
 
 ## 1. Personal Hook
 
-`[NEEDS KOFI]` — not personal territory the way Ghana is. Suggested
-direction: how researching the Maghreb changed your own sense of what
-"Spices of Africa" even means — this is a completely different flavour
-world from Ghana or Ethiopia, and it's still Africa.
+`[DRAFT — swap in your own real detail before locking]` I remember the
+first time I actually made harissa myself, here on the farm — I opened
+the jar afterward and the smell hit me somewhere between Ghana and
+somewhere I'd never actually been. Cumin, chilli, all these warm spices I
+already knew, but arranged completely differently. That's the moment it
+landed for me that "Spices of Africa" couldn't just mean Ghana — Morocco,
+Algeria, this whole other flavour world, it's still Africa, and I wanted
+this brand to actually say that.
 
-**Style note (per Episode 1's locked hook):** anchor the shift-in-thinking
-on one concrete trigger — a specific jar of ras el hanout, a first taste
-of harissa, the moment cumin and cinnamon showed up together — rather
-than describing the realisation abstractly. Echo that same image in the
-Africa Link close below once this is filled in.
-
-**[B-ROLL]:** Market/spice stall footage if available, or map graphic
+**[ON-SCREEN TEXT]:** "Spices of Africa — not just Ghana"
+**[B-ROLL]:** The actual harissa jar if you still have it, market/spice
+stall footage if available, or map graphic
 
 ## 2. Geography & Origin
 
@@ -100,6 +100,7 @@ finishes everything else.
 
 ## Africa Link / Throughline Close
 
+That jar of harissa is long finished, but I still remember that smell.
 What I like about the Maghreb is it breaks the story a little — paprika
 and allspice turning up here came from the Americas, not the other way
 round, and Berbers ruling part of Spain means this corner of Africa was
@@ -125,9 +126,11 @@ Full draft, ready to read/shoot except the hook. Every fact traces to
 `knowledge-base/regional/africa-spice-notes.md` (Maghreb section) and the
 Cumin/Cinnamon profiles in `knowledge-base/spice-profiles/`.
 
-Open items: your personal hook/angle (marked above), and test-cooking the
-ground-spice ratios in harissa (chilli and garlic quantities are exact
-from the source; the rest is "to taste").
+Open items: lock in your own real detail for the Personal Hook draft below
+(marked `[DRAFT]`) — the harissa-jar moment is invented as a placeholder,
+not from Kofi — and test-cooking the ground-spice ratios in harissa
+(chilli and garlic quantities are exact from the source; the rest is "to
+taste").
 
 **2026-07-25:** Added a quick "other uses" mention (couscous, shakshuka,
 merguez) at the top of The Dish section, per the new episode framework
@@ -142,3 +145,9 @@ research, not from the book. Note: the cinnamon profile's benefits are
 for true (Ceylon) cinnamon specifically, lower-coumarin than cassia — this
 episode doesn't specify which, worth checking which one Kofi actually uses
 in the tagine before filming.
+
+**2026-07-28:** Drafted the Personal Hook itself (making harissa on the
+farm, the smell bridging Ghana and the Maghreb) and echoed the same jar
+image at the top of the Africa Link close. Marked `[DRAFT]`, not `[NEEDS
+KOFI]` — every specific detail is invented as a starting point, not a real
+Kofi memory, so swap in your own before this locks.
