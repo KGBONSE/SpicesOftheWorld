@@ -59,21 +59,51 @@ even once we do branch out.
 **Arc 3 — Beyond Africa (diaspora + trade-route links) — next**
 9. Caribbean ✅ drafted — allspice, jerk, calabash nutmeg's forced crossing via the slave trade (`scripts/episode-09-caribbean-jerk.md`)
 
-**South Asia sub-arc — one episode per book region, same rule the Africa arc followed (never one episode for a whole continent/subcontinent):**
+**Middle East sub-arc — one episode per book region, same rule the Africa arc followed. Comes before South Asia and East Asia: both of those regions' own knowledge-base files confirm their content pays off threads planted in the Middle East file first (cardamom/turmeric/fenugreek → Iraq → South Asia; saffron/cassia/Sichuan pepper → Turkey/Iraq/Iran → East Asia).**
 
-10. North India ✅ drafted — garam masala, the "curry powder" colonial-flattening myth, pays off the Episode 1 Malabar-pepper thread and Episode 6's "two jars" setup (`scripts/episode-10-north-india-garam-masala.md`)
-11. Himalayan Belt ✅ drafted — timur, fenugreek (pays off Episode 3's "one seed, three continents" promise — continent two), Timur ko Chhop (`scripts/episode-11-himalayan-belt-timur.md`)
-12. Central India ✅ drafted — chaat masala, amchoor, asafoetida (`scripts/episode-12-central-india-chaat-masala.md`)
-13. East India & Bangladesh ✅ drafted — panch phoran, mustard, Masor Tenga fish curry (`scripts/episode-13-east-india-bangladesh-panch-phoran.md`)
-14. West India ✅ drafted — vindaloo paste, Goa's Portuguese thread, Goan Vindaloo (`scripts/episode-14-west-india-vindaloo.md`)
-15. South India & Sri Lanka ✅ drafted — gunpowder, tamarind, Sri Lanka's cinnamon monopoly, the star-anise thread into East Asia, closes the sub-arc (`scripts/episode-15-south-india-sri-lanka-gunpowder.md`)
+10. Syria ✅ drafted — za'atar, what "baharat" actually means (`scripts/episode-10-syria-zaatar.md`)
+11. Turkey ✅ drafted — Turkish baharat, the Istanbul Spice Bazaar's Sichuan-pepper thread into East Asia (`scripts/episode-11-turkey-baharat.md`)
+12. Israel ✅ drafted — zhug, the national condiment (`scripts/episode-12-israel-zhug.md`)
+13. Lebanon ✅ drafted — taklia, the seven-spice baharat (`scripts/episode-13-lebanon-taklia.md`)
+14. Iraq ✅ drafted — Arabic baharat, the key thread into the whole South Asia sub-arc (`scripts/episode-14-iraq-arabic-baharat.md`)
+15. Iran ✅ drafted — advieh, saffron, the rose-petal thread into East Asia (`scripts/episode-15-iran-advieh.md`)
+16. Egypt ✅ drafted — dukkah, the direct Africa link (Alexandria/3000 BCE, callback to the Maghreb episode) (`scripts/episode-16-egypt-dukkah.md`)
+17. Arabian Peninsula ✅ drafted — hawaij, the Indian Ocean trade parallel to East Africa, closes the sub-arc (`scripts/episode-17-arabian-peninsula-hawaij.md`)
+
+**Middle East sub-arc complete — all 8 episodes drafted, one per book region.**
+
+**South Asia sub-arc — one episode per book region, same rule:**
+
+18. North India ✅ drafted — garam masala, the "curry powder" colonial-flattening myth, pays off the Episode 1 Malabar-pepper thread and Episode 6's "two jars" setup (`scripts/episode-18-north-india-garam-masala.md`)
+19. Himalayan Belt ✅ drafted — timur, fenugreek (pays off Episode 3's "one seed, three continents" promise — continent two), Timur ko Chhop (`scripts/episode-19-himalayan-belt-timur.md`)
+20. Central India ✅ drafted — chaat masala, amchoor, asafoetida (`scripts/episode-20-central-india-chaat-masala.md`)
+21. East India & Bangladesh ✅ drafted — panch phoran, mustard, Masor Tenga fish curry (`scripts/episode-21-east-india-bangladesh-panch-phoran.md`)
+22. West India ✅ drafted — vindaloo paste, Goa's Portuguese thread, Goan Vindaloo (`scripts/episode-22-west-india-vindaloo.md`)
+23. South India & Sri Lanka ✅ drafted — gunpowder, tamarind, Sri Lanka's cinnamon monopoly, the star-anise thread into East Asia, closes the sub-arc (`scripts/episode-23-south-india-sri-lanka-gunpowder.md`)
 
 **South Asia sub-arc complete — all 6 episodes drafted, one per book region.**
 
-16. East Asia — five-spice, Sichuan pepper
-17. Middle East — za'atar, baharat
+**East Asia sub-arc — 6 book regions (South Korea, Japan, North China, East China, South China, West China) — not yet drafted:**
 
-Order matters: build a loyal African-food audience first, then expand outward — each new region should reference back to Ghana/West Africa where trade or diaspora links exist. South Asia gets the same "no shortcuts" treatment Africa did — corrected 2026-07-28 after Episode 10 was first drafted as a single compressed "South Asia" episode.
+24. South Korea — yangnyeomjang
+25. Japan — shichimi-togarashi
+26. North China — Shandong spice bag
+27. East China — Nanjing spice bag
+28. South China — five-spice powder
+29. West China — Sichuan pepper, chilli black bean sauce, payoff of the Turkey/Iran threads
+
+Order matters: build a loyal African-food audience first, then expand
+outward — each new region should reference back to Ghana/West Africa
+where trade or diaspora links exist. Both South Asia and East Asia get
+the same "no shortcuts" per-region treatment Africa did.
+
+**Corrections log:** South Asia was first drafted as a single compressed
+episode (2026-07-28), then rescoped into 6 episodes. It was then
+discovered the Middle East sub-arc was meant to come first — both the
+Middle East and South Asia knowledge-base files' own cross-references
+confirm this — so South Asia was renumbered from Episodes 10–15 to
+18–23, and the Middle East sub-arc (Episodes 10–17) was drafted in its
+proper place (2026-07-28, later same day).
 
 ---
 

@@ -1,4 +1,4 @@
-# Episode 13 — South Asia: East India & Bangladesh — Panch Phoran & the River Delta
+# Episode 21 — South Asia: East India & Bangladesh — Panch Phoran & the River Delta
 
 Fourth of six South Asia episodes. Grounded in
 `knowledge-base/regional/south-asia-spice-notes.md` (East India and
@@ -133,5 +133,5 @@ Open item: your personal hook (marked `[DRAFT]` — the panch-phoran-tempering
 memory is invented as a placeholder, not from Kofi, swap in your own if
 you have a real memory instead).
 
-Fourth of the South Asia sub-arc. Next: Episode 14 — West India (vindaloo
+Fourth of the South Asia sub-arc. Next: Episode 22 — West India (vindaloo
 paste, Goa's Portuguese thread).

@@ -208,6 +208,21 @@ repo. What's left is genuinely short.
       region, matching the Africa arc's own rule. Every episode's Personal
       Hook is a `[DRAFT]` placeholder — same open item as Episodes 4–8.
       Done in parallel while Kofi was out filming Episode 1.
+- [x] Renumber South Asia (10–15 → 18–23) and draft the Middle East
+      sub-arc in its proper place (2026-07-28) — found that both the
+      Middle East and South Asia knowledge-base files' own
+      cross-references confirm Middle East was meant to come first
+      (cardamom/turmeric/fenugreek → Iraq → South Asia;
+      saffron/cassia/Sichuan pepper → Turkey/Iraq/Iran → East Asia).
+      Renamed all 6 South Asia episode files and internal cross-references
+      to Episodes 18–23. Drafted the full 8-episode Middle East sub-arc
+      as Episodes 10–17 (Syria, Turkey, Israel, Lebanon, Iraq, Iran,
+      Egypt, Arabian Peninsula) — za'atar, Turkish baharat, zhug, taklia,
+      Arabic baharat, advieh, dukkah, hawaij, each with exact quantities
+      from the source. East Asia (6 sub-regions, not yet drafted) is now
+      Episodes 24–29. Every Middle East episode's Personal Hook is also a
+      `[DRAFT]` placeholder. See `docs/spice-channel-framework.md` for the
+      corrected full roadmap.
 
 ## Not started (later phases, per blueprint build order)
 

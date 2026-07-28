@@ -1,4 +1,4 @@
-# Episode 14 — South Asia: West India — Vindaloo & the Portuguese Thread
+# Episode 22 — South Asia: West India — Vindaloo & the Portuguese Thread
 
 Fifth of six South Asia episodes. Grounded in
 `knowledge-base/regional/south-asia-spice-notes.md` (West India section),
@@ -137,5 +137,5 @@ Open item: your personal hook (marked `[DRAFT]` — the curry-house memory
 is invented as a placeholder, not from Kofi, swap in your own if you have
 a real memory instead).
 
-Fifth of the South Asia sub-arc. Next: Episode 15 — South India & Sri
+Fifth of the South Asia sub-arc. Next: Episode 23 — South India & Sri
 Lanka, closing out the sub-arc.

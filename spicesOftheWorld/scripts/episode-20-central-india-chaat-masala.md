@@ -1,4 +1,4 @@
-# Episode 12 — South Asia: Central India — Chaat Masala & the Tangy Trio
+# Episode 20 — South Asia: Central India — Chaat Masala & the Tangy Trio
 
 Third of six South Asia episodes. Grounded in
 `knowledge-base/regional/south-asia-spice-notes.md` (Central India
@@ -135,5 +135,5 @@ Open item: your personal hook (marked `[DRAFT]` — the packet-of-chaat-masala
 memory is invented as a placeholder, not from Kofi, swap in your own if
 you have a real memory instead).
 
-Third of the South Asia sub-arc. Next: Episode 13 — East India & Bangladesh
+Third of the South Asia sub-arc. Next: Episode 21 — East India & Bangladesh
 (panch phoran, Bengali fish curry).

@@ -1,4 +1,4 @@
-# Episode 11 — South Asia: Himalayan Belt — Timur, Fenugreek & the Tarka
+# Episode 19 — South Asia: Himalayan Belt — Timur, Fenugreek & the Tarka
 
 Second of six South Asia episodes. Pays off Episode 3's fenugreek promise
 ("one seed, three continents") — this is continent number two. Grounded
@@ -139,5 +139,5 @@ continent" framing is a real structural callback to Episode 3, but the
 specific detail of picking the jar up again is invented, swap in your own
 if you have a real memory instead).
 
-Second of the South Asia sub-arc. Next: Episode 12 — Central India (panch
+Second of the South Asia sub-arc. Next: Episode 20 — Central India (panch
 phoran, chaat masala).

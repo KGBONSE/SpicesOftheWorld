@@ -1,7 +1,7 @@
-# Episode 15 — South Asia: South India & Sri Lanka — Gunpowder & Closing the Sub-Arc
+# Episode 23 — South Asia: South India & Sri Lanka — Gunpowder & Closing the Sub-Arc
 
 Sixth and final episode of the South Asia sub-arc, closing the promise
-made back in Episode 10 — one episode per book region, same rule the
+made back in Episode 18 — one episode per book region, same rule the
 Africa arc followed. Also the payoff of the star-anise thread, a direct
 lead-in to East Asia. Grounded in
 `knowledge-base/regional/south-asia-spice-notes.md` (South India and Sri
@@ -130,11 +130,18 @@ Exact measurements for Gunpowder straight from the source — no
 test-cooking needed for ratios.
 
 Open item: your personal hook (marked `[DRAFT]` — the "jar" callback
-directly closes Episode 10's own opening line, a real structural payoff,
+directly closes Episode 18's own opening line, a real structural payoff,
 but the specific framing is invented, swap in your own if you have a real
 South Asian food memory instead).
 
 **Closes the South Asia sub-arc** — six episodes, one per book region,
 matching the Africa arc's own rule. Next per
-`docs/spice-channel-framework.md`: Episode 16, East Asia — five-spice,
-Sichuan pepper.
+`docs/spice-channel-framework.md`: Episode 24, East Asia (South Korea) —
+five-spice, Sichuan pepper.
+
+**2026-07-28:** Renumbered from Episode 15 to 23 (and this whole sub-arc
+from 10–15 to 18–23) to make room for the Middle East sub-arc (Episodes
+10–17), which both this file's own knowledge-base source and the Middle
+East file's own cross-references confirm was meant to come first —
+`south-asia-spice-notes.md` explicitly says this chapter "is itself the
+payoff for two threads planted in the Middle East file."

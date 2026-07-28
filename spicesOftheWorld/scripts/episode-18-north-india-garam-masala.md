@@ -1,11 +1,11 @@
-# Episode 10 — South Asia: North India — Garam Masala & the Curry Powder Myth
+# Episode 18 — South Asia: North India — Garam Masala & the Curry Powder Myth
 
 First of six South Asia episodes — matching `south-asia-spice-notes.md`'s
 own regional breakdown one-for-one, the same "no shortcuts" rule the Africa
 arc followed (8 episodes, one per book region, never one episode for the
 whole continent). South Asia gets the same treatment: North India here,
 then Himalayan Belt, Central India, East India & Bangladesh, West India,
-and South India & Sri Lanka in Episodes 11–15. Also the direct payoff of
+and South India & Sri Lanka in Episodes 19–23. Also the direct payoff of
 two threads planted earlier: Episode 6's "two jars on the shelf" setup,
 and Episode 1's own black pepper story (the Malabar coast is where the
 "real" black pepper that displaced grains of paradise actually came from).
@@ -169,10 +169,17 @@ Asia" episode, which broke the Africa arc's own "one episode per book
 region" rule. Rescoped as Episode 10 of a 6-episode South Asia sub-arc
 (North India here; Himalayan Belt, Central India, East India &
 Bangladesh, West India, South India & Sri Lanka in Episodes 11–15),
-matching `south-asia-spice-notes.md`'s own structure. File renamed from
-`episode-10-south-asia-garam-masala.md`. East Asia and Middle East each
-shift to Episodes 16 and 17 accordingly — see
-`docs/spice-channel-framework.md`.
+matching `south-asia-spice-notes.md`'s own structure.
 
-Continues Arc 3. Next: Episode 11 — Himalayan Belt (fenugreek, timur,
+**2026-07-28, later same day:** Renumbered again, from Episode 10 to 18
+(whole sub-arc from 10–15 to 18–23), after finding that both this
+episode's own source file and the Middle East file's cross-references
+confirm Middle East was meant to come first — cardamom, turmeric, and
+fenugreek reaching Iraq via the Silk Road is explicitly flagged in
+`middle-east-spice-notes.md` as South Asia's own setup thread. Middle East
+now fills Episodes 10–17 (8 sub-regions); East Asia (also 6 sub-regions)
+becomes 24–29. File renamed from `episode-10-south-asia-garam-masala.md`.
+See `docs/spice-channel-framework.md`.
+
+Continues Arc 3. Next: Episode 19 — Himalayan Belt (fenugreek, timur,
 Bhutanese chilli).
