@@ -133,58 +133,65 @@ what's actually in the video):
 > for farming, for cooking, and all that good stuff that I've been doing
 > all these years."
 
-## Added 2026-07-27 — Episode 1 rough-cut animatic
+## Done — 2026-07-28: reverted back to the original voiceover
 
-`episode-01-rough-cut-DRAFT.mp4` (60s, 720x1280) — a rough cut of the full
-Episode 1 script (`scripts/episode-01-west-africa-yaji.md`), built to use
-as much real Fudi People material as actually exists in the repo, not just
-flat placeholder cards. First pass leaned too heavily on text cards; this
-version replaces four of those with real photos/footage/audio once a
-closer look turned up material that had been overlooked.
+Per Kofi's request, `Fudi_People_Mokola_Market_with_voiceover.mp4` now
+uses `audio/Mokola_voice_over_2.m4a` (the original, general
+market-atmosphere recording) again, not the generic "stall" version above.
+Same mix approach as both prior versions — voiceover plays over the first
+53 seconds (`Mokola_voice_over_2.m4a`'s full length), original video audio
+picks back up for the remaining ~82 seconds. Video stream untouched
+(`-c:v copy`); audio re-encoded as AAC. `Mokola_voice_over_generic.m4a`
+stays in the repo in case the generic version is ever wanted back.
 
-**Real assets used, with text overlaid (not flat cards):**
-- **Personal Hook** — the first 16s of `Fudi_People_Mokola_Market_with_voiceover.mp4`,
-  which turns out to already contain real Mokola Market photography and
-  Kofi's real recorded voice. Not word-for-word identical to this script's
-  locked Hook (missing the "grains of paradise" name-drop and the closing
-  "take you back to that exact stall" line) — flagged on-screen as an
-  approximate match, not silently passed off as exact.
-- **The Science** — real photo `thumbnails/reference-photos/kofi-kneeling-tending-chillies-crate-2026.jpg`
-  (Kofi, hands-on, real chilli plants), Ken Burns slow zoom, silent —
-  still genuinely needs a voiceover recording, flagged as such.
-- **The Blend** — real photo `thumbnails/reference-photos/harvest-spread-tomatoes-chillies-eggplants-peas.jpg`
-  (real harvested chillies/tomatoes/veg), Ken Burns zoom, with a real
-  ~10s audio excerpt from `audio/raw-voice-memos/IMG_3382.mp3` — Kofi's
-  own voice talking about smoking and crushing chillies into a blend.
-  Flagged clearly: this is a different recording (not the literal Yaji
-  ingredient line) and the exact in/out points are an approximate cut
-  based on transcript position, not verified by ear — worth a listen and
-  re-trim before treating as final.
-- **The Dish** — real footage, `Harvest_Cutting_Closeup_Clip.mp4` (Kofi,
-  hands-on, greenhouse), muted, as a visual stand-in. Flagged "not the
-  actual dish yet" — this one's honest limit: no cooking/grilling footage
-  exists anywhere in the library, so this is placeholder-grade regardless.
+## Added 2026-07-27, rebuilt 2026-07-28 — Episode 1 rough-cut animatic
 
-**Already real/final (unchanged from the first pass):**
-- Two on-brand map graphics (`graphics/episode-01/ep01-map-ghana.png`,
-  `ep01-map-trade-route.png`) for Geography and Trade History — built with
-  Pillow, matching the real Fudi People brand palette pulled from
-  `brand-assets/product-labels/chili-oil-south-asia-label.pdf`
-- 8 real seconds of `Family_Okra_Harvest_Clip.mp4` for the Africa Link close
-- CTA card — clean brand-styled text card (no product photo exists yet)
+`episode-01-rough-cut-DRAFT.mp4` (6:16, 720x1280) — a full rough cut of
+Episode 1 (`scripts/episode-01-west-africa-yaji.md`), read start to finish
+by a placeholder AI voice (Windows' built-in "Microsoft Hazel" TTS) reading
+this episode's *actual* script lines, over real Fudi People photos/footage
+throughout. Went through several revisions as the approach itself changed
+— see version history below.
 
-**Still a genuine, unavoidable gap:** no audio or video anywhere in the
-library actually shows Kofi mixing Yaji or grilling chinchinga/suya, and
-no recording exists of him reading this episode's *exact* locked script
-lines. Those two things still need him — everything else in this cut is
-now real material with honest flags on the approximations, not a blank
-placeholder standing in for "footage I didn't look for."
+**Why TTS, after trying real-but-mismatched Kofi audio first:** an earlier
+version filled every section with real recordings of Kofi's voice from
+other contexts (farm vlogs, the market-atmosphere voiceover) reused for
+tone/texture, since the exact lines haven't been recorded yet. Kofi's
+feedback: hearing his real voice say unrelated things (okra harvesting
+under a Ghana/trade-history segment) was more confusing than helpful. The
+fix isn't more "realness," it's making the actual script's words audible
+in order, even in a robotic placeholder voice, so the real pacing and flow
+can be judged. Every segment's on-screen flag makes clear this is a temp
+AI voice, not Kofi.
+
+**Every segment, real visuals + placeholder AI voice reading the actual script line:**
+- **Intro** — `Presenter_Intro_Talking_Clip.mp4` (Kofi talking to camera, confirmed usable)
+- **Personal Hook** — the base `Fudi_People_Mokola_Market.mp4` footage (real Mokola Market photography), TTS reading the exact locked Hook text
+- **Geography & Origin** — the Ghana map graphic, then a real farm photo (`kofi-standing-among-tomato-pepper-plants-2026.jpg`, Ken Burns zoom), continuous TTS audio across both
+- **Trade & Migration History** — the trade-route map graphic, then a reused real market-stall clip from later in the Mokola Market footage, continuous TTS audio across both
+- **The Science** — real photo `kofi-kneeling-tending-chillies-crate-2026.jpg`, Ken Burns zoom
+- **The Blend** — real photo `harvest-spread-tomatoes-chillies-eggplants-peas.jpg`, Ken Burns zoom
+- **The Dish** — real footage `Harvest_Cutting_Closeup_Clip.mp4` (looped to cover the narration length) — honest remaining limit: no footage anywhere shows the actual dish (skewers/grilling), so this is a stand-in regardless
+- **Africa Link / Throughline Close** — real footage `Family_Okra_Harvest_Clip.mp4` (Kofi and his daughters)
+- **Closing CTA** — real photo `kofi-direct-camera-watering-can-fork-2026.jpg`
+
+**What's still genuinely unresolved:** nothing has Kofi's own voice reading
+this script, and no footage anywhere shows Yaji actually being mixed or
+grilled. Those still need him — see `docs/episode-01-shooting-guide.md`
+(also published as an artifact) for the shooting plan. This animatic is a
+pacing/flow reference to shoot against, not a substitute for the real thing.
+
+**Version history:** v1 used flat placeholder cards for anything without
+an exact-match asset. v2 replaced four of those with real photos/footage.
+v3 added the Intro beat and split Geography/Trade into map-plus-real-cutaway
+pairs. v4 filled every silent segment with real-but-mismatched Kofi audio
+(farm vlogs reused for tone) — Kofi's feedback was that this was more
+confusing than the silence it replaced. v5 (current) replaces all narration
+with placeholder TTS reading the actual script text, so the whole video's
+words match what's on screen; real visuals are unchanged from v3/v4. Also
+rebuilt to use the reverted `Fudi_People_Mokola_Market.mp4` base footage
+after the voiceover swap below.
 
 Source overlay/graphic PNGs kept in `graphics/episode-01/` (map cards) and
 `graphics/episode-01/overlays/` (transparent text overlays composited onto
 the real photos/footage above) in case wording or timing needs adjusting.
-
-Built with a from-scratch Pillow script (no map/design tool available
-locally), each card rendered to a silent-audio timed clip, concatenated
-with the existing project pipeline, single fade pass. Source PNGs kept in
-`graphics/episode-01/` in case durations/text need adjusting later.

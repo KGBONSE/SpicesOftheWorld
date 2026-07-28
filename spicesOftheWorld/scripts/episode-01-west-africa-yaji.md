@@ -198,15 +198,16 @@ profile in `knowledge-base/spice-profiles/by-flavour-compound/11_pungent_compoun
 convention (generic "research shows..." attribution, no named studies
 spoken aloud).
 
-**2026-07-27:** Built `video/episode-01-rough-cut-DRAFT.mp4`, a rough cut
-of this whole script — see `video/README.md` for the full breakdown.
-First pass used flat placeholder cards for Hook/Science/Blend/Dish;
-rebuilt same day to use real material instead once a closer look found
-it: the real Mokola Market video+voiceover for the Hook (approximate
-match, flagged), real chilli/harvest photos for Science and Blend, a real
-~10s audio excerpt of Kofi talking about smoking/crushing chillies
-(`audio/raw-voice-memos/IMG_3382.mp3`) under the Blend section, and real
-hands-on footage as a Dish stand-in. Every approximation is flagged
-on-screen, not passed off as final. Genuine remaining gap, unchanged: no
-footage of Yaji actually being mixed or grilled, and no recording of this
-episode's exact script lines — those still need Kofi.
+**2026-07-27/28:** Built `video/episode-01-rough-cut-DRAFT.mp4` (now 6:16),
+a rough cut of this whole script — see `video/README.md` for the full
+version history. Settled approach (v5): real Fudi People photos/footage
+throughout, narrated by a placeholder AI voice (Windows TTS) reading this
+episode's actual script lines in full, clearly flagged on-screen as
+temporary. An earlier version tried filling every beat with real-but-
+unrelated Kofi audio (farm vlogs reused for tone) — Kofi's own feedback
+was that hearing his real voice say the wrong things was more confusing
+than helpful, so that approach was dropped in favour of this one. Genuine
+remaining gap, unchanged: nothing has Kofi's own voice reading this
+script, and no footage anywhere shows Yaji actually being mixed or
+grilled — see `docs/episode-01-shooting-guide.md` for the plan to close
+that gap.
