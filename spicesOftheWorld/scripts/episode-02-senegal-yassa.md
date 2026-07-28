@@ -23,7 +23,7 @@ nobody else was allowed to touch, and I can still picture the exact
 moment she lifted that lid — thick, smoky, tomatoey steam rolling out
 before you'd even seen the rice underneath. Everyone said their own
 jollof was the best. Looking back now, hers actually had a reason to be
-one of the best I have tasted.
+one of the best I have tasted 
 
 
 **[ON-SCREEN TEXT]:** "Whose jollof was really the best?"
