@@ -35,6 +35,12 @@ Connect back to your journey/brand without a hard sell. "This is why I grow my o
 
 ## Season 1 Roadmap
 
+**Season 1 complete as of 2026-07-30 — all 34 episodes drafted**, across
+5 arcs/sub-arcs (Africa, Middle East, South Asia, East Asia, Americas).
+Every episode still has an open `[NEEDS KOFI]`/`[DRAFT]` personal-hook
+placeholder as its one remaining item before shooting — see
+`docs/open-tasks.md`.
+
 **Confirmed 2026-07-16:** finish all of Africa first, region by region
 (matching `knowledge-base/regional/africa-spice-notes.md`'s own structure),
 before branching out to South Asia/Southeast Asia/East Asia/Middle East/
@@ -56,8 +62,16 @@ even once we do branch out.
 
 **Arc 2 complete — all 8 Africa episodes drafted.**
 
-**Arc 3 — Beyond Africa (diaspora + trade-route links) — next**
-9. Caribbean ✅ drafted — allspice, jerk, calabash nutmeg's forced crossing via the slave trade (`scripts/episode-09-caribbean-jerk.md`)
+**Americas sub-arc — one episode per book region, same rule the Africa arc followed, matching `knowledge-base/regional/americas-spice-notes.md`'s own 6-region structure. The Caribbean is not its own continent-level arc — it's region 1 of 6 within a single "The Americas" book chapter, grouped here with the other 5. Episode numbers aren't contiguous (9, then 30–34) because Episode 9 was drafted early for its direct diaspora link to Episode 7, before the Middle East/South Asia/East Asia sub-arcs existed — renumbering those already-drafted episodes just to close the gap isn't worth the churn, so the numbers jump but the region stays together as one block here.**
+
+9. The Caribbean ✅ drafted — allspice, jerk, calabash nutmeg's forced crossing via the slave trade (`scripts/episode-09-caribbean-jerk.md`)
+30. Mexico and Central America ✅ drafted — Mole Mix, the chilli/cacao origin-point episode (`scripts/episode-30-mexico-central-america-mole-mix.md`)
+31. The Andes (Argentina, Chile, Bolivia, Peru, Ecuador, Colombia, Venezuela) ✅ drafted — Chimichurri (`scripts/episode-31-the-andes-chimichurri.md`)
+32. Amazon Basin (Brazil, Peru, Colombia) ✅ drafted — Tucupí, pato no tucupí (`scripts/episode-32-amazon-basin-tucupi.md`)
+33. North America ✅ drafted — BBQ Rub (`scripts/episode-33-north-america-bbq-rub.md`)
+34. Pacific South America (Panama to Patagonia) ✅ drafted — Leche de Tigre, closes the sub-arc and all of Season 1 via the Nikkei (Japanese-Peruvian) thread back to East Asia (`scripts/episode-34-pacific-south-america-leche-de-tigre.md`)
+
+**Americas sub-arc complete — all 6 episodes drafted, one per book region. Closes the entire Season 1 roadmap: all 34 planned episodes across Africa, the Middle East, South Asia, East Asia, and the Americas are now drafted.**
 
 **Middle East sub-arc — one episode per book region, same rule the Africa arc followed. Comes before South Asia and East Asia: both of those regions' own knowledge-base files confirm their content pays off threads planted in the Middle East file first (cardamom/turmeric/fenugreek → Iraq → South Asia; saffron/cassia/Sichuan pepper → Turkey/Iraq/Iran → East Asia).**
 
@@ -83,14 +97,16 @@ even once we do branch out.
 
 **South Asia sub-arc complete — all 6 episodes drafted, one per book region.**
 
-**East Asia sub-arc — 6 book regions (South Korea, Japan, North China, East China, South China, West China) — not yet drafted:**
+**East Asia sub-arc — 6 book regions (South Korea, Japan, North China, East China, South China, West China):**
 
-24. South Korea — yangnyeomjang
-25. Japan — shichimi-togarashi
-26. North China — Shandong spice bag
-27. East China — Nanjing spice bag
-28. South China — five-spice powder
-29. West China — Sichuan pepper, chilli black bean sauce, payoff of the Turkey/Iran threads
+24. South Korea ✅ drafted — yangnyeomjang, opens the third and final Fudi People jar (Spices of East Asia) (`scripts/episode-24-south-korea-yangnyeomjang.md`)
+25. Japan ✅ drafted — shichimi-togarashi, the Nagasaki/Portuguese-trade thread (`scripts/episode-25-japan-shichimi-togarashi.md`)
+26. North China ✅ drafted — Shandong spice bag, cumin/chilli via Chinese Muslim trade (`scripts/episode-26-north-china-shandong-spice-bag.md`)
+27. East China ✅ drafted — Nanjing spice bag, Nanjing salted duck (`scripts/episode-27-east-china-nanjing-spice-bag.md`)
+28. South China ✅ drafted — five-spice powder, Taiwanese lu rou fan (`scripts/episode-28-south-china-five-spice-powder.md`)
+29. West China ✅ drafted — Sichuan pepper, chilli black bean sauce/mapo tofu, closes the sub-arc via the Middle East/Xinjiang Silk Road payoff (`scripts/episode-29-west-china-chilli-black-bean-sauce.md`)
+
+**East Asia sub-arc complete — all 6 episodes drafted, one per book region. Closes the third and final Fudi People jar (Spices of East Asia).**
 
 Order matters: build a loyal African-food audience first, then expand
 outward — each new region should reference back to Ghana/West Africa
@@ -104,6 +120,42 @@ Middle East and South Asia knowledge-base files' own cross-references
 confirm this — so South Asia was renumbered from Episodes 10–15 to
 18–23, and the Middle East sub-arc (Episodes 10–17) was drafted in its
 proper place (2026-07-28, later same day).
+
+The Caribbean (Episode 9) was originally framed as its own top-level arc
+("Arc 3 — Beyond Africa"), peer to the continents. Corrected 2026-07-29:
+`americas-spice-notes.md` treats the Caribbean as region 1 of 6 within a
+single "The Americas" book chapter, not its own region. First pass just
+relabelled Episode 9 in place and queued the other 5 regions at the very
+end (Episodes 30–34) — but that still left the Americas split across the
+document, with the Caribbean sitting up near Africa and its own siblings
+stuck past Middle East/South Asia/East Asia. Fixed by moving all 6 Americas
+regions into one contiguous block right after Africa. Episode numbers
+stay non-contiguous (9, then 30–34) rather than renumbering Middle
+East/South Asia/East Asia — those are already drafted and renumbering them
+just to close the gap isn't worth the churn — but the region itself now
+reads as one unit.
+
+Drafted the full 6-episode East Asia sub-arc as Episodes 24–29 (2026-07-29)
+— South Korea, Japan, North China, East China, South China, West China —
+yangnyeomjang, shichimi-togarashi, Shandong spice bag, Nanjing spice bag,
+five-spice powder, chilli black bean sauce, each with exact quantities
+from the source. Episode 24 opens the third and final Fudi People jar
+(Spices of East Asia), following Episode 18's "second jar" and Episode
+23's close of it; Episode 29 closes both that jar and the star anise/
+cassia/Sichuan pepper thread running since the Middle East sub-arc, via
+the Kashgar/Xinjiang Silk Road link the knowledge base itself flags. Every
+East Asia episode's Personal Hook is also a `[DRAFT]` placeholder.
+
+Drafted the remaining 5 Americas episodes as Episodes 30–34 (2026-07-30)
+— Mexico & Central America, the Andes, Amazon Basin, North America,
+Pacific South America — Mole Mix, Chimichurri, Tucupí, BBQ Rub, Leche de
+Tigre, each with exact quantities from the source. Episode 34 closes not
+just the Americas sub-arc but the entire Season 1 roadmap (34 episodes
+across all 5 arcs), and lands on the Nikkei (Japanese-Peruvian) tradition
+flagged in the knowledge base's own Cross-continent links — an unplanned
+loop straight back to the East Asia sub-arc drafted immediately before it.
+Every Americas episode's Personal Hook is also a `[DRAFT]` placeholder,
+same open item as the rest of the series.
 
 ---
 

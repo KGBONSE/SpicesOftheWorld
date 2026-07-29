@@ -223,6 +223,42 @@ repo. What's left is genuinely short.
       Episodes 24–29. Every Middle East episode's Personal Hook is also a
       `[DRAFT]` placeholder. See `docs/spice-channel-framework.md` for the
       corrected full roadmap.
+- [x] Fix the Caribbean's place in the roadmap (2026-07-29) — Episode 9 was
+      framed as its own top-level arc ("Arc 3 — Beyond Africa"), peer to
+      the continents, but `americas-spice-notes.md` treats it as region 1
+      of 6 within one "The Americas" book chapter. Relabelled as the first
+      episode of an Americas sub-arc (same one-episode-per-book-region rule
+      as Middle East/South Asia) and queued the other 5 regions — Mexico &
+      Central America, the Andes, Amazon Basin, North America, Pacific
+      South America — as Episodes 30–34, not yet drafted. Episode 9 keeps
+      its number; nothing already drafted was renumbered. See
+      `docs/spice-channel-framework.md`.
+- [x] Draft Episodes 24–29, the full East Asia sub-arc (2026-07-29) —
+      South Korea (yangnyeomjang), Japan (shichimi-togarashi), North China
+      (Shandong spice bag), East China (Nanjing spice bag), South China
+      (five-spice powder), West China (chilli black bean sauce/mapo tofu).
+      Episode 24 opens the third and final Fudi People jar (Spices of East
+      Asia), paying off Episode 6's "two/three jars" setup; Episode 29
+      closes it and pays off the star anise/cassia/Sichuan pepper thread
+      running since the Middle East sub-arc, via the Kashgar/Xinjiang Silk
+      Road link `east-asia-spice-notes.md` flags directly. All 6 episodes
+      have exact blend quantities straight from the source; each episode's
+      Personal Hook is a `[DRAFT]` placeholder, same open item as the rest
+      of the series. Only the Americas sub-arc's remaining 5 regions
+      (Episodes 30–34) are left undrafted. See
+      `docs/spice-channel-framework.md`.
+- [x] Draft Episodes 30–34, the remaining Americas sub-arc, closing Season
+      1 (2026-07-30) — Mexico & Central America (Mole Mix), the Andes
+      (Chimichurri), Amazon Basin (Tucupí), North America (BBQ Rub), and
+      Pacific South America (Leche de Tigre). Episode 34 closes both the
+      6-episode Americas sub-arc (Episode 9 plus these 5) and the entire
+      Season 1 roadmap — all 34 planned episodes across all 5 arcs are now
+      drafted. It also lands, unplanned, on the Nikkei (Japanese-Peruvian)
+      tradition the knowledge base's own Cross-continent links flag — a
+      loop straight back to the East Asia sub-arc drafted immediately
+      before it. All 5 episodes have exact blend quantities straight from
+      the source; each Personal Hook is a `[DRAFT]` placeholder, same open
+      item as every other episode. See `docs/spice-channel-framework.md`.
 
 ## Not started (later phases, per blueprint build order)
 

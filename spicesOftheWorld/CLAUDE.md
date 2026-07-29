@@ -101,12 +101,17 @@ Five episodes drafted so far, all in `scripts/`, following the confirmed
 7. Central Africa — mbongo, njangsa, calabash nutmeg's slave-trade thread to the Caribbean (`episode-07-central-africa-mbongo.md`) — heavier history, worth real thought before filming, not a quick read-through
 8. Southern Africa — Durban curry masala, closes the Africa arc and points to South Asia (`episode-08-southern-africa-durban.md`)
 
-**The full Africa arc (8 episodes) is now drafted.** Next per
-`docs/spice-channel-framework.md`: Arc 3, starting with the Caribbean, then
-South Asia, East Asia, Middle East. Each episode has an open
-`[NEEDS KOFI]` personal-hook placeholder and a closing CTA to fudipeople.com
-— everything else is fully drafted and grounded in `knowledge-base/` (or
-clearly flagged when it isn't), no invented facts.
+**Season 1 is now fully drafted — all 34 episodes**, across Africa (8),
+the Middle East sub-arc (10–17), the South Asia sub-arc (18–23), the East
+Asia sub-arc (24–29), and the Americas sub-arc (Episode 9 plus 30–34).
+East Asia's Episode 24 opens — and Episode 29 closes — the third and
+final Fudi People jar (Spices of East Asia). Episode 34 closes the whole
+season and lands, unplanned, on a Japanese-Peruvian (Nikkei) thread that
+loops straight back to East Asia. Every episode still has an open
+`[NEEDS KOFI]`/`[DRAFT]` personal-hook placeholder and a closing CTA to
+fudipeople.com as its one remaining item before shooting — everything
+else is fully drafted and grounded in `knowledge-base/` (or clearly
+flagged when it isn't), no invented facts. See `docs/spice-channel-framework.md`.
 
 **Citation rule:** every historical/scientific claim pulled from *The
 Science of Spice* gets a short spoken attribution on camera (e.g.
