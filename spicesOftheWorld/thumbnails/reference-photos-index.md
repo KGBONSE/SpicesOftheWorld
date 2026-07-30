@@ -61,3 +61,21 @@ Kofi standing amid dense tomato/pepper growth in the second polytunnel, direct t
 
 ## daughter-solo-watering-can-smile-polytunnel-2026.jpg
 Kofi's daughter (visibly older than the 2020/2022 material), solo, holding a large watering can, big genuine smile, standing in the second polytunnel. **Good for**: current "next generation" solo shots — updates/replaces the older kid photos with a current likeness.
+
+---
+*Source: `IMG_33xx`/`IMG_44xx` batch (Downloads, via `IMG_3382 (1).zip`), added 2026-07-31 — first real finished-product photography in the library (actual bottled Fudi People Chilli Oil, not just the label PDF mockup), plus more current farm/family content.*
+
+## chilli-oil-bottle-on-science-of-spice-book.jpg
+A bottle of Fudi People Chilli Oil with Spices of Africa (150ml, "VERY HOT") resting on top of *The Science of Spice* by Dr Stuart Farrimond — the actual source book this whole knowledge base is built from, next to the actual finished product. **Good for**: the single strongest "brand meets source material" shot in the library — knowledge-base/provenance storytelling, product hero shots.
+
+## daughter-tongue-out-chilli-oil-africa-garden.jpg
+Kofi's daughter, playful tongue-out face and peace sign, holding a bottle of Fudi People Chilli Oil with Spices of Africa up to camera in the garden, more bottles blurred in the foreground. **Good for**: fun, un-posed product-in-hand shots — the brand's personality/family energy over a straight product shot.
+
+## daughter-glasses-chilli-oil-bottles-lineup.jpg
+Kofi's other daughter (glasses, braids), smiling, holding two bottles of Fudi People Chilli Oil, several more bottles lined up on a table behind her against a brick wall. **Good for**: proof-of-real-inventory shots — multiple finished bottles at once, not a single hero product.
+
+## daughter-stitch-tshirt-okra-harvest-plate-patio.jpg
+Kofi's daughter (Stitch T-shirt), big genuine smile, holding out a full plate of freshly picked okra pods (mixed green and red varieties) on the patio — scooter and potted plants behind her. **Good for**: harvest/ingredient thumbnails with real personality, a candid alternative to the solo produce-in-hand shots already in this library.
+
+## kofi-headphones-sunglasses-polytunnel-closeup.jpg
+Kofi, close up, wireless headphones and sunglasses, relaxed half-smile, standing among tomato and sweetcorn plants in the polytunnel. **Good for**: a more casual/candid "meet the farmer" alternative to the direct-to-camera watering-can shot — good for B-roll cutaways rather than a hero thumbnail.
