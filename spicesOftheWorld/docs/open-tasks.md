@@ -260,6 +260,17 @@ repo. What's left is genuinely short.
       the source; each Personal Hook is a `[DRAFT]` placeholder, same open
       item as every other episode. See `docs/spice-channel-framework.md`.
 
+- [ ] **2026-08-07:** Kofi flagged three fudipeople.com pages as untouched —
+      How We Do It, Where to Buy, Contact Us. Drafted copy for all three in
+      `docs/site-pages-how-where-contact.md`, using facts confirmed
+      directly by Kofi (phone `+44 7952 983201`, `@fudipeople` on
+      Instagram/TikTok/X/Facebook, whole-spice supplier kept unnamed per
+      his call, website-only sales for now). Still open: Kofi needs to
+      paste this into Elementor himself (no CMS access here), and confirm
+      which category structure is actually live before the Where to Buy
+      page names specific categories — see the flag at the bottom of that
+      file.
+
 ## Not started (later phases, per blueprint build order)
 
 - [ ] Agent 1 (Trends & Outlier Scout) — deliberately deprioritised, no
