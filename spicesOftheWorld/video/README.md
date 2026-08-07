@@ -241,3 +241,16 @@ All video files together are now approaching 800MB. Already on Git LFS
 100MB per-file push limit, but worth knowing before adding much more raw
 footage — LFS storage/bandwidth has its own quota depending on your GitHub
 plan.
+
+## Added 2026-08-06 — first actual Episode 1 shoot recording
+
+`Episode01_Shoot_RawClip_2026-08-06.mp4` — Kofi's first real recording
+session for Episode 1 (8:39, 640x368, WhatsApp-compressed — noticeably
+lower quality than the camera original, since it came through WhatsApp;
+worth pulling the uncompressed original from the camera/phone before
+final editing if still available). Unedited, not yet reviewed or cut down.
+
+**Deliberately not processed or normalised yet** — Kofi is still mid-shoot
+on Episode 1 and wants to wait until the rest of the session's clips exist
+before editing/assembling, so this stays as raw footage for now, same
+treatment as other not-yet-cut source clips in this folder.
