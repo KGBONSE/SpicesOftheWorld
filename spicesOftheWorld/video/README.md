@@ -195,3 +195,49 @@ after the voiceover swap below.
 Source overlay/graphic PNGs kept in `graphics/episode-01/` (map cards) and
 `graphics/episode-01/overlays/` (transparent text overlays composited onto
 the real photos/footage above) in case wording or timing needs adjusting.
+
+## Added 2026-07-31 — 7 new raw clips normalised, `IMG_33xx`/`IMG_44xx` batch
+
+From `IMG_3382 (1).zip` (Downloads) — 7 landscape 1920x1080 originals, same
+normalise pipeline as every other clip in this folder (scale+crop to
+720x1280, veryfast/CRF21, audio re-encoded AAC 128k since these came
+straight off a phone, not already-matching codecs). Raw originals not kept
+in the repo, same convention as the seed-to-harvest batch — only the
+normalised output below is committed.
+
+- `Chilli_Drying_Smoker_Clip.mp4` (from `IMG_3382.mov`, 116s) — real
+  production footage: red/yellow Scotch bonnet-type chillies loaded across
+  4 mesh racks in a smoker/dryer box, wood-chip tray visible underneath.
+  First actual "how it's made" B-roll in the library — everything else so
+  far is farm/harvest, not processing.
+- `Chilli_Harvest_Crate_Overflow_Clip.mp4` (from `IMG_3408.mov`, 43s) — a
+  large crate overflowing with freshly picked red/orange/yellow chillies,
+  on a stand outdoors.
+- `Scotch_Bonnet_Plant_Closeup_Clip.mp4` (from `IMG_3350.mov`, 54s) —
+  close-up on a potted chilli plant, yellow/orange pods ripening on the
+  branch, polytunnel setting.
+- `Sweetcorn_Tassel_Closeup_Clip.mp4` (from `IMG_4510.mov`, 80s) —
+  close-up on a young sweetcorn cob's silk/tassels and husk, still on the
+  plant, polytunnel background.
+- `Daughter_Okra_Plate_Patio_Clip.mp4` (from `IMG_4468.mov`, 57s) — Kofi's
+  daughter (Stitch T-shirt), smiling, holding out a full plate of
+  freshly-picked okra on the patio. Video companion to the equivalent
+  still, `../thumbnails/reference-photos/daughter-stitch-tshirt-okra-harvest-plate-patio.jpg`.
+- `Family_Polytunnel_Walkthrough_Clip.mp4` (from `IMG_4488.mov`, 42s) —
+  Kofi (sunglasses) and both daughters walking together through a
+  polytunnel, candid mid-conversation. Strongest current three-way family
+  motion clip in the library — most existing family footage is 2020/2022.
+- `Polytunnel_Herb_Bed_Walkthrough_Clip.mp4` (from `IMG_4445.mov`, 204s) —
+  low, close shot of a polytunnel bed of mixed herbs/greens, someone
+  (pink top) inspecting/working through it. By far the longest clip here —
+  worth trimming down at actual edit time rather than using in full.
+
+Same batch's 5 stills — including the library's first real finished
+Chilli Oil bottle photography — catalogued in
+`../thumbnails/reference-photos-index.md`.
+
+All video files together are now approaching 800MB. Already on Git LFS
+(`.gitattributes` tracks `*.mp4`/`*.mov`), so this doesn't hit GitHub's
+100MB per-file push limit, but worth knowing before adding much more raw
+footage — LFS storage/bandwidth has its own quota depending on your GitHub
+plan.
