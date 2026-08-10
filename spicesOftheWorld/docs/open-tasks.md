@@ -260,16 +260,85 @@ repo. What's left is genuinely short.
       the source; each Personal Hook is a `[DRAFT]` placeholder, same open
       item as every other episode. See `docs/spice-channel-framework.md`.
 
-- [ ] **2026-08-07:** Kofi flagged three fudipeople.com pages as untouched —
+- [x] **2026-08-07:** Kofi flagged three fudipeople.com pages as untouched —
       How We Do It, Where to Buy, Contact Us. Drafted copy for all three in
       `docs/site-pages-how-where-contact.md`, using facts confirmed
       directly by Kofi (phone `+44 7952 983201`, `@fudipeople` on
       Instagram/TikTok/X/Facebook, whole-spice supplier kept unnamed per
-      his call, website-only sales for now). Still open: Kofi needs to
-      paste this into Elementor himself (no CMS access here), and confirm
-      which category structure is actually live before the Where to Buy
-      page names specific categories — see the flag at the bottom of that
-      file.
+      his call, website-only sales for now).
+
+## 2026-08-01 to 2026-08-10 — homepage + site pages actually built in Elementor
+
+Unlike the note above (written when there was no CMS access), Kofi later set
+up a dedicated WordPress user (`claude-assistant`, Editor role) and shared
+its Application Password, plus separate WooCommerce REST API keys — from
+that point on, work happened directly in Elementor/WooCommerce via
+screenshots + guided clicks (Elementor) and API scripting (WooCommerce),
+not just drafted-copy handoff docs.
+
+- [x] **Homepage rebuilt section by section**, following
+      `docs/homepage-elementor-build-guide.md`: Hero (real headline/copy/
+      button, photo gallery slider with real farm/family photos, not the
+      demo product carousel), "Three Journeys, One Shelf" (3 live
+      WooCommerce category tiles — Middle East tile built but hidden until
+      that product line is ready), "How We Do It" 4-value block, two photo
+      banners (real Chilli Oil product shot + farm photos, not stock),
+      Order/Visit info block with real address/hours/phone and a working
+      Google Maps link to the actual "fudi people" Business Profile,
+      Testimonials placeholder (fake names replaced, real quotes still
+      pending), Product Claims banner. Published live. Header/Footer
+      remain locked behind Elementor Pro (not edited).
+- [x] **How We Do It, Where to Buy, Contact Us pages** — actually edited in
+      Elementor (not just handed off as copy) and published, per the
+      drafted copy above. Where to Buy's fake 3-store layout replaced with
+      the real single "order online or visit by arrangement" info. Contact
+      Us: real hours/address/email added; social icons mid-swap — Facebook
+      kept, LinkedIn kept (real URL still needed from Kofi), Twitter icon
+      being replaced with X, Instagram + TikTok icons being added (custom
+      SVG-code widget, not a standard icon picker — see chat history if
+      picking this back up, the exact SVG snippets used are only in
+      conversation, not saved to a file yet).
+- [x] **Organic claim caught and walked back**: theme's demo copy claimed
+      "Purely Organic" in three places (homepage + both new pages). Kofi
+      confirmed no actual certifying body/certificate — reworded all three
+      to "Real Ingredients, Start to Finish" / "Family-Farmed, Freshly
+      Blended" instead, since an uncertified organic claim is a UK Trading
+      Standards issue, not just a nice-to-avoid.
+- [x] **All 34 spice products imported to WooCommerce** via the REST API
+      from `docs/woocommerce-product-import.csv`. Yaji + Garam Masala have
+      full real content (published). The other 19 dry/shelf-stable
+      products (per `docs/product-catalog-notes.md`'s dry/wet split, Mole
+      Mix corrected from "wet" to "dry" — it's tagged Dry Blend in the
+      source) all have a flat £7.99 price and a generated branded
+      placeholder image (region-colored card, not a real product photo) —
+      still drafts, not published. The 13 genuinely wet products are
+      marked out-of-stock and left as drafts for future reference, not
+      deleted.
+- [x] **First real Episode 1 shoot recording received** (2026-08-06) —
+      `video/Episode01_Shoot_RawClip_2026-08-06.mp4`, WhatsApp-compressed
+      (640x368), deliberately left unprocessed until the rest of the
+      shoot's clips exist. Kofi was going to try to get the original
+      higher-quality file (before WhatsApp compression) from whatever he
+      recorded on.
+- [x] YouTube title/description pairs drafted for two Episode 1 sub-videos
+      (Yaji spice blend; Suya/Chinchinga cooking), grounded in
+      `scripts/episode-01-west-africa-yaji.md` — saved as Word docs:
+      `docs/Yaji-Spice-Blend-Video-Title-Description.docx` and
+      `docs/Suya-Chinchinga-Video-Title-Description.docx`. The Mokola
+      Market intro video itself was uploaded to Kofi's real YouTube
+      channel (`@fudipeople18`) as a Short.
+
+**Still open from this stretch:**
+- [ ] Finish the Contact page social icons (Instagram/TikTok/X SVGs +
+      links — see note above), get Kofi's real LinkedIn URL
+- [ ] Confirm/replace the Testimonials section's placeholder quotes with
+      real customer feedback
+- [ ] Publish the 19 dry-product drafts once Kofi's happy with pricing and
+      is OK with placeholder images going live (or waits for real photos)
+- [ ] Real product photography to replace the generated placeholder cards
+- [ ] Decide packaging/shelf-life approach for the 13 wet products before
+      they're sellable
+- [ ] Continue Episode 1 shooting; normalise/assemble once all clips exist
 
 ## Not started (later phases, per blueprint build order)
 
