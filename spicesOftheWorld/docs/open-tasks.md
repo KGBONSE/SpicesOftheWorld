@@ -329,8 +329,23 @@ not just drafted-copy handoff docs.
       channel (`@fudipeople18`) as a Short.
 
 **Still open from this stretch:**
-- [ ] Finish the Contact page social icons (Instagram/TikTok/X SVGs +
-      links — see note above), get Kofi's real LinkedIn URL
+- [x] **2026-08-11:** Contact page social icons finished — all 5 done
+      (Facebook, LinkedIn — real URL from Kofi, X, Instagram, TikTok).
+      Icons are a custom SVG-code widget (Qode Icon SVG), not Elementor's
+      standard icon picker — `<line>` elements got silently stripped by
+      the widget's sanitizer, so the X icon had to be rebuilt using
+      `<path>` instead. Contact page banner also got its real subtitle and
+      a real photo (Chilli Oil bottle + harvest crate, side by side) in
+      place of the stock architecture shot; middle-of-banner logo hidden,
+      same as the other two pages.
+- [ ] **Started a responsive (tablet/mobile) pass on 2026-08-11** — found
+      a real bug: the homepage Hero headline's font size is far too large
+      on mobile, wrapping to one tiny text fragment per line and filling
+      the screen. Desktop/tablet not yet checked in detail. Needs a
+      mobile-specific font size fix (Elementor's per-breakpoint Typography
+      controls) before this can be considered done — **not yet fixed**,
+      picking this back up next session. Worth checking all 4 pages
+      (homepage + the 3 secondary pages) at both tablet and mobile widths.
 - [ ] Confirm/replace the Testimonials section's placeholder quotes with
       real customer feedback
 - [ ] Publish the 19 dry-product drafts once Kofi's happy with pricing and
