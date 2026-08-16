@@ -338,14 +338,30 @@ not just drafted-copy handoff docs.
       a real photo (Chilli Oil bottle + harvest crate, side by side) in
       place of the stock architecture shot; middle-of-banner logo hidden,
       same as the other two pages.
-- [ ] **Started a responsive (tablet/mobile) pass on 2026-08-11** — found
-      a real bug: the homepage Hero headline's font size is far too large
-      on mobile, wrapping to one tiny text fragment per line and filling
-      the screen. Desktop/tablet not yet checked in detail. Needs a
-      mobile-specific font size fix (Elementor's per-breakpoint Typography
-      controls) before this can be considered done — **not yet fixed**,
-      picking this back up next session. Worth checking all 4 pages
-      (homepage + the 3 secondary pages) at both tablet and mobile widths.
+- [x] **2026-08-16: mobile Hero headline bug fixed** — root cause wasn't
+      actually font-size (that already scaled down correctly: 36px desktop
+      → 31px tablet → 20px mobile). It was the widget's own outer
+      `_margin`, hardcoded to 104px on all four sides with no responsive
+      override at all. Stacked on top of the column's own 33px mobile
+      padding, that left only ~100px of usable width on a 375px-wide
+      phone — forcing one word per line and pushing the block's height
+      (104px margin + 31px padding, both top and bottom) into "filling the
+      screen" territory. Fixed via the WordPress REST API directly
+      (`claude-assistant`'s Application Password, which Kofi shared in
+      chat, not saved to any file): added `_margin_tablet` (40px/24px) and
+      `_margin_mobile` (16px top, 0 sides) overrides to the Hero heading
+      widget's Elementor data. One wrinkle worth remembering if this
+      pattern comes up again — editing `_elementor_data` via raw REST PUT
+      does **not** trigger Elementor's cached-CSS regeneration; that only
+      happens through the actual editor save flow, or an admin-only
+      action. The REST route for it (`DELETE /wp-json/elementor/v1/cache`)
+      requires `manage_options`, which the Editor-role `claude-assistant`
+      account doesn't have — so Kofi finished it manually via Elementor →
+      Tools → **Clear Files & Data**. Confirmed live afterward (post-7.css
+      version bumped, new margin values present in the served CSS).
+      Desktop/tablet still not checked in detail — worth doing, along with
+      the other 3 pages (How We Do It, Where to Buy, Contact Us) at tablet
+      and mobile widths, before calling the full responsive pass done.
 - [ ] Confirm/replace the Testimonials section's placeholder quotes with
       real customer feedback
 - [ ] Publish the 19 dry-product drafts once Kofi's happy with pricing and
