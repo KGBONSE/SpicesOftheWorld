@@ -412,6 +412,21 @@ not just drafted-copy handoff docs.
       (this was all static data/CSS analysis, no browser available) —
       still worth an eyes-on pass across all 4 pages at tablet and
       desktop widths before calling this fully done.
+- [x] **2026-08-16: About Us page photo placeholders filled in** — this
+      page turned out to already have real drafted copy (a proper
+      Mokola-Market-opener narrative, matching brand voice) that was never
+      logged anywhere in this file — an undocumented earlier editing pass.
+      But it had 3 literal `[PHOTO PLACEHOLDER — ...]` text blocks showing
+      to real site visitors instead of images (market/founder portrait,
+      the Sidcup farm, a product jar shot). Replaced all three with real
+      photos already sitting in the WordPress media library from the
+      homepage rebuild (no new uploads needed): the watering-can/fork
+      polytunnel portrait (`kofi-hero-photo-cleaned`), Kofi holding okra
+      in the polytunnel (`kofi-hero-photo-3-holding-okra` — ties directly
+      to the okra line already in that section's own copy), and the real
+      Chilli Oil bottle shot (`chilli-oil-product-cleaned`). Confirmed
+      live — placeholder text gone, all 3 images rendering with proper
+      srcset.
 - [ ] Confirm/replace the Testimonials section's placeholder quotes with
       real customer feedback
 - [ ] Publish the 19 dry-product drafts once Kofi's happy with pricing and
