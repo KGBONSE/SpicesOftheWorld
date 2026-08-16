@@ -362,6 +362,30 @@ not just drafted-copy handoff docs.
       Desktop/tablet still not checked in detail — worth doing, along with
       the other 3 pages (How We Do It, Where to Buy, Contact Us) at tablet
       and mobile widths, before calling the full responsive pass done.
+- [x] **2026-08-16: two more responsive spacing bugs found and fixed**,
+      same static-analysis method as the Hero fix (scanned each page's
+      `_elementor_data` for widgets with a sizable fixed margin/padding
+      and no tablet/mobile override, then confirmed against the live
+      rendered CSS):
+      - **How We Do It page**: a small 148×112px badge/photo in the page
+        banner had a 186px margin on all four sides with zero responsive
+        override — on a ~375px phone that needs 520px of space, causing
+        overflow/clipping. Confirmed this exact widget ID exists on all 3
+        secondary pages but only had the 186px override applied on this
+        one (Where to Buy and Contact Us use the default, unaffected).
+        Fixed with a `_margin_mobile` override (12px all sides).
+      - **All 3 secondary pages' shared banner column** (top: 200px,
+        bottom: 145px on How We Do It/Contact Us, 83px on Where to Buy) —
+        not broken, just excessive on mobile (nearly half a phone screen
+        of empty padding before any banner content). Tightened with a
+        `padding_mobile` override (90px top / 60px bottom) on all three.
+      All three fixes confirmed live after Kofi cleared Elementor's cache
+      (Tools → Clear Files & Data) — same requirement as the Hero fix,
+      since raw REST meta writes don't auto-regenerate cached CSS.
+      **Not covered**: no actual desktop/tablet visual check was done
+      (this was all static data/CSS analysis, no browser available) —
+      still worth an eyes-on pass across all 4 pages at tablet and
+      desktop widths before calling this fully done.
 - [ ] Confirm/replace the Testimonials section's placeholder quotes with
       real customer feedback
 - [ ] Publish the 19 dry-product drafts once Kofi's happy with pricing and
