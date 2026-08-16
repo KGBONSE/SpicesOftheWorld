@@ -379,9 +379,19 @@ not just drafted-copy handoff docs.
         not broken, just excessive on mobile (nearly half a phone screen
         of empty padding before any banner content). Tightened with a
         `padding_mobile` override (90px top / 60px bottom) on all three.
-      All three fixes confirmed live after Kofi cleared Elementor's cache
+      - **Two more content sections**, same excessive-vertical-padding
+        pattern, found in a follow-up sweep: Where to Buy's "Order Online,
+        or Visit by Arrangement" section (143px bottom padding → 70px on
+        mobile) and Contact Us's "Get in touch..." section (108px/130px
+        top/bottom → 60px/70px on mobile).
+      All fixes confirmed live after Kofi cleared Elementor's cache
       (Tools → Clear Files & Data) — same requirement as the Hero fix,
       since raw REST meta writes don't auto-regenerate cached CSS.
+      **Flagged but not touched**: the How We Do It page's values timeline
+      has 100px icon/point-marker circles with the same "no responsive
+      override" pattern — left alone since without a browser there's no
+      way to tell if that's actually broken on a phone or just a bold
+      design choice; worth a real look on an actual device.
       **Not covered**: no actual desktop/tablet visual check was done
       (this was all static data/CSS analysis, no browser available) —
       still worth an eyes-on pass across all 4 pages at tablet and
