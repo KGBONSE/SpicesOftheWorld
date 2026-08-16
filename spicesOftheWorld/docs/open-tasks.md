@@ -427,6 +427,21 @@ not just drafted-copy handoff docs.
       Chilli Oil bottle shot (`chilli-oil-product-cleaned`). Confirmed
       live — placeholder text gone, all 3 images rendering with proper
       srcset.
+- [x] **2026-08-16: real card payments enabled** — checked the live
+      checkout via WooCommerce's public Store API
+      (`/wp-json/wc/store/v1/cart`, no auth needed) rather than guessing,
+      since the `claude-assistant` account doesn't have `manage_woocommerce`
+      and can't read `/wc/v3/payment_gateways`. Found only **Direct Bank
+      Transfer and Cash on Delivery** were actually enabled — no card
+      payment method at all, despite **WooCommerce Payments** (Stripe-
+      powered) already being installed (its `payments/woopay` REST
+      namespace was registered, but not connected/onboarded). Talked
+      Kofi through WooCommerce Payments' own onboarding (business details
+      + bank account for payouts + ID verification — has to be done by
+      him, it's tied to his identity). Confirmed live afterward: the
+      Store API now lists `woocommerce_payments` alongside bacs/cod, plus
+      Apple Pay/Google Pay (`payment_request`) and Amazon Pay showing up
+      as express-checkout options too.
 - [ ] Confirm/replace the Testimonials section's placeholder quotes with
       real customer feedback
 - [ ] Publish the 19 dry-product drafts once Kofi's happy with pricing and
