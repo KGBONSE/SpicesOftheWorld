@@ -392,6 +392,22 @@ not just drafted-copy handoff docs.
       override" pattern — left alone since without a browser there's no
       way to tell if that's actually broken on a phone or just a bold
       design choice; worth a real look on an actual device.
+- [x] **2026-08-16: homepage "What People Are Saying" title bug** — Kofi
+      spotted this one directly (screenshots of Elementor's tablet preview
+      showed the heading rendering one letter per line, filling the whole
+      section, over the coriander-plant background photo). Cause: this
+      title's font-size is 90px on desktop with a mobile override down to
+      70px, but **no tablet override at all** — so any tablet-width screen
+      (or Elementor's own tablet preview) rendered the full 90px, un-
+      shrunk, same root-cause family as every other fix in this session.
+      Added a `title_typography_font_size_tablet` (78px) and
+      `_line_height_tablet` (82px) override, landing it between the
+      existing desktop/mobile values. Confirmed live (post-7.css now
+      shows a proper 3-step scale: 90px → 78px → 70px). Also worth
+      knowing for next time: the testimonial slider right below this
+      title has 3 placeholder reviews (Tunde/Ose/Ishaq) with **no author
+      photos set at all** — not a bug, just unfinished content, same as
+      the already-flagged Testimonials placeholder-quotes item below.
       **Not covered**: no actual desktop/tablet visual check was done
       (this was all static data/CSS analysis, no browser available) —
       still worth an eyes-on pass across all 4 pages at tablet and
