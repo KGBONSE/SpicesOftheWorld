@@ -442,10 +442,39 @@ not just drafted-copy handoff docs.
       Store API now lists `woocommerce_payments` alongside bacs/cod, plus
       Apple Pay/Google Pay (`payment_request`) and Amazon Pay showing up
       as express-checkout options too.
+- [x] **2026-08-17: discovered the whole store is behind a site-wide
+      "Coming Soon" page** — while about to work on publishing the 19
+      dry-product drafts, checked a product page directly and found it
+      (and the `/shop/` page) rendering WooCommerce's "Great things are
+      on the horizon... store is in the works" placeholder instead of
+      real content. This is a **separate, store-wide toggle**, independent
+      of any individual product's publish/draft status — real visitors
+      currently cannot browse or buy anything at all, regardless of what
+      we do to individual products or payment gateways. Confirmed with
+      Kofi this is **intentional, not an oversight** — he's not ready to
+      launch yet. Leaving it as-is; **check with him before assuming this
+      is still true in a future session**, since he may flip it live
+      without necessarily updating this file.
+      **Also surfaced, not yet investigated**: querying the live product
+      catalog via the public `/wp-json/wp/v2/product` endpoint returned
+      **78 published products**, not the ~34 documented above (2
+      published + 19 dry drafts + 13 wet drafts). The extra ~44 include
+      per-country "___ Spice Mix" products and 6 "Fudi People Chilli Oil
+      with Spices of ___" regional variants, covering countries well
+      beyond the 34-episode Season 1 roadmap (e.g. Italy, Spain &
+      Portugal, Great Britain, Scandinavia). Unknown whether this is
+      Kofi's own undocumented work (plausible — the About Us page fix
+      above was exactly this pattern), a bulk import, or something that
+      needs cleanup — genuinely not investigated beyond spotting the
+      count mismatch. Worth reconciling with Kofi before trusting this
+      file's product-count claims again.
 - [ ] Confirm/replace the Testimonials section's placeholder quotes with
       real customer feedback
 - [ ] Publish the 19 dry-product drafts once Kofi's happy with pricing and
       is OK with placeholder images going live (or waits for real photos)
+      — **on hold**: moot while the store-wide Coming Soon page is up, and
+      the actual current draft/published counts need reconciling first
+      (see above)
 - [ ] Real product photography to replace the generated placeholder cards
 - [ ] Decide packaging/shelf-life approach for the 13 wet products before
       they're sellable
