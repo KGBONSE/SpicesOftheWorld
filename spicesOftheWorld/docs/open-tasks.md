@@ -534,8 +534,9 @@ not just drafted-copy handoff docs.
       the actual current draft/published counts need reconciling first
       (see above)
 - [ ] Real product photography to replace the generated placeholder cards
-- [ ] Decide packaging/shelf-life approach for the 13 wet products before
-      they're sellable
+      (now 30 products need this: the original 19 dry + the 11 wet→dry
+      conversions, all using generated branded placeholder cards, not
+      real photos)
 - [ ] Continue Episode 1 shooting; normalise/assemble once all clips exist
 
 ## Not started (later phases, per blueprint build order)
