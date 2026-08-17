@@ -495,6 +495,37 @@ not just drafted-copy handoff docs.
       placeholder text is only hidden right now because Coming Soon is
       up — it becomes a real visible-to-customers issue the moment that
       toggle comes down, so revisit before launch, not after.
+- [x] **2026-08-18: 11 of the 13 wet products converted to real dry
+      products** — Kofi's call: rewrite them as genuine dry spice blends
+      (dropping fresh/wet elements) rather than just relabelling, and use
+      Fudi People's own farm-grown smoked chillies in place of generic or
+      regional chilli substitutes wherever a recipe used one. Drafted
+      copy for all 13 first in `docs/wet-to-dry-adaptations.md`; Tucupí
+      and Leche de Tigre were dropped at Kofi's request (both
+      fundamentally liquid products — fermented cassava juice, five
+      limes' worth of citrus — where a dry version barely resembled the
+      dish). The remaining 11 went live via the WooCommerce REST API
+      (description, short description, £7.99 price, in-stock status, a
+      new placeholder image, and cleaned-up tags — "Wet - Needs
+      Adaptation" removed, "Dry Blend" and, where a chilli was swapped,
+      "Fudi People Chillies" added). Two were renamed for accuracy since
+      they no longer describe a wet product: **Yangnyeomjang → Yangnyeom
+      Sesame Rub**, **Zhug → Zhug-Style Spice Blend**. Placeholder images
+      generated locally with Python/Pillow (not an image-gen tool) to
+      exactly match the existing 19 products' branded-card style — same
+      1200×1200 region-coloured circle template, colours sampled directly
+      from an existing placeholder to confirm the palette (Africa=Maroon,
+      Middle East=Gold, South Asia=Marigold, Americas=Ground Raised, East
+      Asia=Ink). **Access note**: this needed `manage_woocommerce`/
+      `edit_products`, which `claude-assistant`'s Editor role didn't have
+      — Kofi upgraded the account to WooCommerce's built-in **Shop
+      Manager** role (scoped: product/order management, no plugin/theme/
+      user access) rather than issuing a separate Admin credential; the
+      same Application Password just started working once the role
+      changed. **Two flagged for a real test-batch**: Vindaloo and the
+      Yangnyeom rub swap out chillies chosen for a specific mild
+      heat/flavour (Kashmiri, gochugaru) for Fudi People's own smokier
+      chilli — likely to taste noticeably different, not just "better."
 - [ ] Confirm/replace the Testimonials section's placeholder quotes with
       real customer feedback
 - [ ] Publish the 19 dry-product drafts once Kofi's happy with pricing and
