@@ -486,6 +486,15 @@ not just drafted-copy handoff docs.
       Since the whole store is still behind Coming Soon (see above), none
       of this is customer-visible yet — no urgency, but worth resolving
       before that toggle ever comes down.
+      **2026-08-17, reconciled**: Kofi's call — **keep all 44 published
+      as-is**, including the 20 with literal `[PLACEHOLDER]` bracketed
+      text as their live description. No site changes made (would have
+      needed his own bulk-edit in wp-admin anyway — `claude-assistant`
+      doesn't have `edit_products`, confirmed via a direct PUT attempt
+      that 403'd). Worth remembering next time this comes up: the
+      placeholder text is only hidden right now because Coming Soon is
+      up — it becomes a real visible-to-customers issue the moment that
+      toggle comes down, so revisit before launch, not after.
 - [ ] Confirm/replace the Testimonials section's placeholder quotes with
       real customer feedback
 - [ ] Publish the 19 dry-product drafts once Kofi's happy with pricing and
