@@ -455,19 +455,37 @@ not just drafted-copy handoff docs.
       launch yet. Leaving it as-is; **check with him before assuming this
       is still true in a future session**, since he may flip it live
       without necessarily updating this file.
-      **Also surfaced, not yet investigated**: querying the live product
-      catalog via the public `/wp-json/wp/v2/product` endpoint returned
-      **78 published products**, not the ~34 documented above (2
-      published + 19 dry drafts + 13 wet drafts). The extra ~44 include
-      per-country "___ Spice Mix" products and 6 "Fudi People Chilli Oil
-      with Spices of ___" regional variants, covering countries well
-      beyond the 34-episode Season 1 roadmap (e.g. Italy, Spain &
-      Portugal, Great Britain, Scandinavia). Unknown whether this is
-      Kofi's own undocumented work (plausible — the About Us page fix
-      above was exactly this pattern), a bulk import, or something that
-      needs cleanup — genuinely not investigated beyond spotting the
-      count mismatch. Worth reconciling with Kofi before trusting this
-      file's product-count claims again.
+      **Also found, now confirmed**: querying the live product catalog via
+      the public `/wp-json/wp/v2/product` endpoint returned **78 published
+      products**, not the ~34 documented above (2 published + 19 dry
+      drafts + 13 wet drafts). Built a searchable review artifact
+      (documented vs undocumented, filterable, links to each product +
+      its wp-admin editor) rather than dumping raw data, since this needed
+      Kofi's own judgement call. **Kofi confirmed the extra 44 were also
+      done through Claude** in an earlier, undocumented session — not a
+      bulk import or manual work, just never logged here. Precise
+      breakdown of the 44: all created the same day (2026-07-30), none
+      have a product photo, and they split into two real categories:
+      - **20 are genuinely incomplete** — all 6 Europe items, all 10
+        Southeast Asia items, and one "Fudi People Chilli Oil with Spices
+        of ___" per line (Africa/Middle East/South Asia/Southeast
+        Asia/Americas/Europe) — every one has literal bracketed template
+        text as its live description, e.g. `[RECIPE PLACEHOLDER – add a
+        paired recipe/food sample showing a dish made using the Vietnam
+        spice mix]`. Same placeholder convention as the About Us page bug
+        fixed earlier this session.
+      - **24 have real, well-written copy** citing specific episode
+        numbers, but nearly all of them appear to **duplicate a dish
+        already in the documented 34** under a broader regional name
+        instead of the dish name — e.g. "West Africa Spice Mix"
+        (undocumented) retells the same Yaji/suya story as the documented
+        "Yaji (West African Suya Spice Rub)" product. Not reconciled yet:
+        worth deciding with Kofi whether these are a deliberate second
+        navigation path (browse by region vs. browse by dish) worth
+        keeping, or true duplicates worth merging/removing.
+      Since the whole store is still behind Coming Soon (see above), none
+      of this is customer-visible yet — no urgency, but worth resolving
+      before that toggle ever comes down.
 - [ ] Confirm/replace the Testimonials section's placeholder quotes with
       real customer feedback
 - [ ] Publish the 19 dry-product drafts once Kofi's happy with pricing and
