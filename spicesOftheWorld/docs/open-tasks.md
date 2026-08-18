@@ -571,6 +571,49 @@ not just drafted-copy handoff docs.
       Kofi authenticates, using the actual `generate_video`/
       `generate_image` tools needs a fresh Claude Code session, not the
       one that ran `claude mcp add`.
+      **2026-08-18 update — first 2 clips generated.** Used model
+      `gemini_omni` (Google, via Higgsfield), vertical 9:16, 720p, 6s
+      each, no reference image (pure text-to-video), 18 credits each
+      (36 total, from a 58.8 balance). Output saved to
+      `graphics/episode-01/broll/`:
+      - `ep01-broll-ghana-coastline-map.mp4` — for cue 2 (Geography &
+        Origin): "A stylized animated documentary map graphic of West
+        Africa, warm editorial style, burnt-orange and deep burgundy
+        color palette on aged textured paper-map background. Camera
+        slowly pushes in on the West African coastline covering Ghana,
+        Ivory Coast, Liberia and Sierra Leone, with a soft warm glow
+        gently pulsing along Ghana's coastline, historically known as
+        the Grain Coast and Pepper Coast. Fine spice-dust particles
+        drift gently in the air. No text, no labels, no logos. Clean,
+        elegant, slow and deliberate camera motion, vertical format,
+        suitable as narrated B-roll footage."
+      - `ep01-broll-trade-route-animation.mp4` — for cue 3 (Trade &
+        Migration History): "A stylized animated historical trade-route
+        map graphic, warm editorial documentary style, burnt-orange and
+        deep burgundy color palette on aged textured paper-map
+        background. A glowing line animates and traces a caravan trade
+        route from West Africa across the Sahara desert northward into
+        Europe, with small dotted waypoints lighting up in sequence as
+        the line travels. Subtle sand and dust particles drift along the
+        Saharan stretch of the route. No text, no labels, no logos.
+        Smooth, elegant motion graphics, slow deliberate pacing, vertical
+        format, suitable as narrated B-roll footage."
+      Note: the first submission for the Ghana clip was rejected by
+      Higgsfield's own recommender in favour of an unrelated horror-genre
+      preset ("IN THE DARK") — resubmitted with that preset explicitly
+      declined and it generated correctly on the retry; worth expecting
+      this on future generations and just declining the wrong preset.
+      **2026-08-18, later same day: spliced in and promoted.** Installed
+      `ffmpeg` (`winget install Gyan.FFmpeg`) and cut both clips into
+      `video/episode-01-rough-cut-DRAFT.mp4` in place of the static
+      `ep01-map-ghana.png`/`ep01-map-trade-route.png` title cards for
+      those two beats. Kofi reviewed and approved; the file now in the
+      repo is the B-roll version — pre-B-roll cut recoverable from
+      git/LFS history if ever needed. Full method, one known regression
+      (crossfade → hard cut at the Ghana→farm-photo boundary), and
+      verification notes in `video/README.md`. **Done** — this item can
+      be considered closed; only the trial-cancellation half of this
+      task (separate scheduled check, 2026-08-21) remains open.
 
 ## Not started (later phases, per blueprint build order)
 
