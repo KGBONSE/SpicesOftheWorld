@@ -538,6 +538,39 @@ not just drafted-copy handoff docs.
       conversions, all using generated branded placeholder cards, not
       real photos)
 - [ ] Continue Episode 1 shooting; normalise/assemble once all clips exist
+- [ ] **2026-08-18: Higgsfield MCP added for B-roll generation, trial
+      running — CANCEL BEFORE RENEWAL.** Added via `claude mcp add
+      --transport http --scope user higgsfield https://mcp.higgsfield.ai/mcp`
+      to generate the `[B-ROLL]` cues already written into every episode
+      script (239 across all 34 episodes) — map/trade-route animations
+      specifically, not anything with Kofi's face/voice/real specific
+      places (Mokola Market, the Sidcup farm) in it, which stay real
+      footage on purpose. Went through Episode 1's 7 cues as the test
+      case: only 2 are genuine AI-generation candidates (the "map
+      graphic" and "trade route map animation" in cues 2–3), the rest
+      are either tied to a real specific place or are simple cooking-demo
+      shots better filmed for real. Draft prompts for both are in this
+      session's conversation history, not yet saved to a file — write
+      them down properly once the first generation actually confirms the
+      approach works.
+      **Cost reality check, found the hard way**: initial research
+      (aggregator blogs, not Higgsfield's own JS-rendered pricing page,
+      which isn't fetchable) suggested a $15/month Starter tier existed —
+      wrong. What Kofi's account actually shows is a **3-day free trial
+      that auto-renews into $49/month**, no cheaper tier available. His
+      call: run the trial, generate Episode 1's 2 clips, **cancel before
+      it renews** rather than commit to $49/month yet — this is the one
+      part of the project that's departed from the "$0 to start"
+      philosophy everything else has followed, and it's not confirmed
+      worth it yet. Trial started 2026-08-18 — **if this item is still
+      open in a future session, check whether it actually got cancelled**,
+      since I have no way to confirm that myself or send a reminder
+      outside an active conversation. Kofi should also set his own
+      calendar reminder, not rely on this file alone.
+      **Access note**: MCP tools only load at session start — even after
+      Kofi authenticates, using the actual `generate_video`/
+      `generate_image` tools needs a fresh Claude Code session, not the
+      one that ran `claude mcp add`.
 
 ## Not started (later phases, per blueprint build order)
 
