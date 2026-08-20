@@ -614,6 +614,49 @@ not just drafted-copy handoff docs.
       verification notes in `video/README.md`. **Done** — this item can
       be considered closed; only the trial-cancellation half of this
       task (separate scheduled check, 2026-08-21) remains open.
+- [ ] **2026-08-19: Episode 2 (Senegal) trade-route B-roll generated,
+      not yet spliced in.** Same `gemini_omni` setup as Episode 1 (9:16,
+      720p, 6s, no reference image), 18 credits — last clip affordable
+      before the trial balance ran low (22.8 → 4.8 remaining after this
+      one, not enough for another). Saved to
+      `graphics/episode-02/broll/ep02-broll-senegal-nigeria-ghana-trade-route.mp4`.
+      Covers cue 3 (Trade & Migration History) only — on-screen text
+      "One dish, one spice, three countries — Senegal to Nigeria and
+      Ghana": "A stylized animated historical trade-route map graphic,
+      warm editorial documentary style, burnt-orange and deep burgundy
+      color palette on aged textured paper-map background. A glowing
+      line animates and traces the spread of a dish and its spice blend
+      starting from Senegal, branching eastward along the West African
+      coast to Nigeria and Ghana, with small dotted waypoints lighting
+      up in sequence at each country as the line travels. Subtle fine
+      dust particles drift gently along the route. No text, no labels,
+      no logos. Smooth, elegant motion graphics, slow deliberate pacing,
+      vertical format, suitable as narrated B-roll footage." Cue 2's map
+      graphic (Senegal coastline) wasn't generated — deliberately
+      skipped, credits ran low and that cue can partly use real market
+      footage instead, unlike the trade-route cue which has no
+      real-footage alternative. Episode 2 has no rough-cut animatic yet
+      (unlike Episode 1), so nothing to splice this into yet — stays as
+      a standalone asset until Episode 2 gets its own animatic build.
+      **2026-08-19, later same session: cue 2 generated too, pair now
+      complete.** Credits had dropped to 4.8 (not enough for another
+      `gemini_omni` clip at 18 each), so switched models — **Kling 3.0
+      Turbo**, 3s/720p/9:16, 4.5 credits, text-only. Saved to
+      `graphics/episode-02/broll/ep02-broll-senegal-coastline-map.mp4`:
+      "A stylized animated documentary map graphic of Senegal and the
+      West African coastline, warm editorial style, burnt-orange and
+      deep burgundy color palette on aged textured paper-map background.
+      Camera slowly pushes in on Senegal's coastline, with a soft warm
+      glow gently pulsing over Senegal. Fine dust particles drift gently
+      in the air. No text, no labels, no logos. Clean, elegant, slow and
+      deliberate camera motion, vertical format, suitable as narrated
+      B-roll footage." Note: shorter (3s vs the 6s `gemini_omni` clips)
+      and a different model, so motion style may not exactly match the
+      other Episode 1/2 clips — worth a look side-by-side before relying
+      on visual consistency across episodes. **Trial balance now 0.3
+      credits — effectively exhausted**, nothing more generatable until
+      either the trial renews (2026-08-21, see the cancellation-decision
+      item above) or credits are topped up.
 
 ## Not started (later phases, per blueprint build order)
 
