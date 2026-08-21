@@ -528,11 +528,81 @@ not just drafted-copy handoff docs.
       chilli — likely to taste noticeably different, not just "better."
 - [ ] Confirm/replace the Testimonials section's placeholder quotes with
       real customer feedback
-- [ ] Publish the 19 dry-product drafts once Kofi's happy with pricing and
-      is OK with placeholder images going live (or waits for real photos)
-      — **on hold**: moot while the store-wide Coming Soon page is up, and
-      the actual current draft/published counts need reconciling first
-      (see above)
+- [x] **2026-08-21: full pre-launch catalog audit and cleanup, superseding
+      the "19 drafts" framing above** — Kofi's plugin update broke the
+      site (Elementor + WooCommerce vanished from the plugin list
+      entirely; fixed by reinstalling both fresh from wp-admin, no data
+      loss since products/pages live in the DB not plugin files), and
+      afterward he asked to publish everything live. Live catalog state
+      no longer matched these notes (drift since 2026-08-17/18), so
+      queried it directly via the WooCommerce REST API instead of
+      trusting the old counts:
+      - Actual state found: **89 total products, 78 published, 11
+        private, 0 in "draft" status** (not the 19+2 drafts logged
+        above). Of the 78 "published": **22 had literal `[PLACEHOLDER]`
+        bracket text** as their live description (20 of the 22 already
+        publicly live, only 2 sitting private), and **54 had no price
+        set at all** — meaning most of the catalog wasn't actually
+        purchasable, a bigger problem than anything logged previously.
+      - Kofi's calls: set the 54 unpriced ones to £7.99 and publish;
+        unpublish all 22 placeholder-text ones (moved to draft).
+      - **Caught during execution, not before**: 2 of the 54 "just needs
+        a price" products were actually **Tucupí** and **Leche de
+        Tigre** — the two wet products already deliberately dropped
+        from the wet-to-dry conversion (fermented sauce / fresh citrus
+        marinade, no real dry equivalent) — their description still
+        literally says "WET, needs adaptation." Pulled both out of the
+        pricing batch and drafted them instead of publishing.
+      - **Caught after the batch ran**: a lingering "private" product,
+        **West China Spice Mix** (Sichuan doubanjiang/chilli-bean sauce,
+        Episode 29's actual product), already had a price but was never
+        touched by either batch — checked its description and it's
+        *also* still "WET - a fermented sauce, not a dry blend."
+        Appears to have been missed entirely during the original
+        2026-08-18 wet-to-dry conversion session — **follow-up needed**:
+        decide whether to adapt it to a real dry blend (like the other
+        11) or drop it (like Tucupí/Leche de Tigre). Set to draft for
+        now.
+      - **Bigger catch, worth remembering for next time**: after the
+        price+publish batch ran, a follow-up sweep found **10 more
+        newly-published products still carrying the "Wet - Needs
+        Adaptation" tag** — these are the regional-duplicate versions
+        (e.g. "Amazon Spice Mix," "South America Spice Mix") that
+        describe the *same* wet dishes as Tucupí/Leche de Tigre/niter
+        kibbeh/zhug/taklia/vindaloo-style paste/mbongo/harissa under a
+        broader region name instead of the specific dish name — missed
+        because the first pass only checked for blank price and
+        `[PLACEHOLDER]` text, not the "Wet" tag itself. Reverted all 10
+        back to draft. **Lesson logged**: the "Wet - Needs Adaptation"
+        tag is the authoritative signal, not the description text or
+        price field alone — check it directly next time, on the whole
+        catalog, before publishing anything.
+      - **Final verified state**: 54 published (every one has a real
+        price, no `[PLACEHOLDER]` text, no "Wet" tag), 35 draft, 0
+        private. Confirmed via a full re-sweep of all published
+        products' tags and prices, not just the ones touched.
+      - **2026-08-21, same session — store taken live.** Kofi provided
+        the `claude-assistant` Application Password. Found the "Coming
+        Soon" toggle is WooCommerce's own built-in Coming Soon mode
+        (`woocommerce_coming_soon` option, via the `wc-admin/options`
+        REST endpoint) — and discovered `woocommerce_store_pages_only`
+        was already `"yes"`, meaning the restriction was scoped to just
+        shop/product pages, not the whole site as the 2026-08-17 note
+        assumed. Confirmed live with Kofi this was the intended final
+        step, then set `woocommerce_coming_soon` to `"no"`. Verified
+        twice: a direct re-read of the option (POST response was an
+        ambiguous bare `true`, didn't trust it) and an unauthenticated
+        fetch of `/shop/` showing real products with working "Add to
+        cart" buttons instead of the "Great things are on the horizon"
+        placeholder. **The store is now publicly live.**
+      - **Still open**: West China Spice Mix and the 10 wet
+        regional-duplicates need the same real-copy treatment as the
+        original 11 wet→dry conversions (or dropping, per-item) — these
+        are currently in draft, not customer-visible, but should get
+        proper attention now that the store is live and could otherwise
+        sit forgotten. Real product photography (see next item) is now
+        more urgent too, since the placeholder cards are visible to
+        real customers for the first time.
 - [ ] Real product photography to replace the generated placeholder cards
       (now 30 products need this: the original 19 dry + the 11 wet→dry
       conversions, all using generated branded placeholder cards, not
