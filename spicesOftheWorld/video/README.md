@@ -254,3 +254,55 @@ final editing if still available). Unedited, not yet reviewed or cut down.
 on Episode 1 and wants to wait until the rest of the session's clips exist
 before editing/assembling, so this stays as raw footage for now, same
 treatment as other not-yet-cut source clips in this folder.
+
+## Added 2026-08-18 — first Higgsfield-generated B-roll (Episode 1 map clips)
+
+Two animated map clips generated via the Higgsfield MCP `gemini_omni`
+model (9:16, 720p, 6s each), saved to `../graphics/episode-01/broll/`:
+`ep01-broll-ghana-coastline-map.mp4` and
+`ep01-broll-trade-route-animation.mp4`. Full prompts and cost logged in
+`../docs/open-tasks.md`. Both came out already 720x1280, no normalise
+step needed.
+
+**`ffmpeg` installed same session** (via `winget install Gyan.FFmpeg`,
+v9.0) specifically to splice these in — wasn't available in this
+environment before.
+
+**Spliced into a new version, `episode-01-rough-cut-v6-broll.mp4`**
+(`episode-01-rough-cut-DRAFT.mp4` left untouched). The original v5 cut
+had no saved edit-decision-list, so cut points were found by extracting
+contact-sheet frame grids at 1s then 0.1s resolution and reading them
+visually — a fully manual/visual process, not from any timing metadata.
+Found: Ghana card visible ~76.6s–88.9s (crossfade into the farm-photo
+cutaway from ~88.5s), trade-route card ~119.1s–131.1s (near-hard-cut
+into market footage). Replaced each card's video-only with the matching
+B-roll clip (fps-converted 24→25 to match, last frame held/padded via
+`tpad` to exactly fill the removed window's duration — 12.3s and 12.0s
+respectively) via `filter_complex` trim+concat, **original audio track
+passed through completely untouched** (`-map 0:a:0 -c:a copy`) since
+total duration is unchanged, so nothing downstream drifts out of sync.
+Verified: output duration 376.18s vs original 376.12s (~1 frame, within
+encoding rounding), spot-checked both swap points via frame grids —
+clean cuts, on-screen text labels still correctly aligned.
+
+**One known regression, accepted deliberately**: the original v5 had a
+soft crossfade from the Ghana card into the farm photo; this version
+replaces it with a hard cut (reconstructing the exact crossfade curve
+wasn't worth the risk on what's still a placeholder/reference animatic,
+not a final edit). The trade-route→market-footage cut was already close
+to a hard cut in the original, so no visible change there.
+
+**2026-08-18, promoted:** Kofi reviewed and approved — copied over
+`episode-01-rough-cut-DRAFT.mp4` in place (the project's existing
+convention: one `DRAFT` filename, revisions tracked here and in git
+history rather than as separate files, same as v1–v5 below). The
+`-v6-broll.mp4` filename no longer exists as a separate file; git/LFS
+history still has the pre-B-roll version if it's ever needed back.
+
+## Added 2026-08-18 — Mokola Market video upscaled
+
+`Fudi_People_Mokola_Market_with_voiceover_upscaled_1080p.mp4` — the
+voiceover version run through Higgsfield's Topaz video upscaler (1080p,
+auto aspect ratio). Original file kept alongside, untouched. Not yet
+reviewed for quality or swapped in as the new base for any downstream
+edit (e.g. the rough-cut animatic still uses the original).

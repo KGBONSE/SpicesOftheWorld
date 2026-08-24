@@ -528,11 +528,81 @@ not just drafted-copy handoff docs.
       chilli — likely to taste noticeably different, not just "better."
 - [ ] Confirm/replace the Testimonials section's placeholder quotes with
       real customer feedback
-- [ ] Publish the 19 dry-product drafts once Kofi's happy with pricing and
-      is OK with placeholder images going live (or waits for real photos)
-      — **on hold**: moot while the store-wide Coming Soon page is up, and
-      the actual current draft/published counts need reconciling first
-      (see above)
+- [x] **2026-08-21: full pre-launch catalog audit and cleanup, superseding
+      the "19 drafts" framing above** — Kofi's plugin update broke the
+      site (Elementor + WooCommerce vanished from the plugin list
+      entirely; fixed by reinstalling both fresh from wp-admin, no data
+      loss since products/pages live in the DB not plugin files), and
+      afterward he asked to publish everything live. Live catalog state
+      no longer matched these notes (drift since 2026-08-17/18), so
+      queried it directly via the WooCommerce REST API instead of
+      trusting the old counts:
+      - Actual state found: **89 total products, 78 published, 11
+        private, 0 in "draft" status** (not the 19+2 drafts logged
+        above). Of the 78 "published": **22 had literal `[PLACEHOLDER]`
+        bracket text** as their live description (20 of the 22 already
+        publicly live, only 2 sitting private), and **54 had no price
+        set at all** — meaning most of the catalog wasn't actually
+        purchasable, a bigger problem than anything logged previously.
+      - Kofi's calls: set the 54 unpriced ones to £7.99 and publish;
+        unpublish all 22 placeholder-text ones (moved to draft).
+      - **Caught during execution, not before**: 2 of the 54 "just needs
+        a price" products were actually **Tucupí** and **Leche de
+        Tigre** — the two wet products already deliberately dropped
+        from the wet-to-dry conversion (fermented sauce / fresh citrus
+        marinade, no real dry equivalent) — their description still
+        literally says "WET, needs adaptation." Pulled both out of the
+        pricing batch and drafted them instead of publishing.
+      - **Caught after the batch ran**: a lingering "private" product,
+        **West China Spice Mix** (Sichuan doubanjiang/chilli-bean sauce,
+        Episode 29's actual product), already had a price but was never
+        touched by either batch — checked its description and it's
+        *also* still "WET - a fermented sauce, not a dry blend."
+        Appears to have been missed entirely during the original
+        2026-08-18 wet-to-dry conversion session — **follow-up needed**:
+        decide whether to adapt it to a real dry blend (like the other
+        11) or drop it (like Tucupí/Leche de Tigre). Set to draft for
+        now.
+      - **Bigger catch, worth remembering for next time**: after the
+        price+publish batch ran, a follow-up sweep found **10 more
+        newly-published products still carrying the "Wet - Needs
+        Adaptation" tag** — these are the regional-duplicate versions
+        (e.g. "Amazon Spice Mix," "South America Spice Mix") that
+        describe the *same* wet dishes as Tucupí/Leche de Tigre/niter
+        kibbeh/zhug/taklia/vindaloo-style paste/mbongo/harissa under a
+        broader region name instead of the specific dish name — missed
+        because the first pass only checked for blank price and
+        `[PLACEHOLDER]` text, not the "Wet" tag itself. Reverted all 10
+        back to draft. **Lesson logged**: the "Wet - Needs Adaptation"
+        tag is the authoritative signal, not the description text or
+        price field alone — check it directly next time, on the whole
+        catalog, before publishing anything.
+      - **Final verified state**: 54 published (every one has a real
+        price, no `[PLACEHOLDER]` text, no "Wet" tag), 35 draft, 0
+        private. Confirmed via a full re-sweep of all published
+        products' tags and prices, not just the ones touched.
+      - **2026-08-21, same session — store taken live.** Kofi provided
+        the `claude-assistant` Application Password. Found the "Coming
+        Soon" toggle is WooCommerce's own built-in Coming Soon mode
+        (`woocommerce_coming_soon` option, via the `wc-admin/options`
+        REST endpoint) — and discovered `woocommerce_store_pages_only`
+        was already `"yes"`, meaning the restriction was scoped to just
+        shop/product pages, not the whole site as the 2026-08-17 note
+        assumed. Confirmed live with Kofi this was the intended final
+        step, then set `woocommerce_coming_soon` to `"no"`. Verified
+        twice: a direct re-read of the option (POST response was an
+        ambiguous bare `true`, didn't trust it) and an unauthenticated
+        fetch of `/shop/` showing real products with working "Add to
+        cart" buttons instead of the "Great things are on the horizon"
+        placeholder. **The store is now publicly live.**
+      - **Still open**: West China Spice Mix and the 10 wet
+        regional-duplicates need the same real-copy treatment as the
+        original 11 wet→dry conversions (or dropping, per-item) — these
+        are currently in draft, not customer-visible, but should get
+        proper attention now that the store is live and could otherwise
+        sit forgotten. Real product photography (see next item) is now
+        more urgent too, since the placeholder cards are visible to
+        real customers for the first time.
 - [ ] Real product photography to replace the generated placeholder cards
       (now 30 products need this: the original 19 dry + the 11 wet→dry
       conversions, all using generated branded placeholder cards, not
@@ -571,6 +641,92 @@ not just drafted-copy handoff docs.
       Kofi authenticates, using the actual `generate_video`/
       `generate_image` tools needs a fresh Claude Code session, not the
       one that ran `claude mcp add`.
+      **2026-08-18 update — first 2 clips generated.** Used model
+      `gemini_omni` (Google, via Higgsfield), vertical 9:16, 720p, 6s
+      each, no reference image (pure text-to-video), 18 credits each
+      (36 total, from a 58.8 balance). Output saved to
+      `graphics/episode-01/broll/`:
+      - `ep01-broll-ghana-coastline-map.mp4` — for cue 2 (Geography &
+        Origin): "A stylized animated documentary map graphic of West
+        Africa, warm editorial style, burnt-orange and deep burgundy
+        color palette on aged textured paper-map background. Camera
+        slowly pushes in on the West African coastline covering Ghana,
+        Ivory Coast, Liberia and Sierra Leone, with a soft warm glow
+        gently pulsing along Ghana's coastline, historically known as
+        the Grain Coast and Pepper Coast. Fine spice-dust particles
+        drift gently in the air. No text, no labels, no logos. Clean,
+        elegant, slow and deliberate camera motion, vertical format,
+        suitable as narrated B-roll footage."
+      - `ep01-broll-trade-route-animation.mp4` — for cue 3 (Trade &
+        Migration History): "A stylized animated historical trade-route
+        map graphic, warm editorial documentary style, burnt-orange and
+        deep burgundy color palette on aged textured paper-map
+        background. A glowing line animates and traces a caravan trade
+        route from West Africa across the Sahara desert northward into
+        Europe, with small dotted waypoints lighting up in sequence as
+        the line travels. Subtle sand and dust particles drift along the
+        Saharan stretch of the route. No text, no labels, no logos.
+        Smooth, elegant motion graphics, slow deliberate pacing, vertical
+        format, suitable as narrated B-roll footage."
+      Note: the first submission for the Ghana clip was rejected by
+      Higgsfield's own recommender in favour of an unrelated horror-genre
+      preset ("IN THE DARK") — resubmitted with that preset explicitly
+      declined and it generated correctly on the retry; worth expecting
+      this on future generations and just declining the wrong preset.
+      **2026-08-18, later same day: spliced in and promoted.** Installed
+      `ffmpeg` (`winget install Gyan.FFmpeg`) and cut both clips into
+      `video/episode-01-rough-cut-DRAFT.mp4` in place of the static
+      `ep01-map-ghana.png`/`ep01-map-trade-route.png` title cards for
+      those two beats. Kofi reviewed and approved; the file now in the
+      repo is the B-roll version — pre-B-roll cut recoverable from
+      git/LFS history if ever needed. Full method, one known regression
+      (crossfade → hard cut at the Ghana→farm-photo boundary), and
+      verification notes in `video/README.md`. **Done** — this item can
+      be considered closed; only the trial-cancellation half of this
+      task (separate scheduled check, 2026-08-21) remains open.
+- [ ] **2026-08-19: Episode 2 (Senegal) trade-route B-roll generated,
+      not yet spliced in.** Same `gemini_omni` setup as Episode 1 (9:16,
+      720p, 6s, no reference image), 18 credits — last clip affordable
+      before the trial balance ran low (22.8 → 4.8 remaining after this
+      one, not enough for another). Saved to
+      `graphics/episode-02/broll/ep02-broll-senegal-nigeria-ghana-trade-route.mp4`.
+      Covers cue 3 (Trade & Migration History) only — on-screen text
+      "One dish, one spice, three countries — Senegal to Nigeria and
+      Ghana": "A stylized animated historical trade-route map graphic,
+      warm editorial documentary style, burnt-orange and deep burgundy
+      color palette on aged textured paper-map background. A glowing
+      line animates and traces the spread of a dish and its spice blend
+      starting from Senegal, branching eastward along the West African
+      coast to Nigeria and Ghana, with small dotted waypoints lighting
+      up in sequence at each country as the line travels. Subtle fine
+      dust particles drift gently along the route. No text, no labels,
+      no logos. Smooth, elegant motion graphics, slow deliberate pacing,
+      vertical format, suitable as narrated B-roll footage." Cue 2's map
+      graphic (Senegal coastline) wasn't generated — deliberately
+      skipped, credits ran low and that cue can partly use real market
+      footage instead, unlike the trade-route cue which has no
+      real-footage alternative. Episode 2 has no rough-cut animatic yet
+      (unlike Episode 1), so nothing to splice this into yet — stays as
+      a standalone asset until Episode 2 gets its own animatic build.
+      **2026-08-19, later same session: cue 2 generated too, pair now
+      complete.** Credits had dropped to 4.8 (not enough for another
+      `gemini_omni` clip at 18 each), so switched models — **Kling 3.0
+      Turbo**, 3s/720p/9:16, 4.5 credits, text-only. Saved to
+      `graphics/episode-02/broll/ep02-broll-senegal-coastline-map.mp4`:
+      "A stylized animated documentary map graphic of Senegal and the
+      West African coastline, warm editorial style, burnt-orange and
+      deep burgundy color palette on aged textured paper-map background.
+      Camera slowly pushes in on Senegal's coastline, with a soft warm
+      glow gently pulsing over Senegal. Fine dust particles drift gently
+      in the air. No text, no labels, no logos. Clean, elegant, slow and
+      deliberate camera motion, vertical format, suitable as narrated
+      B-roll footage." Note: shorter (3s vs the 6s `gemini_omni` clips)
+      and a different model, so motion style may not exactly match the
+      other Episode 1/2 clips — worth a look side-by-side before relying
+      on visual consistency across episodes. **Trial balance now 0.3
+      credits — effectively exhausted**, nothing more generatable until
+      either the trial renews (2026-08-21, see the cancellation-decision
+      item above) or credits are topped up.
 - [x] **2026-08-24: "Spice Blend" / "Cooking" video tabs added to every
       product page**, alongside the default Description/Reviews tabs —
       matches the episode structure's "The blend" / "The dish" beats.
@@ -585,11 +741,28 @@ not just drafted-copy handoff docs.
       parse errors; fixed by repasting clean. Confirmed live on Yaji
       (`tab-title-spice_blend_video` / `tab-title-cooking_video` both
       present, "Coming soon" placeholder showing correctly). Both tabs
-      read from product custom fields `_spice_blend_video_url` /
-      `_cooking_video_url` — empty for every product right now. **Next
-      step, whenever a real episode video exists**: tell Claude the
-      product + YouTube link and it'll set the custom field via the API
-      directly, no manual wp-admin editing needed.
+      read from product custom fields — renamed from an initial
+      `_spice_blend_video_url`/`_cooking_video_url` (underscore-prefixed
+      meta is hidden from wp-admin's Custom Fields UI by design, so Kofi
+      couldn't self-edit them) to `spice_blend_video_url`/
+      `cooking_video_url` instead, second snippet re-paste required.
+      **Cooking tab now has a real video** — Kofi's own raw iPhone
+      footage (`IMG_4573.MOV`, grilling suya/chinchinga skewers with
+      Yaji) polished via ffmpeg (rotation fix, subtle contrast/saturation
+      boost, loudnorm audio, fade in/out) and self-hosted: Kofi's call
+      was to skip YouTube for now and host the file directly. My own
+      REST API upload attempts got blocked by the host's mod_security
+      WAF for *any* video file regardless of size (confirmed with a
+      434KB test clip) — worked fine once Kofi uploaded it himself via
+      wp-admin's Media Library screen instead (different request path).
+      Snippet updated again to detect a direct file URL
+      (`.mp4`/`.mov`/etc via regex) and use `wp_video_shortcode()`
+      instead of `wp_oembed_get()`, which only works for oEmbed
+      providers like YouTube. Spice Blend tab still shows "Coming soon"
+      — no blend-making footage exists yet. **Next step, whenever a real
+      video exists for either tab**: tell Claude the product + a
+      YouTube link or local file path and it'll handle upload/encoding
+      and set the custom field via the API directly.
       (An earlier attempt embedded the video placeholders directly inside
       Yaji's Description tab instead of a new tab — tried and reverted
       same session, Kofi wanted a real separate tab.)
