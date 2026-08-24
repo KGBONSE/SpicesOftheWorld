@@ -571,6 +571,28 @@ not just drafted-copy handoff docs.
       Kofi authenticates, using the actual `generate_video`/
       `generate_image` tools needs a fresh Claude Code session, not the
       one that ran `claude mcp add`.
+- [x] **2026-08-24: "Spice Blend" / "Cooking" video tabs added to every
+      product page**, alongside the default Description/Reviews tabs —
+      matches the episode structure's "The blend" / "The dish" beats.
+      `claude-assistant`'s Shop Manager role can't install plugins or edit
+      theme files, so this needed Kofi's own action: installed the free
+      "Code Snippets" plugin and activated the filter saved at
+      `docs/product-video-tabs-snippet.php` (a `woocommerce_product_tabs`
+      filter). Took two tries — the first paste had a stray leftover `php`
+      word on its own line (from partially deleting the `<?php` tag,
+      which Code Snippets adds automatically and doesn't want in the
+      snippet body) plus a stray `:` glued onto `add_filter(`, both fatal
+      parse errors; fixed by repasting clean. Confirmed live on Yaji
+      (`tab-title-spice_blend_video` / `tab-title-cooking_video` both
+      present, "Coming soon" placeholder showing correctly). Both tabs
+      read from product custom fields `_spice_blend_video_url` /
+      `_cooking_video_url` — empty for every product right now. **Next
+      step, whenever a real episode video exists**: tell Claude the
+      product + YouTube link and it'll set the custom field via the API
+      directly, no manual wp-admin editing needed.
+      (An earlier attempt embedded the video placeholders directly inside
+      Yaji's Description tab instead of a new tab — tried and reverted
+      same session, Kofi wanted a real separate tab.)
 
 ## Not started (later phases, per blueprint build order)
 
