@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Fudi People — Yaji Label (West Africa)</title>
+<link rel="stylesheet" href="https://use.typekit.net/ppb1kps.css">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --paper: #faf6ee;
+    --ink: #2b211b;
+    --ink-soft: #6b5d4f;
+    --accent: #a9762f;
+    --rule: #e4d9c6;
+    --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #1b1512;
+      --ink: #f0e6d8;
+      --ink-soft: #b6a794;
+      --accent: #d4a75a;
+      --rule: #3a2f27;
+      --card: #241d18;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #1b1512; --ink: #f0e6d8; --ink-soft: #b6a794; --accent: #d4a75a; --rule: #3a2f27; --card: #241d18;
+  }
+  :root[data-theme="light"] {
+    --paper: #faf6ee; --ink: #2b211b; --ink-soft: #6b5d4f; --accent: #a9762f; --rule: #e4d9c6; --card: #ffffff;
+  }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "source-sans-3", sans-serif;
+    padding: 64px 24px 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+  }
+
+  .intro {
+    max-width: 640px;
+    text-align: center;
+  }
+  .eyebrow {
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 14px;
+  }
+  h1 {
+    font-family: "source-serif-4", serif;
+    font-weight: 700;
+    font-size: 34px;
+    text-wrap: balance;
+    margin-bottom: 14px;
+  }
+  .intro p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    max-width: 56ch;
+    margin: 0 auto;
+  }
+
+  .stage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 48px;
+  }
+
+  .piece {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .piece-label {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    font-weight: 600;
+  }
+  .piece-dims {
+    font-size: 12px;
+    color: var(--ink-soft);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---- The label artwork itself: a fixed print/product design, ---- */
+  /* ---- deliberately one visual world regardless of page theme.  ---- */
+  .label-face {
+    --maroon-deep: #43140f;
+    --maroon-mid: #6b2318;
+    --maroon-edge: #33100c;
+    --cream: #f3e6cf;
+    --gold: #c99a4a;
+    --gold-dim: #8a6a3c;
+
+    position: relative;
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 38%, var(--maroon-mid) 0%, var(--maroon-deep) 62%, var(--maroon-edge) 100%);
+    box-shadow: 0 18px 40px -18px rgba(0,0,0,0.45), inset 0 0 0 1px rgba(0,0,0,0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .label-face.print { width: 359px; height: 359px; }
+  .label-face.digital { width: 420px; height: 420px; }
+
+  .label-face .ring {
+    position: absolute;
+    inset: 14px;
+    border-radius: 50%;
+    border: 1px solid var(--gold-dim);
+    opacity: 0.55;
+  }
+
+  .label-content {
+    position: relative;
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .mark {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 6px;
+  }
+  .mark path { fill: var(--cream); }
+  .mark circle.dot { fill: var(--cream); opacity: 0.85; }
+
+  .wordmark {
+    font-family: "source-sans-3", sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    color: var(--cream);
+    margin-bottom: 10px;
+  }
+
+  .rule {
+    width: 34px;
+    height: 1px;
+    background: var(--gold);
+    margin-bottom: 14px;
+  }
+
+  .headline {
+    font-family: "source-serif-4", serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 1;
+    color: var(--cream);
+    letter-spacing: 0.01em;
+    margin-bottom: 8px;
+  }
+
+  .subhead {
+    font-family: "source-serif-4", serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12.5px;
+    color: var(--gold);
+    letter-spacing: 0.01em;
+    margin-bottom: 16px;
+  }
+
+  .route {
+    width: 120px;
+    height: 14px;
+    margin-bottom: 16px;
+    opacity: 0.9;
+  }
+  .route path { stroke: var(--gold-dim); stroke-width: 1; fill: none; }
+  .route circle { fill: var(--gold); }
+
+  .tag {
+    font-family: "source-sans-3", sans-serif;
+    font-weight: 600;
+    font-size: 9.5px;
+    letter-spacing: 0.2em;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+
+  .micro {
+    font-family: "source-sans-3", sans-serif;
+    font-weight: 400;
+    font-size: 7.5px;
+    letter-spacing: 0.06em;
+    color: var(--cream);
+    opacity: 0.6;
+  }
+
+  .digital .label-content { width: 76%; }
+
+  /* ---- Page chrome: palette key + notes ---- */
+  .key {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 640px;
+    width: 100%;
+  }
+  .key h2 {
+    font-family: "source-serif-4", serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .swatches {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+  .swatch {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    padding: 6px 14px 6px 6px;
+    font-size: 12.5px;
+    color: var(--ink-soft);
+  }
+  .swatch .dot {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .swatch b { color: var(--ink); font-weight: 600; }
+
+  .note {
+    font-size: 13.5px;
+    line-height: 1.7;
+    color: var(--ink-soft);
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    padding: 18px 20px;
+  }
+  .note b { color: var(--ink); }
+</style>
+</head>
+<body>
+
+  <div class="intro">
+    <div class="eyebrow">Fudi People — Label System · West Africa</div>
+    <h1>Yaji, West Africa's suya &amp; chinchinga blend</h1>
+    <p>First design in the region-coded label system: one fixed template, one accent per continent. This one carries Africa's maroon field, a thin gold trade-route line under the name, and the same pin-and-market mark used across the brand.</p>
+  </div>
+
+  <div class="stage">
+
+    <div class="piece">
+      <div class="label-face print">
+        <div class="ring"></div>
+        <div class="label-content">
+          <svg class="mark" viewBox="0 0 24 24"><circle class="dot" cx="4" cy="17" r="2"></circle><circle class="dot" cx="20" cy="17" r="2"></circle><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"></path></svg>
+          <div class="wordmark">FUDI&nbsp;PEOPLE</div>
+          <div class="rule"></div>
+          <div class="headline">YAJI</div>
+          <div class="subhead">Suya &amp; Chinchinga Blend · West Africa</div>
+          <svg class="route" viewBox="0 0 120 14"><path d="M2 12 C 30 2, 55 12, 80 4 S 110 2, 118 6"></path><circle cx="2" cy="12" r="2"></circle><circle cx="118" cy="6" r="2"></circle></svg>
+          <div class="tag">SPICES&nbsp;OF&nbsp;AFRICA</div>
+          <div class="micro">NET WT 50g&nbsp;&nbsp;·&nbsp;&nbsp;fudipeople.com</div>
+        </div>
+      </div>
+      <div class="piece-label">Physical — round jar label</div>
+      <div class="piece-dims">95mm diameter · 359 × 359px @ 96dpi</div>
+    </div>
+
+    <div class="piece">
+      <div class="label-face digital">
+        <div class="ring"></div>
+        <div class="label-content">
+          <svg class="mark" viewBox="0 0 24 24" style="width:34px;height:34px;"><circle class="dot" cx="4" cy="17" r="2"></circle><circle class="dot" cx="20" cy="17" r="2"></circle><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"></path></svg>
+          <div class="wordmark" style="font-size:11px;">FUDI&nbsp;PEOPLE</div>
+          <div class="rule" style="width:38px;"></div>
+          <div class="headline" style="font-size:60px;">YAJI</div>
+          <div class="subhead" style="font-size:14px;">Suya &amp; Chinchinga Blend · West Africa</div>
+          <svg class="route" viewBox="0 0 120 14" style="width:140px;"><path d="M2 12 C 30 2, 55 12, 80 4 S 110 2, 118 6"></path><circle cx="2" cy="12" r="2"></circle><circle cx="118" cy="6" r="2"></circle></svg>
+          <div class="tag" style="font-size:11px;">SPICES&nbsp;OF&nbsp;AFRICA</div>
+          <div class="micro" style="font-size:8.5px;">NET WT 50g&nbsp;&nbsp;·&nbsp;&nbsp;fudipeople.com</div>
+        </div>
+      </div>
+      <div class="piece-label">Digital — product image</div>
+      <div class="piece-dims">1200 × 1200px source (shown scaled)</div>
+    </div>
+
+  </div>
+
+  <div class="key">
+    <h2>Where the other regions go from here</h2>
+    <div class="swatches">
+      <div class="swatch"><span class="dot" style="background:#43140f;"></span><b>Africa</b>&nbsp;— maroon</div>
+      <div class="swatch"><span class="dot" style="background:#8a6a1f;"></span><b>Middle East</b>&nbsp;— gold</div>
+      <div class="swatch"><span class="dot" style="background:#c07a1f;"></span><b>South Asia</b>&nbsp;— marigold</div>
+      <div class="swatch"><span class="dot" style="background:#a1471f;"></span><b>Americas</b>&nbsp;— ground raised</div>
+      <div class="swatch"><span class="dot" style="background:#22242b;"></span><b>East Asia</b>&nbsp;— ink</div>
+    </div>
+    <div class="note">
+      <b>Same template, five accents.</b> Base field, ring, pin mark, wordmark, gold rule, headline, trade-route line, region tag, micro copy — all fixed in position and size. Only the field color and route-line tint change per continent, matching the palette already used on the product placeholder cards and the Higgsfield map B-roll. <b>Next:</b> approve this Yaji version, then it becomes a single swap-the-two-colors-and-the-two-words pass for the other 33 blends.
+    </div>
+  </div>
+
+</body>
+</html>

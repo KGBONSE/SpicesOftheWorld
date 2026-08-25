@@ -767,6 +767,54 @@ not just drafted-copy handoff docs.
       Yaji's Description tab instead of a new tab — tried and reverted
       same session, Kofi wanted a real separate tab.)
 
+## 2026-08-25 — spice jar label design system
+
+- [x] **Front-of-jar label template designed and approved (Yaji), then
+      rolled out to all 34 blends.** One fixed circular template — pin
+      mark, "FUDI PEOPLE" wordmark, gold rule, headline, thin gold
+      trade-route line, region tag, micro copy — with only the field
+      color (per continent) and two lines of copy (blend name + dish
+      tie-in) changing per product. Authored as HTML/CSS (Adobe Fonts:
+      Source Serif 4 for headline/subhead, Source Sans 3 for wordmark/
+      tag/micro copy), rendered to PNG via headless Edge for review
+      since there's no other HTML-to-image pipeline available in this
+      environment. Files: `graphics/labels/yaji-label-west-africa.html`
+      (+ `.png`) for the single approved design, and
+      `graphics/labels/all-34-labels-proof-sheet.html` (+ `.png`) for
+      the full-catalog proof sheet.
+      **Correction caught by Kofi**: Yaji's first draft subhead read
+      "Grains of Paradise · West Africa," which wrongly implied a
+      single-ingredient product — Yaji is actually a blend (grains of
+      paradise, grains of selim, ginger powder, roasted peanut/
+      kuli-kuli, etc.). Fixed to "Suya & Chinchinga Blend · West
+      Africa" (describes the blend by what it's for, not a false
+      single-spice claim) on both the label and the review page's own
+      heading.
+      **Region palette** (field color only, accent gold/cream constant
+      across all): Africa = maroon, Middle East = amber, South Asia =
+      marigold, East Asia = ink, The Americas = terracotta — extending
+      the palette already used on the product placeholder cards and
+      the Higgsfield map B-roll.
+      **All 34 blend names, subheads (dish tie-ins), and regions were
+      pulled directly from each episode script's own `## 5. The Blend`
+      heading and `## 6. The Dish` on-screen text** — nothing invented.
+      Headline font-size auto-tiers by name length (4 tiers) so long
+      names (e.g. "CHILLI BLACK BEAN SAUCE," "SHICHIMI-TOGARASHI")
+      still fit the circle cleanly.
+      **What this is and isn't**: the proof sheet is a review/QA
+      artifact (34 small cards in one file), not individual production
+      files. **Still open**: once the region palettes and copy are
+      approved per-continent, each blend needs cutting as its own pair
+      of files (95mm round physical + 1200×1200px digital), same as
+      Yaji's. Back-of-jar labels (ingredients, allergens, net weight in
+      full, barcode) — explicitly deferred, front-of-jar only for now.
+      Wet-only products (Yassa, Niter Kibbeh, Pepper Soup Spice,
+      Harissa, Mbongo Mix, Zhug, Taklia, Vindaloo Paste, Yangnyeomjang,
+      Chilli Black Bean Sauce, Chimichurri, Tucupí, Leche de Tigre)
+      still got a label design here — packaging/sell-readiness (see
+      `product-catalog-notes.md`) is a separate open question from
+      branding.
+
 ## Not started (later phases, per blueprint build order)
 
 - [ ] Agent 1 (Trends & Outlier Scout) — deliberately deprioritised, no
