@@ -1,0 +1,771 @@
+<!doctype html>
+<title>Ghana Spice Order List — Fudi People</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+  :root {
+    --paper: #faf6ee;
+    --ink: #2b211b;
+    --ink-soft: #6b5d4f;
+    --ink-faint: #a3937f;
+    --accent: #7a2818;
+    --accent-ink: #ffffff;
+    --gold: #a9762f;
+    --card: #ffffff;
+    --rule: #e6dbc8;
+    --chip: #f3e9d8;
+    --priority-bg: #fbf1e1;
+    --priority-rule: #e8cfa0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #1a1512;
+      --ink: #f1e7d9;
+      --ink-soft: #bfae9a;
+      --ink-faint: #7d6f60;
+      --accent: #d97b5f;
+      --accent-ink: #241008;
+      --gold: #d4a75a;
+      --card: #241d18;
+      --rule: #3a2f26;
+      --chip: #2e2620;
+      --priority-bg: #2c2013;
+      --priority-rule: #4a3620;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #1a1512; --ink: #f1e7d9; --ink-soft: #bfae9a; --ink-faint: #7d6f60;
+    --accent: #d97b5f; --accent-ink: #241008; --gold: #d4a75a; --card: #241d18;
+    --rule: #3a2f26; --chip: #2e2620; --priority-bg: #2c2013; --priority-rule: #4a3620;
+  }
+  :root[data-theme="light"] {
+    --paper: #faf6ee; --ink: #2b211b; --ink-soft: #6b5d4f; --ink-faint: #a3937f;
+    --accent: #7a2818; --accent-ink: #ffffff; --gold: #a9762f; --card: #ffffff;
+    --rule: #e6dbc8; --chip: #f3e9d8; --priority-bg: #fbf1e1; --priority-rule: #e8cfa0;
+  }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: ui-serif, Georgia, "Times New Roman", serif;
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: 48px;
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--paper);
+    border-bottom: 1px solid var(--rule);
+    padding: 18px 18px 14px;
+  }
+  .eyebrow {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 6px;
+  }
+  h1 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 10px;
+  }
+  .search-wrap { position: relative; }
+  #search {
+    width: 100%;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 16px;
+    padding: 11px 14px 11px 38px;
+    border-radius: 10px;
+    border: 1px solid var(--rule);
+    background: var(--card);
+    color: var(--ink);
+  }
+  .search-wrap svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; opacity: 0.5; }
+  #count {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 12px; color: var(--ink-faint); margin-top: 8px;
+  }
+
+  main { max-width: 720px; margin: 0 auto; padding: 0 18px; }
+
+  .intro {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    padding: 16px 0 20px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 20px;
+  }
+
+  section.priority {
+    background: var(--priority-bg);
+    border: 1px solid var(--priority-rule);
+    border-radius: 14px;
+    padding: 16px 16px 6px;
+    margin-bottom: 26px;
+  }
+  section.priority h2 {
+    font-size: 15px;
+    margin-bottom: 4px;
+  }
+  section.priority .sub {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    margin-bottom: 12px;
+  }
+  .priority-item {
+    padding: 10px 0;
+    border-top: 1px solid var(--priority-rule);
+  }
+  .priority-item:first-of-type { border-top: none; }
+  .priority-item .name { font-weight: 700; font-size: 14.5px; }
+  .priority-item .ep {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 11px; color: var(--gold); font-weight: 600; margin-left: 6px;
+  }
+  .priority-item .note {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 12.5px; color: var(--ink-soft); line-height: 1.5; margin-top: 3px;
+  }
+
+  h2.list-heading {
+    font-size: 15px;
+    margin-bottom: 12px;
+    color: var(--ink-soft);
+    font-weight: 600;
+  }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+  }
+  .card .name { font-size: 16px; font-weight: 700; margin-bottom: 5px; }
+  .card .appears {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 11.5px; color: var(--accent); font-weight: 600; line-height: 1.6; margin-bottom: 8px;
+  }
+  .card .notes {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 13px; color: var(--ink-soft); line-height: 1.55; margin-bottom: 8px;
+  }
+  .card .meta {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 12px; display: flex; justify-content: space-between; align-items: center;
+    padding-top: 8px; border-top: 1px solid var(--rule);
+  }
+  .card .meta a { color: var(--gold); text-decoration: none; font-weight: 600; }
+  .card .meta a:focus-visible, #search:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .card .source { color: var(--ink-faint); }
+
+  #empty { display: none; text-align: center; padding: 40px 20px; color: var(--ink-faint); font-family: ui-sans-serif, system-ui, sans-serif; font-size: 13.5px; }
+</style>
+
+<header>
+  <div class="eyebrow">Fudi People — Sourcing Reference</div>
+  <h1>Ghana Spice Order List</h1>
+  <div class="search-wrap">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+    <input id="search" type="search" placeholder="Search a spice, episode, or blend…" autocomplete="off" />
+  </div>
+  <div id="count"></div>
+</header>
+
+<main>
+  <p class="intro" id="intro"></p>
+
+  <section class="priority" id="priority-section">
+    <h2>Check with the Ghana supplier first</h2>
+    <div class="sub">West/Central African specialty items, less likely to be stocked by a general spice wholesaler.</div>
+    <div id="priority-list"></div>
+  </section>
+
+  <h2 class="list-heading" id="list-heading">All 68 spices</h2>
+  <div id="list"></div>
+  <div id="empty">No matches. Try a different spice, episode number, or blend name.</div>
+</main>
+
+<script id="data" type="application/json">{
+  "items": [
+    {
+      "spice": "Ají limo / Habanero chilli",
+      "appears": "Ep.34 Leche de Tigre",
+      "photo": "<a href=\"https://es.wikipedia.org/wiki/Aj%C3%AD_limo\" target=\"_blank\" rel=\"noopener\">Ají limo</a>",
+      "source": "Wikipedia (Spanish)",
+      "notes": "Used fresh/finely-chopped in the original ceviche marinade rather than dried, but named as a specific chilli variety worth sourcing; habanero is the stated substitute."
+    },
+    {
+      "spice": "Allspice",
+      "appears": "Ep.9 Jamaican Jerk Rub, Ep.14 Arabic Baharat",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Allspice\" target=\"_blank\" rel=\"noopener\">Allspice</a>",
+      "source": "Wikipedia",
+      "notes": "—"
+    },
+    {
+      "spice": "Almonds",
+      "appears": "Ep.16 Dukkah",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Almond\" target=\"_blank\" rel=\"noopener\">Almond</a>",
+      "source": "Wikipedia",
+      "notes": "Nut, not a spice — included because it's a genuine Dukkah ingredient."
+    },
+    {
+      "spice": "Amchoor (dried mango powder)",
+      "appears": "Ep.20 Chaat Masala",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Amchoor\" target=\"_blank\" rel=\"noopener\">Amchoor</a>",
+      "source": "Wikipedia",
+      "notes": "—"
+    },
+    {
+      "spice": "Ancho chilli",
+      "appears": "Ep.30 Mole Mix",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Poblano\" target=\"_blank\" rel=\"noopener\">Poblano / Ancho</a>",
+      "source": "Wikipedia",
+      "notes": "Dried form of the poblano pepper."
+    },
+    {
+      "spice": "Anise seed",
+      "appears": "Ep.30 Mole Mix",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Anise\" target=\"_blank\" rel=\"noopener\">Anise</a>",
+      "source": "Wikipedia",
+      "notes": "Distinct from star anise (below) — different plant, similar flavour."
+    },
+    {
+      "spice": "Asafoetida (hing)",
+      "appears": "Ep.20 Chaat Masala, Ep.23 Gunpowder/Podi",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Asafoetida\" target=\"_blank\" rel=\"noopener\">Asafoetida</a>",
+      "source": "Wikipedia",
+      "notes": "—"
+    },
+    {
+      "spice": "Baklouti chilli",
+      "appears": "Ep.5 Harissa",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Baklouti_pepper\" target=\"_blank\" rel=\"noopener\">Baklouti pepper</a>",
+      "source": "Wikipedia",
+      "notes": "CSV notes it as \"if available\" — an optional specific Tunisian variety, substitutable with other dried red chillies."
+    },
+    {
+      "spice": "Basil, dried",
+      "appears": "Ep.3 Niter Kibbeh",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Basil\" target=\"_blank\" rel=\"noopener\">Basil</a>",
+      "source": "Wikipedia",
+      "notes": "—"
+    },
+    {
+      "spice": "Bay leaf",
+      "appears": "Ep.27 Nanjing Spice Bag, Ep.30 Mole Mix",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Bay_leaf\" target=\"_blank\" rel=\"noopener\">Bay leaf</a>",
+      "source": "Wikipedia",
+      "notes": "—"
+    },
+    {
+      "spice": "Bird's eye chilli",
+      "appears": "Ep.29 Chilli Black Bean Sauce",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Bird's_eye_chili\" target=\"_blank\" rel=\"noopener\">Bird's eye chili</a>",
+      "source": "Wikipedia",
+      "notes": "—"
+    },
+    {
+      "spice": "Black cardamom",
+      "appears": "Ep.18 Garam Masala",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Black_cardamom\" target=\"_blank\" rel=\"noopener\">Black cardamom</a>",
+      "source": "Wikipedia",
+      "notes": "Also named as a substitute option for mbongo spice in Ep.7 Mbongo Mix. Distinct from green cardamom (below) — larger, smoky-dried pods."
+    },
+    {
+      "spice": "Black cumin (kalonji / shah jeera)",
+      "appears": "Ep.18 Garam Masala",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Elwendia_persica\" target=\"_blank\" rel=\"noopener\">Elwendia persica</a>",
+      "source": "Wikipedia",
+      "notes": "CSV flags: \"hard to source outside specialist shops.\" Botanically this is shah jeera (Bunium persicum, reclassified as Elwendia persica) — worth confirming with the supplier that it's not true kalonji/nigella seed (a different plant, see Nigella seeds below), since vendors sometimes conflate the two names."
+    },
+    {
+      "spice": "Black pepper",
+      "appears": "Ep.1 Yaji, Ep.6 Pilau Masala, Ep.8 Durban Curry Masala, Ep.9 Jamaican Jerk Rub, Ep.11 Turkish Baharat, Ep.12 Zhug, Ep.14 Arabic Baharat, Ep.17 Hawaij, Ep.18 Garam Masala, Ep.20 Chaat Masala, Ep.22 Vindaloo Paste, Ep.30 Mole Mix, Ep.31 Chimichurri, Ep.32 Tucupí, Ep.33 BBQ Rub",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Black_pepper\" target=\"_blank\" rel=\"noopener\">Black pepper</a>",
+      "source": "Wikipedia",
+      "notes": "The single most-used spice across the whole range."
+    },
+    {
+      "spice": "Black sesame seeds",
+      "appears": "Ep.23 Gunpowder/Podi, Ep.25 Shichimi-Togarashi",
+      "photo": "<a href=\"https://commons.wikimedia.org/wiki/File:Black_sesame.jpg\" target=\"_blank\" rel=\"noopener\">File:Black sesame.jpg</a>",
+      "source": "Wikimedia Commons",
+      "notes": "Kept separate from plain sesame seeds since these two blends specifically call for the black variety."
+    },
+    {
+      "spice": "Bobimbi",
+      "appears": "Ep.7 Mbongo Mix",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Afrostyrax_lepidophyllus\" target=\"_blank\" rel=\"noopener\">Afrostyrax lepidophyllus</a>",
+      "source": "Wikipedia",
+      "notes": "Central African aromatic seed, used as a substitute for wild garlic in mbongo mix. Photo shows the source tree, not the dried seed as sold — confirm the actual product visually with the supplier."
+    },
+    {
+      "spice": "Calabash nutmeg",
+      "appears": "Ep.4 Pepper Soup Spice, Ep.7 Mbongo Mix",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Monodora_myristica\" target=\"_blank\" rel=\"noopener\">Monodora myristica</a>",
+      "source": "Wikipedia",
+      "notes": "CSV flags Ep.4's ingredients as \"sourced from general research rather than the book, worth double-checking before finalising.\" Distinct from regular nutmeg (below), though named as a substitute for it in Ep.7."
+    },
+    {
+      "spice": "Caraway",
+      "appears": "Ep.5 Harissa",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Caraway\" target=\"_blank\" rel=\"noopener\">Caraway</a>",
+      "source": "Wikipedia",
+      "notes": "—"
+    },
+    {
+      "spice": "Cardamom (green)",
+      "appears": "Ep.3 Niter Kibbeh, Ep.6 Pilau Masala, Ep.8 Durban Curry Masala, Ep.11 Turkish Baharat, Ep.12 Zhug, Ep.15 Advieh, Ep.17 Hawaij, Ep.22 Vindaloo Paste, Ep.26 Shandong Spice Bag",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Cardamom\" target=\"_blank\" rel=\"noopener\">Cardamom</a>",
+      "source": "Wikipedia",
+      "notes": "In Ep.3, korarima (below) is named as the traditional substitute."
+    },
+    {
+      "spice": "Cayenne pepper",
+      "appears": "Ep.8 Durban Curry Masala, Ep.9 Jamaican Jerk Rub, Ep.13 Taklia, Ep.33 BBQ Rub",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Cayenne_pepper\" target=\"_blank\" rel=\"noopener\">Cayenne pepper</a>",
+      "source": "Wikipedia",
+      "notes": "—"
+    },
+    {
+      "spice": "Chilli, dried (generic/unnamed variety)",
+      "appears": "Ep.1 Yaji, Ep.23 Gunpowder/Podi",
+      "photo": "<a href=\"https://commons.wikimedia.org/wiki/File:Dried_Red_Chili.jpg\" target=\"_blank\" rel=\"noopener\">File:Dried Red Chili.jpg</a>",
+      "source": "Wikimedia Commons",
+      "notes": "No specific variety named in the source — whole dried red chillies."
+    },
+    {
+      "spice": "Chilli powder (generic)",
+      "appears": "Ep.19 Timur ko Chhop, Ep.25 Shichimi-Togarashi, Ep.31 Chimichurri, Ep.33 BBQ Rub",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Chili_powder\" target=\"_blank\" rel=\"noopener\">Chili powder</a>",
+      "source": "Wikipedia",
+      "notes": "Generic ground chilli powder, not a named variety — kept separate from whole dried chillies above and from Kashmiri/gochugaru/etc. below, since it's a different SKU to buy."
+    },
+    {
+      "spice": "Chipotle chilli",
+      "appears": "Ep.9 Jamaican Jerk Rub",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Chipotle\" target=\"_blank\" rel=\"noopener\">Chipotle</a>",
+      "source": "Wikipedia",
+      "notes": "Smoked, dried jalapeño; given as an alternative to cayenne in the same recipe."
+    },
+    {
+      "spice": "Cinnamon / Cassia",
+      "appears": "Ep.6 Pilau Masala, Ep.9 Jamaican Jerk Rub, Ep.11 Turkish Baharat, Ep.14 Arabic Baharat, Ep.15 Advieh, Ep.17 Hawaij, Ep.18 Garam Masala, Ep.22 Vindaloo Paste, Ep.26 Shandong Spice Bag, Ep.28 Five-Spice Powder",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Cinnamon\" target=\"_blank\" rel=\"noopener\">Cinnamon</a>",
+      "source": "Wikipedia",
+      "notes": "Ep.18 and Ep.22 specifically name cassia (the stronger, more common Chinese/Indonesian cinnamon) rather than true Ceylon cinnamon."
+    },
+    {
+      "spice": "Cloves",
+      "appears": "Ep.6 Pilau Masala, Ep.8 Durban Curry Masala, Ep.9 Jamaican Jerk Rub, Ep.11 Turkish Baharat, Ep.14 Arabic Baharat, Ep.17 Hawaij, Ep.18 Garam Masala, Ep.22 Vindaloo Paste, Ep.26 Shandong Spice Bag, Ep.27 Nanjing Spice Bag, Ep.28 Five-Spice Powder, Ep.30 Mole Mix",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Clove\" target=\"_blank\" rel=\"noopener\">Clove</a>",
+      "source": "Wikipedia",
+      "notes": "Second most-used spice across the range."
+    },
+    {
+      "spice": "Coconut, desiccated/toasted",
+      "appears": "Ep.23 Gunpowder/Podi",
+      "photo": "<a href=\"https://commons.wikimedia.org/wiki/File:Desicated_coconut_soloA.jpg\" target=\"_blank\" rel=\"noopener\">File:Desicated coconut soloA.jpg</a>",
+      "source": "Wikimedia Commons",
+      "notes": "—"
+    },
+    {
+      "spice": "Coriander",
+      "appears": "Ep.5 Harissa, Ep.8 Durban Curry Masala, Ep.11 Turkish Baharat, Ep.12 Zhug, Ep.13 Taklia, Ep.14 Arabic Baharat, Ep.16 Dukkah, Ep.17 Hawaij, Ep.20 Chaat Masala",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Coriander\" target=\"_blank\" rel=\"noopener\">Coriander</a>",
+      "source": "Wikipedia",
+      "notes": "Seed form — fresh coriander leaf uses elsewhere in the CSV were excluded."
+    },
+    {
+      "spice": "Cumin",
+      "appears": "Ep.5 Harissa, Ep.6 Pilau Masala, Ep.8 Durban Curry Masala, Ep.10 Za'atar, Ep.11 Turkish Baharat, Ep.12 Zhug, Ep.14 Arabic Baharat, Ep.15 Advieh, Ep.16 Dukkah, Ep.17 Hawaij, Ep.20 Chaat Masala, Ep.21 Panch Phoran, Ep.22 Vindaloo Paste, Ep.26 Shandong Spice Bag, Ep.30 Mole Mix, Ep.33 BBQ Rub",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Cumin\" target=\"_blank\" rel=\"noopener\">Cumin</a>",
+      "source": "Wikipedia",
+      "notes": "The most-used spice across the whole range."
+    },
+    {
+      "spice": "Curry leaves",
+      "appears": "Ep.23 Gunpowder/Podi",
+      "photo": "<a href=\"https://www.pureindianfoods.com/products/organic-curry-leaves\" target=\"_blank\" rel=\"noopener\">Organic Curry Leaves</a>",
+      "source": "Retailer: Pure Indian Foods",
+      "notes": "—"
+    },
+    {
+      "spice": "Dried citrus peel (orange / yuzu / lemon / tangerine)",
+      "appears": "Ep.25 Shichimi-Togarashi, Ep.26 Shandong Spice Bag, Ep.27 Nanjing Spice Bag",
+      "photo": "<a href=\"https://commons.wikimedia.org/wiki/File:Nine-processed_dried_mandarin_orange_peel.jpg\" target=\"_blank\" rel=\"noopener\">File:Nine-processed dried mandarin orange peel.jpg</a>",
+      "source": "Wikimedia Commons",
+      "notes": "Exact citrus varies by recipe (orange/yuzu/lemon in Ep.25, orange or tangerine in Ep.26, tangerine in Ep.27) — confirm which with the supplier."
+    },
+    {
+      "spice": "Dried rose petals",
+      "appears": "Ep.15 Advieh",
+      "photo": "<a href=\"https://commons.wikimedia.org/wiki/File:Dried_rose_petals.jpg\" target=\"_blank\" rel=\"noopener\">File:Dried rose petals.jpg</a>",
+      "source": "Wikimedia Commons",
+      "notes": "—"
+    },
+    {
+      "spice": "Fennel",
+      "appears": "Ep.17 Hawaij (sweet variant), Ep.21 Panch Phoran, Ep.28 Five-Spice Powder",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Fennel\" target=\"_blank\" rel=\"noopener\">Fennel</a>",
+      "source": "Wikipedia",
+      "notes": "Ep.17's fennel is part of the \"sweet hawaij\" variant mentioned in the description, not the main savoury blend."
+    },
+    {
+      "spice": "Fenugreek",
+      "appears": "Ep.3 Niter Kibbeh, Ep.8 Durban Curry Masala, Ep.21 Panch Phoran, Ep.22 Vindaloo Paste",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Fenugreek\" target=\"_blank\" rel=\"noopener\">Fenugreek</a>",
+      "source": "Wikipedia",
+      "notes": "—"
+    },
+    {
+      "spice": "Fermented black beans (douchi)",
+      "appears": "Ep.29 Chilli Black Bean Sauce",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Douchi\" target=\"_blank\" rel=\"noopener\">Douchi</a>",
+      "source": "Wikipedia",
+      "notes": "Chinese fermented/dried soybean product, not fresh black beans."
+    },
+    {
+      "spice": "Ginger (dried/ground)",
+      "appears": "Ep.1 Yaji, Ep.8 Durban Curry Masala, Ep.9 Jamaican Jerk Rub, Ep.15 Advieh, Ep.17 Hawaij (sweet variant), Ep.20 Chaat Masala",
+      "photo": "<a href=\"https://commons.wikimedia.org/wiki/File:Ginger_powder.JPG\" target=\"_blank\" rel=\"noopener\">File:Ginger powder.JPG</a>",
+      "source": "Wikimedia Commons",
+      "notes": "Ground/powdered ginger only — fresh ginger used elsewhere in the CSV was excluded."
+    },
+    {
+      "spice": "Gochugaru",
+      "appears": "Ep.24 Yangnyeomjang",
+      "photo": "<a href=\"https://commons.wikimedia.org/wiki/File:Yeongyang-gochu-garu.jpg\" target=\"_blank\" rel=\"noopener\">File:Yeongyang-gochu-garu.jpg</a>",
+      "source": "Wikimedia Commons",
+      "notes": "Korean red chilli flakes."
+    },
+    {
+      "spice": "Grains of paradise",
+      "appears": "Ep.7 Mbongo Mix",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Grains_of_paradise\" target=\"_blank\" rel=\"noopener\">Grains of paradise</a>",
+      "source": "Wikipedia",
+      "notes": "West African specialty (see closing note)."
+    },
+    {
+      "spice": "Grains of selim",
+      "appears": "Ep.1 Yaji",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Grains_of_Selim\" target=\"_blank\" rel=\"noopener\">Grains of Selim</a>",
+      "source": "Wikipedia",
+      "notes": "West African/Ghana specialty (see closing note)."
+    },
+    {
+      "spice": "Hazelnuts",
+      "appears": "Ep.16 Dukkah",
+      "photo": "<a href=\"https://commons.wikimedia.org/wiki/File:Roasted_hazelnuts.jpg\" target=\"_blank\" rel=\"noopener\">File:Roasted hazelnuts.jpg</a>",
+      "source": "Wikimedia Commons",
+      "notes": "Nut, not a spice — included because it's a genuine Dukkah ingredient."
+    },
+    {
+      "spice": "Hemp / flax / chia seeds",
+      "appears": "Ep.25 Shichimi-Togarashi",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Chia_seed\" target=\"_blank\" rel=\"noopener\">Chia seed</a>",
+      "source": "Wikipedia",
+      "notes": "Source lists these as interchangeable options; chia shown as representative — confirm which is actually wanted."
+    },
+    {
+      "spice": "Kala namak (black salt)",
+      "appears": "Ep.20 Chaat Masala",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Kala_namak\" target=\"_blank\" rel=\"noopener\">Kala namak</a>",
+      "source": "Wikipedia",
+      "notes": "CSV flags it as having \"a distinctive sulphurous smell, worth a heads-up for customers.\""
+    },
+    {
+      "spice": "Kashmiri chilli",
+      "appears": "Ep.22 Vindaloo Paste",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Kashmiri_red_chilli\" target=\"_blank\" rel=\"noopener\">Kashmiri red chilli</a>",
+      "source": "Wikipedia",
+      "notes": "—"
+    },
+    {
+      "spice": "Korarima",
+      "appears": "Ep.3 Niter Kibbeh",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Aframomum_corrorima\" target=\"_blank\" rel=\"noopener\">Aframomum corrorima</a>",
+      "source": "Wikipedia",
+      "notes": "Ethiopian/African cardamom relative — named ahead of green cardamom as the primary option in Ep.3."
+    },
+    {
+      "spice": "Liquorice root",
+      "appears": "Ep.26 Shandong Spice Bag, Ep.27 Nanjing Spice Bag",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Liquorice\" target=\"_blank\" rel=\"noopener\">Liquorice</a>",
+      "source": "Wikipedia",
+      "notes": "Page shows dried root/stick photos, not just the confectionery."
+    },
+    {
+      "spice": "Mace",
+      "appears": "Ep.18 Garam Masala",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Mace_(spice)\" target=\"_blank\" rel=\"noopener\">Mace (spice)</a>",
+      "source": "Wikipedia",
+      "notes": "CSV flags it as \"hard to source outside specialist shops\" (grouped with black cumin above)."
+    },
+    {
+      "spice": "Marjoram",
+      "appears": "Ep.30 Mole Mix",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Marjoram\" target=\"_blank\" rel=\"noopener\">Marjoram</a>",
+      "source": "Wikipedia",
+      "notes": "—"
+    },
+    {
+      "spice": "Mbongo spice",
+      "appears": "Ep.7 Mbongo Mix",
+      "photo": "<a href=\"https://www.depeperwinkel.nl/en/products/mbongo-pods\" target=\"_blank\" rel=\"noopener\">Mbongo pods</a>",
+      "source": "Retailer: Depeperwinkel",
+      "notes": "Central African whole spice (Cameroon); black cardamom given as a substitute option in the source."
+    },
+    {
+      "spice": "Mint, dried",
+      "appears": "Ep.11 Turkish Baharat",
+      "photo": "<a href=\"https://commons.wikimedia.org/wiki/Category:Dried_mint_leaves\" target=\"_blank\" rel=\"noopener\">Category: Dried mint leaves</a>",
+      "source": "Wikimedia Commons",
+      "notes": "Linking to the category page (contains \"Mint dried.jpg\" and others) since no single canonical file was confirmed."
+    },
+    {
+      "spice": "Mulato chilli",
+      "appears": "Ep.30 Mole Mix",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Mulato_pepper\" target=\"_blank\" rel=\"noopener\">Mulato pepper</a>",
+      "source": "Wikipedia",
+      "notes": "—"
+    },
+    {
+      "spice": "Mustard seed",
+      "appears": "Ep.21 Panch Phoran (brown), Ep.22 Vindaloo Paste (black)",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Black_Mustard\" target=\"_blank\" rel=\"noopener\">Black mustard</a>",
+      "source": "Wikipedia",
+      "notes": "Two blends specify different colours (brown vs. black) — confirm which with the supplier if sourcing separately."
+    },
+    {
+      "spice": "Njangsa",
+      "appears": "Ep.7 Mbongo Mix",
+      "photo": "<a href=\"https://www.clovegarden.com/ingred/sr_njangz.html\" target=\"_blank\" rel=\"noopener\">Njangsa</a>",
+      "source": "Educational: CloveGarden",
+      "notes": "West/Central African seed spice; unsalted peanuts given as a substitute option in the source (excluded from this list as a nut, not a spice)."
+    },
+    {
+      "spice": "Nigella seeds",
+      "appears": "Ep.21 Panch Phoran",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Nigella_sativa\" target=\"_blank\" rel=\"noopener\">Nigella sativa</a>",
+      "source": "Wikipedia",
+      "notes": "True kalonji. Kept separate from \"black cumin\" above (Ep.18) even though vendors sometimes use the names loosely/interchangeably — the two blends name them as genuinely distinct ingredients."
+    },
+    {
+      "spice": "Nori seaweed flakes",
+      "appears": "Ep.25 Shichimi-Togarashi",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Nori\" target=\"_blank\" rel=\"noopener\">Nori</a>",
+      "source": "Wikipedia",
+      "notes": "Dried seaweed, not a spice in the strict sense but included per brief."
+    },
+    {
+      "spice": "Nutmeg",
+      "appears": "Ep.9 Jamaican Jerk Rub, Ep.11 Turkish Baharat, Ep.14 Arabic Baharat, Ep.18 Garam Masala",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Nutmeg\" target=\"_blank\" rel=\"noopener\">Nutmeg</a>",
+      "source": "Wikipedia",
+      "notes": "Also named as a substitute option for calabash nutmeg in Ep.7 Mbongo Mix."
+    },
+    {
+      "spice": "Oregano",
+      "appears": "Ep.3 Niter Kibbeh, Ep.10 Za'atar, Ep.31 Chimichurri",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Oregano\" target=\"_blank\" rel=\"noopener\">Oregano</a>",
+      "source": "Wikipedia",
+      "notes": "—"
+    },
+    {
+      "spice": "Paprika",
+      "appears": "Ep.9 Jamaican Jerk Rub, Ep.31 Chimichurri",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Paprika\" target=\"_blank\" rel=\"noopener\">Paprika</a>",
+      "source": "Wikipedia",
+      "notes": "Regular (non-smoked) paprika — see Smoked paprika below for the separate BBQ Rub ingredient."
+    },
+    {
+      "spice": "Pasilla chilli",
+      "appears": "Ep.30 Mole Mix",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Pasilla\" target=\"_blank\" rel=\"noopener\">Pasilla</a>",
+      "source": "Wikipedia",
+      "notes": "—"
+    },
+    {
+      "spice": "Sage",
+      "appears": "Ep.3 Niter Kibbeh",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Salvia_officinalis\" target=\"_blank\" rel=\"noopener\">Salvia officinalis</a>",
+      "source": "Wikipedia",
+      "notes": "—"
+    },
+    {
+      "spice": "Sesame seeds",
+      "appears": "Ep.10 Za'atar, Ep.16 Dukkah, Ep.24 Yangnyeomjang, Ep.30 Mole Mix",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Sesame\" target=\"_blank\" rel=\"noopener\">Sesame</a>",
+      "source": "Wikipedia",
+      "notes": "Unspecified/white variety — kept separate from black sesame seeds above where the source names that colour specifically."
+    },
+    {
+      "spice": "Sichuan pepper",
+      "appears": "Ep.19 Timur ko Chhop, Ep.25 Shichimi-Togarashi, Ep.26 Shandong Spice Bag, Ep.28 Five-Spice Powder",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Sichuan_pepper\" target=\"_blank\" rel=\"noopener\">Sichuan pepper</a>",
+      "source": "Wikipedia",
+      "notes": "Listed in the source as a substitute for timur (Ep.19, Himalayan regional name — CSV notes timur itself \"may be hard to source outside Nepali/Himalayan grocers\") and sanshō (Ep.25, Japanese regional name)."
+    },
+    {
+      "spice": "Smoked paprika",
+      "appears": "Ep.33 BBQ Rub",
+      "photo": "<a href=\"https://commons.wikimedia.org/wiki/File:Spanishsmokedpaprika.jpg\" target=\"_blank\" rel=\"noopener\">File:Spanishsmokedpaprika.jpg</a>",
+      "source": "Wikimedia Commons",
+      "notes": "Kept separate from regular paprika above — distinct product for sourcing."
+    },
+    {
+      "spice": "Star anise",
+      "appears": "Ep.22 Vindaloo Paste, Ep.26 Shandong Spice Bag, Ep.27 Nanjing Spice Bag, Ep.28 Five-Spice Powder",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Illicium_verum\" target=\"_blank\" rel=\"noopener\">Illicium verum</a>",
+      "source": "Wikipedia",
+      "notes": "Kept separate from anise seed above — different plant."
+    },
+    {
+      "spice": "Sumac",
+      "appears": "Ep.10 Za'atar",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Sumac\" target=\"_blank\" rel=\"noopener\">Sumac</a>",
+      "source": "Wikipedia",
+      "notes": "—"
+    },
+    {
+      "spice": "Tamarind",
+      "appears": "Ep.23 Gunpowder/Podi",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Tamarind\" target=\"_blank\" rel=\"noopener\">Tamarind</a>",
+      "source": "Wikipedia",
+      "notes": "Pulp/paste form."
+    },
+    {
+      "spice": "Thyme",
+      "appears": "Ep.9 Jamaican Jerk Rub, Ep.30 Mole Mix",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Thyme\" target=\"_blank\" rel=\"noopener\">Thyme</a>",
+      "source": "Wikipedia",
+      "notes": "—"
+    },
+    {
+      "spice": "Turmeric",
+      "appears": "Ep.3 Niter Kibbeh, Ep.17 Hawaij",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Turmeric\" target=\"_blank\" rel=\"noopener\">Turmeric</a>",
+      "source": "Wikipedia",
+      "notes": "—"
+    },
+    {
+      "spice": "Uda",
+      "appears": "Ep.4 Pepper Soup Spice",
+      "photo": "<a href=\"https://en.wikipedia.org/wiki/Xylopia_aethiopica\" target=\"_blank\" rel=\"noopener\">Xylopia aethiopica</a>",
+      "source": "Wikipedia",
+      "notes": "CSV flags Ep.4's ingredients as \"sourced from general research rather than the book, worth double-checking before finalising.\" Note: this is the same species page used for Grains of Selim above — \"uda\" (Igbo/Nigerian name) and \"grains of selim\"/hwentia (used in Ghana) may refer to the same or closely related Xylopia pods depending on regional naming; worth confirming with the supplier whether they're sold as one product or two."
+    },
+    {
+      "spice": "White pepper",
+      "appears": "Ep.27 Nanjing Spice Bag",
+      "photo": "<a href=\"https://commons.wikimedia.org/wiki/File:White_Peppercorns.jpg\" target=\"_blank\" rel=\"noopener\">File:White Peppercorns.jpg</a>",
+      "source": "Wikimedia Commons",
+      "notes": "Kept separate from black pepper above — different processing, different product to order."
+    }
+  ],
+  "specialty": [
+    {
+      "name": "Grains of selim",
+      "episode": "Ep.1 Yaji",
+      "note": "West Africa/Ghana"
+    },
+    {
+      "name": "Grains of paradise",
+      "episode": "Ep.7 Mbongo Mix",
+      "note": "West Africa"
+    },
+    {
+      "name": "Calabash nutmeg",
+      "episode": "Ep.4, Ep.7",
+      "note": "West Africa"
+    },
+    {
+      "name": "Uda",
+      "episode": "Ep.4 Pepper Soup Spice",
+      "note": "West Africa (possibly overlapping with grains of selim, see note above — worth clarifying with the supplier)"
+    },
+    {
+      "name": "Njangsa",
+      "episode": "Ep.7 Mbongo Mix",
+      "note": "Central Africa (Cameroon)"
+    },
+    {
+      "name": "Mbongo spice",
+      "episode": "Ep.7 Mbongo Mix",
+      "note": "Central Africa (Cameroon)"
+    },
+    {
+      "name": "Korarima",
+      "episode": "Ep.3 Niter Kibbeh",
+      "note": "Horn of Africa (Ethiopia) — worth asking about, though it's East African rather than West African, in case a Ghana supplier's network still carries it"
+    },
+    {
+      "name": "Bobimbi",
+      "episode": "Ep.7 Mbongo Mix",
+      "note": "Central Africa — the most obscure item on the whole list; no confirmed photo of the dried product was found (see table note), so this one especially needs an in-person or sample check with the supplier"
+    }
+  ]
+}</script>
+<script>
+  const data = JSON.parse(document.getElementById('data').textContent);
+
+  document.getElementById('intro').textContent =
+    "Every dried spice, seed, herb, and named chilli that appears across all 34 Fudi People blends — " +
+    data.items.length + " unique items — pulled directly from each blend's ingredient list. " +
+    "Fresh produce, liquids, and plain sugar/salt were left out on purpose, since the point here is what " +
+    "needs sourcing as a dried spice. Reference-photo links are visual sanity checks only — always confirm " +
+    "the exact product and grade with the supplier directly.";
+
+  const priorityList = document.getElementById('priority-list');
+  data.specialty.forEach(s => {
+    const div = document.createElement('div');
+    div.className = 'priority-item';
+    div.innerHTML = `<span class="name">${s.name}</span><span class="ep">${s.episode}</span><div class="note">${s.note}</div>`;
+    priorityList.appendChild(div);
+  });
+
+  const listEl = document.getElementById('list');
+  const emptyEl = document.getElementById('empty');
+  const countEl = document.getElementById('count');
+  const headingEl = document.getElementById('list-heading');
+  const prioritySection = document.getElementById('priority-section');
+
+  function render(filter) {
+    const q = filter.trim().toLowerCase();
+    const filtered = data.items.filter(it =>
+      !q ||
+      it.spice.toLowerCase().includes(q) ||
+      it.appears.toLowerCase().includes(q) ||
+      it.notes.toLowerCase().includes(q)
+    );
+    listEl.innerHTML = filtered.map(it => `
+      <div class="card">
+        <div class="name">${it.spice}</div>
+        <div class="appears">${it.appears}</div>
+        ${it.notes !== '—' ? `<div class="notes">${it.notes}</div>` : ''}
+        <div class="meta">
+          <span class="source">${it.source}</span>
+          <span>${it.photo.replace('</a>', ' →</a>')}</span>
+        </div>
+      </div>
+    `).join('');
+    emptyEl.style.display = filtered.length ? 'none' : 'block';
+    headingEl.textContent = q ? `${filtered.length} match${filtered.length === 1 ? '' : 'es'}` : `All ${data.items.length} spices`;
+    countEl.textContent = q ? `${filtered.length} of ${data.items.length} spices` : `${data.items.length} spices · ${data.specialty.length} Ghana-priority items`;
+    prioritySection.style.display = q ? 'none' : 'block';
+  }
+
+  document.getElementById('search').addEventListener('input', e => render(e.target.value));
+  render('');
+</script>
