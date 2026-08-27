@@ -814,6 +814,33 @@ not just drafted-copy handoff docs.
       still got a label design here — packaging/sell-readiness (see
       `product-catalog-notes.md`) is a separate open question from
       branding.
+      **2026-08-27: real logo swapped in for the placeholder mark.**
+      Kofi asked whether the label could use the actual Fudi People
+      logo instead of the generic pin icon. Found it live on the site
+      (`fudipeople.com`'s header image — a WhatsApp-sourced PNG with
+      background removed) and pulled it into
+      `brand-assets/logo/fudi-people-logo.png`. Built a 4-way
+      comparison (`graphics/labels/yaji-label-logo-comparison.png`):
+      full-color logo direct on the maroon field (the maroon bowl/text
+      nearly vanished — same hue as the background), full-color on a
+      cream badge (worked but added a shape), and a single-tone cream
+      silhouette (alpha channel preserved, all color stripped via an
+      ffmpeg `geq` filter) — no extra shapes, full contrast. Kofi
+      picked the silhouette, then asked for the "PEOPLE" sub-text
+      bolder since it's thin in the original artwork and got lost at
+      label scale — fixed by dilating the alpha channel twice (ffmpeg
+      `dilation` filter, thickens every line uniformly, not just that
+      one word) before recoloring. Final logo variant:
+      `brand-assets/logo/fudi-people-logo-cream-bold.png` (black/white
+      bold versions also generated for use on light backgrounds).
+      Swapped into the approved `yaji-label-west-africa.html` in place
+      of the placeholder pin mark, replacing the separate "FUDI PEOPLE"
+      text line too since the real logo already spells it out. Verified
+      at true print size (93px wide on the 359px label) — legible.
+      **Not yet done**: the 34-label proof sheet
+      (`all-34-labels-proof-sheet.html`) still uses the placeholder pin
+      mark — needs the same swap once Kofi confirms he wants it rolled
+      out everywhere, not just Yaji.
 
 ## Not started (later phases, per blueprint build order)
 
