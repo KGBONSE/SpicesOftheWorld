@@ -864,6 +864,27 @@ material. Cross-linked from `docs/brand-voice.md` and `CLAUDE.md`.
       which patterns are consistent vs. one-off, per the doc's own Open
       Items section
 
+## 2026-08-28 — Ghana spice sourcing research imported
+
+`docs/ghana-spice-sourcing.md` was imported — sourcing research for the
+non-chilli spices in the blends (ginger, grains of paradise, grains of
+selim): Ghana markets and B2B platforms, UK import requirements, HS
+commodity codes, and a supplier vetting checklist. Cross-linked from
+`docs/business-plan.md` (new "Raw spice ingredient sourcing" row and
+action-list item 16).
+
+- [ ] Get an HMRC (or freight forwarder) classification ruling for grains
+      of paradise and grains of selim — no clean dedicated HS code found
+- [ ] Confirm actual duty % via trade-tariff.service.gov.uk once a
+      specific product/quantity is known
+- [ ] Decide whether sourcing starts via a physical market visit
+      (Kumasi/Techiman/Makola) or B2B platform outreach
+- [ ] Clarify with Kofi whether "Makola Market" (the real wholesale/retail
+      market this doc names) is the same place as "Mokola Market," the
+      brand's narrative anchor — the two names are close enough to risk
+      confusion in scripts or copy, and this repo's existing convention
+      insists on the "Mokola" spelling for the personal-memory anchor
+
 ## Not started (later phases, per blueprint build order)
 
 - [ ] Agent 1 (Trends & Outlier Scout) — deliberately deprioritised, no

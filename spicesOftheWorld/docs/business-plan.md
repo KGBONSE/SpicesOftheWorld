@@ -43,6 +43,7 @@ invented.
 | Chilli oil bottle labels (Africa/South Asia/East Asia, local-language naming) | **In progress, external** — your files, not yet in this repo. One PDF (`chili-oil-south-asia-label.pdf`) exists in `brand-assets/product-labels/`; resolution/print-readiness unconfirmed. |
 | Bottle sourcing (chilli oil) | Not started |
 | Jar sourcing (spice mixes) | Not started |
+| Raw spice ingredient sourcing (non-chilli: ginger, grains of paradise, grains of selim, etc.) | **Research done** — Ghana markets/B2B platforms identified, UK import rules and HS codes checked, a supplier vetting checklist drafted. See `docs/ghana-spice-sourcing.md`. Not yet started: actual supplier outreach, HMRC classification ruling for grains of paradise/selim, confirmed duty rates. |
 | Co-packer vs. self-fill decision | Not started |
 | Unit costing / margins | Not started |
 
@@ -328,4 +329,8 @@ Ordered; **[BLOCKING]** marks items that stop other work until resolved.
     the rest of Africa's episodes.
 15. Plan real product photography to replace the generated placeholder cards — lower
     urgency than the above, but growing (30+ products affected) and worth scheduling
+16. Act on `docs/ghana-spice-sourcing.md`'s open items: get an HMRC (or freight
+    forwarder) classification ruling for grains of paradise/selim, confirm actual duty
+    rates via trade-tariff.service.gov.uk, and decide whether non-chilli spice sourcing
+    starts via a physical market visit (Kumasi/Techiman/Makola) or B2B platform outreach
     before any real marketing push.
