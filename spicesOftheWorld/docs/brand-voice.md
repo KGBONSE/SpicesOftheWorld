@@ -166,8 +166,12 @@ leans on doubled/stacked intensifiers ("really really good"), opens with
 an opinion-first cold take rather than a memory, and closes on a
 mission-line → subscribe → wellbeing-wish sign-off — distinct from both
 the reflective narration register and the farm vlog register documented
-here. Not yet wired into `agents/agent-2-knowledge-voice.md` or
-`agents/agent-3-script-writer.md` — see that file's Open Items.
+here. **2026-08-28:** wired into `agents/agent-3-script-writer.md` as a
+second register alongside Story Voice, with its own structure, voice
+characteristics, and guardrails — Agent 3 now picks a register per
+episode based on the topic/brief. Not yet tested end-to-end through the
+n8n pipeline. Not wired into `agents/agent-2-knowledge-voice.md` (Demo
+Voice episodes lean less on knowledge-base spice research).
 
 ## Maintenance
 

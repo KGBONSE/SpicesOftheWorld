@@ -853,10 +853,13 @@ material. Cross-linked from `docs/brand-voice.md` and `CLAUDE.md`.
 - [ ] Source and paste the actual Grains of Paradise/Yaji transcript text
       into `docs/kofi-voice-profile.md` section 5 (Worked Example) —
       currently a placeholder
-- [ ] Decide whether cooking-demo videos (Demo Voice register) become
-      part of the production pipeline; if so, add a Demo Voice mode to
-      `agents/agent-3-script-writer.md`'s system prompt (currently built
-      only for the six-part Story Voice narrative episodes)
+- [x] Demo Voice mode added to `agents/agent-3-script-writer.md`'s system
+      prompt (2026-08-28) — Agent 3 now picks Story Voice or Demo Voice
+      per episode from the topic/brief. **Still open:** no cooking-demo
+      video has actually been run through the pipeline yet — needs a
+      manual test pass in n8n once it's running, and Kofi still needs to
+      decide whether cooking-demo videos become a real part of the
+      production slate alongside the 34-episode Story Voice season
 - [ ] Collect more transcripts per register (target 3-5 each) to confirm
       which patterns are consistent vs. one-off, per the doc's own Open
       Items section

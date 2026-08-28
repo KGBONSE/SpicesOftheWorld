@@ -151,8 +151,11 @@ video transcripts rather than raw memos. It confirms the six-part Story
 Voice framework against a real produced episode and adds a new **Demo
 Voice** register for straight cooking-process videos (jollof, fufu,
 salad/garden, roasted plantain), distinct from the reflective-narration
-and farm-vlog registers already in `docs/brand-voice.md`. Not yet wired
-into Agent 2/3's system prompts — see `docs/open-tasks.md`.
+and farm-vlog registers already in `docs/brand-voice.md`. **Wired into
+`agents/agent-3-script-writer.md`** the same day as a second register
+alongside Story Voice — Agent 3 now picks per episode based on the
+topic/brief and never blends the two. Not yet tested end-to-end through
+the n8n pipeline — see `docs/open-tasks.md`.
 
 ## Video & audio production pipeline (ffmpeg — established pattern)
 
