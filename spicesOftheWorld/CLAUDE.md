@@ -145,6 +145,15 @@ signatures confirmed across all three are treated as core:
   the latter transcribed locally via `faster-whisper` and analysed as a
   distinct "farm vlog register" — see `docs/brand-voice.md`).
 
+**2026-08-28 — Demo Voice register added:** a second voice-profile track,
+`docs/kofi-voice-profile.md`, was imported — built from finished YouTube
+video transcripts rather than raw memos. It confirms the six-part Story
+Voice framework against a real produced episode and adds a new **Demo
+Voice** register for straight cooking-process videos (jollof, fufu,
+salad/garden, roasted plantain), distinct from the reflective-narration
+and farm-vlog registers already in `docs/brand-voice.md`. Not yet wired
+into Agent 2/3's system prompts — see `docs/open-tasks.md`.
+
 ## Video & audio production pipeline (ffmpeg — established pattern)
 
 1. Normalise all clips to **720x1280**, `veryfast` preset, **CRF 21**

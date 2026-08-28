@@ -153,6 +153,22 @@ with his real voice-over-shoulder audio rather than silent B-roll under
 narration), or as a model for how an unscripted "in the moment" farm
 segment should sound if one is ever wanted.
 
+## Related voice registers
+
+**2026-08-28:** a separate analysis track, built from finished YouTube
+video transcripts rather than raw voice memos, was imported as
+`docs/kofi-voice-profile.md`. It confirms the six-part Story Voice
+framework above against a real produced episode (Grains of Paradise/Yaji)
+and adds a new **Demo Voice** register — the voice used in straight
+cooking-process videos (jollof rice, fufu, salad/garden, roasted
+plantain), confirmed across four samples. Demo Voice is live/unscripted,
+leans on doubled/stacked intensifiers ("really really good"), opens with
+an opinion-first cold take rather than a memory, and closes on a
+mission-line → subscribe → wellbeing-wish sign-off — distinct from both
+the reflective narration register and the farm vlog register documented
+here. Not yet wired into `agents/agent-2-knowledge-voice.md` or
+`agents/agent-3-script-writer.md` — see that file's Open Items.
+
 ## Maintenance
 
 Update this file as new voice recordings are analysed. It's the pattern

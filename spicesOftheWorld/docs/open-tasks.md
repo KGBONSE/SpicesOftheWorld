@@ -842,6 +842,25 @@ not just drafted-copy handoff docs.
       mark — needs the same swap once Kofi confirms he wants it rolled
       out everywhere, not just Yaji.
 
+## 2026-08-28 — Demo Voice register imported
+
+A second voice-profile document, `docs/kofi-voice-profile.md`, was
+imported — built from finished YouTube video transcripts (Grains of
+Paradise/Yaji episode, plus jollof/fufu/salad/plantain cooking-demo
+videos), separate from `docs/brand-voice.md`'s raw-voice-memo source
+material. Cross-linked from `docs/brand-voice.md` and `CLAUDE.md`.
+
+- [ ] Source and paste the actual Grains of Paradise/Yaji transcript text
+      into `docs/kofi-voice-profile.md` section 5 (Worked Example) —
+      currently a placeholder
+- [ ] Decide whether cooking-demo videos (Demo Voice register) become
+      part of the production pipeline; if so, add a Demo Voice mode to
+      `agents/agent-3-script-writer.md`'s system prompt (currently built
+      only for the six-part Story Voice narrative episodes)
+- [ ] Collect more transcripts per register (target 3-5 each) to confirm
+      which patterns are consistent vs. one-off, per the doc's own Open
+      Items section
+
 ## Not started (later phases, per blueprint build order)
 
 - [ ] Agent 1 (Trends & Outlier Scout) — deliberately deprioritised, no
