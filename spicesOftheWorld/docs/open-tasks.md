@@ -837,10 +837,23 @@ not just drafted-copy handoff docs.
       of the placeholder pin mark, replacing the separate "FUDI PEOPLE"
       text line too since the real logo already spells it out. Verified
       at true print size (93px wide on the 359px label) — legible.
-      **Not yet done**: the 34-label proof sheet
-      (`all-34-labels-proof-sheet.html`) still uses the placeholder pin
-      mark — needs the same swap once Kofi confirms he wants it rolled
-      out everywhere, not just Yaji.
+      **2026-08-30: same swap rolled out to all 34.** Kofi confirmed —
+      replaced the placeholder pin-icon + "FUDI PEOPLE" text line with
+      the real `fudi-people-logo-cream-bold.png` across every card in
+      `all-34-labels-proof-sheet.html` (all 34 occurrences were
+      byte-identical, so one scripted find/replace covered the whole
+      file safely). Resized `.mark` for the smaller card scale (48px
+      wide vs Yaji's dedicated-page 93px, same proportion relative to
+      the smaller 190px card), removed the now-unused placeholder-icon
+      CSS rules, and updated the intro copy off "pin mark" wording.
+      Re-rendered via headless Edge and spot-checked at 2x zoom on both
+      the lightest (Africa/maroon) and darkest (East Asia/ink) region
+      fields — logo reads cleanly on both, matching the approved Yaji
+      look. `all-34-labels-proof-sheet.png` regenerated to match.
+      **Still open**: cutting each of the 34 into its own production
+      file pair (95mm print + 1200×1200 digital), same as Yaji's
+      dedicated files — the proof sheet is still a review artifact, not
+      individual production-ready files.
 
 ## Not started (later phases, per blueprint build order)
 
