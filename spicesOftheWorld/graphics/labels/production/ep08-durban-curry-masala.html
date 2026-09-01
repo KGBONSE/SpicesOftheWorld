@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Fudi People — DURBAN CURRY MASALA label (Africa)</title>
+<link rel="stylesheet" href="https://use.typekit.net/ppb1kps.css">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body { width:100%; height:100%; background:transparent; }
+  body { display:flex; align-items:center; justify-content:center; }
+
+  /* Region-coded jar label — fixed template, one accent field per continent.
+     All interior sizing is in vmin, so this one file renders correctly at any
+     square canvas: 1122px = 95mm @ 300dpi (print), 1200px (digital product image). */
+  .label-face {
+    --deep:#43140f; --mid:#6b2318; --edge:#33100c;
+    --cream:#f3e6cf; --gold:#c99a4a; --gold-dim:#8a6a3c;
+    position:relative;
+    width:100vmin; height:100vmin;
+    border-radius:50%;
+    background: radial-gradient(circle at 50% 38%, var(--mid) 0%, var(--deep) 62%, var(--edge) 100%);
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.25);
+    display:flex; align-items:center; justify-content:center; overflow:hidden;
+    font-family:"source-sans-3", Arial, sans-serif;
+  }
+  .ring { position:absolute; inset:4.21vmin; border-radius:50%; border:1px solid var(--gold-dim); opacity:0.55; }
+  .label-content { position:relative; width:84%; display:flex; flex-direction:column; align-items:center; text-align:center; }
+
+  .mark { width:25.26vmin; height:auto; margin-bottom:2.11vmin; display:block; }
+  .rule { width:9.47vmin; height:1px; background:var(--gold); margin-bottom:3.68vmin; }
+  .headline { font-family:"source-serif-4", Georgia, serif; font-weight:700; font-size:7.11vmin; line-height:1.02; color:var(--cream); letter-spacing:0.01em; margin-bottom:2.11vmin; }
+  .subhead { font-family:"source-serif-4", Georgia, serif; font-style:italic; font-weight:400; font-size:3.37vmin; line-height:1.3; color:var(--gold); letter-spacing:0.01em; margin-bottom:3.68vmin; }
+  .route { width:32.63vmin; height:4.21vmin; margin-bottom:3.68vmin; opacity:0.9; }
+  .route path { stroke:var(--gold-dim); stroke-width:1; fill:none; }
+  .route circle { fill:var(--gold); }
+  .tag { font-family:"source-sans-3", Arial, sans-serif; font-weight:600; font-size:2.63vmin; letter-spacing:0.16em; color:var(--gold); margin-bottom:1.05vmin; }
+  .micro { font-family:"source-sans-3", Arial, sans-serif; font-weight:400; font-size:2.21vmin; letter-spacing:0.04em; color:var(--cream); opacity:0.6; }
+</style>
+</head>
+<body>
+  <div class="label-face">
+    <div class="ring"></div>
+    <div class="label-content">
+      <img class="mark" src="../../../brand-assets/logo/fudi-people-logo-cream-bold.png" alt="Fudi People" />
+      <div class="rule"></div>
+      <div class="headline">DURBAN CURRY MASALA</div>
+      <div class="subhead">Bunny Chow &amp; Curry · Southern Africa</div>
+      <svg class="route" viewBox="0 0 120 14"><path d="M2 12 C 30 2, 55 12, 80 4 S 110 2, 118 6"></path><circle cx="2" cy="12" r="2"></circle><circle cx="118" cy="6" r="2"></circle></svg>
+      <div class="tag">SPICES OF AFRICA</div>
+      <div class="micro">NET WT 50g&nbsp;&nbsp;·&nbsp;&nbsp;fudipeople.com</div>
+    </div>
+  </div>
+</body>
+</html>

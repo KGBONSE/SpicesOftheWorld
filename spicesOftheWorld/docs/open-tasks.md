@@ -850,10 +850,25 @@ not just drafted-copy handoff docs.
       the lightest (Africa/maroon) and darkest (East Asia/ink) region
       fields — logo reads cleanly on both, matching the approved Yaji
       look. `all-34-labels-proof-sheet.png` regenerated to match.
-      **Still open**: cutting each of the 34 into its own production
-      file pair (95mm print + 1200×1200 digital), same as Yaji's
-      dedicated files — the proof sheet is still a review artifact, not
-      individual production-ready files.
+      **2026-09-01: all 34 cut into individual production files** —
+      `graphics/labels/production/`. One HTML source per blend
+      (`epNN-<slug>.html`), canvas-agnostic: all interior sizing is in
+      `vmin`, so a single file renders correctly at any square size.
+      Generated from the proof-sheet data (headline tiers, subheads,
+      region palettes, tags all carried over verbatim — nothing
+      re-authored). Each blend rendered via headless Edge to two PNGs:
+      `-digital-1200.png` (1200×1200 product image, transparent corners)
+      and `-print-95mm-300dpi.png` (1122px = 95mm @ 300dpi — a real print
+      resolution, unlike Yaji's older 359px/96dpi pair, which can be
+      re-rendered from HTML the same way if needed). Plus `_index.html`
+      (contact sheet of all 34) and `README.md` (re-render command, and
+      what's deliberately not done: back-of-jar labels, real net weight,
+      print bleed/crop marks, per-continent palette sign-off). ~38MB of
+      PNGs added — fine for the repo but worth knowing.
+      **Still open**: back-of-jar labels (ingredients, allergens per
+      Natasha's Law, barcode) remain deferred; net weight reads a
+      placeholder `NET WT 50g` on every label pending the packaging-size
+      decision in `docs/product-catalog-notes.md`.
 
 ## Not started (later phases, per blueprint build order)
 
