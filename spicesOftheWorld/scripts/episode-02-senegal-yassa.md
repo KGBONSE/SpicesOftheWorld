@@ -15,15 +15,7 @@ secret."
 
 ## 1. Personal Hook
 
-There's one pot of jollof I still measure every other plate against —
-not my mum's, my best friend's mum's, growing up. She was Senegalese, and
-at the time I didn't think anything of that, I just knew hers tasted
-different from anyone else's. She'd cook it in this huge, blackened pot
-nobody else was allowed to touch, and I can still picture the exact
-moment she lifted that lid — thick, smoky, tomatoey steam rolling out
-before you'd even seen the rice underneath. Everyone said their own
-jollof was the best. Looking back now, hers actually had a reason to be
-one of the best I have tasted 
+There's one pot of jollof I still measure every other plate against — my mum's. Growing up, my best friend's mum also made incredible jollof — she was Senegalese, and at the time I didn't think anything of that, I just knew hers tasted different from anyone else's. She'd cook it in this huge, blackened pot nobody else was allowed to touch, and I can still picture the exact moment she lifted that lid — thick, smoky, tomatoey steam rolling out before you'd even seen the rice underneath. Everyone said their own jollof was the best. Looking back now, hers actually had a reason to be one of the best I have tasted — but no jollof will ever measure up to my mum's.
 
 
 **[ON-SCREEN TEXT]:** "Whose jollof was really the best?"
