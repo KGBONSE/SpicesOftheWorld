@@ -906,13 +906,16 @@ not just drafted-copy handoff docs.
       clear-glass 150 ml bottle mockups, 3 emblem SVGs); maroon logo at
       `brand-assets/logo/fudi-people-logo-maroon.png`. See that folder's
       `README.md`.
-      **Still open:** the 3 bottle mockups need to become the WooCommerce
-      product images for ids 2226/2241/2250, replacing the generated
-      placeholder cards. Blocked this session — the WC consumer key can't
-      auth `wp/v2/media`, and the host's mod_security WAF 406s the binary
-      upload anyway. Needs the `claude-assistant` Application Password, or
-      Kofi uploads the 3 PNGs to the Media Library and shares the URLs
-      (then settable via `PUT /products/<id>` `images:[{src}]`).
+      **2026-09-04: bottle mockups now live as the product images** for
+      ids 2226/2241/2250 (media ids 2490/2491/2492), replacing the
+      generated placeholder cards. Uploaded via `wp/v2/media` with the
+      `claude-assistant` app password + a browser User-Agent (image
+      uploads pass mod_security; only video is blocked), then set via
+      `wc/v3/products/batch`. All 3 verified: published, £8.99, in stock,
+      new image. The old `SOTW-*-CHILLIOIL-placeholder.jpg` files are
+      still in the Media Library, just unattached.
+      **Still open:** real bottle photography (mockups are CSS/SVG
+      illustrations); higher-res dragon art if the gold detail is wanted.
 
 ## Not started (later phases, per blueprint build order)
 
