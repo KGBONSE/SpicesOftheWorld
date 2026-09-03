@@ -870,6 +870,50 @@ not just drafted-copy handoff docs.
       placeholder `NET WT 50g` on every label pending the packaging-size
       decision in `docs/product-catalog-notes.md`.
 
+## 2026-09-02/04 — gentle store rollout + chilli-oil labels
+
+- [x] **2026-09-02: "gentle rollout" — Africa range + 3 chilli oils only,
+      live via the WooCommerce REST API** (ck/cs keys Kofi pasted in chat,
+      not saved to a file; `Mozilla/5.0` User-Agent header needed or the
+      host's mod_security returns 406). Kofi's call: roll out gently with
+      just the African spices in stock, plus the Fudi People Chilli Oil
+      with Spices of Africa / East Asia / South Asia.
+      - **In stock (14):** the 11 published Africa-category products
+        (West/East/Southern Africa Spice Mix, Yaji, Yassa, Harissa, Pilau
+        Masala, Durban Curry Masala, Mbongo Mix, Niter Kibbeh, Pepper Soup
+        Spice — all £7.99) + the 3 named chilli oils (ids 2226/2241/2250),
+        which were published, priced **£8.99 (150 ml)**, set in stock.
+      - **Out of stock (43):** every other currently-published product
+        (all Middle East, South Asia, East Asia, Americas blends + the
+        other regional chilli oils) → `stock_status: outofstock`, left
+        published/browsable. Reversible per-product flag.
+      - **Untouched:** the ~32 existing drafts.
+      - The 3 wet Africa-category drafts (Maghreb / Central Africa / Horn
+        of Africa "Spice Mix") were **left as drafts** — their dry
+        equivalents (Harissa Spice Blend, Mbongo Mix, Niter Kibbeh Spice
+        Blend) are already live and in stock, so publishing the
+        region-named duplicates would just double up the Africa range.
+- [x] **2026-09-03/04: chilli-oil front-of-bottle labels rebuilt** from
+      Kofi's AI-generated concept art (Africa heart/rooster, East Asia
+      dragon, South Asia Buddha). Re-authored as clean HTML/CSS with the
+      real Fudi People logo, "Chilli" spelling fixed, native-script line
+      kept (辣油 / मिर्च का तेल — the concept's South Asia line was
+      actually romanised Mandarin, swapped to Hindi per Kofi), tagline
+      dropped. Emblems vectorised razor-sharp with **vtracer** (pip
+      install; also `pymupdf` for the PDF). Dragon flattened to one cream
+      tone — the source was ~95 px, too low-res for the white+gold detail.
+      Files in `graphics/labels/chilli-oil/` (label HTML + PNG web/print,
+      clear-glass 150 ml bottle mockups, 3 emblem SVGs); maroon logo at
+      `brand-assets/logo/fudi-people-logo-maroon.png`. See that folder's
+      `README.md`.
+      **Still open:** the 3 bottle mockups need to become the WooCommerce
+      product images for ids 2226/2241/2250, replacing the generated
+      placeholder cards. Blocked this session — the WC consumer key can't
+      auth `wp/v2/media`, and the host's mod_security WAF 406s the binary
+      upload anyway. Needs the `claude-assistant` Application Password, or
+      Kofi uploads the 3 PNGs to the Media Library and shares the URLs
+      (then settable via `PUT /products/<id>` `images:[{src}]`).
+
 ## Not started (later phases, per blueprint build order)
 
 - [ ] Agent 1 (Trends & Outlier Scout) — deliberately deprioritised, no
