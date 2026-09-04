@@ -916,6 +916,20 @@ not just drafted-copy handoff docs.
       still in the Media Library, just unattached.
       **Still open:** real bottle photography (mockups are CSS/SVG
       illustrations); higher-res dragon art if the gold detail is wanted.
+- [x] **2026-09-05: all 34 jar labels pushed live as product images.**
+      Uploaded each `graphics/labels/production/epNN-*-digital-1200.png`
+      to the Media Library (`wp/v2/media`, `claude-assistant` app password)
+      and set it on the matching product (`wc/v3/products/batch`,
+      `images:[{id:<mediaid>}]`) — 34/34 succeeded. Mapped by episode
+      number to product id via each product's `FP-NN-*` SKU (Yaji and
+      Garam Masala have no SKU, matched by name instead). Verified live
+      (Yaji's new image loads, 200). Two of the 34 — **Tucupí** (2326) and
+      **Leche de Tigre** (2328) — are still **drafts** (dropped from the
+      catalog per the 2026-08-18 wet-to-dry conversion, kept for
+      reference), so their new label image isn't customer-visible yet.
+      **Reminder from the WC API memory note**: `curl -A "Mozilla/5.0"`
+      alone still 406s on this host sometimes — use a full UA string
+      (`Mozilla/5.0 (Windows NT 10.0; Win64; x64)`).
 
 ## Not started (later phases, per blueprint build order)
 
