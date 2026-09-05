@@ -1053,6 +1053,17 @@ not just drafted-copy handoff docs.
       regionals stay as-is (no dish-name twin, no episode yet). The
       retired drafts still hold the recipe-tab content, so restoring one
       loses nothing.
+- [x] **2026-09-05: added suggested ratios to the 7 blends the book only
+      gave an ingredient list for.** Kofi checked Niter Kibbeh and saw no
+      quantities — because *The Science of Spice* never gave ratios for
+      Yassa, Niter Kibbeh, Pepper Soup Spice, Pilau Masala, Mbongo Mix or
+      Durban Curry Masala (Yaji already carried a starter card).
+      Researched traditional proportions for the six and wrote them into
+      `spice_blend_recipe`, each labelled *"the historical source gives
+      the ingredients, not exact ratios — these are traditional
+      proportions as a starting point."* Copied to the matching drafted
+      regional twins. All 34 blends now show a measured blend recipe on
+      the product page.
 
 ## Not started (later phases, per blueprint build order)
 
