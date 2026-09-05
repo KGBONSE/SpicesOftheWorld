@@ -8,7 +8,7 @@ Here's something worth knowing before you cook with any of this — locally, "gr
 
 Calabash nutmeg is a different plant from the "true" nutmeg most spice racks carry, but it plays a similar role in cooking. True nutmeg's own chemistry is a good reference point — myristicin gives it that woody aroma, eugenol and cineole add clove-like, eucalyptus notes. There's even a compound in there, discovered fairly recently, that triggers a numbing, cooling sensation on your tongue — even though nutmeg doesn't taste cold at all.
 
-True nutmeg's got real antioxidant and antibacterial research behind it too — though it comes with a genuine caution: a little truly goes a long way, because too much nutmeg is actually harmful, not just overpowering.
+True nutmeg's got real antioxidant and antibacterial research behind it too — though it comes with a genuine caution: a little truly goes a long way, because too much nutmeg is actually harmful, not just overpowering. The rest of the mix pulls its weight, though: grains of paradise — the same West African spice from episode one — has real research on revving up metabolism, black cardamom brings antioxidant and respiratory benefits, and the garlic ground through is one of the most-studied ingredients there is for the heart.
 
 Grind whole mbongo — or black cardamom if you can't get it — with bobimbi or wild garlic, njangsa seeds or unsalted peanuts, calabash nutmeg or grated regular nutmeg, grains of paradise, and garlic cloves with chopped onion.
 

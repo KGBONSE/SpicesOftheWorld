@@ -74,12 +74,14 @@ like it's doing you good while it warms you up.
 And that "doing you good" feeling isn't just in your head — ginger's one of
 the most genuinely well-evidenced spices going, especially for digestion
 and nausea, and uda, the same grains of selim from episode one, has real
-research behind it too, for gut and respiratory health.
+research behind it too, for gut and respiratory health. The Scotch bonnet
+adds capsaicin's own file — heart health, circulation, a small metabolic
+bump — and calabash nutmeg has been used as a medicine across West Africa
+for about as long as it's been a spice.
 
-*On-screen: "Calabash nutmeg — bitter, medicinal edge" / "Research
-genuinely backs ginger for digestion" / "Uda (grains of selim) — tied to
-gut and respiratory health" · B-roll: pepper soup simmering, close-up of
-pods/spices*
+*On-screen: "Calabash nutmeg — bitter, medicinal edge" / "Ginger:
+digestion · Uda: gut & lungs · Scotch bonnet: heart & metabolism" ·
+B-roll: pepper soup simmering, close-up of pods/spices*
 
 ---
 

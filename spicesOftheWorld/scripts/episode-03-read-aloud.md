@@ -6,7 +6,7 @@ Fenugreek might be the oldest spice we've covered yet — the earliest seeds eve
 
 Fenugreek's flavour comes down to a compound called sotolon — sweet, like maple syrup or caramel. There's woody caryophyllene in there too, and if you toast the seeds before using them, you get these nutty, roasted, almost coffee-and-chocolate notes from compounds called pyrazines. That's the move — toast them first.
 
-And fenugreek's one of the better-supported spices in this whole series health-wise — research genuinely backs it for blood sugar, which is exactly the kind of everyday benefit worth knowing sits inside something this old.
+And fenugreek's one of the better-supported spices in this whole series health-wise — research genuinely backs it for blood sugar, which is exactly the kind of everyday benefit worth knowing sits inside something this old. It's in good company here, too: the turmeric that colours niter kibbeh has real trial evidence for joint pain, cumin brings its own digestive and metabolic research, and ginger is about the best-backed spice going for settling the stomach.
 
 This is Ethiopia's spiced clarified butter, and for once I've actually got real measurements for you. Melt 500 grams of unsalted butter with chopped onion, garlic, grated ginger, fenugreek seeds, ground cumin, korarima or cardamom seeds, turmeric, dried oregano, basil, and sage. Simmer it for 20 minutes, then strain it through muslin.
 

@@ -1000,6 +1000,15 @@ not just drafted-copy handoff docs.
       fine as editorial; keep specific health claims **off the product
       listings and labels** (UK ASA / Nutrition & Health Claims
       Regulation).
+      **2026-09-05, follow-up:** synced the health rewrites into the
+      **read-aloud and filming-script reading copies** for episodes 1–8
+      (the only episodes that have those copies). While there, also
+      strengthened episodes 3, 4 and 7's main scripts, which had only
+      carried thin 2-spice content — niter kibbeh gains turmeric/cumin/
+      ginger, pepper soup gains the Scotch bonnet, mbongo gains grains of
+      paradise / black cardamom / garlic. All three formats now match for
+      every episode 1–8; 9–34 have main-script only (no reading copies
+      yet).
 - [x] **2026-09-05: wrote the star anise and allspice KB profiles** that
       the health pass flagged as missing —
       `knowledge-base/spice-profiles/by-flavour-compound/01_sweet_warming_phenols/star_anise.md`

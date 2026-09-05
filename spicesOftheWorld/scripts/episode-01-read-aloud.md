@@ -8,7 +8,7 @@ Here's the thing that gets me — hundreds of years ago, Arab and Berber and Jew
 
 The warmth in grains of paradise builds slowly, and that's down to a compound called paradol — the same one that gives ginger its heat. There's gingerol in there too, for pungency, and a bitter, earthy note from humulone. Grains of selim is a different animal altogether — musky, almost smoky, from a compound called fenchone. And here's a tip if you're cooking with grains of paradise at home: it's gentler than black pepper, so you'll want two to three times as much to get the same punch.
 
-And there's real modern research behind this one too, not just history — grains of paradise has actually been shown to rev up metabolism, even activate the kind of fat tissue that burns calories for heat.
+And there's real modern research behind this one too, not just history — grains of paradise has actually been shown to rev up metabolism, even activate the kind of fat tissue that burns calories for heat. It's not the only one in the rub with a research file, either: grains of selim is one of the better-documented African spices for gut and respiratory health, ginger is about the most solidly-backed spice going for digestion and nausea, and the black pepper helps your body absorb more from everything alongside it. For a street-food rub, Yaji does a surprising amount of good.
 
 This is the one that ties Ghana and Nigeria together for me — Yaji. It's grains of selim, whole Ashanti pepper or any good dry chillies, crushed kuli-kuli — that's crushed peanut puffs — ginger powder, a crumbled stock cube, salt, and black pepper, all combined into one dry rub. Same mix, whether you call it chinchinga or suya.
 

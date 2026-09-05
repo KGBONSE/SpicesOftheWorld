@@ -8,7 +8,7 @@ Cumin might be the oldest spice we've covered — there's evidence of it in Egyp
 
 Cumin's flavour comes from cuminaldehyde — musky, spicy, and it's rarely found anywhere else, except, interestingly, in cinnamon too. That's part of why the two work so well together here — cinnamon's own compound, cinnamaldehyde, adds an earthier warming depth right alongside it. Toast the cumin seeds first, bruise them, dry-fry them, and you get roasted notes you just don't get from the raw seed.
 
-Both of these carry real research weight too — cumin's been linked to genuine digestive and metabolic benefits, and even a small daily amount of true cinnamon shows up in studies improving blood sugar and cholesterol.
+Both of these carry real research weight too — cumin's been linked to genuine digestive and metabolic benefits, and even a small daily amount of true cinnamon shows up in studies improving blood sugar and cholesterol. Caraway, the third seed here, has its own research on digestion and blood sugar, and the chilli the whole paste is built on links in large population studies to lower cardiovascular risk. Harissa reads as pure indulgence — the spice list says otherwise.
 
 Soak 100 grams of dried red chillies — Baklouti if you can get them — in hot water for 30 minutes. Then blend with 3 to 4 garlic cloves, salt, lemon juice, ground cumin, ground coriander, ground caraway, and olive oil, into a paste.
 

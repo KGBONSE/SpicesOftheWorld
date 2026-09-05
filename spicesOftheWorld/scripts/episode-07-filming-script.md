@@ -83,11 +83,17 @@ all.
 
 True nutmeg's got real antioxidant and antibacterial research behind it too
 — though it comes with a genuine caution: a little truly goes a long way,
-because too much nutmeg is actually harmful, not just overpowering.
+because too much nutmeg is actually harmful, not just overpowering. The
+rest of the mix pulls its weight, though: grains of paradise — the same
+West African spice from episode one — has real research on revving up
+metabolism, black cardamom brings antioxidant and respiratory benefits,
+and the garlic ground through is one of the most-studied ingredients there
+is for the heart.
 
 *On-screen: "Nutmeg's numbing sensation — a real compound, not just heat" /
-"Research shows real benefits — but a little truly goes a long way" ·
-B-roll: close-up of grating nutmeg/calabash nutmeg*
+"Go easy on the nutmeg" / "Grains of paradise: metabolism · Black cardamom:
+antioxidants · Garlic: heart" · B-roll: close-up of grating nutmeg/calabash
+nutmeg*
 
 ---
 

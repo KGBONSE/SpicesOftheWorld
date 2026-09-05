@@ -8,7 +8,7 @@ This region has some of the most direct, traceable colonial spice-trade history 
 
 Coriander is the spice tying this one together, and it's ancient — an 8,000-year-old stockpile was found in a cave in Israel. Its flavour comes mostly from linalool, that lilac-floral note. And here's a nice callback — coriander bridges with cumin, the spice from our Maghreb episode, through a shared compound called cymene. Different regions, same chemistry.
 
-Coriander's picking up real research interest too — early studies point to genuine blood sugar and cholesterol benefits, alongside cumin's own digestive and metabolic backing from a couple of episodes ago.
+Coriander's picking up real research interest too — early studies point to genuine blood sugar and cholesterol benefits, alongside cumin's own digestive and metabolic backing from a couple of episodes ago. And this is a curry masala, so it's stacked: fenugreek is one of the best-supported spices going for blood sugar, cinnamon has its own trial evidence there, cardamom brings a heart angle, and ginger and chilli round it out. Curry gets a bad rap — the spice mix underneath it is one of the healthiest things in your cupboard.
 
 Toast and grind coriander seeds, cumin seeds, cardamom seeds, fenugreek seeds, cloves, a cinnamon stick, mild chilli powder, and cayenne pepper, with ground ginger stirred through.
 

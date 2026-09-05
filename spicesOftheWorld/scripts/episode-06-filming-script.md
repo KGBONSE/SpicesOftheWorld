@@ -72,11 +72,14 @@ along the way.
 Ginger's actually one of the most solidly research-backed spices out there
 — nausea relief alone is well-established clinically, not just folk wisdom,
 and clove holds its own too, especially for pain relief and fighting
-bacteria.
+bacteria. The rest of the pilau blend keeps up: cinnamon has real trial
+evidence for blood sugar, cardamom a heart-health angle, and cumin its own
+digestive and metabolic research. A bowl of pilau rice is carrying more
+than flavour.
 
-*On-screen: "Dried ginger = hotter than fresh, not milder" / "Research
-genuinely backs ginger for nausea, clove for pain relief" · B-roll: fresh
-vs dried ginger side by side*
+*On-screen: "Dried ginger = hotter than fresh, not milder" / "Ginger:
+nausea · Clove: pain relief · Cinnamon: blood sugar · Cardamom: heart" ·
+B-roll: fresh vs dried ginger side by side*
 
 ---
 

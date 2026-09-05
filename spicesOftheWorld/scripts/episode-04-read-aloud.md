@@ -8,7 +8,7 @@ Remember jollof rice, from the Senegal episode? It didn't stop at Nigeria — it
 
 Sierra Leone's pepper soup leans on that same grains-of-selim muskiness we already know, but pairs it with something new here — calabash nutmeg, which brings a bitter, almost medicinal edge to the broth. Between the Scotch bonnet heat, the ginger, and that bitterness, pepper soup is built to feel like it's doing you good while it warms you up.
 
-And that "doing you good" feeling isn't just in your head — ginger's one of the most genuinely well-evidenced spices going, especially for digestion and nausea, and uda, the same grains of selim from episode one, has real research behind it too, for gut and respiratory health.
+And that "doing you good" feeling isn't just in your head — ginger's one of the most genuinely well-evidenced spices going, especially for digestion and nausea, and uda, the same grains of selim from episode one, has real research behind it too, for gut and respiratory health. The Scotch bonnet adds capsaicin's own file — heart health, circulation, a small metabolic bump — and calabash nutmeg has been used as a medicine across West Africa for about as long as it's been a spice.
 
 Sierra Leone's pepper soup base is Scotch bonnet peppers, garlic, ginger, country onion — a small, intensely flavoured wild onion — and often uda and calabash nutmeg alongside it, all simmered together with goat, fish, or chicken.
 

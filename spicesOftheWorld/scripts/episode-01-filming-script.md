@@ -83,11 +83,18 @@ want two to three times as much to get the same punch.
 
 And there's real modern research behind this one too, not just history —
 grains of paradise has actually been shown to rev up metabolism, even
-activate the kind of fat tissue that burns calories for heat.
+activate the kind of fat tissue that burns calories for heat. It's not
+the only one in the rub with a research file, either: grains of selim is
+one of the better-documented African spices for gut and respiratory
+health, ginger is about the most solidly-backed spice going for digestion
+and nausea, and the black pepper helps your body absorb more from
+everything alongside it. For a street-food rub, Yaji does a surprising
+amount of good.
 
 *On-screen: "Paradol = ginger's heat compound" / "Use 2–3x more than
-black pepper" / "Research shows grains of paradise can genuinely rev up
-your metabolism" · B-roll: Close-up of ground spice, grinding action*
+black pepper" / "Grains of paradise: metabolism · Grains of selim: gut &
+lungs · Ginger: digestion" · B-roll: Close-up of ground spice, grinding
+action*
 
 ---
 

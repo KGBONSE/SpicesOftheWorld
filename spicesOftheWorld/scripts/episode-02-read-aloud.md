@@ -8,7 +8,7 @@ Jollof travelled — east, across West Africa, all the way to Nigeria and Ghana.
 
 Grains of selim's musky character comes from a compound called fenchone. But here's the part that's specific to Senegal — the pods are traditionally smoked during drying there, and that's what gives them their distinctive musky, wood-smoke aroma. Most of that smokiness sits right in the pod itself, so you grind it just before using it if you want the full effect. They even brew it into coffee here — café touba.
 
-And grains of selim isn't just a flavour story — it's genuinely one of the better-documented African spices when it comes to health research too, tied to real gut and respiratory benefits, not just tradition.
+And grains of selim isn't just a flavour story — it's genuinely one of the better-documented African spices when it comes to health research too, tied to real gut and respiratory benefits, not just tradition. The marinade around it earns its keep as well: the mustard base has real anti-inflammatory research, and there's a genuinely useful cooking finding attached — a mustard coating before grilling has been shown to cut the harmful compounds that form when meat chars. The garlic and onion add their own well-studied heart benefits on top.
 
 Senegal's other signature is poulet yassa, and the marinade is where the Francophone side of West Africa really shows itself — mustard paste, onions, garlic, and a real hit of sourness from lemon juice or vinegar. That's the flavour identity here: sour and mustard-forward, where the Anglophone side of the region leans on smoked and fermented depth instead.
 

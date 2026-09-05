@@ -71,11 +71,17 @@ They even brew it into coffee here — café touba.
 
 And grains of selim isn't just a flavour story — it's genuinely one of the
 better-documented African spices when it comes to health research too, tied
-to real gut and respiratory benefits, not just tradition.
+to real gut and respiratory benefits, not just tradition. The marinade
+around it earns its keep as well: the mustard base has real
+anti-inflammatory research, and there's a genuinely useful cooking finding
+attached — a mustard coating before grilling has been shown to cut the
+harmful compounds that form when meat chars. The garlic and onion add
+their own well-studied heart benefits on top.
 
 *On-screen: "Smoked during drying = the wood-smoke note" / "Grind just
-before use" / "Research shows grains of selim is genuinely tied to gut and
-respiratory health" · B-roll: close-up of pods, grinding, café touba pour*
+before use" / "Grains of selim: gut & lungs · Mustard: cuts charring
+compounds · Garlic & onion: heart" · B-roll: close-up of pods, grinding,
+café touba pour*
 
 ---
 

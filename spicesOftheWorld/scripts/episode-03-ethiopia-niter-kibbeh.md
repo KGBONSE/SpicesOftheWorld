@@ -56,9 +56,12 @@ the move — toast them first.
 And fenugreek's one of the better-supported spices in this whole
 series health-wise — research genuinely backs it for blood sugar, which
 is exactly the kind of everyday benefit worth knowing sits inside
-something this old.
+something this old. It's in good company here, too: the turmeric that
+colours niter kibbeh has real trial evidence for joint pain, cumin brings
+its own digestive and metabolic research, and ginger is about the
+best-backed spice going for settling the stomach.
 
-**[ON-SCREEN TEXT]:** "Sotolon = the maple-syrup note" / "Toast the seeds first" / "Research shows fenugreek genuinely helps blood sugar"
+**[ON-SCREEN TEXT]:** "Sotolon = the maple-syrup note" / "Toast the seeds first" / "Fenugreek: blood sugar · Turmeric: joint pain · Ginger: digestion"
 **[B-ROLL]:** Seeds toasting in a pan, close-up
 
 ## 5. The Blend — Niter Kibbeh

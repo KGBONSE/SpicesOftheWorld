@@ -76,10 +76,15 @@ you just don't get from the raw seed.
 Both of these carry real research weight too — cumin's been linked to
 genuine digestive and metabolic benefits, and even a small daily amount of
 true cinnamon shows up in studies improving blood sugar and cholesterol.
+Caraway, the third seed here, has its own research on digestion and blood
+sugar, and the chilli the whole paste is built on links in large
+population studies to lower cardiovascular risk. Harissa reads as pure
+indulgence — the spice list says otherwise.
 
 *On-screen: "Cumin + cinnamon share real chemistry — toast the seeds
-first" / "Research backs both spices for digestion, blood sugar and
-cholesterol" · B-roll: seeds toasting, close-up*
+first" / "Cumin, cinnamon, caraway — digestion, blood sugar, cholesterol"
+/ "Chilli: linked to lower cardiovascular risk" · B-roll: seeds toasting,
+close-up*
 
 ---
 

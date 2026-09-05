@@ -8,7 +8,7 @@ Over 2,000 years of trade with Arabia, Persia, and India brought cloves, ginger,
 
 Ginger's heat comes from gingerols, and zingiberene is what gives it that unmistakable aroma. But here's the part that gets me — when you dry ginger, it actually gets hotter, not milder. Gingerol converts into shogaol, which carries twice the heat, even though you lose some of the fresh citrus notes along the way.
 
-Ginger's actually one of the most solidly research-backed spices out there — nausea relief alone is well-established clinically, not just folk wisdom, and clove holds its own too, especially for pain relief and fighting bacteria.
+Ginger's actually one of the most solidly research-backed spices out there — nausea relief alone is well-established clinically, not just folk wisdom, and clove holds its own too, especially for pain relief and fighting bacteria. The rest of the pilau blend keeps up: cinnamon has real trial evidence for blood sugar, cardamom a heart-health angle, and cumin its own digestive and metabolic research. A bowl of pilau rice is carrying more than flavour.
 
 Toast and grind whole cumin seeds, black peppercorns, cloves, cardamom seeds, and cinnamon. Stir that straight into the pan when you're frying onions down for pilau rice.
 
