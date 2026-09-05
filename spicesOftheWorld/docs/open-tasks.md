@@ -931,6 +931,45 @@ not just drafted-copy handoff docs.
       alone still 406s on this host sometimes — use a full UA string
       (`Mozilla/5.0 (Windows NT 10.0; Win64; x64)`).
 
+## 2026-09-05 — homepage Hero spacing + header logo size
+
+- [x] **Hero section had a 220px (580px on ultra-wide!) Spacer widget**
+      between the headline and the paragraph — nothing else on the page
+      uses gaps anywhere near that, and Kofi flagged the page as "too much
+      space." Found via the page's `_elementor_data` (id 7, widget
+      `3c8c81b`) and resized: 220→32px desktop, 60→28px laptop,
+      580→40px widescreen. Saved via `wp/v2/pages/7` PUT. **Needed a
+      manual Elementor → Tools → Clear Files & Data** afterward — same
+      recurring wrinkle as every past Elementor edit: raw REST meta
+      writes don't regenerate the cached CSS file. Kofi confirmed fixed.
+- [x] **Header logo enlarged, 120px → 190px (mobile 42→60px).** This
+      turned out not to be a WP Customizer / theme_mod setting at all —
+      confirmed empty via a temporary read-only debug snippet (Code
+      Snippets), and the Customizer's own panel list (Site Identity,
+      Menus, Widgets, Homepage Settings, WooCommerce, Additional CSS) has
+      no Header/Logo section for this "Qi" theme. Rather than keep
+      hunting for wherever the real option lives (a raw DB search was the
+      next step and got blocked by Claude Code's own safety classifier —
+      correctly, since it meant running an arbitrary SQL query via
+      injected PHP on the live site), solved it with a plain CSS override
+      instead: a small **Code Snippets** entry ("Bigger header logo",
+      global/PHP scope, id 7, still active) hooks `wp_head` and prints
+      `#qodef-page-header .qodef-header-logo-link { height: 190px
+      !important; }` (+ the mobile equivalent). Confirmed present in the
+      live page `<head>`, ahead of the theme's own inline styles.
+      **Kofi explicitly approved use of the Code Snippets/PHP-injection
+      route both times it came up** — worth remembering that's the
+      standing precedent for this site, not a blanket default.
+      **Temporary debug snippet (id 6, dumped `get_theme_mods()`) was
+      deleted after use** — nothing debug-related left running.
+      **Still genuinely unknown**: where the theme actually stores 120px/
+      42px as its default (not in `theme_mods`, not in the page's
+      `_elementor_page_settings`, not a `custom_css` post — that post
+      type isn't REST-exposed at all, confirmed). Doesn't block anything
+      now that the CSS override is in place, but worth knowing if the
+      *theme's own* option ever needs finding again (e.g. before a theme
+      update, in case the option round-trips through an export/import).
+
 ## Not started (later phases, per blueprint build order)
 
 - [ ] Agent 1 (Trends & Outlier Scout) — deliberately deprioritised, no
