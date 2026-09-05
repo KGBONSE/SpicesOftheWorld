@@ -1040,9 +1040,19 @@ not just drafted-copy handoff docs.
       as their episode blend (`scratchpad copy_recipes_to_regionals.py`,
       SOTW-id → episode-id map). Europe (6) and Southeast Asia (9)
       regionals still have none — no episode exists for them. The
-      underlying **duplicate-products problem is still unresolved** —
-      both naming schemes are live; worth finally picking one per blend
-      and redirecting the other.
+      underlying duplicate-products problem — see next entry.
+- [x] **2026-09-05: duplicate products consolidated.** Kofi's call —
+      keep the dish-name products (Za'atar, Garam Masala, …), retire the
+      region-named twins. **33 SOTW "___ Spice Mix" products set to
+      draft** (22 were published); a **301-redirect snippet** added
+      (Code Snippets #8, `docs/product-redirects-snippet.php`) maps each
+      old `/product/<region>-spice-mix/` URL to its kept dish-name
+      product — tested live, all 33 redirect, kept products still 200,
+      non-mapped products unaffected. Catalog now **35 published (0
+      regional duplicates), 54 draft.** Europe (6) and Southeast Asia (9)
+      regionals stay as-is (no dish-name twin, no episode yet). The
+      retired drafts still hold the recipe-tab content, so restoring one
+      loses nothing.
 
 ## Not started (later phases, per blueprint build order)
 
