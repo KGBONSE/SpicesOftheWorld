@@ -1000,10 +1000,16 @@ not just drafted-copy handoff docs.
       fine as editorial; keep specific health claims **off the product
       listings and labels** (UK ASA / Nutrition & Health Claims
       Regulation).
-      **Still open:** **star anise** and **allspice** have no dedicated KB
-      profile (allspice already flagged; star anise is in 4 blends —
-      22/26/27/28). The scripts hedge both correctly for now, but proper
-      `Health Benefits` profiles would close the gap.
+- [x] **2026-09-05: wrote the star anise and allspice KB profiles** that
+      the health pass flagged as missing —
+      `knowledge-base/spice-profiles/by-flavour-compound/01_sweet_warming_phenols/star_anise.md`
+      and `allspice.md`, full format (origin, chemistry, pairing,
+      technique, blends, Health Benefits + on-camera line + private
+      sources), index updated. Star anise: anethole + the shikimic-acid /
+      Tamiflu story + a safety note on toxic Japanese star anise.
+      Allspice: eugenol + "only major spice grown solely in the Western
+      Hemisphere" + antioxidant capacity. Both hedge appropriately —
+      most non-basic claims are lab-only.
 
 ## Not started (later phases, per blueprint build order)
 

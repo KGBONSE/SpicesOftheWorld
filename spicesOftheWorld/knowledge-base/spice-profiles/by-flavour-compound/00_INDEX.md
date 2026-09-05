@@ -2,7 +2,7 @@
 *Consolidated from "The Science of Spice" (pp. 95–193), rewritten and organized for the Fudi People content pipeline*
 
 ## Folder Structure
-- `01_sweet_warming_phenols/` — Fennel, Liquorice, Vanilla
+- `01_sweet_warming_phenols/` — Fennel, Liquorice, Vanilla, Star Anise, Allspice
 - `02_warming_terpenes/` — Mahleb, Nutmeg, Cumin, Caraway, Dill
 - `03_fragrant_terpenes/` — Annatto, Mastic, Juniper, Rose, Coriander
 - `04_earthy_terpenes/` — Nigella
