@@ -1011,6 +1011,26 @@ not just drafted-copy handoff docs.
       Hemisphere" + antioxidant capacity. Both hedge appropriately —
       most non-basic claims are lab-only.
 
+- [x] **2026-09-05: "Spice Blend" and "Cooking" product tabs now carry the
+      written recipe, not just a video placeholder.** Reworked the
+      `woocommerce_product_tabs` snippet (Code Snippets #5, and
+      `docs/product-video-tabs-snippet.php`) so each tab renders a recipe
+      text field first, then the video below it once one exists (or a
+      "video coming soon" line). Two new custom fields per product:
+      `spice_blend_recipe`, `cooking_recipe` (the existing
+      `spice_blend_video_url` / `cooking_video_url` still work). Populated
+      both fields on all **34 episode-blend products** (ids listed in
+      `scratchpad recipe_tabs.py` for this session — Yaji 2285 through
+      Leche de Tigre 2328), adapted from each script's `## 5. The Blend`
+      and `## 6. The Dish` into clean customer-facing HTML (ingredient
+      list + numbered method), not the video narration verbatim. Kofi
+      adds the actual cooking videos later. Regional SOTW "Spice Mix"
+      duplicates were left out of scope (his call).
+      **Gotchas found & fixed:** `&frac18;` isn't in wp_kses's entity
+      whitelist so it double-escaped (→ used `1/8`); an emoji in the
+      snippet mojibake'd through Code Snippets' storage (→ removed).
+      `&frac12;`/`&frac14;`/`&mdash;`/`&rsquo;` all render fine.
+
 ## Not started (later phases, per blueprint build order)
 
 - [ ] Agent 1 (Trends & Outlier Scout) — deliberately deprioritised, no
