@@ -82,7 +82,16 @@ highest eugenol content of any spice going. Toast whole spices before
 grinding and you pull out roasted, nutty pyrazine notes you don't get
 from pre-ground powder — same rule as every blend this series has covered.
 
-**[ON-SCREEN TEXT]:** "Black cardamom — a different plant, one of the world's priciest spices"
+And this one isn't folklore — the research behind these spices is some of
+the strongest in the whole series. Cassia is almost pure cinnamaldehyde,
+and pooled trials link cinnamon to real drops in blood sugar, strongest
+for people managing type-2 diabetes. Black pepper is the quiet one — its
+piperine can multiply how much of everything else in the pan your body
+actually absorbs. And clove is one of the most antioxidant-dense things
+you can put in your mouth — which is exactly why dentists still use its
+active compound.
+
+**[ON-SCREEN TEXT]:** "Black cardamom — a different plant, one of the world's priciest spices" / "Cassia ≈ pure cinnamaldehyde — trials link cinnamon to lower blood sugar" / "Black pepper's piperine multiplies what you absorb from the rest" / "Clove — more antioxidants than almost any food"
 **[B-ROLL]:** Close-up of black cardamom pods, whole spices toasting
 
 ## 5. The Blend — Garam Masala

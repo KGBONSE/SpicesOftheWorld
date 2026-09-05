@@ -68,7 +68,13 @@ not just lab work, topical Sichuan pepper oil reduced knee osteoarthritis
 pain and inflammation about as well as standard anti-inflammatory drugs,
 with fewer side effects.
 
-**[ON-SCREEN TEXT]:** "140+ antioxidant compounds in one spice most people only know for the tingle"
+The sauce itself is a solid one too. The bird's-eye chilli brings
+capsaicin's research on heart health, circulation and metabolism; the
+garlic and ginger add their own well-studied benefits for the heart and
+the gut; and the fermented black beans are exactly that — a fermented
+food, with the gut advantages that come with it.
+
+**[ON-SCREEN TEXT]:** "140+ antioxidant compounds in one spice most people only know for the tingle" / "Chilli: capsaicin — heart & metabolism · Garlic + ginger: heavily studied · Fermented beans: gut health"
 **[B-ROLL]:** Close-up of Sichuan pepper, whole and ground
 
 ## 5. The Blend — Chilli Black Bean Sauce

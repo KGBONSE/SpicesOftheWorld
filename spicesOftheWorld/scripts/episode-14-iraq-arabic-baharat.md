@@ -57,7 +57,14 @@ nutrient-dense spice than its size suggests: real vitamin C, potassium for
 heart health, plus fibre, magnesium, and iron. Traditionally it's also
 used to ease digestive complaints, which modern research broadly backs up.
 
-**[ON-SCREEN TEXT]:** "Dried lime — real vitamin C and digestive benefits, not just sourness"
+The baharat blend itself stacks up well too. Allspice and clove both run
+on eugenol — one of the most antioxidant-dense compounds in any spice,
+and the reason clove has been a toothache remedy for centuries. Cinnamon
+brings its blood-sugar research, coriander and cumin their gut and
+metabolic benefits, and the black pepper helps your body absorb more of
+all of it.
+
+**[ON-SCREEN TEXT]:** "Dried lime — real vitamin C and digestive benefits, not just sourness" / "Allspice + clove = eugenol, one of the most antioxidant-rich compounds going" / "Black pepper helps you absorb the rest"
 **[B-ROLL]:** Close-up of whole dried limes, cracking one open
 
 ## 5. The Blend — Arabic Baharat

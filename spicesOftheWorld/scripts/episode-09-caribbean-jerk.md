@@ -73,13 +73,16 @@ it's the same compound that gives black pepper its own woody edge.
 Different plant, different hemisphere, same chemistry, same trick
 Columbus's own pepper hunt accidentally proved four centuries early.
 
-Nutmeg itself — one of the three flavours you're tasting in that one
-berry — has real antioxidant and antibacterial research behind it too,
-though it comes with a genuine caution worth saying out loud: a little
-truly goes a long way, since too much nutmeg is actually harmful, not
-just overpowering.
+Allspice itself carries eugenol — the same compound clove is famous for —
+and in testing it comes out with a higher antioxidant capacity than most
+common spices. Add clove's own antioxidant load, cinnamon's blood-sugar
+research, ginger for digestion, and the Scotch bonnet's capsaicin for
+heart health and metabolism, and jerk is a rub with a real research file
+behind it. One caution worth saying out loud, though: the nutmeg. A
+little truly goes a long way — too much is genuinely harmful, not just
+overpowering.
 
-**[ON-SCREEN TEXT]:** "Allspice = cinnamon + clove + nutmeg, in one berry" / "Research shows real benefits — but a little truly goes a long way"
+**[ON-SCREEN TEXT]:** "Allspice = eugenol — higher antioxidant capacity than most common spices" / "Clove, cinnamon, ginger, Scotch bonnet — all researched" / "Go easy on the nutmeg"
 **[B-ROLL]:** Close-up of whole allspice berries, cracking one open
 
 ## 5. The Blend — Jamaican Jerk Rub

@@ -58,7 +58,14 @@ itself recommends it — and separate research has shown ginger
 supplementation meaningfully reducing fasting blood sugar and HbA1c in
 people with type 2 diabetes over 8 to 13 weeks.
 
-**[ON-SCREEN TEXT]:** "Ginger for nausea: backed by multiple clinical trials, recommended by the NHS"
+The dry bag around it holds its own. Cloves bring one of the highest
+antioxidant loads of any spice; star anise is the natural source of
+shikimic acid, the compound behind the antiviral Tamiflu; bay leaf has
+real research on blood sugar and cholesterol; and white pepper carries
+the same piperine that helps your body absorb more from everything else
+in the pot.
+
+**[ON-SCREEN TEXT]:** "Ginger for nausea: backed by multiple clinical trials, recommended by the NHS" / "Star anise = shikimic acid, Tamiflu's key compound" / "Bay leaf: researched for blood sugar & cholesterol"
 **[B-ROLL]:** Close-up of fresh ginger sliced, added to the pot
 
 ## 5. The Blend — Nanjing Spice Bag

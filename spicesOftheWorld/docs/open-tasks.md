@@ -982,6 +982,28 @@ not just drafted-copy handoff docs.
       wet→dry renames kept (Yangnyeom Sesame Rub, Zhug-Style Spice Blend).
       Episode 1 / Yaji left alone — not part of that conversion. See
       `docs/wet-to-dry-adaptations.md` (note at top).
+- [x] **2026-09-05: strengthened the health-benefits beat in all 34 episode
+      scripts.** Kofi's call — the 2026-07-27 retrofit only really landed
+      one spice / one sentence per episode, and 25 of 34 (episodes 10–34)
+      never got it at all. Rewrote each script's `## 4. The Science` beat
+      to weave in the health case for **2–4 of the blend's spices**, not
+      just one, drawing on the ~50 KB spice profiles that already carry a
+      researched `Health Benefits` section + a ready `On-camera line`.
+      Kept the existing convention: hedged language ("linked to", "may",
+      "research shows"), honest evidence tiers (cinnamon→blood sugar,
+      black pepper→absorption, ginger→nausea are *strong*; many others are
+      *traditional + lab data*), generic on-camera attribution, no named
+      studies spoken, expanded on-screen text. A handful of new web
+      searches filled thin spots (cassia/glucose meta-analyses,
+      piperine/absorption, clove & allspice eugenol, star anise/shikimic
+      acid). **Regulatory note flagged to Kofi:** on-camera health talk is
+      fine as editorial; keep specific health claims **off the product
+      listings and labels** (UK ASA / Nutrition & Health Claims
+      Regulation).
+      **Still open:** **star anise** and **allspice** have no dedicated KB
+      profile (allspice already flagged; star anise is in 4 blends —
+      22/26/27/28). The scripts hedge both correctly for now, but proper
+      `Health Benefits` profiles would close the gap.
 
 ## Not started (later phases, per blueprint build order)
 

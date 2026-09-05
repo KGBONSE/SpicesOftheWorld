@@ -60,7 +60,16 @@ ginger, cloves, cinnamon, and fennel, proof that one name can cover two
 genuinely different spice personalities depending on whether it's headed
 into a stew or a cup of coffee.
 
-**[ON-SCREEN TEXT]:** "One name. Two completely different blends."
+And that big dose of turmeric and black pepper together is close to the
+best health pairing in the whole series. Turmeric's curcumin has real
+trial evidence for joint pain — and black pepper's piperine multiplies
+how much of it your body actually absorbs, several times over. The heavy
+hand with cumin adds its own digestive and metabolic research on top. The
+sweet version isn't slouching either: ginger, cinnamon and fennel are
+three of the most solidly-backed spices going for nausea, blood sugar and
+digestion.
+
+**[ON-SCREEN TEXT]:** "One name. Two completely different blends." / "Turmeric + black pepper — the classic pairing, and piperine multiplies curcumin absorption" / "Sweet version: ginger, cinnamon, fennel — all well-researched"
 **[B-ROLL]:** Close-up of cumin and turmeric, whole spices
 
 ## 5. The Blend — Hawaij

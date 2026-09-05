@@ -60,7 +60,14 @@ risk, and there's a properly useful cooking finding too: using mustard as
 a marinade or coating before grilling has been shown to reduce the
 harmful compounds that form when meat chars.
 
-**[ON-SCREEN TEXT]:** "A mustard marinade genuinely cuts down on harmful compounds from charring"
+Honestly, though, all five seeds here have a research file. Fenugreek is
+one of the most solidly-backed spices going for lowering blood sugar;
+nigella is one of the most-studied full stop, with real evidence on
+cholesterol and inflammation; fennel settles digestion; and cumin adds
+its own gut and metabolic benefits. For a blend you barely grind, panch
+phoran might be the single healthiest mix in the series.
+
+**[ON-SCREEN TEXT]:** "A mustard marinade genuinely cuts down on harmful compounds from charring" / "Fenugreek — one of the best-backed spices for blood sugar" / "Nigella — real cholesterol & inflammation research" / "All five seeds have a research file"
 **[B-ROLL]:** Mustard seeds popping in oil, close-up texture
 
 ## 5. The Blend — Panch Phoran

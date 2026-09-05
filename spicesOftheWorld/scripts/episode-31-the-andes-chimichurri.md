@@ -62,7 +62,13 @@ effects in human studies. Most of the strongest evidence is still
 animal-based, so any claim here stays in "may help" territory rather than
 settled fact.
 
-**[ON-SCREEN TEXT]:** "Coriander: linked to better blood sugar and cholesterol balance"
+The rest of the sauce is quietly healthy too. The garlic goes in raw —
+one of the most-studied ingredients there is for heart health and
+immunity. Oregano is one of the more antioxidant-rich herbs by weight,
+and the paprika brings carotenoids linked to heart and eye health. For a
+condiment, chimichurri does a lot of good.
+
+**[ON-SCREEN TEXT]:** "Coriander: linked to better blood sugar and cholesterol balance" / "Raw garlic — heart & immunity, heavily studied" / "Oregano + paprika — antioxidants, eye & heart health"
 **[B-ROLL]:** Close-up of fresh coriander/parsley chopped
 
 ## 5. The Blend — Chimichurri

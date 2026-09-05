@@ -61,7 +61,13 @@ topical Sichuan pepper oil reduced knee osteoarthritis pain about as well
 as standard anti-inflammatory drugs, with fewer side effects — a
 genuinely well-studied result for a spice mostly known for its tingle.
 
-**[ON-SCREEN TEXT]:** "Sichuan pepper oil vs. knee arthritis: on par with standard anti-inflammatories, in a real clinical trial"
+And shichimi is a genuinely well-stocked little jar health-wise: chilli
+for heart health and metabolism, black sesame for its cholesterol
+research, dried citrus peel for real vitamin C, nori for iodine and
+minerals, and hemp or flax seed for omega-3 fats. Seven ingredients,
+most of them with a research file.
+
+**[ON-SCREEN TEXT]:** "Sichuan pepper oil vs. knee arthritis: on par with standard anti-inflammatories, in a real clinical trial" / "Seven ingredients — chilli, sesame, citrus peel, nori, flax — most with a research file"
 **[B-ROLL]:** Close-up of sanshō or Sichuan pepper, grinding
 
 ## 5. The Blend — Shichimi-Togarashi

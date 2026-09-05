@@ -57,7 +57,14 @@ exactly why advieh pairs rose, cardamom, and cumin against cinnamon and
 ginger the way it does — the sweetness isn't accidental, it's built on
 shared chemistry.
 
-**[ON-SCREEN TEXT]:** "Saffron and cinnamon share real chemistry, not just 'both sweet'"
+Advieh also happens to be one of the better health blends in the series.
+Saffron is genuinely one of the most studied spices for mood — real
+clinical trials, not folklore. Cinnamon has its blood-sugar research,
+ginger is about the best-backed spice going for nausea and digestion, and
+rose petals and cardamom both bring antioxidant and calming properties of
+their own.
+
+**[ON-SCREEN TEXT]:** "Saffron and cinnamon share real chemistry, not just 'both sweet'" / "Saffron: one of the most clinically-studied spices for mood" / "Ginger + cinnamon — genuine research behind both"
 **[B-ROLL]:** Close-up of saffron strands, rose petals
 
 ## 5. The Blend — Advieh

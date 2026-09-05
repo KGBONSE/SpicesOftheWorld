@@ -60,7 +60,13 @@ diet. It's also shown real analgesic and anti-inflammatory effects, acting
 directly on the body's TRPV1 pain receptors. Worth the balance on camera:
 excessive intake can irritate the gut and worsen reflux.
 
-**[ON-SCREEN TEXT]:** "Chilli, linked to lower cardiovascular risk in large population studies"
+And mole is unusually deep on this front for a sauce. The cacao nibs are
+one of the most antioxidant-dense foods there is — more than green tea or
+red wine. Sesame brings its cholesterol research, cinnamon its blood-sugar
+research, and cloves one of the highest antioxidant loads of any spice.
+Under all that richness, it's a genuinely nutrient-heavy mix.
+
+**[ON-SCREEN TEXT]:** "Chilli, linked to lower cardiovascular risk in large population studies" / "Cacao — one of the most antioxidant-dense foods there is" / "Sesame: cholesterol · Cinnamon: blood sugar"
 **[B-ROLL]:** Close-up of dried ancho, pasilla, and mulato chillies
 
 ## 5. The Blend — Mole Mix

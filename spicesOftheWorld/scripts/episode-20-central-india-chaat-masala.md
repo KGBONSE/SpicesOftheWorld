@@ -58,7 +58,15 @@ onion. Asafoetida in particular is one of the better-studied spices for
 digestion — research backs it as a genuine bloating and cramping aid, not
 just an old home remedy.
 
-**[ON-SCREEN TEXT]:** "Research shows asafoetida is a genuine digestive aid, not just a home remedy"
+It's not the only one pulling its weight, either. This is basically a
+digestive blend from top to bottom: cumin and coriander both have real
+research behind gut health and blood sugar, ginger is about the
+best-backed spice going for settling the stomach, and the amchoor itself
+brings genuine iron and vitamin C along with the tang. Sprinkled over
+fruit or a heavy snack, chaat masala is doing exactly what it tastes like
+it's doing.
+
+**[ON-SCREEN TEXT]:** "Research shows asafoetida is a genuine digestive aid, not just a home remedy" / "Cumin, coriander, ginger — a digestive blend from top to bottom" / "Amchoor: real iron + vitamin C, not just sour"
 **[B-ROLL]:** Close-up of amchoor powder and asafoetida, dry-roasting spices
 
 ## 5. The Blend — Chaat Masala

@@ -62,7 +62,14 @@ nutrients, including iron and turmeric's own curcumin. That's not folklore,
 it's real, well-established chemistry, and it's exactly why black pepper
 and turmeric so often turn up paired together across this whole series.
 
-**[ON-SCREEN TEXT]:** "Black pepper genuinely helps your body absorb other nutrients — real chemistry, not folklore"
+And that's before you get to the rest of the paste. Fenugreek is one of
+the most solidly-backed spices for blood sugar; the Kashmiri chilli
+brings a metabolism and heart-health angle; cassia has its own
+blood-sugar research; and clove adds one of the highest antioxidant loads
+of any spice. A paste this fiery is doing more good than it looks like it
+should.
+
+**[ON-SCREEN TEXT]:** "Black pepper genuinely helps your body absorb other nutrients — real chemistry, not folklore" / "Fenugreek + cassia — both researched for blood sugar" / "Clove: one of the highest antioxidant loads of any spice"
 **[B-ROLL]:** Close-up of black peppercorns, whole spices toasting
 
 ## 5. The Blend — Vindaloo Paste

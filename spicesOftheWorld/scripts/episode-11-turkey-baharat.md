@@ -55,7 +55,14 @@ series's blends haven't used yet. It's a genuinely different way of
 finishing a spice mix: fresh and herbaceous instead of another layer of
 warmth.
 
-**[ON-SCREEN TEXT]:** "Dried mint — the finishing touch most blends don't use"
+And there's a real health story running under all that warmth. Coriander
+seed and cumin between them have solid research behind lower blood sugar
+and cholesterol; cardamom adds a heart-health angle; and the black pepper
+isn't just for bite — its piperine genuinely helps your body pull more
+nutrition out of everything else in the pan. Even the dried mint on top
+earns its place as a digestive aid.
+
+**[ON-SCREEN TEXT]:** "Dried mint — the finishing touch most blends don't use" / "Coriander + cumin — real research on blood sugar & cholesterol" / "Black pepper helps you absorb the rest"
 **[B-ROLL]:** Close-up of dried mint, whole spices toasting
 
 ## 5. The Blend — Turkish Baharat

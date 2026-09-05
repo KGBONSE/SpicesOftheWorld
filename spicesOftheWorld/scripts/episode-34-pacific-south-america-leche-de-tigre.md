@@ -64,7 +64,14 @@ cold/flu severity and missed work or school days. Worth flagging on
 camera: garlic's cancer-fighting claims remain inconclusive, and anyone on
 blood thinners should be cautious with high intake.
 
-**[ON-SCREEN TEXT]:** "Garlic: one of the most well-studied spices, full stop"
+And it's in good company. The fresh ginger alongside it is about the
+best-backed spice going — clinically proven for nausea, with real
+blood-sugar research on top. The aji chilli brings capsaicin's
+cardiovascular and metabolic evidence, and the raw lime juice the whole
+thing is built on is straight vitamin C. Marinade the fish and drink the
+leftover leche de tigre, as Peru does, and you're getting most of that.
+
+**[ON-SCREEN TEXT]:** "Garlic: one of the most well-studied spices, full stop" / "Fresh ginger — clinically proven for nausea, researched for blood sugar" / "Raw lime: straight vitamin C"
 **[B-ROLL]:** Close-up of crushed garlic, fresh lime juice squeezed
 
 ## 5. The Blend — Leche de Tigre

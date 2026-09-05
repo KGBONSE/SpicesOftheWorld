@@ -60,7 +60,14 @@ triglycerides while raising HDL in real studies, and separate research
 links it to better blood sugar control. Early clinical work has also shown
 cumin extract meaningfully relieving IBS symptoms like bloating and pain.
 
-**[ON-SCREEN TEXT]:** "Cumin + yogurt: LDL down, HDL up, in a real study"
+The rest of the bag isn't just for aroma either. Cinnamon carries its
+blood-sugar research; cloves one of the highest antioxidant loads of any
+spice; and star anise is the natural source of shikimic acid — the same
+compound the antiviral drug Tamiflu is built from. Even the liquorice
+root has a real soothing track record for the throat and gut, though
+that's one to keep in moderation.
+
+**[ON-SCREEN TEXT]:** "Cumin + yogurt: LDL down, HDL up, in a real study" / "Star anise = the natural source of shikimic acid, Tamiflu's key compound" / "Cinnamon: blood sugar · Cloves: antioxidants"
 **[B-ROLL]:** Close-up of cumin seeds, dry-frying until aromatic
 
 ## 5. The Blend — Shandong Spice Bag

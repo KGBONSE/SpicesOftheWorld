@@ -57,7 +57,14 @@ even gets pounded in — a proper spice paste underneath the heat, not just
 chilli on its own. That layering is what separates zhug from a simple hot
 sauce.
 
-**[ON-SCREEN TEXT]:** "A real spice paste underneath the heat, not just chilli"
+That base is doing real health work too. The garlic goes in raw — the
+form that keeps its active compound intact, and garlic is about as
+well-studied as any ingredient there is for heart health and immunity.
+The fresh chilli adds a metabolism and circulation angle, and the toasted
+cardamom-coriander-cumin base carries the blood-sugar and digestive
+benefits those three are each known for.
+
+**[ON-SCREEN TEXT]:** "A real spice paste underneath the heat, not just chilli" / "Raw garlic — heart & immunity, one of the most-studied spices" / "Fresh chilli: metabolism + circulation"
 **[B-ROLL]:** Toasting cardamom/coriander/cumin, pounding the paste
 
 ## 5. The Blend — Zhug

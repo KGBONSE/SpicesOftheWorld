@@ -55,7 +55,14 @@ of cayenne go in after, off the heat, so their more delicate aromatic
 compounds don't scorch. It's a small technique note, but it's the
 difference between a finishing touch and a burnt one.
 
-**[ON-SCREEN TEXT]:** "Garlic fragrant, not coloured — that's the whole technique"
+And for such a tiny blend, it's a genuinely healthy one. Frying the
+garlic gently rather than hard keeps more of its heart-and-immunity
+compounds intact — garlic is one of the most-studied spices there is on
+that front. Coriander seed has real research behind blood sugar and
+cholesterol, and even the pinch of cayenne pulls its weight for
+metabolism and circulation.
+
+**[ON-SCREEN TEXT]:** "Garlic fragrant, not coloured — that's the whole technique" / "Gently-fried garlic keeps its heart-health compounds" / "Coriander — real blood-sugar research"
 **[B-ROLL]:** Garlic gently frying in oil, close-up
 
 ## 5. The Blend — Taklia

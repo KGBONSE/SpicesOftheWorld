@@ -62,7 +62,12 @@ power and even clinical pain-relief effects — one study found a topical
 Sichuan pepper oil eased knee arthritis pain about as well as standard
 anti-inflammatory medication.
 
-**[ON-SCREEN TEXT]:** "That tingle is a real compound, not just heat" / "Research backs real pain-relief effects in this spice family"
+The other half of the blend is straight red chilli powder, and that
+carries its own file — capsaicin has real research behind heart health,
+circulation and a small metabolic bump. For a three-ingredient table
+spice, timur ko chhop punches above its weight.
+
+**[ON-SCREEN TEXT]:** "That tingle is a real compound, not just heat" / "Research backs real pain-relief effects in this spice family" / "Chilli powder: capsaicin — heart health + metabolism"
 **[B-ROLL]:** Close-up of timur, the numbing tingle demonstrated if possible
 
 *(Note: the health research cited here is on Sichuan pepper specifically,

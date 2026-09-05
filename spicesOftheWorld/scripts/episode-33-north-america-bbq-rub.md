@@ -60,7 +60,14 @@ age-related macular degeneration. Its capsaicin content — higher in
 hotter varieties — also brings genuine anti-inflammatory and pain-relief
 properties, and may help improve insulin sensitivity.
 
-**[ON-SCREEN TEXT]:** "Smoked paprika's carotenoids lowered LDL in a real 12-week study"
+The spice side of the rub keeps pace. Cumin has real research on lower
+LDL and better blood sugar, garlic is one of the most-studied ingredients
+there is for the heart, and the cayenne and chilli powder bring
+capsaicin's cardiovascular and metabolic evidence. Fair to say on camera,
+though: the brown sugar is still brown sugar — the health case is the
+spices, not the rub as a whole.
+
+**[ON-SCREEN TEXT]:** "Smoked paprika's carotenoids lowered LDL in a real 12-week study" / "Cumin: LDL + blood sugar · Garlic: heart · Cayenne: capsaicin" / "(the brown sugar is still brown sugar)"
 **[B-ROLL]:** Close-up of smoked paprika, dry rub mixed in a bowl
 
 ## 5. The Blend — BBQ Rub

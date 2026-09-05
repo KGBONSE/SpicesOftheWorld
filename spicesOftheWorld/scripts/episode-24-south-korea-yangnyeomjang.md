@@ -66,7 +66,13 @@ Sesamin and sesamolin, sesame's signature compounds, also carry real
 antioxidant and antibacterial properties. Worth the caveat on camera: that
 benefit needs regular, substantial intake — tablespoons, not a sprinkle.
 
-**[ON-SCREEN TEXT]:** "40g sesame seeds daily, 2 months: LDL cholesterol down ~10%"
+The rest of the sauce backs it up. The garlic goes in raw and crushed —
+the form that keeps its heart-and-immunity compounds intact, and garlic
+is one of the most-studied ingredients there is on both. The gochugaru
+adds capsaicin's metabolic and circulation angle, and fermented soy
+sauce brings the gut benefits of any fermented food.
+
+**[ON-SCREEN TEXT]:** "40g sesame seeds daily, 2 months: LDL cholesterol down ~10%" / "Raw garlic — heart & immunity, heavily studied" / "Gochugaru: capsaicin — metabolism + circulation"
 **[B-ROLL]:** Dry-roasting sesame seeds until golden, close-up texture
 
 ## 5. The Blend — Yangnyeomjang

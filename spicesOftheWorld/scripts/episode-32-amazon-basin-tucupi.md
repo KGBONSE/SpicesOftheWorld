@@ -60,7 +60,12 @@ improving blood lipid profiles — lower total cholesterol, LDL, and
 triglycerides — in overweight or obese individuals, alongside real
 antioxidant and anti-inflammatory effects.
 
-**[ON-SCREEN TEXT]:** "Black pepper's piperine boosts absorption of iron and curcumin"
+The garlic and chilli simmered into the sauce carry their own files —
+garlic among the most-studied ingredients for heart health, and chilli's
+capsaicin linked in large population studies to lower cardiovascular risk
+and a small metabolic bump.
+
+**[ON-SCREEN TEXT]:** "Black pepper's piperine boosts absorption of iron and curcumin" / "Garlic + chilli — heart health, metabolism, both well-studied"
 **[B-ROLL]:** Close-up of black peppercorns, freshly ground
 
 ## 5. The Blend — Tucupí

@@ -60,7 +60,13 @@ seed intake lowering total cholesterol, LDL, and fasting glucose, though
 the human trials so far are small — worth treating as promising rather
 than proven on camera.
 
-**[ON-SCREEN TEXT]:** "Fennel seed: genuinely settles digestion after a meal"
+And it's not carrying the health case alone. Cinnamon has its blood-sugar
+research; cloves one of the highest antioxidant loads of any spice; star
+anise is the natural source of shikimic acid, the compound the antiviral
+Tamiflu is built from; and Sichuan pepper brings its own antioxidant and
+anti-inflammatory file. Five spices, five research files.
+
+**[ON-SCREEN TEXT]:** "Fennel seed: genuinely settles digestion after a meal" / "Star anise = shikimic acid, Tamiflu's key compound" / "Cinnamon: blood sugar · Cloves: antioxidants · Sichuan pepper: anti-inflammatory"
 **[B-ROLL]:** Close-up of fennel seeds, toasting before grinding
 
 ## 5. The Blend — Five-Spice Powder

@@ -61,7 +61,14 @@ genuine antioxidant power from its vitamin C and polyphenols, cholesterol
 benefits shown in real studies, and even early evidence it can help
 regulate blood sugar by slowing carbohydrate digestion.
 
-**[ON-SCREEN TEXT]:** "Research backs tamarind for heart health and blood sugar, not just sourness"
+The curry leaves next to it are almost as well-documented — one of the
+better human-trial records on this list for blood sugar and cholesterol.
+And the base of the whole thing is roasted lentils: real protein and
+fibre, not just filler. Between the lentils, the sesame's cholesterol
+research, and the asafoetida's digestive track record, gunpowder is a
+condiment you could genuinely justify eating more of.
+
+**[ON-SCREEN TEXT]:** "Research backs tamarind for heart health and blood sugar, not just sourness" / "Curry leaf — one of the better human-trial records for blood sugar" / "Lentil base: real protein + fibre"
 **[B-ROLL]:** Close-up of tamarind pulp, close-up of curry leaves
 
 ## 5. The Blend — Gunpowder (Podi)

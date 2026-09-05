@@ -55,7 +55,14 @@ whole series keeps coming back to. It's proof that a spice blend doesn't
 need heat or rarity to be genuinely complex — just the right technique
 applied properly to simple ingredients.
 
-**[ON-SCREEN TEXT]:** "No rarity, no heat — just the right technique"
+It might also be the most straightforwardly nutritious blend in the
+series. It's mostly nuts and seeds: hazelnuts and almonds bring
+heart-healthy fats and vitamin E, and sesame seeds have real research
+behind lowering cholesterol when eaten regularly. Add coriander and
+cumin's blood-sugar and digestive benefits on top, and a spoonful of
+dukkah on your bread is doing more than seasoning it.
+
+**[ON-SCREEN TEXT]:** "No rarity, no heat — just the right technique" / "Mostly nuts + seeds — heart-healthy fats, vitamin E" / "Sesame: real cholesterol research"
 **[B-ROLL]:** Hazelnuts and almonds roasting, spices dry-frying
 
 ## 5. The Blend — Dukkah

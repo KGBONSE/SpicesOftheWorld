@@ -64,7 +64,13 @@ and anti-inflammatory effects in lab studies. Toxicity testing confirms
 it's very safe too, which makes it a low-risk one to actually make a
 health claim about on camera.
 
-**[ON-SCREEN TEXT]:** "Research shows sumac genuinely helps cholesterol and blood sugar"
+And za'atar doesn't lean on sumac alone. The toasted sesame has real
+research behind lowering cholesterol with regular intake; cumin brings
+its digestive and blood-sugar file; and oregano is one of the more
+antioxidant-rich herbs by weight. Eaten the way it actually is here —
+daily, on bread with olive oil — it's a genuinely healthy habit.
+
+**[ON-SCREEN TEXT]:** "Research shows sumac genuinely helps cholesterol and blood sugar" / "Sesame: cholesterol · Cumin: blood sugar · Oregano: antioxidants" / "A daily habit that actually earns the label"
 **[B-ROLL]:** Close-up of ground sumac, its deep red colour
 
 ## 5. The Blend — Za'atar
