@@ -970,6 +970,19 @@ not just drafted-copy handoff docs.
       *theme's own* option ever needs finding again (e.g. before a theme
       update, in case the option round-trips through an export/import).
 
+- [x] **2026-09-05: reverted the Fudi-People-chilli substitution** in the
+      8 dry-blend products it was applied to on 2026-08-18. Kofi's call —
+      each blend goes back to its region-original chilli (Baklouti /
+      Kashmiri / cayenne / gochugaru / dried bird's-eye / chilli powder +
+      flakes / dried Scotch bonnet / fresh green chilli for Zhug). Live
+      descriptions + short descriptions rewritten via the WC REST API
+      (ids 2299, 2300, 2308, 2316, 2318, 2325, 2323, 2307), the
+      "Fudi People Chillies" tag removed from all 8 and deleted from the
+      taxonomy (0 remaining uses). Dry conversion itself untouched; both
+      wet→dry renames kept (Yangnyeom Sesame Rub, Zhug-Style Spice Blend).
+      Episode 1 / Yaji left alone — not part of that conversion. See
+      `docs/wet-to-dry-adaptations.md` (note at top).
+
 ## Not started (later phases, per blueprint build order)
 
 - [ ] Agent 1 (Trends & Outlier Scout) — deliberately deprioritised, no

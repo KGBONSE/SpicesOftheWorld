@@ -6,30 +6,31 @@ describe **only their dry spice components** — dropping fresh aromatics,
 citrus, dairy, and oil — so they can be sold as genuine shelf-stable dry
 products, not just relabelled wet ones.
 
+> **2026-09-05 — the Fudi-People-chilli substitution was REVERTED.**
+> Kofi's call: every blend keeps the region-original chilli it always had
+> (dried Baklouti in Harissa, Kashmiri in Vindaloo, cayenne in Taklia,
+> gochugaru in the Yangnyeom rub, dried bird's-eye in the Sichuan bean
+> blend, chilli powder + flakes in Chimichurri, dried Scotch-bonnet-style
+> chilli in Pepper Soup Spice, fresh green chilli added by the cook for
+> Zhug). The 8 live product descriptions were rewritten accordingly and
+> the **"Fudi People Chillies"** product tag was removed (and deleted from
+> the taxonomy — it had no other uses). The dry-conversion itself stands;
+> only the chilli swap and its editorial ("our own smokier / better
+> chilli") were undone. The 🌶️-marked copy in the entries below is
+> **superseded** — kept for history, not current.
+> Both wet→dry renames stay: **Yangnyeomjang → Yangnyeom Sesame Rub**,
+> **Zhug → Zhug-Style Spice Blend** (those were about no longer being a
+> sauce, unrelated to the chilli).
+
 **2026-08-18 update, two changes from the first draft:**
 - **Tucupí and Leche de Tigre dropped entirely** (Kofi's call) — both were
   fundamentally liquid products (fermented cassava juice, five limes'
   worth of citrus) where the dry version barely resembled the dish. 11
   products remain, renumbered below.
-- **Wherever a recipe used a generic or regionally-specific dried chilli
-  as a substitute for a fresh one** (dried chilli flakes standing in for
-  fresh Scotch bonnet, Kashmiri chillies, gochugaru, etc.), swapped it for
-  **Fudi People's own farm-grown, smoked chillies** instead — Kofi's
-  case: his own are smokier and better-flavoured than a generic
-  substitute, and it's a real differentiator worth naming on the label
-  rather than hiding behind a generic ingredient name. Applies to 7 of
-  the 11 (marked 🌶️ below); the other 4 don't use chilli at all.
-  **One thing worth flagging**: a few of these swaps change more than
-  branding — Kashmiri chilli (Vindaloo) is chosen specifically for red
-  colour with mild heat, and gochugaru (Yangnyeom) is mild with a fruity
-  sweetness; if Fudi People's chillies run hotter/smokier, those two
-  blends in particular could taste noticeably different from the
-  "authentic" version, not just better. Worth a real test-batch before
-  locking quantities. Also — I don't have a named variety for Fudi
-  People's chillies anywhere in this project's docs, so the copy below
-  says "our own farm-grown, smoked chillies" rather than naming a
-  specific pepper (Scotch bonnet, habanero, etc.). Tell me the variety if
-  you want it named specifically.
+- ~~**Wherever a recipe used a generic or regionally-specific dried chilli
+  as a substitute for a fresh one** … swapped it for **Fudi People's own
+  farm-grown, smoked chillies** instead …~~ — **reverted 2026-09-05, see
+  the note above.**
 
 Every entry below: rewritten Short + Full description, same voice as the
 already-published dry products (spice list → how to use → episode credit
