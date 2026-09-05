@@ -1030,6 +1030,19 @@ not just drafted-copy handoff docs.
       whitelist so it double-escaped (→ used `1/8`); an emoji in the
       snippet mojibake'd through Code Snippets' storage (→ removed).
       `&frac12;`/`&frac14;`/`&mdash;`/`&rsquo;` all render fine.
+      **2026-09-05, follow-up:** Kofi hit a bare `Syria Spice Mix` and
+      asked why the measurements weren't there — because that's the
+      region-named *duplicate* of `Za'atar (Syria)`, and this pass was
+      scoped to the 34 dish-name products. His call: copy the recipe
+      content onto the region-named twins too. Done — 33 SOTW regional
+      products (`West Africa Spice Mix` … `Andes Spice Mix`, published +
+      draft) now carry the same `spice_blend_recipe` / `cooking_recipe`
+      as their episode blend (`scratchpad copy_recipes_to_regionals.py`,
+      SOTW-id → episode-id map). Europe (6) and Southeast Asia (9)
+      regionals still have none — no episode exists for them. The
+      underlying **duplicate-products problem is still unresolved** —
+      both naming schemes are live; worth finally picking one per blend
+      and redirecting the other.
 
 ## Not started (later phases, per blueprint build order)
 
