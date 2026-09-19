@@ -1,0 +1,368 @@
+<title>Spice Manifest</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ground:#F5EDDD;
+    --surface:#FFFCF5;
+    --surface-raised:#FFFFFF;
+    --ink:#2A160F;
+    --ink-soft:#6B5643;
+    --ink-faint:#A1937D;
+    --line:#E1CFA9;
+    --line-soft:#EBDFC3;
+    --maroon:#7A2130;
+    --maroon-deep:#591824;
+    --gold:#A9791F;
+    --gold-soft:#C9A24A;
+    --shadow:0 1px 2px rgba(42,22,15,.08), 0 8px 22px rgba(42,22,15,.07);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ground:#1C1012;
+      --surface:#231517;
+      --surface-raised:#2A171B;
+      --ink:#F3E6D8;
+      --ink-soft:#C9AE99;
+      --ink-faint:#8A7364;
+      --line:#402A2C;
+      --line-soft:#331F22;
+      --maroon:#DE8294;
+      --maroon-deep:#C46A7D;
+      --gold:#DBB35A;
+      --gold-soft:#C9A24A;
+      --shadow:0 1px 2px rgba(0,0,0,.35), 0 10px 26px rgba(0,0,0,.4);
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#1C1012;
+    --surface:#231517;
+    --surface-raised:#2A171B;
+    --ink:#F3E6D8;
+    --ink-soft:#C9AE99;
+    --ink-faint:#8A7364;
+    --line:#402A2C;
+    --line-soft:#331F22;
+    --maroon:#DE8294;
+    --maroon-deep:#C46A7D;
+    --gold:#DBB35A;
+    --gold-soft:#C9A24A;
+    --shadow:0 1px 2px rgba(0,0,0,.35), 0 10px 26px rgba(0,0,0,.4);
+  }
+
+  *{ box-sizing:border-box; }
+  body{
+    margin:0; background:var(--ground); color:var(--ink);
+    font-family:'Source Sans 3', system-ui, sans-serif; font-size:15.5px; line-height:1.6;
+  }
+  h1,h2,h3{ font-family:'Source Serif 4', Georgia, serif; text-wrap:balance; margin:0; color:var(--ink); }
+  .mono{ font-family:'IBM Plex Mono', ui-monospace, monospace; font-variant-numeric:tabular-nums; }
+
+  .page{ max-width:820px; margin:0 auto; padding:52px 28px 80px; }
+
+  /* ---------------- header ---------------- */
+  header.masthead{ padding-bottom:26px; margin-bottom:40px; border-bottom:2px solid var(--maroon); }
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace; font-size:11.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--maroon); margin:0 0 10px;
+  }
+  header.masthead h1{ font-size:44px; font-weight:700; letter-spacing:-.01em; }
+  .dek{ margin:14px 0 0; max-width:60ch; color:var(--ink-soft); font-size:16px; }
+  .meta-row{
+    display:flex; flex-wrap:wrap; gap:8px 14px; margin-top:20px;
+    font-family:'IBM Plex Mono', monospace; font-size:12px; letter-spacing:.03em; color:var(--ink-faint);
+    text-transform:uppercase;
+  }
+  .meta-row .dot{ color:var(--line); }
+
+  /* ---------------- section shells ---------------- */
+  section{ margin-top:44px; }
+  section > h2{
+    font-size:24px; font-weight:600; padding-bottom:10px; border-bottom:1px solid var(--line);
+    display:flex; align-items:baseline; justify-content:space-between; gap:12px;
+  }
+  section > h2 .subcount{ font-family:'IBM Plex Mono', monospace; font-size:12px; font-weight:400; color:var(--ink-faint); text-transform:none; letter-spacing:0; }
+  .section-note{ margin:12px 0 0; font-size:14px; color:var(--ink-soft); max-width:66ch; }
+
+  /* ---------------- buying list ---------------- */
+  .category{ margin-top:26px; }
+  .category h3{
+    font-family:'Source Sans 3', sans-serif; font-size:13px; font-weight:700; letter-spacing:.08em;
+    text-transform:uppercase; color:var(--maroon-deep); display:flex; align-items:baseline; gap:8px;
+  }
+  .category h3 .hint{ font-family:'IBM Plex Mono', monospace; font-weight:400; letter-spacing:0; text-transform:none; font-size:11.5px; color:var(--ink-faint); }
+
+  ul.items{ list-style:none; margin:10px 0 0; padding:0; }
+  ul.items li{
+    display:grid; grid-template-columns:22px 1fr auto auto; align-items:baseline; gap:12px;
+    padding:8px 2px; border-bottom:1px solid var(--line-soft);
+  }
+  ul.items li:first-child{ border-top:1px solid var(--line-soft); }
+  .box{
+    width:14px; height:14px; border:1.4px solid var(--ink-faint); border-radius:3px; align-self:center;
+  }
+  .items .name{ font-weight:600; font-size:14.5px; }
+  .items .form{ color:var(--ink-soft); font-size:13px; }
+  .items .uses{
+    font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--gold); white-space:nowrap;
+    border:1px solid var(--gold-soft); border-radius:20px; padding:2px 8px;
+  }
+
+  /* ---------------- farm note ---------------- */
+  .farm-card{
+    margin-top:26px; background:var(--surface-raised); border:1px solid var(--line); border-left:4px solid var(--gold);
+    border-radius:6px; padding:16px 20px; box-shadow:var(--shadow);
+  }
+  .farm-card h3{ font-family:'Source Sans 3'; font-size:13px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--gold); margin-bottom:6px; }
+  .farm-card p{ margin:0; font-size:14px; color:var(--ink-soft); }
+  .farm-card p strong{ color:var(--ink); }
+
+  /* ---------------- blend breakdown ---------------- */
+  .blend-grid{ margin-top:22px; display:flex; flex-direction:column; gap:0; }
+  article.blend{
+    display:grid; grid-template-columns:64px 1fr; gap:18px; padding:22px 0; border-bottom:1px solid var(--line);
+  }
+  article.blend:first-of-type{ border-top:1px solid var(--line); }
+  .blend .num{
+    font-family:'IBM Plex Mono', monospace; font-size:26px; font-weight:500; color:var(--line);
+    line-height:1; padding-top:2px;
+  }
+  .blend .body h3{ font-size:20px; font-weight:600; display:inline; }
+  .blend .region{ font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:var(--maroon); margin-bottom:4px; }
+  .blend .ingredients{ margin:10px 0 0; font-size:14px; color:var(--ink); }
+  .blend .ingredients .label{ font-weight:700; color:var(--ink-soft); font-size:11px; letter-spacing:.06em; text-transform:uppercase; display:block; margin-bottom:3px; }
+  .blend .prep{ margin:12px 0 0; font-size:14px; color:var(--ink-soft); font-style:italic; }
+  .blend .ratio{
+    margin:10px 0 0; display:inline-flex; align-items:center; gap:6px; font-size:12px;
+    padding:3px 10px; border-radius:20px; border:1px solid var(--line);
+  }
+  .blend .ratio.ready{ color:var(--maroon-deep); border-color:var(--maroon-deep); }
+  .blend .ratio.pending{ color:var(--ink-faint); }
+  .farm-mark{
+    font-family:'IBM Plex Mono', monospace; font-size:9.5px; letter-spacing:.06em; text-transform:uppercase;
+    color:var(--gold); border:1px solid var(--gold-soft); border-radius:4px; padding:0 5px; margin-left:4px; vertical-align:2px;
+  }
+
+  /* ---------------- footer ---------------- */
+  footer.notes{ margin-top:48px; padding-top:22px; border-top:2px solid var(--maroon); }
+  footer.notes h2{ font-size:16px; font-weight:600; margin-bottom:12px; }
+  footer.notes ol{ margin:0; padding-left:20px; }
+  footer.notes li{ font-size:13.5px; color:var(--ink-soft); margin-bottom:9px; max-width:70ch; }
+  footer.notes li strong{ color:var(--ink); }
+  footer.notes li:last-child{ margin-bottom:0; }
+
+  /* ---------------- print button ---------------- */
+  .printbtn{
+    position:fixed; top:22px; right:22px; z-index:10;
+    font:inherit; font-family:'Source Sans 3'; font-weight:600; font-size:13px;
+    background:var(--maroon); color:var(--surface); border:none; border-radius:7px;
+    padding:9px 16px; cursor:pointer; box-shadow:var(--shadow);
+  }
+  .printbtn:hover{ background:var(--maroon-deep); }
+  .printbtn:focus-visible{ outline:2px solid var(--gold); outline-offset:2px; }
+
+  @media (max-width:600px){
+    .page{ padding:70px 18px 60px; }
+    header.masthead h1{ font-size:32px; }
+    ul.items li{ grid-template-columns:18px 1fr; row-gap:2px; }
+    .items .uses{ grid-column:2; justify-self:start; margin-top:2px; }
+    article.blend{ grid-template-columns:34px 1fr; }
+    .printbtn{ top:auto; bottom:18px; right:18px; }
+  }
+
+  @media print{
+    body{ background:#fff; color:#000; font-size:12.5px; }
+    .printbtn{ display:none; }
+    .page{ max-width:none; padding:0 8mm; }
+    .farm-card, article.blend{ box-shadow:none; break-inside:avoid; }
+    a{ color:inherit; text-decoration:none; }
+  }
+</style>
+
+<button class="printbtn" type="button" onclick="window.print()">Print / Save as PDF</button>
+
+<div class="page">
+
+  <header class="masthead">
+    <p class="eyebrow">Fudi People · Africa Range</p>
+    <h1>Spice Manifest</h1>
+    <p class="dek">Every ingredient behind the 8 blends now live in the Africa range, laid out for one clean buying trip — then broken down blend by blend for when you're actually mixing.</p>
+    <div class="meta-row">
+      <span>8 blends</span><span class="dot">·</span><span>31 items to buy</span><span class="dot">·</span><span>1 already on the farm</span><span class="dot">·</span><span>Episodes 1–8</span>
+    </div>
+  </header>
+
+  <section class="buying">
+    <h2>The Buying List <span class="subcount mono">31 items</span></h2>
+    <p class="section-note">Grouped by how you'd shop for them. Cumin, cardamom, garlic and ginger carry the most weight — each feeds three or four blends, so buy those in the largest bags.</p>
+
+    <div class="category">
+      <h3>Whole spices &amp; pods <span class="hint">toast and grind at home</span></h3>
+      <ul class="items">
+        <li><span class="box"></span><span class="name">Cumin</span><span class="form">seed</span><span class="uses">4 blends</span></li>
+        <li><span class="box"></span><span class="name">Cardamom</span><span class="form">pods or seeds</span><span class="uses">3 blends</span></li>
+        <li><span class="box"></span><span class="name">Black pepper</span><span class="form">whole or ground</span><span class="uses">2 blends</span></li>
+        <li><span class="box"></span><span class="name">Cloves</span><span class="form">whole</span><span class="uses">2 blends</span></li>
+        <li><span class="box"></span><span class="name">Cinnamon</span><span class="form">stick</span><span class="uses">2 blends</span></li>
+        <li><span class="box"></span><span class="name">Grains of selim</span><span class="form">whole, ground for the mix</span><span class="uses">1 blend</span></li>
+        <li><span class="box"></span><span class="name">Ashanti pepper</span><span class="form">whole</span><span class="uses">1 blend</span></li>
+        <li><span class="box"></span><span class="name">Uda</span><span class="form">Negro pepper, whole</span><span class="uses">1 blend</span></li>
+        <li><span class="box"></span><span class="name">Mbongo spice</span><span class="form">whole — or black cardamom</span><span class="uses">1 blend</span></li>
+        <li><span class="box"></span><span class="name">Njangsa seeds</span><span class="form">whole — or unsalted peanuts</span><span class="uses">1 blend</span></li>
+        <li><span class="box"></span><span class="name">Grains of paradise</span><span class="form">whole</span><span class="uses">1 blend</span></li>
+      </ul>
+    </div>
+
+    <div class="category">
+      <h3>Ground spices &amp; chilli</h3>
+      <ul class="items">
+        <li><span class="box"></span><span class="name">Ginger</span><span class="form">ground</span><span class="uses">3 blends</span></li>
+        <li><span class="box"></span><span class="name">Fenugreek</span><span class="form">ground</span><span class="uses">2 blends</span></li>
+        <li><span class="box"></span><span class="name">Coriander</span><span class="form">whole or ground</span><span class="uses">2 blends</span></li>
+        <li><span class="box"></span><span class="name">Calabash nutmeg</span><span class="form">ground — or regular nutmeg</span><span class="uses">2 blends</span></li>
+        <li><span class="box"></span><span class="name">Turmeric</span><span class="form">ground</span><span class="uses">1 blend</span></li>
+        <li><span class="box"></span><span class="name">Caraway</span><span class="form">ground</span><span class="uses">1 blend</span></li>
+        <li><span class="box"></span><span class="name">Cayenne pepper</span><span class="form">ground</span><span class="uses">1 blend</span></li>
+        <li><span class="box"></span><span class="name">Chilli powder</span><span class="form">mild, ground</span><span class="uses">1 blend</span></li>
+        <li><span class="box"></span><span class="name">Baklouti chilli</span><span class="form">dried — your own dried chilli substitutes</span><span class="uses">1 blend</span></li>
+      </ul>
+    </div>
+
+    <div class="category">
+      <h3>Dried aromatics &amp; herbs</h3>
+      <ul class="items">
+        <li><span class="box"></span><span class="name">Garlic</span><span class="form">powder</span><span class="uses">3 blends</span></li>
+        <li><span class="box"></span><span class="name">Onion</span><span class="form">powder</span><span class="uses">1 blend</span></li>
+        <li><span class="box"></span><span class="name">Onion flakes</span><span class="form">dried</span><span class="uses">1 blend</span></li>
+        <li><span class="box"></span><span class="name">Mustard seed</span><span class="form">ground — contains mustard</span><span class="uses">1 blend</span></li>
+        <li><span class="box"></span><span class="name">Lemon peel</span><span class="form">dried</span><span class="uses">1 blend</span></li>
+        <li><span class="box"></span><span class="name">Oregano</span><span class="form">dried</span><span class="uses">1 blend</span></li>
+        <li><span class="box"></span><span class="name">Basil</span><span class="form">dried</span><span class="uses">1 blend</span></li>
+        <li><span class="box"></span><span class="name">Sage</span><span class="form">dried</span><span class="uses">1 blend</span></li>
+      </ul>
+    </div>
+
+    <div class="category">
+      <h3>Pantry basics</h3>
+      <ul class="items">
+        <li><span class="box"></span><span class="name">Salt</span><span class="form">fine</span><span class="uses">2 blends</span></li>
+        <li><span class="box"></span><span class="name">Stock cube</span><span class="form">crumbled</span><span class="uses">1 blend</span></li>
+        <li><span class="box"></span><span class="name">Kuli-kuli</span><span class="form">peanut puffs, crushed</span><span class="uses">1 blend</span></li>
+      </ul>
+    </div>
+
+    <div class="farm-card">
+      <h3>Already on the farm — not on this list</h3>
+      <p><strong>Dried, smoked chillies</strong> — your own Sidcup crop. Used in Yaji and Pepper Soup Spice, and doubles as the substitute for Baklouti chilli in Harissa if you'd rather not source it separately. Track your dried stock, not a supplier order.</p>
+    </div>
+  </section>
+
+  <section class="blends">
+    <h2>Blend by Blend <span class="subcount mono">Episodes 1–8</span></h2>
+    <p class="section-note">The same 8 blends, with what each one actually needs and how it comes together — for the kitchen, not the shop.</p>
+
+    <div class="blend-grid">
+
+      <article class="blend">
+        <div class="num">01</div>
+        <div class="body">
+          <div class="region">West Africa · Ghana &amp; Nigeria</div>
+          <h3>Yaji</h3>
+          <div class="ingredients"><span class="label">Ingredients</span>Grains of selim, Ashanti pepper, dried chillies<span class="farm-mark">farm</span>, kuli-kuli, ginger, stock cube, salt, black pepper.</div>
+          <p class="prep">Combine into one dry rub — same mix whether you call it chinchinga or suya.</p>
+          <span class="ratio ready">Starter test-batch card already drafted</span>
+        </div>
+      </article>
+
+      <article class="blend">
+        <div class="num">02</div>
+        <div class="body">
+          <div class="region">Senegal</div>
+          <h3>Yassa Spice Blend</h3>
+          <div class="ingredients"><span class="label">Ingredients</span>Mustard seed, onion flakes, garlic powder, lemon peel.</div>
+          <p class="prep">Add fresh onion and lemon juice when you cook it — this is the dry base only.</p>
+          <span class="ratio pending">No ratio yet — test a small batch first</span>
+        </div>
+      </article>
+
+      <article class="blend">
+        <div class="num">03</div>
+        <div class="body">
+          <div class="region">Ethiopia</div>
+          <h3>Niter Kibbeh Spice Blend</h3>
+          <div class="ingredients"><span class="label">Ingredients</span>Fenugreek, cumin, cardamom (or korarima), turmeric, dried oregano, basil, sage.</div>
+          <p class="prep">Simmer into 500g butter with fresh onion, garlic and ginger, then strain — the base of doro wat.</p>
+          <span class="ratio pending">Butter weight is exact; the dry-spice ratio still needs a test batch</span>
+        </div>
+      </article>
+
+      <article class="blend">
+        <div class="num">04</div>
+        <div class="body">
+          <div class="region">Sierra Leone &amp; Liberia</div>
+          <h3>Pepper Soup Spice</h3>
+          <div class="ingredients"><span class="label">Ingredients</span>Uda, calabash nutmeg, dried chillies<span class="farm-mark">farm</span>, ginger.</div>
+          <p class="prep">Add fresh garlic and country onion, then simmer with goat, fish or chicken.</p>
+          <span class="ratio pending">No ratio yet — sourced from general research, worth double-checking too</span>
+        </div>
+      </article>
+
+      <article class="blend">
+        <div class="num">05</div>
+        <div class="body">
+          <div class="region">The Maghreb</div>
+          <h3>Harissa Spice Blend</h3>
+          <div class="ingredients"><span class="label">Ingredients</span>Baklouti chilli (or your own dried chilli), cumin, coriander, caraway, garlic powder, salt.</div>
+          <p class="prep">Mix with olive oil and lemon juice to bring it back to a paste.</p>
+          <span class="ratio pending">Chilli and garlic weight are exact; the ground-spice mix is still "to taste"</span>
+        </div>
+      </article>
+
+      <article class="blend">
+        <div class="num">06</div>
+        <div class="body">
+          <div class="region">East Africa · Zanzibar</div>
+          <h3>Pilau Masala</h3>
+          <div class="ingredients"><span class="label">Ingredients</span>Cumin, black pepper, cloves, cardamom, cinnamon.</div>
+          <p class="prep">Toast whole, then grind — stir straight into onions frying for pilau rice.</p>
+          <span class="ratio pending">No ratio yet — test a small batch first</span>
+        </div>
+      </article>
+
+      <article class="blend">
+        <div class="num">07</div>
+        <div class="body">
+          <div class="region">Central Africa · Cameroon</div>
+          <h3>Mbongo Mix</h3>
+          <div class="ingredients"><span class="label">Ingredients</span>Mbongo spice (or black cardamom), njangsa (or peanuts), calabash nutmeg, grains of paradise, garlic powder, onion powder.</div>
+          <p class="prep">Grind with a little water or oil into a paste before rubbing onto meat or fish.</p>
+          <span class="ratio pending">No ratio yet — test a small batch first</span>
+        </div>
+      </article>
+
+      <article class="blend">
+        <div class="num">08</div>
+        <div class="body">
+          <div class="region">Southern Africa</div>
+          <h3>Durban Curry Masala</h3>
+          <div class="ingredients"><span class="label">Ingredients</span>Coriander, cumin, cardamom, fenugreek, cloves, cinnamon, mild chilli powder, cayenne, ginger.</div>
+          <p class="prep">Toast whole spices, then grind.</p>
+          <span class="ratio pending">No ratio yet — test a small batch first</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <footer class="notes">
+    <h2>Before you scale up</h2>
+    <ol>
+      <li><strong>Test batches first.</strong> Only Yaji has a drafted starter ratio — the other 7 give an ingredient list, not proportions. Mix small, taste, adjust, before committing to a sellable-size run.</li>
+      <li><strong>Substitutes are real options, not compromises.</strong> Korarima ↔ cardamom, mbongo ↔ black cardamom, njangsa ↔ unsalted peanuts, calabash nutmeg ↔ regular nutmeg — swap in whichever is easier to source without changing the blend's identity.</li>
+      <li><strong>Chilli oil isn't on this list.</strong> The 3 named chilli oils (Africa, East Asia, South Asia) are a fresh-chilli-in-oil process, not a dry mix — a separate manifest once the recipe's written down.</li>
+      <li><strong>Allergens to flag on packaging:</strong> mustard (Yassa) and, if using the peanut substitute, peanuts (Mbongo Mix).</li>
+    </ol>
+  </footer>
+
+</div>

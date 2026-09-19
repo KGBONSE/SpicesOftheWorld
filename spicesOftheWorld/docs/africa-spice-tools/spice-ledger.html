@@ -1,0 +1,454 @@
+<title>Spice Ledger</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ground:#F6EEDF;
+    --surface:#FFFDF8;
+    --surface-raised:#FFFFFF;
+    --ink:#2B1811;
+    --ink-soft:#6E5A48;
+    --ink-faint:#A3907C;
+    --line:#E2D3B8;
+    --maroon:#7C2434;
+    --maroon-soft:#9A3E4F;
+    --gold:#A97C22;
+    --gold-soft:#C89A44;
+    --have:#4C6B3F;
+    --have-bg:#E7EEDD;
+    --focus:#7C2434;
+    --shadow:0 1px 2px rgba(43,24,17,.08), 0 6px 18px rgba(43,24,17,.07);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ground:#1E1013;
+      --surface:#241417;
+      --surface-raised:#2B181C;
+      --ink:#F3E7DA;
+      --ink-soft:#CBB3A0;
+      --ink-faint:#8C7364;
+      --line:#43272C;
+      --maroon:#D6788A;
+      --maroon-soft:#B85A6D;
+      --gold:#D9AE55;
+      --gold-soft:#C89A44;
+      --have:#8FB877;
+      --have-bg:#2C3624;
+      --focus:#D9AE55;
+      --shadow:0 1px 2px rgba(0,0,0,.35), 0 10px 26px rgba(0,0,0,.4);
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#1E1013;
+    --surface:#241417;
+    --surface-raised:#2B181C;
+    --ink:#F3E7DA;
+    --ink-soft:#CBB3A0;
+    --ink-faint:#8C7364;
+    --line:#43272C;
+    --maroon:#D6788A;
+    --maroon-soft:#B85A6D;
+    --gold:#D9AE55;
+    --gold-soft:#C89A44;
+    --have:#8FB877;
+    --have-bg:#2C3624;
+    --focus:#D9AE55;
+    --shadow:0 1px 2px rgba(0,0,0,.35), 0 10px 26px rgba(0,0,0,.4);
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--ground);
+    color:var(--ink);
+    font-family:'Source Sans 3', system-ui, sans-serif;
+    font-size:15px;
+    line-height:1.5;
+  }
+  h1,h2,h3{ font-family:'Source Serif 4', Georgia, serif; text-wrap:balance; margin:0; }
+  .mono{ font-family:'IBM Plex Mono', ui-monospace, monospace; font-variant-numeric:tabular-nums; }
+
+  .wrap{ max-width:1180px; margin:0 auto; padding:36px 28px 64px; }
+
+  /* ---------- header ---------- */
+  header.page{
+    display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:20px 32px;
+    padding-bottom:22px; margin-bottom:28px; border-bottom:1px solid var(--line);
+  }
+  .titleblock .eyebrow{
+    font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--maroon); margin:0 0 8px;
+  }
+  .titleblock h1{ font-size:34px; font-weight:700; color:var(--ink); }
+  .titleblock p{ margin:8px 0 0; max-width:56ch; color:var(--ink-soft); font-size:14.5px; }
+
+  .progress-card{
+    background:var(--surface-raised); border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; min-width:230px; box-shadow:var(--shadow);
+  }
+  .progress-card .num{ font-family:'IBM Plex Mono', monospace; font-size:26px; font-weight:500; color:var(--ink); }
+  .progress-card .num span{ color:var(--ink-faint); font-size:16px; }
+  .progress-card .cap{ font-size:11.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-soft); margin-top:2px; }
+  .bar{ height:6px; border-radius:3px; background:var(--line); margin-top:10px; overflow:hidden; }
+  .bar > i{ display:block; height:100%; background:var(--have); border-radius:3px; transition:width .25s ease; width:0%; }
+
+  /* ---------- layout ---------- */
+  .layout{ display:grid; grid-template-columns:300px 1fr; gap:28px; align-items:start; }
+  @media (max-width:880px){ .layout{ grid-template-columns:1fr; } }
+
+  /* ---------- shopping list rail ---------- */
+  .shopping{
+    position:sticky; top:20px;
+    background:var(--surface-raised); border:1px solid var(--line); border-radius:12px;
+    box-shadow:var(--shadow); overflow:hidden;
+  }
+  @media (max-width:880px){ .shopping{ position:static; } }
+  .shopping .head{ padding:16px 18px 12px; border-bottom:1px solid var(--line); display:flex; align-items:baseline; justify-content:space-between; gap:10px; }
+  .shopping .head h2{ font-size:17px; }
+  .shopping .head .count{ font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--ink-soft); }
+  .shopping ol{ list-style:none; margin:0; padding:6px 8px; max-height:520px; overflow-y:auto; }
+  .shopping li{ padding:9px 10px; border-radius:7px; }
+  .shopping li + li{ border-top:1px solid var(--line); }
+  .shopping li .row1{ display:flex; align-items:baseline; justify-content:space-between; gap:8px; }
+  .shopping li .name{ font-weight:600; font-size:13.5px; }
+  .shopping li .n{ font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--gold); white-space:nowrap; }
+  .shopping li .used{ font-size:11.5px; color:var(--ink-faint); margin-top:2px; }
+  .shopping .empty{ padding:22px 18px; color:var(--ink-soft); font-size:13.5px; text-align:center; }
+  .shopping .foot{ padding:12px 18px 16px; border-top:1px solid var(--line); }
+  .copybtn{
+    width:100%; padding:9px 12px; border-radius:7px; border:1px solid var(--maroon);
+    background:transparent; color:var(--maroon); font:inherit; font-weight:600; font-size:13px; cursor:pointer;
+    transition:background .15s ease, color .15s ease;
+  }
+  .copybtn:hover{ background:var(--maroon); color:var(--surface); }
+  .copybtn:focus-visible{ outline:2px solid var(--focus); outline-offset:2px; }
+  .copystatus{ font-size:11.5px; color:var(--have); margin-top:8px; min-height:14px; }
+  #copytext{ position:absolute; left:-9999px; top:-9999px; }
+
+  /* ---------- blend cards ---------- */
+  .blends{ display:grid; grid-template-columns:repeat(auto-fill, minmax(300px,1fr)); gap:18px; }
+  .card{
+    background:var(--surface-raised); border:1px solid var(--line); border-radius:12px;
+    box-shadow:var(--shadow); display:flex; flex-direction:column;
+  }
+  .card .top{ padding:16px 18px 12px; border-bottom:1px solid var(--line); }
+  .card .top .meta{ font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:var(--maroon-soft); }
+  .card .top h3{ font-size:19px; margin-top:4px; }
+  .card .top .region{ font-size:12.5px; color:var(--ink-soft); margin-top:3px; }
+  .card .tally{ font-family:'IBM Plex Mono', monospace; font-size:11.5px; color:var(--ink-faint); margin-top:8px; }
+
+  .card ul.ing{ list-style:none; margin:0; padding:6px 10px; }
+  .card ul.ing li{ padding:2px 0; }
+
+  label.row{
+    display:grid; grid-template-columns:20px 1fr; gap:10px; align-items:start;
+    padding:8px 8px; border-radius:7px; cursor:pointer;
+  }
+  label.row:hover{ background:var(--ground); }
+  .sr-input{ position:absolute; width:1px; height:1px; opacity:0; }
+  .box{
+    width:18px; height:18px; margin-top:1px; border-radius:4px; border:1.5px solid var(--ink-faint);
+    background:transparent; position:relative; flex:none;
+  }
+  .box::after{
+    content:''; position:absolute; left:5px; top:2px; width:5px; height:9px;
+    border:solid var(--surface-raised); border-width:0 2px 2px 0; transform:rotate(45deg); opacity:0;
+  }
+  .sr-input:checked + .box{ background:var(--have); border-color:var(--have); }
+  .sr-input:checked + .box::after{ opacity:1; }
+  .sr-input:focus-visible + .box{ outline:2px solid var(--focus); outline-offset:2px; }
+
+  .row .text{ min-width:0; }
+  .row .name{ font-weight:600; font-size:14px; }
+  .row .form{ color:var(--ink-soft); font-weight:400; }
+  .row .note{ font-size:12px; color:var(--ink-faint); margin-top:1px; }
+  .sr-input:checked ~ .box, label.row:has(.sr-input:checked){ background:var(--have-bg); }
+  label.row:has(.sr-input:checked) .name{ text-decoration:line-through; color:var(--ink-faint); }
+  label.row:has(.sr-input:checked) .form{ color:var(--ink-faint); }
+
+  .farm-tag{
+    display:inline-block; font-family:'IBM Plex Mono', monospace; font-size:9.5px; letter-spacing:.08em;
+    text-transform:uppercase; color:var(--gold); border:1px solid var(--gold-soft); border-radius:4px;
+    padding:1px 5px; margin-left:6px; vertical-align:1px;
+  }
+
+  .card .bottom{ padding:10px 18px 16px; margin-top:auto; }
+  .card .bottom p{ margin:0; font-size:12.5px; color:var(--ink-soft); font-style:italic; }
+
+  footer.page{ margin-top:38px; padding-top:20px; border-top:1px solid var(--line); }
+  footer.page p{ margin:0 0 8px; font-size:12.5px; color:var(--ink-soft); max-width:74ch; }
+  footer.page p:last-child{ margin-bottom:0; }
+  footer.page strong{ color:var(--ink); }
+
+  @media (prefers-reduced-motion:reduce){ .bar > i{ transition:none; } }
+</style>
+
+<div class="wrap">
+
+  <header class="page">
+    <div class="titleblock">
+      <p class="eyebrow">Fudi People · Africa Range</p>
+      <h1>Spice Ledger</h1>
+      <p>Every ingredient across the 8 live Africa blends, in one pantry check. Tick off what's already on the shelf — the shopping list on the left keeps only what's left to buy, ranked by how many blends need it.</p>
+    </div>
+    <div class="progress-card">
+      <div class="num" id="progressNum">0<span> / 31</span></div>
+      <div class="cap">Ingredients in stock</div>
+      <div class="bar"><i id="progressBar"></i></div>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="shopping">
+      <div class="head">
+        <h2>Shopping list</h2>
+        <span class="count mono" id="shopCount">0 items</span>
+      </div>
+      <ol id="shopList"></ol>
+      <div class="foot">
+        <button class="copybtn" id="copyBtn" type="button">Copy shopping list</button>
+        <div class="copystatus" id="copyStatus"></div>
+      </div>
+    </aside>
+
+    <main class="blends" id="blends"></main>
+  </div>
+
+  <footer class="page">
+    <p><strong>Scope:</strong> the 8 dry spice blends currently live in the Africa range — Yaji, Yassa, Niter Kibbeh Spice Blend, Pepper Soup Spice, Harissa Spice Blend, Pilau Masala, Mbongo Mix, Durban Curry Masala. The 3 chilli oils aren't included — different process (fresh chilli + oil, not a dry mix).</p>
+    <p><strong>Ratios:</strong> only Yaji has a drafted starter test-batch card. The other 7 give an ingredient list, not an internal mix ratio — run a small test batch of each before scaling to a sellable size.</p>
+    <p>Checks are saved on this device only (browser storage) — they won't follow you to another computer or phone.</p>
+  </footer>
+
+</div>
+
+<textarea id="copytext" readonly></textarea>
+
+<script>
+(function(){
+  var INGREDIENTS = [
+    {id:'grains-selim', name:'Grains of selim', form:'ground', source:'buy'},
+    {id:'ashanti-pepper', name:'Ashanti pepper', form:'whole', source:'buy'},
+    {id:'chilli-farm', name:'Dried chillies', form:'smoked, crushed', source:'farm', note:'Your own Sidcup-farm chillies — track dried stock, not a supplier order.'},
+    {id:'kuli-kuli', name:'Kuli-kuli', form:'peanut puffs, crushed', source:'buy'},
+    {id:'ginger', name:'Ginger', form:'ground', source:'buy'},
+    {id:'stock-cube', name:'Stock cube', form:'crumbled', source:'buy'},
+    {id:'salt', name:'Salt', form:'fine', source:'buy'},
+    {id:'black-pepper', name:'Black pepper', form:'whole or ground', source:'buy'},
+    {id:'mustard-seed', name:'Mustard seed', form:'ground', source:'buy', note:'Allergen: mustard'},
+    {id:'onion-flakes', name:'Onion flakes', form:'dried', source:'buy'},
+    {id:'garlic-powder', name:'Garlic', form:'powder', source:'buy'},
+    {id:'lemon-peel', name:'Lemon peel', form:'dried', source:'buy'},
+    {id:'fenugreek', name:'Fenugreek', form:'ground', source:'buy'},
+    {id:'cumin', name:'Cumin', form:'whole or ground', source:'buy'},
+    {id:'cardamom', name:'Cardamom', form:'pods or seeds', source:'buy', note:'Korarima is the authentic sub for Niter Kibbeh'},
+    {id:'turmeric', name:'Turmeric', form:'ground', source:'buy'},
+    {id:'oregano', name:'Oregano', form:'dried', source:'buy'},
+    {id:'basil', name:'Basil', form:'dried', source:'buy'},
+    {id:'sage', name:'Sage', form:'dried', source:'buy'},
+    {id:'uda', name:'Uda', form:'Negro pepper, whole', source:'buy'},
+    {id:'calabash-nutmeg', name:'Calabash nutmeg', form:'ground', source:'buy', note:'Regular nutmeg substitutes'},
+    {id:'baklouti-chilli', name:'Baklouti chilli', form:'dried', source:'buy', note:'Your own dried chilli can substitute'},
+    {id:'coriander', name:'Coriander', form:'whole or ground', source:'buy'},
+    {id:'caraway', name:'Caraway', form:'ground', source:'buy'},
+    {id:'cloves', name:'Cloves', form:'whole', source:'buy'},
+    {id:'cinnamon', name:'Cinnamon', form:'stick', source:'buy'},
+    {id:'mbongo', name:'Mbongo spice', form:'whole', source:'buy', note:'Black cardamom substitutes'},
+    {id:'njangsa', name:'Njangsa seeds', form:'whole', source:'buy', note:'Unsalted peanuts substitute'},
+    {id:'grains-paradise', name:'Grains of paradise', form:'whole', source:'buy'},
+    {id:'onion-powder', name:'Onion', form:'powder', source:'buy'},
+    {id:'chilli-powder-mild', name:'Chilli powder', form:'mild, ground', source:'buy'},
+    {id:'cayenne', name:'Cayenne pepper', form:'ground', source:'buy'}
+  ];
+
+  var BLENDS = [
+    {id:'yaji', name:'Yaji', region:'West Africa · Ghana & Nigeria', ep:'Episode 1',
+      ingredients:['grains-selim','ashanti-pepper','chilli-farm','kuli-kuli','ginger','stock-cube','salt','black-pepper'],
+      note:'Starter test-batch ratio already drafted — the rest still need one.'},
+    {id:'yassa', name:'Yassa Spice Blend', region:'Senegal', ep:'Episode 2',
+      ingredients:['mustard-seed','onion-flakes','garlic-powder','lemon-peel'],
+      note:'Add fresh onion and lemon juice when you cook it.'},
+    {id:'niter-kibbeh', name:'Niter Kibbeh Spice Blend', region:'Ethiopia', ep:'Episode 3',
+      ingredients:['fenugreek','cumin','cardamom','turmeric','oregano','basil','sage'],
+      note:'Simmer into 500g butter with fresh onion, garlic and ginger.'},
+    {id:'pepper-soup', name:'Pepper Soup Spice', region:'Sierra Leone & Liberia', ep:'Episode 4',
+      ingredients:['uda','calabash-nutmeg','chilli-farm','ginger'],
+      note:'Add fresh garlic and country onion when you cook it.'},
+    {id:'harissa', name:'Harissa Spice Blend', region:'The Maghreb', ep:'Episode 5',
+      ingredients:['baklouti-chilli','cumin','coriander','caraway','garlic-powder','salt'],
+      note:'Mix with olive oil and lemon juice to bring it back to a paste.'},
+    {id:'pilau', name:'Pilau Masala', region:'East Africa · Zanzibar', ep:'Episode 6',
+      ingredients:['cumin','black-pepper','cloves','cardamom','cinnamon'],
+      note:'Toast the whole spices, then grind.'},
+    {id:'mbongo', name:'Mbongo Mix', region:'Central Africa · Cameroon', ep:'Episode 7',
+      ingredients:['mbongo','njangsa','calabash-nutmeg','grains-paradise','garlic-powder','onion-powder'],
+      note:'Grind with a little water or oil into a paste before rubbing on.'},
+    {id:'durban', name:'Durban Curry Masala', region:'Southern Africa', ep:'Episode 8',
+      ingredients:['coriander','cumin','cardamom','fenugreek','cloves','cinnamon','chilli-powder-mild','cayenne','ginger'],
+      note:'Toast the whole spices, then grind.'}
+  ];
+
+  var byId = {};
+  INGREDIENTS.forEach(function(ing){
+    ing.blendIds = [];
+    byId[ing.id] = ing;
+  });
+  BLENDS.forEach(function(b){
+    b.ingredients.forEach(function(id){ byId[id].blendIds.push(b.name); });
+  });
+
+  var STORE_KEY = 'fudi-spice-ledger-v1';
+  var state = {};
+  try{
+    var raw = localStorage.getItem(STORE_KEY);
+    if(raw) state = JSON.parse(raw) || {};
+  }catch(e){ state = {}; }
+
+  function persist(){
+    try{ localStorage.setItem(STORE_KEY, JSON.stringify(state)); }catch(e){}
+  }
+
+  var buyCount = INGREDIENTS.filter(function(i){ return i.source === 'buy'; }).length;
+
+  var blendsEl = document.getElementById('blends');
+  BLENDS.forEach(function(b){
+    var card = document.createElement('div');
+    card.className = 'card';
+
+    var top = document.createElement('div');
+    top.className = 'top';
+    top.innerHTML =
+      '<div class="meta">' + b.ep + ' · ' + b.region + '</div>' +
+      '<h3>' + b.name + '</h3>' +
+      '<div class="tally" data-tally="' + b.id + '"></div>';
+    card.appendChild(top);
+
+    var ul = document.createElement('ul');
+    ul.className = 'ing';
+    b.ingredients.forEach(function(id){
+      var ing = byId[id];
+      var li = document.createElement('li');
+      var noteHtml = ing.note ? '<div class="note">' + ing.note + '</div>' : '';
+      var farmTag = ing.source === 'farm' ? '<span class="farm-tag">Farm-grown</span>' : '';
+      li.innerHTML =
+        '<label class="row">' +
+          '<input type="checkbox" class="sr-input" data-ingredient="' + id + '">' +
+          '<span class="box" aria-hidden="true"></span>' +
+          '<span class="text"><span class="name">' + ing.name + farmTag + '</span> <span class="form">— ' + ing.form + '</span>' + noteHtml + '</span>' +
+        '</label>';
+      ul.appendChild(li);
+    });
+    card.appendChild(ul);
+
+    var bottom = document.createElement('div');
+    bottom.className = 'bottom';
+    bottom.innerHTML = '<p>' + b.note + '</p>';
+    card.appendChild(bottom);
+
+    blendsEl.appendChild(card);
+  });
+
+  var shopListEl = document.getElementById('shopList');
+  var shopCountEl = document.getElementById('shopCount');
+  var progressNumEl = document.getElementById('progressNum');
+  var progressBarEl = document.getElementById('progressBar');
+
+  function renderAll(){
+    // sync every checkbox instance to state
+    document.querySelectorAll('.sr-input').forEach(function(input){
+      input.checked = !!state[input.dataset.ingredient];
+    });
+
+    // per-card tally
+    BLENDS.forEach(function(b){
+      var have = b.ingredients.filter(function(id){ return state[id]; }).length;
+      var el = document.querySelector('[data-tally="' + b.id + '"]');
+      if(el) el.textContent = have + ' / ' + b.ingredients.length + ' in stock';
+    });
+
+    // overall progress (buy-only)
+    var haveBuy = INGREDIENTS.filter(function(i){ return i.source === 'buy' && state[i.id]; }).length;
+    progressNumEl.innerHTML = haveBuy + '<span> / ' + buyCount + '</span>';
+    progressBarEl.style.width = (buyCount ? (haveBuy / buyCount * 100) : 0) + '%';
+
+    // shopping list: unchecked buy items, sorted by number of blends needing them
+    var need = INGREDIENTS.filter(function(i){ return i.source === 'buy' && !state[i.id]; });
+    need.sort(function(a, b2){
+      if(b2.blendIds.length !== a.blendIds.length) return b2.blendIds.length - a.blendIds.length;
+      return a.name.localeCompare(b2.name);
+    });
+
+    shopCountEl.textContent = need.length + ' item' + (need.length === 1 ? '' : 's');
+
+    if(need.length === 0){
+      shopListEl.innerHTML = '';
+      var empty = document.createElement('li');
+      empty.className = 'empty';
+      empty.textContent = 'Everything ticked — nothing left to buy.';
+      shopListEl.appendChild(empty);
+    } else {
+      shopListEl.innerHTML = need.map(function(i){
+        return '<li>' +
+          '<div class="row1"><span class="name">' + i.name + '</span><span class="n mono">×' + i.blendIds.length + '</span></div>' +
+          '<div class="used">' + i.blendIds.join(', ') + '</div>' +
+        '</li>';
+      }).join('');
+    }
+  }
+
+  blendsEl.addEventListener('change', function(e){
+    var t = e.target;
+    if(!t.classList.contains('sr-input')) return;
+    var id = t.dataset.ingredient;
+    state[id] = t.checked;
+    persist();
+    renderAll();
+  });
+
+  renderAll();
+
+  var copyBtn = document.getElementById('copyBtn');
+  var copyStatus = document.getElementById('copyStatus');
+  var copytext = document.getElementById('copytext');
+
+  copyBtn.addEventListener('click', function(){
+    var need = INGREDIENTS.filter(function(i){ return i.source === 'buy' && !state[i.id]; });
+    need.sort(function(a, b2){
+      if(b2.blendIds.length !== a.blendIds.length) return b2.blendIds.length - a.blendIds.length;
+      return a.name.localeCompare(b2.name);
+    });
+    var lines = ['Fudi People — Africa range shopping list'];
+    need.forEach(function(i){
+      lines.push('- ' + i.name + ' (' + i.form + ') — ' + i.blendIds.join(', '));
+    });
+    var text = lines.join('\n');
+
+    function fallback(){
+      copytext.value = text;
+      copytext.style.position = 'fixed';
+      copytext.style.left = '0';
+      copytext.style.top = '0';
+      copytext.focus();
+      copytext.select();
+      try{
+        document.execCommand('copy');
+        copyStatus.textContent = 'Copied ' + need.length + ' item' + (need.length === 1 ? '' : 's') + '.';
+      }catch(e){
+        copyStatus.textContent = 'Selected below — press Ctrl+C to copy.';
+      }
+      copytext.style.position = 'absolute';
+      copytext.style.left = '-9999px';
+      copytext.style.top = '-9999px';
+    }
+
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){
+        copyStatus.textContent = 'Copied ' + need.length + ' item' + (need.length === 1 ? '' : 's') + '.';
+      }).catch(fallback);
+    } else {
+      fallback();
+    }
+  });
+})();
+</script>
