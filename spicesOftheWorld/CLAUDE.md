@@ -197,3 +197,10 @@ earlier chats.
   built and gaps get closed
 - See `docs/open-tasks.md` for the current, maintained task list and
   `docs/project-context-brief.md` for a fuller narrative handoff doc
+
+## Marketing team (added 2026-09-21)
+
+Four marketing agents (Social & Shorts, Email & Wholesale, SEO & Website,
+Campaign Planner) live in `.claude/agents/` and share rules in
+`agents/marketing-team.md`. Drafts are saved under `marketing/<channel>/`;
+nothing is published or sent automatically.
