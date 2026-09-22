@@ -71,3 +71,16 @@ No paid-ads recommendations without a stated budget from Kofi.
 
 **Output hygiene.** Save drafts under `marketing/<channel>/` with a date
 prefix. End every output with a short "Needs Kofi" list.
+
+## Content skills (added 2026-09-21/22)
+
+Four single-piece content skills live in `.claude/skills/` and share the
+same rules above: `blog-post`, `newsletter`, `linkedin-post` (each writes one
+piece and saves to its own `marketing/<channel>/` folder), and
+`content-repurposing`, which runs all three on one source in sequence.
+
+`explainer-infographic` (added 2026-09-22) is a separate, standalone skill:
+turns a topic or a set of stats into one shareable infographic image. Real
+HTML/CSS rendered to PNG via headless Chromium (`scripts/render.py`), not
+AI image generation, so every number and word is exact. Saves to
+`marketing/infographics/`.
