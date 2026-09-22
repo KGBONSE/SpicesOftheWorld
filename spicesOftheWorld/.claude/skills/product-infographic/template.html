@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Product Infographic</title>
+<meta name="hz:canvas-width" content="1080">
+<meta name="hz:canvas-height" content="1350">
+<style>
+  /* ---- Palette — same tokens as explainer-infographic, for one visual family ---- */
+  :root {
+    --surface-1:      #fcfcfb;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --border:         rgba(11,11,11,0.10);
+    --gridline:       #e1e0d9;
+    --slot-1: #2a78d6; /* blue    — used for pointer lines + callout accents */
+    --slot-2: #eb6834; /* orange  — badge accent */
+    --slot-3: #1baf7a; /* aqua    — badge accent */
+    --slot-4: #eda100; /* yellow  — badge accent */
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--surface-1); }
+
+  .canvas {
+    width: 1080px;
+    height: 1350px;
+    background: var(--surface-1);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 64px 72px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .eyebrow {
+    font-size: 22px; font-weight: 600; letter-spacing: 0.04em;
+    text-transform: uppercase; color: var(--slot-1); margin: 0 0 10px 0;
+    text-align: center;
+  }
+  .headline {
+    font-size: 46px; font-weight: 800; line-height: 1.1;
+    color: var(--text-primary); margin: 0; text-align: center;
+  }
+
+  /* The stage holds the product photo + callout system. Fixed height so the
+     JS geometry below (stage-relative coordinates) stays correct. */
+  .stage {
+    position: relative;
+    height: 700px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #product-img {
+    /* No fixed width/height — only max — so the rendered element's own box
+       is exactly the visible pixels (no letterboxing), which is what makes
+       the callout math in the script below accurate. */
+    max-width: 560px;
+    max-height: 620px;
+    display: block;
+  }
+
+  /* SVG leader-line overlay, sized to the stage exactly. */
+  .leader-svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+
+  /* Callout label boxes — positioned by JS at one of the 6 fixed slots. */
+  .callout {
+    position: absolute;
+    width: 210px;
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 14px 16px;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: var(--text-primary);
+  }
+  .callout-dot {
+    width: 10px; height: 10px; border-radius: 50%;
+    background: var(--slot-1); display: inline-block; margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  /* Non-visual claims — plain badges, no leader line. */
+  .badges {
+    display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;
+    margin-top: 28px;
+  }
+  .badge {
+    padding: 10px 20px;
+    border-radius: 999px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .footer {
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid var(--gridline);
+    font-size: 16px;
+    color: var(--text-muted);
+    text-align: center;
+  }
+  .footer .brand { font-weight: 600; color: var(--text-secondary); }
+</style>
+</head>
+<body>
+  <div class="canvas">
+    <div class="eyebrow" id="eyebrow">PRODUCT CATEGORY</div>
+    <h1 class="headline" id="headline">Product Name</h1>
+
+    <div class="stage" id="stage">
+      <svg class="leader-svg" id="leader-svg"></svg>
+      <img id="product-img" src="" alt="Product photo">
+      <!-- callout boxes injected by JS -->
+    </div>
+
+    <div class="badges" id="badges"><!-- badge chips injected by JS --></div>
+
+    <div class="footer">
+      <span class="brand">Source:</span> <span id="footer-text">product page / photo supplied by the user</span>
+    </div>
+  </div>
+
+  <script>
+    // ---- Edit this block per generation ----
+    const DATA = {
+      eyebrow: "PRODUCT CATEGORY",
+      headline: "Product Name",
+      imageSrc: "REPLACE_WITH_LOCAL_IMAGE_PATH_OR_DATA_URI",
+      // Visually locatable features -> get a pointer line. `slot` picks a
+      // fixed label position: tl/ml/bl (left column) or tr/mr/br (right
+      // column), top/mid/bottom. `target` is the estimated point as a
+      // fraction (0-1) of the PHOTO's own visible width/height, e.g.
+      // {x: 0.5, y: 0.08} for something near the top-center of the product.
+      calloutFeatures: [
+        // { label: "Screw-top lid", slot: "tl", target: { x: 0.5, y: 0.06 } },
+        // { label: "Front label panel", slot: "mr", target: { x: 0.5, y: 0.45 } },
+        // { label: "Wide base for stability", slot: "bl", target: { x: 0.5, y: 0.92 } },
+      ],
+      // Claims with no physical spot to point to -> plain badges.
+      badgeFeatures: [
+        // { label: "Small-batch made", accent: "slot-2" },
+        // { label: "No artificial additives", accent: "slot-3" },
+      ],
+      footer: "product page / photo supplied by the user"
+    };
+
+    document.getElementById("eyebrow").textContent = DATA.eyebrow;
+    document.getElementById("headline").textContent = DATA.headline;
+    document.getElementById("footer-text").textContent = DATA.footer;
+
+    const img = document.getElementById("product-img");
+    img.src = DATA.imageSrc;
+
+    const stage = document.getElementById("stage");
+    const svg = document.getElementById("leader-svg");
+
+    // Fixed slot anchors, in stage-local px (stage is 1080 wide incl. the
+    // 72px canvas padding already excluded — stage itself spans the content
+    // width, ~936px, so slots sit near its left/right edges).
+    const SLOTS = {
+      tl: { boxX: 0,   boxY: 40,  anchorX: 210, anchorY: 70  },
+      ml: { boxX: 0,   boxY: 300, anchorX: 210, anchorY: 330 },
+      bl: { boxX: 0,   boxY: 560, anchorX: 210, anchorY: 590 },
+      tr: { boxX: 726, boxY: 40,  anchorX: 726, anchorY: 70  },
+      mr: { boxX: 726, boxY: 300, anchorX: 726, anchorY: 330 },
+      br: { boxX: 726, boxY: 560, anchorX: 726, anchorY: 590 },
+    };
+
+    function renderCallouts() {
+      const stageRect = stage.getBoundingClientRect();
+      const imgRect = img.getBoundingClientRect();
+      const imgLeft = imgRect.left - stageRect.left;
+      const imgTop = imgRect.top - stageRect.top;
+      const imgW = imgRect.width;
+      const imgH = imgRect.height;
+
+      let svgHTML = "";
+
+      DATA.calloutFeatures.forEach((f, i) => {
+        const slot = SLOTS[f.slot] || SLOTS.tl;
+        const targetX = imgLeft + f.target.x * imgW;
+        const targetY = imgTop + f.target.y * imgH;
+
+        const box = document.createElement("div");
+        box.className = "callout";
+        box.style.left = slot.boxX + "px";
+        box.style.top = slot.boxY + "px";
+        box.innerHTML = `<span class="callout-dot"></span>${f.label}`;
+        stage.appendChild(box);
+
+        svgHTML += `<line x1="${slot.anchorX}" y1="${slot.anchorY}" x2="${targetX}" y2="${targetY}"
+          stroke="#2a78d6" stroke-width="2" />
+          <circle cx="${targetX}" cy="${targetY}" r="6" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" />`;
+      });
+
+      svg.innerHTML = svgHTML;
+
+      const badgeColors = { "slot-2": "#eb6834", "slot-3": "#1baf7a", "slot-4": "#eda100", "slot-1": "#2a78d6" };
+      const badgesEl = document.getElementById("badges");
+      badgesEl.innerHTML = "";
+      DATA.badgeFeatures.forEach(b => {
+        const chip = document.createElement("div");
+        chip.className = "badge";
+        chip.style.background = badgeColors[b.accent] || "#52514e";
+        chip.textContent = b.label;
+        badgesEl.appendChild(chip);
+      });
+    }
+
+    if (img.complete) {
+      renderCallouts();
+    } else {
+      img.addEventListener("load", renderCallouts);
+    }
+  </script>
+</body>
+</html>

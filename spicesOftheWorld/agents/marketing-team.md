@@ -84,3 +84,12 @@ turns a topic or a set of stats into one shareable infographic image. Real
 HTML/CSS rendered to PNG via headless Chromium (`scripts/render.py`), not
 AI image generation, so every number and word is exact. Saves to
 `marketing/infographics/`.
+
+`product-infographic` (added 2026-09-22) turns a product URL or photo into
+a listing image with labeled feature callouts — a pointer line to visible
+parts of the product, plain badges for claims with no visual spot to point
+to. Same real-HTML-to-PNG approach. Saves to `marketing/product-images/`.
+Known limits, tested 2026-09-22: this workspace's network proxy blocks
+downloading a linked product image via `curl`, so a URL-only source usually
+needs the user to attach the photo directly; pointer-line placement is a
+best-effort visual estimate, not a measurement.
