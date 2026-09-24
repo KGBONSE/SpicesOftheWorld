@@ -1,6 +1,8 @@
 # Yaji: the one spice mix behind two street foods, two countries, one memory
 
-There was one stall at Mokola Market my mum, God bless her soul, would always stop at first — before the fish, before the plantain, before the koobi, before anything else. She'd pick up a handful of small, reddish-brown seeds, crack one between her fingers, and let me smell it. Sharp, peppery, warm — nothing like the black pepper I knew from school dinners back home. That smell planted the seeds for everything that came after: my love for spices, for farming, for cooking. So today I want to take you back to that exact stall, for the spice Europe once called "grains of paradise" — and for the blend it ends up in, Yaji, the thing that ties Ghana and Nigeria together on a plate.
+Growing up in Ghana, my favourite memories are the trips I took with my mum, God bless her soul, to one of the busiest, liveliest markets in the country: Mokola Market. Bursting with the most amazing spices you can imagine, the rich blend of colours, aromas, sounds, and human energy made it one of the most vibrant, unforgettable places in Ghana — a place that embodies the country's spirit, resilience, and joyful hustle.
+
+There was one stall in particular she'd always stop at first — before the fish, before the plantain, before the koobi, before anything else. She'd pick up a handful of small, reddish-brown seeds, crack one between her fingers, and let me smell it. Sharp, peppery, warm — nothing like the black pepper I knew from school dinners back home. Those trips planted the seeds for everything that came after: my lifelong love for spices, for farming, for good food, for cooking. So today I want to take you back to that exact stall, for the spice Europe once called "grains of paradise" — and for the blend it ends up in, Yaji, the thing that ties Ghana and Nigeria together on a plate.
 
 ## Where grains of paradise actually comes from
 
@@ -63,7 +65,7 @@ The full written recipe and the exact Yaji blend are up at fudipeople.com.
 ---
 
 **Needs Kofi:**
-- This one draws directly on `scripts/episode-01-west-africa-yaji.md`, so it should already sound close to right — flag anything that doesn't match how you'd actually say it on camera.
+- This one draws on `scripts/episode-01-west-africa-yaji.md` plus your real Mokola Market narration recordings (Transcripts A/B in `docs/voice-recording-transcripts.md`) for the opening — cleaned up from the raw ASR text but keeping your actual phrasing ("bursting with," "vibrant, unforgettable," "spirit, resilience, and joyful hustle"). Flag anything that doesn't match how you'd actually say it.
 - The Yaji ratio card is marked "untested" in the episode script itself — don't treat the amounts above as final until you've actually test-cooked and logged a batch, per the script's own open item.
 - You just supplied real new footage for this episode (market-walk clips + the provisions-shop clip) that matches the script's own B-roll notes for the Personal Hook and Geography beats — worth using a still from one of these as the blog's header image, or embedding a short clip, once the footage is edited.
 - Chinchinga/suya being the same dish under two names, and your own grilling technique (soak skewers, spray water/beer, rub Yaji in partway through), are both your own knowledge, not from the book — worth a quick gut-check that this still reads accurately.
