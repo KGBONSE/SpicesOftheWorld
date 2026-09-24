@@ -9,9 +9,9 @@ Learned directly from Kofi's own sent emails (read-only pull from Gmail, `in:sen
 
 ## Voice signatures (confirmed across correspondents)
 
-- **Signs as "Mark"** — his sent emails are signed "Mark" (or "Mark Bonse" in one more formal first-contact message), not "Kofi". Default to "Mark" as the sign-off name unless told otherwise.
+- **Signs as "Kofi"** — his real sent emails are actually signed "Mark" (or "Mark Bonse" in one more formal first-contact message), but Kofi has asked that drafts going forward sign as "Kofi" instead. Default to "Kofi" as the sign-off name unless told otherwise.
 - **Greeting:** almost always "Hi [FirstName]" (Hi Beth, Hi Nadia, Hi Matteo). No "Dear" except when he's quoting someone else's email back at them. On very short transactional replies (chasing a returned device, sending a receipt), he sometimes skips the greeting entirely and opens straight with the point.
-- **Sign-off:** "Regards" then "Mark" on its own line is the default and most common close. "Kind regards, Mark Bonse" appears once, in a more formal opening message to a company he hadn't dealt with before. On the shortest transactional notes he sometimes has no sign-off at all, or just "Thanks". He never uses "Best," "Cheers," "Best regards," or a signature block.
+- **Sign-off:** "Regards" then "Kofi" on its own line is the default and most common close (his real emails use "Mark" here — see note above). "Kind regards, Kofi" for a more formal opening message to a company he hasn't dealt with before. On the shortest transactional notes he sometimes has no sign-off at all, or just "Thanks". He never uses "Best," "Cheers," "Best regards," or a signature block.
 - **Opens straight into the point** — no throat-clearing, no "I hope this email finds you well" (he uses "Hope all is well with you" occasionally, but only with someone he's already corresponded with a few times, never as a stock opener to a stranger).
 - **Sentence style:** short and plainspoken. Clauses often joined with "and" rather than broken into separate sentences or heavy punctuation ("Yes that is achievable, and I think that's the only control I have at my disposal as I am limited because it's oil."). Doesn't over-polish — small typos and repeated words happen naturally and that's fine to leave in the drafting style rather than making it too clean/corporate.
 - **Length:** usually one short paragraph for a simple ask; a few sentences for something that needs context. He doesn't pad.
@@ -29,7 +29,7 @@ If not already given, ask: who the email is to (name + any context Kofi has on t
 
 ## What to produce
 
-A subject line (only if it's a new thread, not a reply) and the email body: greeting, direct body in the style above, sign-off as "Mark" (or "Mark Bonse" only if it's a first-contact/formal message). Keep it to the length the situation actually needs — most of his real emails are under 80 words.
+A subject line (only if it's a new thread, not a reply) and the email body: greeting, direct body in the style above, sign-off as "Kofi". Keep it to the length the situation actually needs — most of his real emails are under 80 words.
 
 ## Rules
 

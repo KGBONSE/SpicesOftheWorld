@@ -20,7 +20,7 @@ If any of this resonates — a market you grew up around, a dish that means more
 **→ Read the full Yaji story and suya recipe at fudipeople.com**
 
 Regards,
-Mark
+Kofi
 
 ---
 
@@ -30,6 +30,6 @@ Mark
 
 **Needs Kofi:**
 - This is the adoptable first example you asked for, not a finished send — reshape anything that doesn't sound like you before it goes out.
-- I signed it "Mark" to match how you actually sign your real emails, not "Kofi" — flip that if you'd rather this one read differently from personal correspondence.
+- Signed "Kofi" per your updated preference — your real sent emails actually sign as "Mark," but you've asked drafts to use "Kofi" going forward, everywhere.
 - Confirm the Yaji allergen note (peanuts) is accurate before this goes anywhere near a live list — I didn't add it inline here since the newsletter rules keep allergen claims off email and point to the product page instead.
 - No specific launch or promo baked in on purpose — swap in a real CTA (a launch date, a limited stock note) if you have one when you're ready to send.

@@ -20,7 +20,7 @@ If a specific memory or a market you grew up around has a similar pull for you, 
 **→ Watch the full story and get the Yaji blend at fudipeople.com**
 
 Regards,
-Mark
+Kofi
 
 ---
 
@@ -32,4 +32,4 @@ Mark
 - Drawn from `scripts/episode-01-west-africa-yaji.md`, your real Mokola Market narration recordings (Transcripts A/B in `docs/voice-recording-transcripts.md`), and your new market/shop footage — flag anything that doesn't sound like you before this goes out.
 - No allergen info included in the body (Yaji contains peanuts via kuli-kuli) per the newsletter rules — link to the product page rather than stating it here once that page is live.
 - No specific send date or launch tied to this — swap in a real one (e.g. "episode live now") once the episode and footage are actually cut together.
-- Signed "Mark" per your email-voice skill, same as the other newsletter example — flag if you want newsletters signed differently from personal email.
+- Signed "Kofi" per your updated preference (your real sent emails actually sign as "Mark," but drafts now default to "Kofi" everywhere, per your latest instruction).
