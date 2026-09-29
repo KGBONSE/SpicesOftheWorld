@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fudi Posting Checklist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #FFF3E2; --card: #FFFFFF; --ink: #3A1408; --muted: #7A4A36;
+    --accent: #E8741C; --accent-soft: #FBE1C8; --line: #EED9C2; --done: #6B8E4E;
+    --quote: #FFF8EF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #1E0D06; --card: #2B140A; --ink: #FFF3E2; --muted: #D9B79C;
+      --accent: #F4A53A; --accent-soft: #4A2412; --line: #4A2A1A; --done: #9CC47A;
+      --quote: #351A0D;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #1E0D06; --card: #2B140A; --ink: #FFF3E2; --muted: #D9B79C;
+    --accent: #F4A53A; --accent-soft: #4A2412; --line: #4A2A1A; --done: #9CC47A;
+    --quote: #351A0D;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.55 Poppins, system-ui, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 20px 16px 60px; }
+  h1, h2, h3 { font-family: Lora, Georgia, serif; line-height: 1.2; }
+  h1 { font-size: 26px; margin: 4px 0 4px; }
+  h2 { font-size: 19px; margin: 32px 0 4px; }
+  h2 small { display: block; font: 500 12px Poppins, sans-serif; color: var(--accent); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 4px; }
+  .sub { color: var(--muted); margin: 0 0 12px; }
+  .progress { position: sticky; top: 0; z-index: 2; background: var(--bg); padding: 10px 0; border-bottom: 1px solid var(--line); }
+  .bar { height: 8px; border-radius: 99px; background: var(--accent-soft); overflow: hidden; }
+  .bar i { display: block; height: 100%; width: 0; background: var(--accent); transition: width .3s; }
+  .progress span { font-size: 13px; color: var(--muted); }
+  .notice { background: var(--accent-soft); border-radius: 12px; padding: 12px 14px; margin: 14px 0; font-size: 14px; }
+  .post { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px; margin: 12px 0; }
+  .post h3 { font-size: 16px; margin: 0 0 2px; }
+  .file { font: 12px ui-monospace, Consolas, monospace; color: var(--muted); word-break: break-all; margin: 0 0 10px; }
+  .cap { background: var(--quote); border-left: 3px solid var(--accent); border-radius: 8px; padding: 10px 12px; margin: 8px 0; white-space: pre-wrap; font-size: 14px; }
+  .cap b { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: 4px; }
+  button.copy { font: 600 13px Poppins, sans-serif; color: #fff; background: var(--accent); border: 0; border-radius: 8px; padding: 7px 12px; cursor: pointer; margin-top: 8px; }
+  :root[data-theme="dark"] button.copy, button.copy { color: #2B140A; }
+  button.copy.ok { background: var(--done); }
+  ul.checks { list-style: none; padding: 0; margin: 10px 0 0; }
+  ul.checks li { margin: 6px 0; }
+  label { display: flex; gap: 10px; align-items: flex-start; cursor: pointer; }
+  input[type=checkbox] { width: 20px; height: 20px; margin: 1px 0 0; accent-color: var(--accent); flex: none; }
+  input:checked + span { color: var(--muted); text-decoration: line-through; }
+  .tip { font-size: 13px; color: var(--muted); margin: 8px 0 0; }
+  footer { margin-top: 36px; font-size: 13px; color: var(--muted); }
+  footer button { font: inherit; color: var(--accent); background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Fudi People: October posting</h1>
+  <p class="sub">2 posts a week · photo on Tuesday, video on Friday · full plan in <code>2026-09-29-first-month-plan.md</code></p>
+
+  <div class="progress"><div class="bar"><i id="bar"></i></div><span id="count">0 done</span></div>
+
+  <div class="notice"><b>Checkout is switched off</b>, so captions say "browse at fudipeople.com, order by WhatsApp". Change them when the shop reopens.<br><br>
+  <b>How to post:</b> Instagram (tick "Share to Facebook") → same video to TikTok + YouTube Shorts → short version to X.</div>
+
+  <h2><small>Before week 1</small>Check these first</h2>
+  <div class="post">
+    <ul class="checks">
+      <li><label><input type="checkbox" data-id="pre-vegan"><span>Keep "vegan" in the bios only if every oil's ingredients are confirmed plant-based</span></label></li>
+      <li><label><input type="checkbox" data-id="pre-regions"><span>Change "6 regions" to "5 regions" in the Instagram bio + YouTube description</span></label></li>
+      <li><label><input type="checkbox" data-id="pre-links-ig"><span>Instagram bio link → fudipeople.com/links</span></label></li>
+      <li><label><input type="checkbox" data-id="pre-links-tt"><span>TikTok bio link → fudipeople.com/links (if TikTok lets you add a website)</span></label></li>
+      <li><label><input type="checkbox" data-id="pre-links-fb"><span>Facebook website → fudipeople.com/links</span></label></li>
+      <li><label><input type="checkbox" data-id="pre-links-x"><span>X website → fudipeople.com/links</span></label></li>
+      <li><label><input type="checkbox" data-id="pre-xbio"><span>X bio, website, location and header image</span></label></li>
+      <li><label><input type="checkbox" data-id="pre-ytlinks"><span>YouTube: add the 5 links (Customise channel → Basic info)</span></label></li>
+    </ul>
+    <div class="cap"><b>X bio</b><span data-copy>Chilli farmer in Sidcup, London 🌶️ Grown, smoked & hand-blended: chilli oil + spice blends from around the world. fudipeople.com</span></div>
+    <button class="copy">Copy X bio</button>
+  </div>
+
+  <h2><small>Profile setup</small>YouTube + Facebook</h2>
+  <div class="post">
+    <p class="tip">Full details and wording: <code>2026-09-29-youtube-and-facebook-setup.md</code></p>
+    <ul class="checks">
+      <li><label><input type="checkbox" data-id="yt-pl-farm"><span>YouTube: "From the farm" playlist (Mokola Short + 3 growing videos from 2018)</span></label></li>
+      <li><label><input type="checkbox" data-id="yt-pl-kitchen"><span>YouTube: "Kitchen archive" playlist (the 8 cooking videos)</span></label></li>
+      <li><label><input type="checkbox" data-id="yt-home"><span>YouTube Home tab: Shorts → From the farm → Kitchen archive</span></label></li>
+      <li><label><input type="checkbox" data-id="yt-featured"><span>YouTube featured video: the fufu video (for now)</span></label></li>
+      <li><label><input type="checkbox" data-id="yt-desc"><span>YouTube description ("five regions", link fudipeople.com/links)</span></label></li>
+      <li><label><input type="checkbox" data-id="fb-pro"><span>Facebook: turn on Professional mode, category Food &amp; Beverage Company</span></label></li>
+      <li><label><input type="checkbox" data-id="fb-about"><span>Facebook About: work, city, website, social links, email</span></label></li>
+      <li><label><input type="checkbox" data-id="fb-featured"><span>Facebook Featured: smoker reel, intro post, Mokola video (after 9 Oct)</span></label></li>
+      <li><label><input type="checkbox" data-id="fb-smokery"><span>Facebook: sort out any old "Fudi People Smokery" listing</span></label></li>
+      <li><label><input type="checkbox" data-id="ig-highlights"><span>Instagram: 5 highlights with the new covers</span></label></li>
+    </ul>
+    <div class="cap"><b>YouTube description</b><span data-copy>I'm Kofi, a chilli farmer in Sidcup, London, with roots in Ghana. I grow and smoke my own chillies, then turn them into spice blends from five regions of the world and chilli oil.
+
+Here you'll see the whole journey: from seed to smoker to jar, plus the stories behind the spices.
+
+🌶️ Shop &amp; order: fudipeople.com/links</span></div>
+    <button class="copy">Copy YouTube description</button>
+  </div>
+
+  <div id="weeks"></div>
+
+  <footer>Ticks are saved on this device only. <button id="reset">Clear all ticks</button></footer>
+</main>
+
+<script>
+const weeks = [
+  { tag: "Week 1 · relaunch buyers", title: "Meet Fudi People", posts: [
+    { id: "w1a", day: "Tue 6 Oct · photo", file: "refresh/assets/posts/post1-intro.jpg",
+      caps: [["Instagram + Facebook", "Meet Fudi People 🌶️ Every bottle starts on our farm in Sidcup, London. We grow the chillies, we smoke them by hand, and we turn them into chilli oil with the spices of Africa, South Asia and East Asia. You can browse the whole range at fudipeople.com (link in bio). Online orders open soon, and until then just message us on WhatsApp.\n\n#chillioil #londonfood #smallbatch #growyourown #sidcup #spiceblends"],
+             ["X", "Meet Fudi People 🌶️ Chillies grown and smoked by hand on our farm in Sidcup, London, then turned into chilli oil and spice blends. Browse: fudipeople.com"]],
+      checks: ["Instagram + Facebook", "X"] },
+    { id: "w1b", day: "Fri 9 Oct · video (ready)", file: "refresh/assets/video/fudi-smoker-reel.mp4",
+      caps: [["Reel + TikTok", "This is where the flavour comes from. Fresh-picked chillies, low heat, and hours of slow smoke on the farm in Sidcup, no shortcuts, just time and patience. 🔥\n\n#smokedchillies #chilliseason #farmtotable #londonfarm #chillioil"],
+             ["YouTube Short title", "How we smoke our own chillies 🔥 #shorts"],
+             ["YouTube Short description", "Chillies grown and smoked on our farm in Sidcup, London. Full spice-history episodes are coming to this channel, so subscribe to follow the journey from seed to smoker to jar."],
+             ["X", "Fresh-picked chillies, low heat, hours of smoke. This is where the flavour comes from 🔥"]],
+      checks: ["Instagram Reel + Facebook", "TikTok", "YouTube Short", "X", "Pin it on TikTok"] } ] },
+  { tag: "Week 2 · local visitors", title: "Come and see us", posts: [
+    { id: "w2a", day: "Tue 13 Oct · photo", file: "refresh/assets/posts/post0-three-oils.jpg",
+      caps: [["Instagram + Facebook", "One chilli, three journeys 🌶️ Grown and smoked on our farm in Sidcup, then paired with the spices of Africa, South Asia and East Asia. If you're local, you're welcome to come and taste them at the kitchen: Monday to Saturday, 10am to 6pm, by arrangement. Just drop us a message first. Which one would you try first?\n\n#chillioil #smallbatch #sidcup #bexley #southeastlondon #londonfood"],
+             ["X", "One chilli, three journeys: Africa, South Asia, East Asia 🌶️ Local to Sidcup? Come and taste them, Mon–Sat 10–6, by arrangement."]],
+      checks: ["Instagram + Facebook", "X"] },
+    { id: "w2b", day: "Fri 16 Oct · video (film 20–30 sec)", file: "Film in the polytunnel · fallback: video/Chilli_Harvest_Crate_Overflow_Clip.mp4",
+      tip: "1. \"Hello, hello, Fudi people\" + today's date · 2. pick a chilli: twist it, don't cut it · 3. hold up the crate · 4. \"Look after yourself, look after each other.\" On-screen text: Twist, don't cut 🌶️ → Grown in Sidcup, London → fudipeople.com",
+      caps: [["Reel + TikTok + Short", "Harvest day on the farm 🌶️ Every chilli in our oils and blends is picked by hand, right here in Sidcup, twist it, don't cut it, and it's ready for the smoker. Browse the range at fudipeople.com.\n\n#chilliharvest #growyourown #polytunnel #sidcup #londonfarm #chillioil"]],
+      checks: ["Filmed (or using the fallback clip)", "Instagram Reel + Facebook", "TikTok", "YouTube Short", "X"] } ] },
+  { tag: "Week 3 · YouTube subscribers", title: "Where it all started", posts: [
+    { id: "w3a", day: "Tue 20 Oct · photo", file: "refresh/assets/posts/post3-africa.jpg",
+      tip: "Check the label symbol really is Sankofa before posting.",
+      caps: [["Instagram + Facebook", "The symbol on this label is Sankofa, an Adinkra symbol from Ghana that means \"go back and fetch it\". Learn from where you come from. That's how we cook, and that's what's in this bottle. 🇬🇭\n\n#sankofa #adinkra #ghanafood #africanfood #chillioil #londonfood"]],
+      checks: ["Sankofa confirmed", "Instagram + Facebook", "X"] },
+    { id: "w3b", day: "Fri 23 Oct · video (ready)", file: "video/Fudi_People_Mokola_Market_with_voiceover_upscaled_1080p.mp4",
+      tip: "Change the first line to your own words if it doesn't sound like you.",
+      caps: [["Reel + TikTok", "Growing up in Ghana, some of my favourite memories are of Mokola Market in Accra, the colours, the noise, the smell of the spices, the trips I took there with my mum. That's where it all started for Fudi People. The full story is on our YouTube channel, @fudi.people, link in bio.\n\n#mokolamarket #accra #ghana #spices #foodheritage #fudipeople"],
+             ["X", "Where Fudi People started: Mokola Market, Accra 🇬🇭 The full story is on YouTube → youtube.com/@fudi.people"]],
+      checks: ["Instagram Reel + Facebook", "TikTok", "X"] } ] },
+  { tag: "Week 4 · wholesale", title: "Cooking, and wholesale", posts: [
+    { id: "w4a", day: "Tue 27 Oct · photo", file: "refresh/assets/posts/post5-how-to-use.jpg",
+      caps: [["Instagram + Facebook", "Save this for later 📌 A spoonful on eggs, noodles, rice, soup, roast veg, pretty much anything that needs a bit of warmth. Which one are you trying first? Tell us in the comments.\n\n#chillioil #easyrecipes #foodhacks #cookingathome #londonfood"]],
+      checks: ["Instagram + Facebook", "X"] },
+    { id: "w4b", day: "Fri 30 Oct · photo", file: "Several bottles together: post0-three-oils.jpg or a new phone photo",
+      tip: "Have wholesale prices and a minimum order ready before posting.",
+      caps: [["Instagram + Facebook", "Run a deli, farm shop, café or restaurant in London or Kent? We're now taking wholesale enquiries for our small-batch chilli oils and spice blends, grown, smoked and blended by hand on our farm in Sidcup. Send us a message or email fudipeople@gmail.com and we'll send over samples and prices.\n\n#wholesale #delilondon #farmshop #independentshop #chillioil #londonfood"],
+             ["X", "Delis, farm shops and restaurants: we're taking wholesale enquiries for our small-batch chilli oils and spice blends 🌶️ fudipeople@gmail.com"]],
+      checks: ["Wholesale prices ready", "Instagram + Facebook", "Shared in local Facebook groups", "X"] } ] },
+];
+
+const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+document.getElementById("weeks").innerHTML = weeks.map(w =>
+  `<h2><small>${esc(w.tag)}</small>${esc(w.title)}</h2>` + w.posts.map(p =>
+    `<div class="post"><h3>${esc(p.day)}</h3><p class="file">${esc(p.file)}</p>` +
+    (p.tip ? `<p class="tip">💡 ${esc(p.tip)}</p>` : "") +
+    p.caps.map(([k, v]) => `<div class="cap"><b>${esc(k)}</b><span data-copy>${esc(v)}</span></div><button class="copy">Copy ${esc(k)}</button>`).join("") +
+    `<ul class="checks">` + p.checks.map((c, i) =>
+      `<li><label><input type="checkbox" data-id="${p.id}-${i}"><span>${esc(c)}</span></label></li>`).join("") +
+    `</ul></div>`).join("")).join("");
+
+const KEY = "fudi-oct-checklist";
+let state = {};
+try { state = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) {}
+const boxes = [...document.querySelectorAll("input[type=checkbox]")];
+function update() {
+  const done = boxes.filter(b => b.checked).length;
+  document.getElementById("bar").style.width = (100 * done / boxes.length) + "%";
+  document.getElementById("count").textContent = `${done} of ${boxes.length} done`;
+}
+boxes.forEach(b => {
+  b.checked = !!state[b.dataset.id];
+  b.addEventListener("change", () => {
+    state[b.dataset.id] = b.checked;
+    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+    update();
+  });
+});
+update();
+
+document.querySelectorAll("button.copy").forEach(btn => btn.addEventListener("click", async () => {
+  const text = btn.previousElementSibling.querySelector("[data-copy]").textContent;
+  const label = btn.textContent;
+  try { await navigator.clipboard.writeText(text); }
+  catch (e) {
+    const t = document.createElement("textarea"); t.value = text; document.body.appendChild(t);
+    t.select(); try { document.execCommand("copy"); } catch (e2) {} t.remove();
+  }
+  btn.textContent = "Copied ✓"; btn.classList.add("ok");
+  setTimeout(() => { btn.textContent = label; btn.classList.remove("ok"); }, 1500);
+}));
+
+document.getElementById("reset").addEventListener("click", () => {
+  if (!confirm("Clear all ticks?")) return;
+  state = {}; try { localStorage.removeItem(KEY); } catch (e) {}
+  boxes.forEach(b => b.checked = false); update();
+});
+</script>
+</body>
+</html>

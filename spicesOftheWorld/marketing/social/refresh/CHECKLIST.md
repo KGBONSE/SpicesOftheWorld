@@ -20,9 +20,9 @@ Smoked on site → spice blends from 6 regions + vegan chilli oil
 Shop & wholesale 👇
 ```
 
-- [ ] Link: fudipeople.com (later fudipeople.com/links with Shop, Wholesale and YouTube buttons)
+- [ ] Link: fudipeople.com/links (page built and live 2026-09-29: WhatsApp/Shop, YouTube, kitchen visit, wholesale, story + all five socials)
 - [ ] Location: change the full street address to "Sidcup, London"
-- [ ] Name highlights: Farm, Smoking, Chilli Oil, Recipes, Wholesale
+- [ ] Name highlights: Farm, Smoking, Chilli Oil, Recipes, Wholesale (covers ready: `assets/highlights/`. Each highlight needs one story first, then Edit highlight → Edit cover → pick the image from your camera roll)
 - [x] Handle: @fudi.people
 
 ## TikTok
@@ -50,7 +50,7 @@ Farmer-founder of Fudi People 🌶️ Chillies grown & smoked in Sidcup, London.
 - [ ] Check the About section, category and any "Fudi People Smokery" listing
 - [ ] Swap any pinned or featured meat and fish posts for a chilli-smoking post
 - [ ] Later: set up a separate Fudi People business Page (shop button, reviews, ads)
-- [ ] Check fudipeople.com for old smokery wording too
+- [x] Check fudipeople.com for old smokery wording too (none found 2026-09-29; footer + Contact social links now point to all five profiles)
 
 ## YouTube
 

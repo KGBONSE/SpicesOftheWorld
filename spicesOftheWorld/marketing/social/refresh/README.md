@@ -18,6 +18,7 @@ Brand assets and copy for rebuilding the Fudi People Instagram, TikTok, Facebook
 | `assets/youtube/fudi-youtube-banner.jpg` | YouTube banner; text + photo inside the 1546×423 mobile safe area | 2560×1440 |
 | `assets/posts/post0…post6*.jpg` | Seven feed posts for Instagram/Facebook (order + captions in CHECKLIST.md) | 1080×1350 |
 | `assets/video/fudi-smoker-reel.mp4` | 20 s vertical Reel/TikTok/Short from the smoker clip, captioned, with end card | 1080×1920 |
+| `assets/highlights/highlight-*.png` | Instagram highlight covers: Farm, Smoking, Chilli Oil, Recipes, Wholesale (cream line icon on burnt orange) | 1080×1920 |
 | `assets/video/endcard.png` | End card used in the reel | 1080×1920 |
 | `assets/labels/south-asia-peacock-bottle.png` | South Asia bottle with the peacock replacing the Buddha (Higgsfield AI edit — for social use; not print artwork) | 1744×2336 |
 | `assets/label-concepts/` | Hand-drawn SVG emblem concepts (peacock variations, masala dabba, chilli rangoli, elephant) and comparison sheets; the chosen direction was the simple side-profile peacock generated in Higgsfield | — |
@@ -33,6 +34,7 @@ Python 3 + Pillow (+ cairosvg for the SVG concepts), ffmpeg for video. Fonts exp
 | `scripts/three_oils_and_profile_alt.py` | Alternative Africa-bottle profile picture |
 | `scripts/posts.py` | All seven feed posts |
 | `scripts/smoker_reel.sh <smoker.mp4> <endcard.png> [out]` | The 20 s reel |
+| `scripts/highlight_covers.py [out_dir]` | The five highlight covers (renders SVG icons with headless Edge/Chrome) |
 | `scripts/peacock_options.py`, `scripts/south_asia_options.py` | SVG label-emblem concepts |
 
 ## Open items
