@@ -1,11 +1,11 @@
 ---
 name: blog-post
-description: Writes a single Fudi People blog post (800-1500 words) in brand voice from a topic, episode, or piece of source content, and saves it to marketing/seo/. Use when asked to write a blog post, article, or web write-up for fudipeople.com — not for social captions, LinkedIn posts, or emails.
+description: Writes a single Fudi People blog post (800-1500 words) in brand voice from a topic, episode, or piece of source content, and saves it to content/. Use when asked to write a blog post, article, or web write-up for fudipeople.com — not for social captions, LinkedIn posts, or emails.
 ---
 
 ## Before writing
 
-Read `agents/marketing-team.md` (shared rules: voice, positioning, facts, compliance) and `docs/brand-voice.md` first, every session. If the post is about a specific episode, region, or blend, also read the matching file in `scripts/` and any relevant `knowledge-base/` file. Check `docs/product-catalog-notes.md` for which SKUs are actually published before writing about a product.
+Read `content/2026-09-23-mokola-market-yaji-blog.md` first — that's Kofi's adopted real example, the primary voice anchor for this skill (edited by Kofi, not just AI-drafted brand voice). Then read `agents/marketing-team.md` (shared rules: voice, positioning, facts, compliance) and `docs/brand-voice.md`, every session. If the post is about a specific episode, region, or blend, also read the matching file in `scripts/` and any relevant `knowledge-base/` file. Check `docs/product-catalog-notes.md` for which SKUs are actually published before writing about a product.
 
 ## Input
 
@@ -30,4 +30,8 @@ Also produce:
 
 ## Save
 
-Save to `marketing/seo/YYYY-MM-DD-<slug>.md`. Never publish it. End with a short "Needs Kofi" list for anything unverified or missing.
+Save to `content/YYYY-MM-DD-<slug>.md`. Never publish it. End with a short "Needs Kofi" list for anything unverified or missing.
+
+## Learning from Kofi's edits
+
+If Kofi edits `content/2026-09-23-mokola-market-yaji-blog.md` (or adopts a different post as his real example later), re-read it before the next post — his edits are the most current, most authoritative voice sample, ahead of `docs/brand-voice.md`.

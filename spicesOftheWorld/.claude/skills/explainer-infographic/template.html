@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Explainer Infographic</title>
+<meta name="hz:canvas-width" content="1080">
+<meta name="hz:canvas-height" content="1350">
+<style>
+  /* ---- Palette (dataviz skill reference palette — swap for brand colors) ---- */
+  :root {
+    --surface-1:      #fcfcfb;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --border:         rgba(11,11,11,0.10);
+    --gridline:       #e1e0d9;
+    /* Categorical slots, fixed order — used as small identity accents on each
+       tile, never as the text/value color itself (dataviz rule: text wears
+       text tokens; marks/accents wear series color). */
+    --slot-1: #2a78d6; /* blue   */
+    --slot-2: #eb6834; /* orange */
+    --slot-3: #1baf7a; /* aqua   */
+    --slot-4: #eda100; /* yellow */
+    --slot-5: #e87ba4; /* magenta */
+    --slot-6: #4a3aa7; /* violet */
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--surface-1);
+  }
+
+  /* Root canvas — must match the width/height passed to render.py exactly. */
+  .canvas {
+    width: 1080px;
+    height: 1350px;
+    background: var(--surface-1);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 72px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .eyebrow {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--slot-1);
+    margin: 0 0 16px 0;
+  }
+
+  .headline {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1.08;
+    color: var(--text-primary);
+    margin: 0 0 20px 0;
+    letter-spacing: -0.01em;
+  }
+
+  .subhead {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.35;
+    color: var(--text-secondary);
+    margin: 0 0 48px 0;
+    max-width: 880px;
+  }
+
+  .tiles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    flex: 1;
+    /* Rows stretch to fill whatever vertical space is left on the canvas —
+       with 4-6 tiles this avoids a dead gap under a short grid. If tiles
+       end up too tall (very few tiles) or too cramped (many tiles), adjust
+       tile count first; this is the right default for 4-6. */
+    align-content: stretch;
+  }
+
+  .tile {
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 32px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+    min-height: 180px;
+  }
+
+  .tile-accent {
+    width: 14px;
+    height: 14px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+  }
+
+  .tile-value {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.05;
+    color: var(--text-primary);
+    font-variant-numeric: proportional-nums;
+  }
+
+  .tile-label {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    line-height: 1.3;
+  }
+
+  /* If a single fact needs the full width (e.g. an odd tile count), add
+     class="tile tile-wide" and it will span both columns. */
+  .tile-wide { grid-column: 1 / -1; }
+
+  .footer {
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid var(--gridline);
+    font-size: 18px;
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
+
+  .footer .brand {
+    font-weight: 600;
+    color: var(--text-secondary);
+  }
+</style>
+</head>
+<body>
+  <div class="canvas" id="canvas">
+    <div class="eyebrow" id="eyebrow">EYEBROW / CATEGORY</div>
+    <h1 class="headline" id="headline">Headline goes here</h1>
+    <p class="subhead" id="subhead">One-line subhead / hook that explains why this is worth a look.</p>
+    <div class="tiles" id="tiles"><!-- tiles injected by DATA below --></div>
+    <div class="footer" id="footer">
+      <span class="brand">Source:</span> <span id="footer-text">name the source(s) here</span>
+    </div>
+  </div>
+
+  <script>
+    // ---- Edit this block per generation, then remove or keep the script ----
+    // Rotate through slots 1-6 in fixed order (dataviz rule: never cycle out
+    // of order). Keep to 3-6 tiles; 4 (2x2) or 6 (3x2) balance best on this
+    // canvas. Use tile.wide:true for a tile that should span both columns.
+    const DATA = {
+      eyebrow: "TOPIC CATEGORY",
+      headline: "Headline goes here",
+      subhead: "One-line subhead that explains why this is worth a look.",
+      tiles: [
+        { value: "0", label: "First fact label", slot: 1 },
+        { value: "0", label: "Second fact label", slot: 2 },
+        { value: "0", label: "Third fact label", slot: 3 },
+        { value: "0", label: "Fourth fact label", slot: 4 }
+      ],
+      footer: "name the source(s) here"
+    };
+
+    document.getElementById("eyebrow").textContent = DATA.eyebrow;
+    document.getElementById("headline").textContent = DATA.headline;
+    document.getElementById("subhead").textContent = DATA.subhead;
+    document.getElementById("footer-text").textContent = DATA.footer;
+
+    const tilesEl = document.getElementById("tiles");
+    tilesEl.innerHTML = "";
+    DATA.tiles.forEach(t => {
+      const div = document.createElement("div");
+      div.className = "tile" + (t.wide ? " tile-wide" : "");
+      div.innerHTML = `
+        <div class="tile-accent" style="background: var(--slot-${t.slot || 1})"></div>
+        <div class="tile-value">${t.value}</div>
+        <div class="tile-label">${t.label}</div>
+      `;
+      tilesEl.appendChild(div);
+    });
+  </script>
+</body>
+</html>

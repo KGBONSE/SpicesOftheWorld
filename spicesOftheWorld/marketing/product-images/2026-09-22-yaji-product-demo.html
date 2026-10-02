@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Product Infographic — Yaji</title>
+<meta name="hz:canvas-width" content="1080">
+<meta name="hz:canvas-height" content="1350">
+<style>
+  :root {
+    --surface-1:      #fcfcfb;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --border:         rgba(11,11,11,0.10);
+    --gridline:       #e1e0d9;
+    --slot-1: #2a78d6;
+    --slot-2: #eb6834;
+    --slot-3: #1baf7a;
+    --slot-4: #eda100;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--surface-1); }
+  .canvas {
+    width: 1080px; height: 1350px;
+    background: var(--surface-1);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    display: flex; flex-direction: column;
+    padding: 64px 72px;
+    position: relative;
+    overflow: hidden;
+  }
+  .eyebrow {
+    font-size: 22px; font-weight: 600; letter-spacing: 0.04em;
+    text-transform: uppercase; color: var(--slot-1); margin: 0 0 10px 0;
+    text-align: center;
+  }
+  .headline {
+    font-size: 44px; font-weight: 800; line-height: 1.1;
+    color: var(--text-primary); margin: 0; text-align: center;
+  }
+  .stage {
+    position: relative; height: 700px; margin-top: 24px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  #product-img { max-width: 560px; max-height: 620px; display: block; }
+  .leader-svg { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+  .callout {
+    position: absolute; width: 210px;
+    background: #ffffff; border: 1px solid var(--border);
+    border-radius: 14px; padding: 14px 16px;
+    font-size: 19px; font-weight: 500; line-height: 1.3; color: var(--text-primary);
+  }
+  .callout-dot {
+    width: 10px; height: 10px; border-radius: 50%;
+    background: var(--slot-1); display: inline-block; margin-right: 8px; vertical-align: middle;
+  }
+  .badges { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 28px; }
+  .badge { padding: 10px 20px; border-radius: 999px; font-size: 19px; font-weight: 600; color: #ffffff; }
+  .footer {
+    margin-top: auto; padding-top: 20px; border-top: 1px solid var(--gridline);
+    font-size: 15px; color: var(--text-muted); text-align: center; line-height: 1.5;
+  }
+  .footer .brand { font-weight: 600; color: var(--text-secondary); }
+</style>
+</head>
+<body>
+  <div class="canvas">
+    <div class="eyebrow">SPICES OF AFRICA &middot; FUDI PEOPLE</div>
+    <h1 class="headline">Yaji &mdash; Suya &amp; Chinchinga Blend</h1>
+
+    <div class="stage" id="stage">
+      <svg class="leader-svg" id="leader-svg"></svg>
+      <img id="product-img" src="/home/claude/SpicesOftheWorld/spicesOftheWorld/graphics/labels/production/ep01-yaji-digital-1200.png" alt="Yaji product label">
+    </div>
+
+    <div class="badges" id="badges"></div>
+
+    <div class="footer">
+      <span class="brand">Source:</span> Fudi People digital product image (graphics/labels/production/ep01-yaji-digital-1200.png); ingredients from scripts/episode-01-west-africa-yaji.md &mdash; allergen line not yet supplier-verified
+    </div>
+  </div>
+
+  <script>
+    const DATA = {
+      calloutFeatures: [
+        { label: "Fudi People mark", slot: "tl", target: { x: 0.50, y: 0.24 } },
+        { label: "YAJI wordmark", slot: "tr", target: { x: 0.50, y: 0.52 } },
+        { label: "Suya & Chinchinga Blend, West Africa", slot: "bl", target: { x: 0.50, y: 0.62 } },
+        { label: "Spices of Africa region tag", slot: "br", target: { x: 0.50, y: 0.79 } },
+      ],
+      badgeFeatures: [
+        { label: "Grown & blended in Sidcup, London", accent: "slot-3" },
+        { label: "Contains peanuts (kuli-kuli) — verify before listing", accent: "slot-2" },
+      ],
+    };
+
+    const img = document.getElementById("product-img");
+    const stage = document.getElementById("stage");
+    const svg = document.getElementById("leader-svg");
+
+    const SLOTS = {
+      tl: { boxX: 0,   boxY: 40,  anchorX: 210, anchorY: 70  },
+      ml: { boxX: 0,   boxY: 300, anchorX: 210, anchorY: 330 },
+      bl: { boxX: 0,   boxY: 560, anchorX: 210, anchorY: 590 },
+      tr: { boxX: 726, boxY: 40,  anchorX: 726, anchorY: 70  },
+      mr: { boxX: 726, boxY: 300, anchorX: 726, anchorY: 330 },
+      br: { boxX: 726, boxY: 560, anchorX: 726, anchorY: 590 },
+    };
+
+    function renderCallouts() {
+      const stageRect = stage.getBoundingClientRect();
+      const imgRect = img.getBoundingClientRect();
+      const imgLeft = imgRect.left - stageRect.left;
+      const imgTop = imgRect.top - stageRect.top;
+      const imgW = imgRect.width;
+      const imgH = imgRect.height;
+
+      let svgHTML = "";
+      DATA.calloutFeatures.forEach((f) => {
+        const slot = SLOTS[f.slot] || SLOTS.tl;
+        const targetX = imgLeft + f.target.x * imgW;
+        const targetY = imgTop + f.target.y * imgH;
+
+        const box = document.createElement("div");
+        box.className = "callout";
+        box.style.left = slot.boxX + "px";
+        box.style.top = slot.boxY + "px";
+        box.innerHTML = `<span class="callout-dot"></span>${f.label}`;
+        stage.appendChild(box);
+
+        svgHTML += `<line x1="${slot.anchorX}" y1="${slot.anchorY}" x2="${targetX}" y2="${targetY}"
+          stroke="#2a78d6" stroke-width="2" />
+          <circle cx="${targetX}" cy="${targetY}" r="6" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" />`;
+      });
+      svg.innerHTML = svgHTML;
+
+      const badgeColors = { "slot-2": "#eb6834", "slot-3": "#1baf7a", "slot-4": "#eda100", "slot-1": "#2a78d6" };
+      const badgesEl = document.getElementById("badges");
+      DATA.badgeFeatures.forEach(b => {
+        const chip = document.createElement("div");
+        chip.className = "badge";
+        chip.style.background = badgeColors[b.accent] || "#52514e";
+        chip.textContent = b.label;
+        badgesEl.appendChild(chip);
+      });
+    }
+
+    if (img.complete) { renderCallouts(); } else { img.addEventListener("load", renderCallouts); }
+  </script>
+</body>
+</html>

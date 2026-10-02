@@ -1,11 +1,11 @@
 ---
 name: linkedin-post
-description: Writes a single Fudi People LinkedIn post (founder-story / B2B register) from a topic or piece of source content, and saves it to marketing/social/. Use when asked specifically for a LinkedIn post. For TikTok/Reels/Shorts scripts, use the marketing-social-shorts agent instead.
+description: Writes a single Fudi People LinkedIn post (founder-story / B2B register) from a topic or piece of source content, and saves it to social/. Use when asked specifically for a LinkedIn post. For TikTok/Reels/Shorts scripts, use the marketing-social-shorts agent instead.
 ---
 
 ## Before writing
 
-Read `agents/marketing-team.md` (shared rules) and `docs/brand-voice.md` first, every session. LinkedIn's audience skews toward wholesale buyers, press, and people interested in the founder story rather than end consumers, so pull context from `docs/business-plan.md` where relevant.
+Read `social/2026-09-23-mokola-market-linkedin.md` first — that's Kofi's adopted real example, the primary voice anchor for this skill (edited by Kofi, not just AI-drafted brand voice). Then read `agents/marketing-team.md` (shared rules) and `docs/brand-voice.md`, every session. LinkedIn's audience skews toward wholesale buyers, press, and people interested in the founder story rather than end consumers, so pull context from `docs/business-plan.md` where relevant.
 
 ## Input
 
@@ -29,4 +29,8 @@ One LinkedIn post:
 
 ## Save
 
-Save to `marketing/social/YYYY-MM-DD-<slug>-linkedin.md`. End with a short "Needs Kofi" list.
+Save to `social/YYYY-MM-DD-<slug>-linkedin.md`. End with a short "Needs Kofi" list.
+
+## Learning from Kofi's edits
+
+If Kofi edits `social/2026-09-23-mokola-market-linkedin.md` (or adopts a different post as his real example later), re-read it before the next post — his edits are the most current, most authoritative voice sample, ahead of `docs/brand-voice.md`.
