@@ -1,6 +1,6 @@
 # FUDI PEOPLE — AI CONTENT TEAM — SYSTEM BLUEPRINT
 
-*Spices of the world, through an African lens — from Mokola Market, Accra
+*Spices of the world, through an African lens — from Makola Market, Accra
 to the chilli & okra farm in London. A multi-agent research, writing,
 design & publishing system.*
 
@@ -27,7 +27,7 @@ One team, six specialist agents, one orchestrator, and you as the final approver
 | Agent 2 — Knowledge & Voice | Holds the Science of Spices book + your personal voice profile |
 | Agent 3 — Script Writer | Produces the "as-is" version and the "Fudi People" remix |
 | Agent 4 — Thumbnail Designer | Recreates winning thumbnail layouts in your brand style |
-| Agent 5 — Editing (Phase 2) | Rough-cuts, captions, splices in your Mokola Market clip |
+| Agent 5 — Editing (Phase 2) | Rough-cuts, captions, splices in your Makola Market clip |
 | Agent 6 — Publishing | Uploads privately, waits for your approval, then goes live |
 
 ---
@@ -99,7 +99,7 @@ book, and hold your personal story so every script sounds like you.
 | Storage | Free open-source local vector store (e.g. Chroma or SQLite) so any agent can search "black pepper history" instantly |
 | Citation rule | Every historical/scientific claim sourced from the book gets a short spoken on-camera attribution ("according to Dr Farrimond..."); full page/chapter reference is kept in your private notes, not read aloud |
 | Copyright guardrail | Book content is background research only — the Script Writer always paraphrases in your voice, never quotes passages directly |
-| Voice profile | Built from 5–10 of your existing transcripts (pulled free from YouTube Studio captions) + a short written memo from you about your mum and Mokola Market |
+| Voice profile | Built from 5–10 of your existing transcripts (pulled free from YouTube Studio captions) + a short written memo from you about your mum and Makola Market |
 
 ### Agent 3 — Script Writer
 
@@ -109,7 +109,7 @@ two versions every time.
 | Field | Detail |
 |---|---|
 | Version A — "As-is" | Matches the outlier video's intro formula/pacing/structure closely (not word-for-word — the format) |
-| Version B — "Fudi People" | Same proven structure, rewritten in your voice: Ghana → Mokola Market → the farm → the spice science → the recipe payoff |
+| Version B — "Fudi People" | Same proven structure, rewritten in your voice: Ghana → Makola Market → the farm → the spice science → the recipe payoff |
 | Intro template | ~10 seconds: state what the video covers + the payoff (e.g. "the perfect spice blend and recipe you'll walk away with") |
 
 ### Agent 4 — Thumbnail Designer
@@ -136,7 +136,7 @@ video creatively" tools are least mature.
 | Field | Detail |
 |---|---|
 | Transcription | Whisper (OpenAI, open source) — free, local, transcribes your raw footage |
-| Cutting / splicing | FFmpeg (free, open source) — cuts, crops, burns in captions, auto-inserts your Mokola Market clip into every intro |
+| Cutting / splicing | FFmpeg (free, open source) — cuts, crops, burns in captions, auto-inserts your Makola Market clip into every intro |
 | Realistic expectation | Auto-captioning and rough-cut assembly are realistic to automate now. True creative AI editing is not reliably free yet — budget for this being semi-manual for 6–12 months |
 
 ### Agent 6 — Publishing
@@ -219,7 +219,7 @@ finding your format.
 | 1 — Foundation | Week 1–2 | YouTube API key + Google Sheet set up; pull 5–10 of your own transcripts; write your voice memo; get the Science of Spices book into text form |
 | 2 — Research + Writing | Week 2–3 | Build the Outlier Scout (manual/on-demand first); build the Script Writer using your voice profile + book knowledge; test on 3–5 topics |
 | 3 — Visual + Automation | Week 3–4 | Build the Thumbnail agent on the free tier; wire Agents 1, 3, 4 into an n8n daily workflow → Sheet → email |
-| 4 — Editing + Publishing | Month 2+ | Add Whisper/FFmpeg rough-cuts + Mokola Market splice; add the Publishing agent with private-upload-then-approve; only then build a Shorts repurposing agent |
+| 4 — Editing + Publishing | Month 2+ | Add Whisper/FFmpeg rough-cuts + Makola Market splice; add the Publishing agent with private-upload-then-approve; only then build a Shorts repurposing agent |
 
 ---
 
@@ -228,10 +228,10 @@ finding your format.
 | # | Item | Purpose |
 |---|---|---|
 | 1 | 5–10 transcripts from your existing videos | Trains the voice profile (pull from YouTube Studio captions, free) |
-| 2 | A short written voice memo | Your own words on Mokola Market, your mum, and the farm |
+| 2 | A short written voice memo | Your own words on Makola Market, your mum, and the farm |
 | 3 | Science of Spices content (PDF/photos of pages) | Builds the knowledge base now rather than later |
 | 4 | A handful of your own photos | Reference library for the Thumbnail agent |
-| 5 | The Mokola Market clip(s) you want used | Confirmed footage for every video's intro |
+| 5 | The Makola Market clip(s) you want used | Confirmed footage for every video's intro |
 
 Send any of these whenever you're ready, and the next step is building the
 actual voice-profile document, the knowledge base structure, and a

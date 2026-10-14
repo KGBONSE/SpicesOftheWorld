@@ -39,8 +39,8 @@ function fudi_seo_meta() {
 	}
 	if ( is_page( 'about-us' ) ) {
 		return array(
-			'Our Story ' . $n . ' From Mokola Market to a Farm in Sidcup | Fudi People',
-			'Fudi People started at Mokola Market in Accra, Ghana. Today we grow chillies and okra on our own farm in Sidcup, London, and hand-blend every spice mix ourselves.',
+			'Our Story ' . $n . ' From Makola Market to a Farm in Sidcup | Fudi People',
+			'Fudi People started at Makola Market in Accra, Ghana. Today we grow chillies and okra on our own farm in Sidcup, London, and hand-blend every spice mix ourselves.',
 		);
 	}
 	if ( is_page( 'where-to-buy' ) ) {

@@ -45,7 +45,7 @@ Biggest time-saver there is.
 ### Session 1 — Talking to Camera (indoors, quiet room, window light)
 Same spot, same outfit, filmed back to back so they cut together:
 1. **Intro** (~10 sec) — "Today we're going back to West Africa…"
-2. **Personal Hook** — the Mokola Market memory. The emotional heart of
+2. **Personal Hook** — the Makola Market memory. The emotional heart of
    the episode — take your time, a few takes.
 3. **Geography & Origin** — "Grains of paradise… West Africa… Ghana…"
 4. **Trade & Migration History** — "Arab and Berber traders…"

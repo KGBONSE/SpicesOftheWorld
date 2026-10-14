@@ -2,7 +2,7 @@
 
 Follows on from `refresh/CHECKLIST.md` (the handle, banner, profile picture
 and Facebook bio are already done there). Channel state checked 2026-09-29:
-**@fudi.people, 49 subscribers, 1 Short (Mokola Market, Aug 2026) + 11 videos
+**@fudi.people, 49 subscribers, 1 Short (Makola Market, Aug 2026) + 11 videos
 from 2018.**
 
 ---
@@ -14,7 +14,7 @@ from 2018.**
 **"From the farm"**: new farm content, plus the 2018 growing videos, which already fit
 | Video | Year |
 |---|---|
-| Mokola Market: The Story Behind Fudi People (Short) | 2026 |
+| Makola Market: The Story Behind Fudi People (Short) | 2026 |
 | *(add the smoker reel and the harvest Short once posted in October)* | 2026 |
 | Organic farming | 2018 |
 | Inspiring people to start growing their own food | 2018 |
@@ -50,7 +50,7 @@ Keep the Home tab to these three for now. Empty-looking sections put new visitor
 
 ### 3. Featured video (Customise channel → Layout → Featured video)
 
-The featured video and trailer slots are meant for full-length videos (if YouTube does let you pick the Mokola Short, it's worth trying), and the channel's only new video is a Short.
+The featured video and trailer slots are meant for full-length videos (if YouTube does let you pick the Makola Short, it's worth trying), and the channel's only new video is a Short.
 - **For now:** feature **"Stop eating those powdered fufu…"** for returning subscribers. It's your most-watched video and it's Ghanaian.
 - Leave the **channel trailer for new visitors** empty until Episode 1 is published, then make Episode 1 the trailer.
 
@@ -110,7 +110,7 @@ Category: **Food & Beverage Company** (or **Farm**).
 Pin 3 things, in this order:
 1. The **smoker reel** (after you post it on 9 Oct)
 2. The **"Meet Fudi People"** intro post (6 Oct)
-3. The **Mokola Market** video
+3. The **Makola Market** video
 
 This is also where the Cowork item "swap any pinned meat and fish posts for a chilli-smoking post" gets done.
 

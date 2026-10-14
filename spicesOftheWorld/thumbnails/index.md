@@ -66,6 +66,6 @@ included a 2:53 talking-to-camera video, see `video/README.md`.
 ## Gap
 
 No dedicated **market** photography (decided 2026-07-24 not to pursue —
-too long since the Mokola Market visit; market stays a spoken/narrated
+too long since the Makola Market visit; market stays a spoken/narrated
 element via the voiceover instead). See `episode-01-brief.md` for how
 these slot into an actual thumbnail.

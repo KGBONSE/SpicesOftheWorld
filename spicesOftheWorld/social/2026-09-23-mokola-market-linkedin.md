@@ -1,4 +1,4 @@
-I grew up walking through Mokola Market in Accra with my mother, and I didn't know it at the time, but that market planted the seeds for the business I run today.
+I grew up walking through Makola Market in Accra with my mother, and I didn't know it at the time, but that market planted the seeds for the business I run today.
 
 She'd go straight to the traders she trusted — the ones with the dried chillies that actually had depth, not just heat. I was a kid trailing behind her, but I was absorbing something without realising it: that a spice blend is never just a list of ingredients. It's a place, a history, and usually someone who knows exactly what they're doing.
 

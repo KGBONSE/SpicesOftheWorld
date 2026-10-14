@@ -9,7 +9,7 @@ list and wait for his OK. Checkout is OFF.
 
 1. **Sankofa:** confirm the symbol on the printed Africa label really is
    Sankofa. The caption says it is, and the artwork hasn't been checked.
-2. **Mokola caption:** the opening line paraphrases your voiceover. Change it
+2. **Makola caption:** the opening line paraphrases your voiceover. Change it
    to your own words if it doesn't sound right.
 
 ## The 7 days
@@ -45,10 +45,10 @@ It's already on YouTube, so this post is a trailer. If the full 2m16s is too lon
 for a Reel, trim to the first 60 to 90 seconds before uploading.
 
 **Instagram Reel, Facebook Reel and TikTok:**
-> Growing up in Ghana, some of my favourite memories are of Mokola Market in Accra, the colours, the noise, the smell of the spices, the trips I took there with my mum. That's where it all started for Fudi People. The full story is on our YouTube channel, @fudi.people, link in bio.
+> Growing up in Ghana, some of my favourite memories are of Makola Market in Accra, the colours, the noise, the smell of the spices, the trips I took there with my mum. That's where it all started for Fudi People. The full story is on our YouTube channel, @fudi.people, link in bio.
 >
-> #mokolamarket #accra #ghana #spices #foodheritage #fudipeople
+> #makolamarket #accra #ghana #spices #foodheritage #fudipeople
 
-**X:** Where Fudi People started: Mokola Market, Accra 🇬🇭 The full story is on YouTube → youtube.com/@fudi.people
+**X:** Where Fudi People started: Makola Market, Accra 🇬🇭 The full story is on YouTube → youtube.com/@fudi.people
 
 (No YouTube Short: the full video is already on the channel.)

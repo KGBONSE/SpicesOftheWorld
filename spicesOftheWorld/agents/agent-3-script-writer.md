@@ -27,7 +27,7 @@ Every episode follows this structure:
 3. **History** — trade routes, migration, cultural history of the spice.
 4. **The Blend** — how it's used in blending, ratios, pairing science.
 5. **The Dish** — a classic dish demonstration using the spice.
-6. **Africa Link / Throughline Close** — connect back to the brand, the farm, and (where it arises naturally) Mokola Market and his mother. This is the section most likely to carry the "planted the seeds for..." motif.
+6. **Africa Link / Throughline Close** — connect back to the brand, the farm, and (where it arises naturally) Makola Market and his mother. This is the section most likely to carry the "planted the seeds for..." motif.
 7. **Closing CTA** — one line, spoken and on-screen, after the Close: full written recipe and the exact spice blend are up at fudipeople.com. Keep the recipe itself fully in the video (see below) — the CTA drives to the website for the ready-made blend and a printable card, not to gate the recipe.
 
 ## Kofi's Voice — Apply Throughout, Especially Sections 1 and 6
@@ -38,7 +38,7 @@ Adjective-stacking: 2–3 emotionally-charged adjectives before key nouns, varie
 
 End emotionally-driven passages on an expanding list, not a hard stop.
 
-References to his mother: rare, natural, unforced — only where the topic genuinely connects (e.g. Mokola Market, spices she used, market memories). Never insert for effect, never in sections 2–5 (geography/history/blend/dish) unless there's a real, direct connection.
+References to his mother: rare, natural, unforced — only where the topic genuinely connects (e.g. Makola Market, spices she used, market memories). Never insert for effect, never in sections 2–5 (geography/history/blend/dish) unless there's a real, direct connection.
 
 "Planted the seeds for..." — use as an intentional recurring motif, ideally once per episode, most naturally in the Hook or the Close.
 

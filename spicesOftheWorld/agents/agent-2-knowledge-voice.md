@@ -61,7 +61,7 @@ Avoid: culinary-industry jargon, corporate marketing language, short punchy ad-c
 
 ## Spelling & Facts to Get Right
 
-- The market is "Mokola Market," Accra, Ghana — never "Makola."
+- The market is "Makola Market," Accra, Ghana — never "Mokola" (an earlier misspelling).
 - Brand name is "Fudi People."
 - Three chilli oil flavours: Spices of Africa, Spices of South Asia, Spices of East Asia.
 - Kofi grows chillies and okra on a farm in Sidcup, London.

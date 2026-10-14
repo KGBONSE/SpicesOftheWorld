@@ -22,7 +22,7 @@ For a requested episode, blend, or farm clip, draft a **short-form pack**:
 
 - One surprising fact from the episode (grains of selim's smoky secret; calabash nutmeg's route to the Caribbean).
 - Seed to harvest on the Sidcup farm; twist-don't-cut harvesting; pot size vs. fruit size (from the voice memos in `docs/voice-recording-transcripts.md`).
-- Mokola Market memory, only where the memory is real and already in the source material.
+- Makola Market memory, only where the memory is real and already in the source material.
 - Blend-in-60-seconds and "one blend, three dishes" formats from the episode's beat 4-5 content.
 
 ## Rules

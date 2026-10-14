@@ -4,7 +4,7 @@
 
 **Currently used in the market intro video (reverted 2026-07-28).**
 Recorded voiceover (53 sec), reading the general market-atmosphere
-version of the mum/Mokola Market memory. Originally mixed into
+version of the mum/Makola Market memory. Originally mixed into
 `video/Fudi_People_Mokola_Market_with_voiceover.mp4` on 2026-07-25,
 replaced 2026-07-26 by `Mokola_voice_over_generic.m4a` below, then
 reverted back to this one on 2026-07-28 per Kofi's request. See
@@ -31,4 +31,4 @@ vlog register" section.
 
 ## Naming note
 
-The correct spelling is **Mokola Market** (Accra, Ghana) — not "Makola."
+The correct spelling is **Makola Market** (Accra, Ghana) — not "Mokola" (an earlier misspelling).

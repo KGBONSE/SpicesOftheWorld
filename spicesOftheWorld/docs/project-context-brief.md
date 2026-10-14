@@ -14,7 +14,7 @@ Made with farm-grown chillies and dried spices, sold direct-to-consumer and whol
 
 ## 2. Personal / Emotional Anchor
 
-**Mokola Market** in Accra, Ghana (correct spelling — NOT "Makola") is the emotional and narrative anchor for the brand. Kofi visited it as a child with his late mother, and the brand is in part a tribute to her. Core memory line (his own words, to be used as narration/intro):
+**Makola Market** in Accra, Ghana (correct spelling — NOT "Mokola", an earlier misspelling) is the emotional and narrative anchor for the brand. Kofi visited it as a child with his late mother, and the brand is in part a tribute to her. Core memory line (his own words, to be used as narration/intro):
 
 > "Growing up in Ghana, my favourite memories were the trips I took with my mum, God bless her soul, to one of the busiest, liveliest, most vibrant markets in the country, bursting with the most amazing spices you could imagine. Those trips planted the seeds for my lifelong love for spices, farming, and cooking."
 
@@ -26,7 +26,7 @@ Every YouTube episode follows this structure:
 3. **History** — trade routes, migration, cultural history
 4. **The Blend** — usage, ratios, pairing science
 5. **The Dish** — a classic dish demonstration
-6. **Africa Link / Throughline Close** — ties back to brand, farm, and (where natural) Mokola Market / his mother
+6. **Africa Link / Throughline Close** — ties back to brand, farm, and (where natural) Makola Market / his mother
 
 ## 4. The Six-Agent n8n Content Pipeline
 
@@ -52,21 +52,21 @@ Orchestrated via n8n, zero-cost-to-start philosophy (self-hosted, not paid Cloud
 - **n8n local install steps** (`06-n8n-local-install-steps.md`) — how to get n8n running for free (self-hosted via Docker) plus Anthropic API and Google Drive credential setup.
 - **Science of Spice knowledge base** — built separately across regional chapters (Africa, Middle East, South Asia, Southeast Asia, East Asia, Americas, Europe), a master spice science profiles doc, a recipes markdown file, and a three-tab Excel spreadsheet. **NOT included in this export** — these files live in an earlier chat session's outputs and were not re-uploaded to this conversation. See "Known Gaps" below.
 - **Video assets** (in `/media`):
-  - `Fudi_People_Mokola_Market.mp4` — compiled market intro video (title card + 5 clips, corrected "Mokola" spelling, crossfade/title treatment)
+  - `Fudi_People_Mokola_Market.mp4` — compiled market intro video (title card + 5 clips, title card still spelled the old way, "Mokola" — needs re-rendering as "Makola", crossfade/title treatment)
   - `Family_Okra_Harvest_Clip.mp4` — extracted 109-second continuous take of family harvesting okra on the Sidcup farm, normalized to match the market video's format (720x1280 vertical)
 
 ## 6. Known Gaps / Outstanding To-Dos
 
 1. **Voice profile transcripts** — only 2 of the recommended 5–10 source transcripts were actually processed (Mokola1, Mokola2). More would strengthen the profile further.
 2. **Science of Spice batch 2–8 spice photos (~40 spices)** — this content was discussed and wri9tten up in an earlier session but never saved as standalone files, so it only exists in that earlier chat's history. Needs re-upload of the original book photos to fully recover.
-3. **Voiceover recording** — Kofi intended to record himself reading the Mokola Market memory as a voiceover for the video intro. Not yet received.
-4. **Farm video structure decision** — Kofi has not yet decided whether the fuller farm/family video should be its own standalone piece or merged with the Mokola Market video. Currently deferred pending his review of the extracted family clip.
+3. **Voiceover recording** — Kofi intended to record himself reading the Makola Market memory as a voiceover for the video intro. Not yet received.
+4. **Farm video structure decision** — Kofi has not yet decided whether the fuller farm/family video should be its own standalone piece or merged with the Makola Market video. Currently deferred pending his review of the extracted family clip.
 5. **Thumbnail reference photos** — 5 selfie photos were received and assessed (2 clean "presenter" shots, 1 casual/personality shot, 2 weaker due to lighting/resolution). No dedicated farm-context/work-clothes photo yet, which was flagged as the most on-brand thumbnail option still missing.
 6. **n8n instance** — not yet set up as of this export. Kofi confirmed: no n8n instance running yet, will use Claude (Anthropic API) as the model, Google Drive not yet connected.
 
 ## 7. Brand/Spelling Facts to Preserve
 
-- Market name: **Mokola Market**, Accra, Ghana (not "Makola" — this was an early correction that must be applied consistently everywhere)
+- Market name: **Makola Market**, Accra, Ghana (not "Mokola" — corrected, must be applied consistently everywhere)
 - Brand name: **Fudi People**
 - Three product lines: Spices of Africa, Spices of South Asia, Spices of East Asia
 - Farm location: Sidcup, London

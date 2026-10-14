@@ -9,7 +9,7 @@ Hi there,
 
 I want to tell you about a market, because it's the reason any of this exists.
 
-Mokola Market in Accra was where my mother did her shopping when I was a boy, and I used to go with her. I don't remember it as one clear memory so much as a feeling — the noise, the colour of the stalls, the smell of dried pepper and smoked fish everywhere you turned. She always knew exactly which trader to go to, which pile of dried chillies had the depth she was after. I was just trailing along behind her, but that market planted the seeds for everything I'm building now.
+Makola Market in Accra was where my mother did her shopping when I was a boy, and I used to go with her. I don't remember it as one clear memory so much as a feeling — the noise, the colour of the stalls, the smell of dried pepper and smoked fish everywhere you turned. She always knew exactly which trader to go to, which pile of dried chillies had the depth she was after. I was just trailing along behind her, but that market planted the seeds for everything I'm building now.
 
 These days the market is a small farm in Sidcup, on the edge of London, where I grow and smoke-dry the chillies myself, along with okra and the dried spices that go into every Fudi People blend. It's all packed out of a home kitchen registered with the local Environmental Health Officer — small, on purpose, while I get each blend right.
 

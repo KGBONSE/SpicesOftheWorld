@@ -17,7 +17,7 @@ core signatures above, which stay specific to reflective narration.
 
 - **Warm, memory-driven, and unhurried.** The narration doesn't state
   facts — it arrives at them through personal recollection. Even a simple
-  geographic fact ("Mokola Market is in Accra, Ghana") gets routed through
+  geographic fact ("Makola Market is in Accra, Ghana") gets routed through
   "growing up," "my favourite memories," "the trips I took with my mum."
 - **Builds emotionally before it informs.** Sentences open with feeling or
   memory, widen into description, then land on a reflective or
@@ -77,7 +77,7 @@ core signatures above, which stay specific to reflective narration.
 | Authority | Earned through lived experience and memory, not lecturing or "expert" framing |
 | Humor | Not prominent — voice is sincere rather than comedic |
 
-Rooted in specific place and memory (Mokola Market, Accra; the Sidcup
+Rooted in specific place and memory (Makola Market, Accra; the Sidcup
 farm) rather than generic food-history narration. History and spice
 science are always told through Kofi's own lived connection to them.
 

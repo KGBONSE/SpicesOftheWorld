@@ -68,7 +68,7 @@ Farrimond's Africa chapter is organized by sub-region rather than spice-by-spice
 - **Flavour identity:** the region splits along colonial-era language lines — Francophone cooking favours mustard paste and souring agents like vinegar or lemon (e.g. Senegalese poulet yassa), while Anglophone cooking builds depth through smoked, fermented, and dried ingredients (dried/smoked crayfish, fermented locust beans).
 - **Trade/history:** jollof rice originated in Senegal and has since become one of West Africa's most globally recognized dishes. Durban (Southern Africa) is noted as the largest Indian city outside India — relevant context if you're drawing a line from West Africa through to Southern Africa's Indian-influenced cooking.
 - **Local blend recipe — Yaji:** combine grains of Selim, whole Ashanti pepper, crushed kuli-kuli (peanut puffs), ginger powder, cayenne pepper flakes, a crumbled stock cube, salt, and black pepper — the marinade spice mix for suya street-food kebabs.
-- **This is your home territory** — Ghana sits in this region, so this is likely your richest source of direct personal-story material alongside Mokola Market footage.
+- **This is your home territory** — Ghana sits in this region, so this is likely your richest source of direct personal-story material alongside Makola Market footage.
 
 ---
 

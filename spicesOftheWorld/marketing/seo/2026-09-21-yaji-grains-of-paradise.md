@@ -26,7 +26,7 @@ Meta: Yaji is the dry spice rub behind two of West Africa's best-loved street fo
 
 ### Yaji Spice Blend: The West African Rub Behind Suya and Chinchinga
 
-Growing up in Ghana, there was one stall at Mokola Market my mum, God bless her soul, would always stop at — before we even got to the fish, before the plantain, before the koobi, before anything else. She'd pick up a handful of small, reddish-brown seeds, crack one between her fingers, and let me smell it. Sharp, peppery, warm — nothing like the black pepper I knew from school dinners back home. That smell planted the seeds for everything that came after: my love for spices, for farming, for cooking. So today, I want to take you back to that exact stall, for the spice Europe once called "grains of paradise."
+Growing up in Ghana, there was one stall at Makola Market my mum, God bless her soul, would always stop at — before we even got to the fish, before the plantain, before the koobi, before anything else. She'd pick up a handful of small, reddish-brown seeds, crack one between her fingers, and let me smell it. Sharp, peppery, warm — nothing like the black pepper I knew from school dinners back home. That smell planted the seeds for everything that came after: my love for spices, for farming, for cooking. So today, I want to take you back to that exact stall, for the spice Europe once called "grains of paradise."
 
 #### Where it actually comes from
 
@@ -84,13 +84,13 @@ The full recipe is right here, no gate, no signup required. If you'd rather skip
 Yaji is a West African dry spice rub built on grains of selim, ginger and chilli — the blend behind Ghana's chinchinga and Nigeria's suya, grown and mixed with chillies from our own farm in Sidcup, London.
 
 **Long description (memory-first, but leads with what it is):**
-Yaji is a West African dry spice rub — grains of selim, dry chillies, crushed peanut puffs, ginger, stock cube, salt and black pepper — used to season grilled meat skewers known as chinchinga in Ghana and suya in Nigeria. For Kofi, it starts further back than any kitchen: at a single stall in Mokola Market, Accra, where his mother would crack a grains-of-paradise seed between her fingers and let him smell it before anything else on the shopping list. That memory is what led, years later, to a farm in Sidcup, London, growing the same chillies and spices that go into this jar today. Rub it onto skewers before the grill, dust it over roasted plantain or corn, or use it the way it's used across Ghana and Nigeria's markets — as a rub for kilishi, the region's dried spiced beef. *`[VERIFY ALLERGENS AGAINST SUPPLIER]` — contains peanuts (kuli-kuli).*
+Yaji is a West African dry spice rub — grains of selim, dry chillies, crushed peanut puffs, ginger, stock cube, salt and black pepper — used to season grilled meat skewers known as chinchinga in Ghana and suya in Nigeria. For Kofi, it starts further back than any kitchen: at a single stall in Makola Market, Accra, where his mother would crack a grains-of-paradise seed between her fingers and let him smell it before anything else on the shopping list. That memory is what led, years later, to a farm in Sidcup, London, growing the same chillies and spices that go into this jar today. Rub it onto skewers before the grill, dust it over roasted plantain or corn, or use it the way it's used across Ghana and Nigeria's markets — as a rub for kilishi, the region's dried spiced beef. *`[VERIFY ALLERGENS AGAINST SUPPLIER]` — contains peanuts (kuli-kuli).*
 
 ---
 
 ## Image alt text suggestions
 
-- Mokola Market spice stall close-up: "Grains of paradise and grains of selim seeds at a spice stall in Mokola Market, Accra"
+- Makola Market spice stall close-up: "Grains of paradise and grains of selim seeds at a spice stall in Makola Market, Accra"
 - Sidcup farm/polytunnel shot: "Chillies growing in the Fudi People polytunnel, Sidcup, London"
 - Yaji rub texture close-up: "Ground Yaji spice rub — grains of selim, chilli, ginger and peanut puffs"
 - Grilling shot: "Chinchinga skewers coated in Yaji rub, grilling over open fire"

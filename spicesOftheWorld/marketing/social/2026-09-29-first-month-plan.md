@@ -93,13 +93,13 @@ or `video/Harvest_Cutting_Closeup_Clip.mp4` with the same on-screen text.
 *(The Cowork caption as it was. It already sounds like you.)*
 
 ### Fri 23 Oct: video, `video/Fudi_People_Mokola_Market_with_voiceover_upscaled_1080p.mp4`
-Your Mokola Market intro with your own voiceover. It's already on YouTube,
+Your Makola Market intro with your own voiceover. It's already on YouTube,
 so this post is a trailer that sends people to the channel.
-> Growing up in Ghana, some of my favourite memories are of Mokola Market in Accra, the colours, the noise, the smell of the spices, the trips I took there with my mum. That's where it all started for Fudi People. The full story is on our YouTube channel, @fudi.people, link in bio.
+> Growing up in Ghana, some of my favourite memories are of Makola Market in Accra, the colours, the noise, the smell of the spices, the trips I took there with my mum. That's where it all started for Fudi People. The full story is on our YouTube channel, @fudi.people, link in bio.
 >
-> #mokolamarket #accra #ghana #spices #foodheritage #fudipeople
+> #makolamarket #accra #ghana #spices #foodheritage #fudipeople
 
-**X:** Where Fudi People started: Mokola Market, Accra 🇬🇭 The full story is on YouTube → youtube.com/@fudi.people
+**X:** Where Fudi People started: Makola Market, Accra 🇬🇭 The full story is on YouTube → youtube.com/@fudi.people
 
 *(Check the first line against how you really remember it; see Needs Kofi.)*
 
@@ -148,6 +148,6 @@ new phone photo of jars lined up in the kitchen.
 2. **"6 regions"** appears in the Instagram bio and the YouTube description. The shop has blends live for 5 regions (Africa, Middle East, South Asia, East Asia, Americas), and Europe and Southeast Asia are still empty. Change it to "5 regions", or just "from around the world".
 3. **Wet blends are for sale on the live shop.** Yassa, Harissa, Niter Kibbeh and the Zhug-style blend are published, but your marketing rules say these aren't shelf-stable yet and shouldn't be promoted. This plan avoids them. Worth checking before checkout reopens. The Africa category intro line and llms.txt also name yassa and harissa.
 4. **Wholesale (week 4):** before that post goes out, you need wholesale prices and a minimum order `[OPEN]`. The Email & Wholesale agent can draft the price sheet and a reply template.
-5. **Week 3 caption:** the opening line paraphrases your Mokola Market voiceover. Change it to your own words if it doesn't sound right.
+5. **Week 3 caption:** the opening line paraphrases your Makola Market voiceover. Change it to your own words if it doesn't sound right.
 6. **Sankofa on the Africa label (week 3):** confirm the symbol on the printed label really is Sankofa. The Cowork caption says it is, and I haven't seen the artwork.
 7. **Kitchen visits (week 2)** are "by arrangement". Confirm you're happy to invite local people in, and how you'd like them to get in touch (WhatsApp is assumed).

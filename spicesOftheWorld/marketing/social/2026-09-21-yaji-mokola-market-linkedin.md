@@ -1,4 +1,4 @@
-# LinkedIn Post — Episode 1: Yaji / Mokola Market Founder Story
+# LinkedIn Post — Episode 1: Yaji / Makola Market Founder Story
 
 **Source:** `scripts/episode-01-west-africa-yaji.md`
 **Status:** Draft for review — not posted
@@ -7,7 +7,7 @@
 
 ## Hook line
 
-There was one stall at Mokola Market in Accra my mum always stopped at first — before the fish, before the plantain, before anything else.
+There was one stall at Makola Market in Accra my mum always stopped at first — before the fish, before the plantain, before anything else.
 
 ## Body
 

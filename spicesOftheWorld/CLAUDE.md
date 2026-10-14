@@ -15,8 +15,8 @@ wholesale. Website: **fudipeople.com** (functional, still under
 construction) — every episode script closes on a spoken CTA pointing here
 for the full recipe + the ready-made blend.
 
-Personal anchor of the brand: **Mokola Market** in Accra, Ghana (note correct
-spelling — not "Makola"), which Kofi visited as a child with his late mother.
+Personal anchor of the brand: **Makola Market** in Accra, Ghana (note correct
+spelling — formerly written "Mokola" in earlier drafts), which Kofi visited as a child with his late mother.
 The brand carries that memory forward, telling global spice history through
 an African lens.
 
@@ -42,7 +42,7 @@ still finding the format. Full breakdown: `docs/system-blueprint.md` section 5.
 **2026-07-15 — big import:** Kofi located and pulled in a large batch of files
 he'd built across several earlier claude.ai chat sessions (zips in his
 Downloads folder) — the knowledge base, a refined voice profile, ready-to-paste
-n8n system prompts for Agents 2 & 3, two compiled videos, the Mokola Market
+n8n system prompts for Agents 2 & 3, two compiled videos, the Makola Market
 voiceover recording, and real thumbnail reference photos. Most of the
 blueprint's "Phase 1 — Foundation" gap is now closed.
 
@@ -153,7 +153,7 @@ signatures confirmed across all three are treated as core:
 4. Mix in the voiceover audio track
 
 Real assets now in the repo:
-- `video/Fudi_People_Mokola_Market.mp4` — compiled Mokola Market intro
+- `video/Fudi_People_Mokola_Market.mp4` — compiled Makola Market intro
 - `video/Family_Okra_Harvest_Clip.mp4` — normalised family harvest clip,
   Sidcup farm — stays its own standalone piece, not merged with the market video
 - `audio/Mokola_voice_over_2.m4a` — recorded voiceover, not yet mixed in (step 4 above)
@@ -190,7 +190,7 @@ earlier chats.
 
 ## Working conventions
 
-- Always spell it **Mokola Market**, never "Makola"
+- Always spell it **Makola Market** (earlier drafts used "Mokola" — that was wrong)
 - Keep the brand voice doc (`docs/brand-voice.md`) as the single source of
   truth for tone — check new scripts against it
 - Treat this CLAUDE.md as living documentation — update it as agents get

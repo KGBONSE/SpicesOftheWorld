@@ -7,7 +7,7 @@
 
 Hi there,
 
-Growing up in Ghana, my favourite memories are the trips I took with my mum to one of the busiest, liveliest markets in the country: Mokola Market. Bursting with the most amazing spices you can imagine, the colours, the aromas, the sounds, the energy of the place — it's one of the most vibrant, unforgettable places I know.
+Growing up in Ghana, my favourite memories are the trips I took with my mum to one of the busiest, liveliest markets in the country: Makola Market. Bursting with the most amazing spices you can imagine, the colours, the aromas, the sounds, the energy of the place — it's one of the most vibrant, unforgettable places I know.
 
 There was one stall she always stopped at first — before the fish, before the plantain, before anything else. She'd pick up a handful of small, reddish-brown seeds, crack one between her fingers, and let me smell it. Sharp, peppery, warm. That's where all of this started for me.
 
@@ -29,7 +29,7 @@ Kofi
 ---
 
 **Needs Kofi:**
-- Drawn from `scripts/episode-01-west-africa-yaji.md`, your real Mokola Market narration recordings (Transcripts A/B in `docs/voice-recording-transcripts.md`), and your new market/shop footage — flag anything that doesn't sound like you before this goes out.
+- Drawn from `scripts/episode-01-west-africa-yaji.md`, your real Makola Market narration recordings (Transcripts A/B in `docs/voice-recording-transcripts.md`), and your new market/shop footage — flag anything that doesn't sound like you before this goes out.
 - No allergen info included in the body (Yaji contains peanuts via kuli-kuli) per the newsletter rules — link to the product page rather than stating it here once that page is live.
 - No specific send date or launch tied to this — swap in a real one (e.g. "episode live now") once the episode and footage are actually cut together.
 - Signed "Kofi" per your updated preference (your real sent emails actually sign as "Mark," but drafts now default to "Kofi" everywhere, per your latest instruction).

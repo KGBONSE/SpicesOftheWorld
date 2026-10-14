@@ -117,7 +117,7 @@ episodes, five arcs, three jars on my shelf, and not one of them was
 flattened into a single story: not Africa, not the Middle East, not South
 Asia, not East Asia, and not the Americas either. Same rule, every single
 time, all the way to the last stop. That's the whole reason I started
-this — Mokola Market planted the seed, and everything since has just been
+this — Makola Market planted the seed, and everything since has just been
 following where it actually led.
 
 **[ON-SCREEN TEXT]:** "34 episodes. 5 arcs. One rule, all the way through."

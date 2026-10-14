@@ -21,14 +21,14 @@ ffmpeg -i final.mp4 -i voiceover.m4a -c:v copy -map 0:v:0 -map 1:a:0 \
 
 ## Assets so far
 
-- `Fudi_People_Mokola_Market.mp4` — compiled vertical Mokola Market intro
-  (title card + 5 clips, corrected "Mokola" spelling, crossfade/title
+- `Fudi_People_Mokola_Market.mp4` — compiled vertical Makola Market intro
+  (title card + 5 clips, title card still spelled the old way, "Mokola" — needs re-rendering as "Makola", crossfade/title
   treatment)
 - `Family_Okra_Harvest_Clip.mp4` — 109-second continuous take of family
   harvesting okra on the Sidcup farm, normalised to match the market
   video's format (720x1280 vertical)
 - Voiceover recorded and ready to mix in: `../audio/Mokola_voice_over_2.m4a`
-  (53 sec, reads the mum/Mokola Market memory — replaces an earlier take
+  (53 sec, reads the mum/Makola Market memory — replaces an earlier take
   that wasn't good enough to use)
 - Polytunnel photo set → see `../thumbnails/index.md`
 
@@ -86,7 +86,7 @@ moving to Git LFS if more raw footage gets added.
 ## Decided
 
 `Family_Okra_Harvest_Clip.mp4` stays its own standalone piece — not merged
-into the Mokola Market video.
+into the Makola Market video.
 
 ## Gap
 
@@ -123,7 +123,7 @@ voiceover over the intro, original audio continuing after — replacing
 variation from the drafted version above is expected and fine, this is
 what's actually in the video):
 
-> "Growing up in Ghana, there was one store at Mokola Market. My mom, God
+> "Growing up in Ghana, there was one store at Makola Market. My mom, God
 > blessed, so, would always stop at before we even got to the fish,
 > before the plantain, before the Kobi, before anything else. She'll pick
 > up a handful of these small ready brown seeds, crack one between the
@@ -166,9 +166,9 @@ AI voice, not Kofi.
 
 **Every segment, real visuals + placeholder AI voice reading the actual script line:**
 - **Intro** — `Presenter_Intro_Talking_Clip.mp4` (Kofi talking to camera, confirmed usable)
-- **Personal Hook** — the base `Fudi_People_Mokola_Market.mp4` footage (real Mokola Market photography), TTS reading the exact locked Hook text
+- **Personal Hook** — the base `Fudi_People_Mokola_Market.mp4` footage (real Makola Market photography), TTS reading the exact locked Hook text
 - **Geography & Origin** — the Ghana map graphic, then a real farm photo (`kofi-standing-among-tomato-pepper-plants-2026.jpg`, Ken Burns zoom), continuous TTS audio across both
-- **Trade & Migration History** — the trade-route map graphic, then a reused real market-stall clip from later in the Mokola Market footage, continuous TTS audio across both
+- **Trade & Migration History** — the trade-route map graphic, then a reused real market-stall clip from later in the Makola Market footage, continuous TTS audio across both
 - **The Science** — real photo `kofi-kneeling-tending-chillies-crate-2026.jpg`, Ken Burns zoom
 - **The Blend** — real photo `harvest-spread-tomatoes-chillies-eggplants-peas.jpg`, Ken Burns zoom
 - **The Dish** — real footage `Harvest_Cutting_Closeup_Clip.mp4` (looped to cover the narration length) — honest remaining limit: no footage anywhere shows the actual dish (skewers/grilling), so this is a stand-in regardless
@@ -299,7 +299,7 @@ history rather than as separate files, same as v1–v5 below). The
 `-v6-broll.mp4` filename no longer exists as a separate file; git/LFS
 history still has the pre-B-roll version if it's ever needed back.
 
-## Added 2026-08-18 — Mokola Market video upscaled
+## Added 2026-08-18 — Makola Market video upscaled
 
 `Fudi_People_Mokola_Market_with_voiceover_upscaled_1080p.mp4` — the
 voiceover version run through Higgsfield's Topaz video upscaler (1080p,

@@ -93,7 +93,7 @@ mobile):
   widget, Fredoka 700, Maroon, clamp-style responsive size (set Desktop
   ~3.4rem, Tablet ~2.6rem, Mobile ~2.2rem in Elementor's responsive size
   controls)
-- Body paragraph (the Mokola Market memory copy) — Text Editor widget,
+- Body paragraph (the Makola Market memory copy) — Text Editor widget,
   Karla 400, Ink-soft, max-width ~46 characters per line (set a max-width
   in px, roughly 520px, so it doesn't stretch full-width)
 - Two buttons side by side: "Shop the Spice Journey" (solid Maroon,
@@ -170,7 +170,7 @@ needed.
 
 **Right column:**
 - Eyebrow "Where It Started" (Caveat)
-- Heading "Mokola Market Planted the Seed." (Fredoka, Maroon)
+- Heading "Makola Market Planted the Seed." (Fredoka, Maroon)
 - Two paragraphs of the founder story (already drafted in the mockup —
   copy directly, it's real brand-voice copy, not placeholder)
 - Pull-quote: "Every spice on this shelf planted the seeds for the next

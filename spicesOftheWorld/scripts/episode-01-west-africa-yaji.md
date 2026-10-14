@@ -15,7 +15,7 @@ that once rivalled black pepper across Europe."
 
 ## 1. Personal Hook
 
-Growing up in Ghana, there was one stall at Mokola Market my mum, God bless
+Growing up in Ghana, there was one stall at Makola Market my mum, God bless
 her soul, would always stop at — before we even got to the fish, before the
 plantain, before the Koobi, before anything else. She'd pick up a handful of these small,
 reddish-brown seeds, crack one between her fingers, and let me smell it.
@@ -26,7 +26,7 @@ take you back to that exact stall, for the spice that Europe once called
 "grains of paradise."
 
 **[ON-SCREEN TEXT]:** "The spice Europe forgot — West Africa never did"
-**[B-ROLL]:** Mokola Market footage, spice stall close-ups
+**[B-ROLL]:** Makola Market footage, spice stall close-ups
 
 ## 2. Geography & Origin
 

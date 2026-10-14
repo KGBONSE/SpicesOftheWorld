@@ -30,7 +30,7 @@ the vlog register ("Hello, hello, Fudi people" ... "Look after yourself, look
 after each other"). Do not merge the two registers.
 
 **Positioning.** Farmer-founder tracing ingredient origins through an African
-lens, not a detached food historian. Anchors: Mokola Market, Accra (never
+lens, not a detached food historian. Anchors: Makola Market, Accra (never
 "Makola"); the Sidcup farm; Sanko, Ghana. Mother references only where they
 arise naturally, never as a marketing device.
 

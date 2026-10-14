@@ -23,7 +23,7 @@ version-controlled record of the edit.
 - `IMG_4702.mov`: main take, full script to camera (front camera, so mirrored; flipped in the edit)
 - `copy/IMG_0603-0619.MOV` + photos: Yaji ingredients, prep, grill, rub, finished plate (9 Aug)
 - `Downloads/IMG_4573 (1).MOV`: overhead grill shot (cold open + Dish section)
-- Repo clips: Mokola Market footage, map B-roll, farm footage, end card
+- Repo clips: Makola Market footage, map B-roll, farm footage, end card
 
 The iPhone footage is HDR (HLG). It's tonemapped to SDR bt709 with zscale + `tonemap=mobius`.
 

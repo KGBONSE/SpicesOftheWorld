@@ -120,7 +120,7 @@ repo. What's left is genuinely short.
       `thumbnails/reference-photos/kofi-solo-potting-seedlings-home-garden.jpg`
       (pulled from raw video `MVI_0135.MP4`, home garden not the Sidcup farm)
 - [x] Market thumbnail photo — decided 2026-07-24 not to pursue; too long
-      since the Mokola Market visit for a real photo. Market stays a
+      since the Makola Market visit for a real photo. Market stays a
       spoken/narrated element via `audio/Mokola_voice_over_2.m4a` instead of
       a thumbnail source.
 - [x] Transcribe the 6 raw voice memos in `audio/raw-voice-memos/`
@@ -134,7 +134,7 @@ repo. What's left is genuinely short.
       register" in `docs/brand-voice.md` rather than merged into the
       core signatures, since merging them would have blurred two
       genuinely different registers together.
-- [ ] Locate/re-source raw Mokola Market video clips if the compiled video
+- [ ] Locate/re-source raw Makola Market video clips if the compiled video
       in `video/` ever needs rebuilding (source contact: Ghana-based)
 - [x] Process the 7 raw seed-to-harvest video clips from `myprojectphotos/`
       (2026-07-25) — pulled 5 more thumbnail stills and cut/normalised 7
@@ -324,7 +324,7 @@ not just drafted-copy handoff docs.
       (Yaji spice blend; Suya/Chinchinga cooking), grounded in
       `scripts/episode-01-west-africa-yaji.md` — saved as Word docs:
       `docs/Yaji-Spice-Blend-Video-Title-Description.docx` and
-      `docs/Suya-Chinchinga-Video-Title-Description.docx`. The Mokola
+      `docs/Suya-Chinchinga-Video-Title-Description.docx`. The Makola
       Market intro video itself was uploaded to Kofi's real YouTube
       channel (`@fudipeople18`) as a Short.
 
@@ -414,7 +414,7 @@ not just drafted-copy handoff docs.
       desktop widths before calling this fully done.
 - [x] **2026-08-16: About Us page photo placeholders filled in** — this
       page turned out to already have real drafted copy (a proper
-      Mokola-Market-opener narrative, matching brand voice) that was never
+      Makola-Market-opener narrative, matching brand voice) that was never
       logged anywhere in this file — an undocumented earlier editing pass.
       But it had 3 literal `[PHOTO PLACEHOLDER — ...]` text blocks showing
       to real site visitors instead of images (market/founder portrait,
@@ -614,7 +614,7 @@ not just drafted-copy handoff docs.
       to generate the `[B-ROLL]` cues already written into every episode
       script (239 across all 34 episodes) — map/trade-route animations
       specifically, not anything with Kofi's face/voice/real specific
-      places (Mokola Market, the Sidcup farm) in it, which stay real
+      places (Makola Market, the Sidcup farm) in it, which stay real
       footage on purpose. Went through Episode 1's 7 cues as the test
       case: only 2 are genuine AI-generation candidates (the "map
       graphic" and "trade route map animation" in cues 2–3), the rest

@@ -1,0 +1,21 @@
+{
+  "name": "ep02-example",
+  "fps": 30,
+  "target_lufs": -14,
+  "work_dir": "work",
+  "output_dir": "output",
+  "overlays_dir": "overlays-vertical",
+  "sources": {
+    "M":   {"path": "raw/main_take.mov", "kind": "hdrflip", "gain": 0.0},
+    "B1":  {"path": "raw/broll1.mov", "kind": "hdr", "gain": 0.0},
+    "END": {"path": "assets/endcard.png", "kind": "png"}
+  },
+  "roomtone": ["M", 10.0, 1.5],
+  "timeline": [
+    {"type": "main", "a0": 5.0, "a1": 40.0, "note": "Hook",
+     "broll": [[12.0, 18.0, "B1", 3.0]],
+     "texts": [["title", 5.5, 10.0]]},
+    {"type": "sync", "src": "B1", "a0": 20.0, "a1": 28.0, "texts": [["l_tip", 20.2, 27.8]], "note": "Tip"},
+    {"type": "card", "src": "END", "dur": 4.0, "audio": "TONE", "note": "End card"}
+  ]
+}

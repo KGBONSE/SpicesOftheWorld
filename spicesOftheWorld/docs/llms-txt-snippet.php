@@ -24,7 +24,7 @@ add_action( 'init', function () {
 > Small-batch chilli oil and spice blends, hand-grown and hand-blended in Sidcup, London.
 
 ## About
-Fudi People started at Mokola Market in Accra, Ghana, and is now run from a working farm in Sidcup, London, where chillies and okra are grown by hand using traditional family methods. Every spice blend and chilli oil is blended in small batches, not made in a factory.
+Fudi People started at Makola Market in Accra, Ghana, and is now run from a working farm in Sidcup, London, where chillies and okra are grown by hand using traditional family methods. Every spice blend and chilli oil is blended in small batches, not made in a factory.
 
 ## What we sell
 - African spice blends and chilli oil - Durban curry masala, harissa, mbongo mix, niter kibbeh, pepper soup spice, pilau masala, yaji, yassa, and chilli oil infused with African spices

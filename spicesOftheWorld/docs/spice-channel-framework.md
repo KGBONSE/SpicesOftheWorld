@@ -1,7 +1,7 @@
 # [Your Channel Name] — Spice Journey Framework
 
 ## Core Story (Your Through-Line)
-Every episode should loop back to this: a kid at Mokola-style markets in Ghana → a chili farm and okra patch in London → a real spice/chili oil brand. You're not a food historian doing a report — you're a farmer/founder tracing where your ingredients come from.
+Every episode should loop back to this: a kid at Makola-style markets in Ghana → a chili farm and okra patch in London → a real spice/chili oil brand. You're not a food historian doing a report — you're a farmer/founder tracing where your ingredients come from.
 
 ---
 

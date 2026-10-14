@@ -20,7 +20,7 @@ Grains of paradise, a market memory, and the West African blend behind it.
 
 Hello,
 
-Growing up in Ghana, there was one stall at Mokola Market my mum, God bless her soul, would always stop at first — before the fish, before the plantain, before anything else on the list. She'd pick up a handful of small, reddish-brown seeds, crack one between her fingers, and let me smell it. Sharp, peppery, warm — nothing like the black pepper I knew from school dinners here. That smell planted the seeds for everything that came after: my love for spices, for farming, for cooking.
+Growing up in Ghana, there was one stall at Makola Market my mum, God bless her soul, would always stop at first — before the fish, before the plantain, before anything else on the list. She'd pick up a handful of small, reddish-brown seeds, crack one between her fingers, and let me smell it. Sharp, peppery, warm — nothing like the black pepper I knew from school dinners here. That smell planted the seeds for everything that came after: my love for spices, for farming, for cooking.
 
 That spice is grains of paradise. Centuries ago, traders carried it across the Sahara to Europe, where it was sold as a cheaper stand-in for real black pepper — in wine, in beer, in kitchens across the continent. Then Europe found a direct sea route to Asia and moved on. Grains of paradise, and its cousin grains of selim, quietly went back to being a West African secret. Ours never left — it just stopped being anyone else's.
 

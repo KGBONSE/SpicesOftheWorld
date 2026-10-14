@@ -34,6 +34,7 @@ SRC = {  # key: (path, kind, gain_dB)  kind: hdr|hdrflip|sdr|png
     "DAUGHTER": (os.path.join(REPO, "video", "Daughter_Okra_Plate_Patio_Clip.mp4"), "sdr", 0.0),
     "MAPG": (os.path.join(REPO, "graphics", "episode-01", "broll", "ep01-broll-ghana-coastline-map.mp4"), "sdr", 0.0),
     "MAPT": (os.path.join(REPO, "graphics", "episode-01", "broll", "ep01-broll-trade-route-animation.mp4"), "sdr", 0.0),
+    "HV":   ("C:/Users/mark/Downloads/New Recording 5 (1).m4a", "audio", -6.0),  # health VO, level-matched to the main take
     "END":  (os.path.join(REPO, "marketing", "social", "refresh", "assets", "video", "endcard.png"), "png", 0.0),
 }
 OVL = os.path.join(HERE, "overlays")
@@ -62,7 +63,7 @@ def sync(src, a0, a1, texts=(), note=""):
     seg(src, a0, a1 - a0, a=src, as_=a0, texts=[(png, t0 - a0, t1 - a0) for png, t0, t1 in texts], note=note)
 
 
-def main_block(a0, a1, broll=(), texts=(), note=""):
+def main_block(a0, a1, broll=(), texts=(), note="", asrc="M"):
     """Main-take audio a0..a1; picture = Kofi's face except broll [(t0,t1,src,vs)].
     texts [(png,t0,t1)] are in main-take source time."""
     cuts = sorted({a0, a1} | {b[0] for b in broll} | {b[1] for b in broll})
@@ -82,7 +83,7 @@ def main_block(a0, a1, broll=(), texts=(), note=""):
         for png, t0, t1 in texts:
             if t1 > s and t0 < e:
                 tx.append((png, max(t0, s) - s, min(t1, e) - s, t0 >= s - 0.01, t1 <= e + 0.01))
-        seg(v, vs, e - s, a="M", as_=s, texts=tx, note=note if first else "", cont=not first)
+        seg(v, vs, e - s, a=asrc, as_=s, texts=tx, note=note if first else "", cont=not first)
         first = False
 
 
@@ -92,7 +93,7 @@ seg(None, 0, 18.4, custom="coldopen", note="Cold open + intro", texts=[("title",
 
 # 1. Personal hook
 main_block(17.6, 71.9, broll=[
-    (17.6, 25.0, "MOK", 3.6),      # one stall at Mokola Market
+    (17.6, 25.0, "MOK", 3.6),      # one stall at Makola Market
     (25.0, 33.9, "MOK", 101.0),    # before the fish, before the plantain...
     (33.9, 36.9, "MOK", 34.0),     # the spice stall (bag of seeds)
     (36.9, 43.7, "I3", 74.0),      # small reddish-brown seeds = grains of paradise
@@ -115,8 +116,18 @@ main_block(179.9, 251.6, broll=[
     (179.9, 188.2, "I3", 65.7),    # grains of paradise close-up
     (204.6, 213.8, "I3", 52.0),    # grains of selim
 ], texts=[("paradol", 186.8, 194.2), ("l_selim", 205.0, 213.6), ("dose", 220.1, 229.9)], note="The science")
-# 4b. Health card (text only for now; Kofi may record the 32s VO to drop in here)
-seg("I3", 46.0, 7.0, a="TONE", texts=[("health", 0.2, 6.9, True, True)], note="Health card")
+# 4b. Health VO (Kofi's separate recording "New Recording 5"), card up front, then
+#     a shot of each spice as he names it. Times are VO seconds.
+main_block(0.0, 46.6, asrc="HV", broll=[
+    (0.0, 7.0, "I3", 46.0),        # "not the only one with a research file" + card
+    (7.0, 12.0, "I3", 1.0),        # grains of selim
+    (12.0, 17.3, "I3", 50.5),      # selim pods
+    (17.3, 27.4, "I3", 31.0),      # ginger powder
+    (27.4, 34.0, "I3", 41.5),      # black pepper
+    (34.0, 38.4, "I11", 3.0),      # the finished Yaji
+    (38.4, 46.6, "I19", 16.0),     # finished plate
+], texts=[("health", 0.2, 6.9), ("l_selim", 7.3, 17.0), ("l_ginger", 17.6, 21.8),
+          ("l_pepper", 27.7, 33.8)], note="Health VO")
 
 # 5. The blend (cut ad-lib 270.9-277.8)
 main_block(253.0, 270.9, broll=[
