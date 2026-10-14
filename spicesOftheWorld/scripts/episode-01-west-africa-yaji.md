@@ -82,12 +82,13 @@ amount of good.
 ## 5. The Blend — Yaji
 
 This is the one that ties Ghana and Nigeria together for me — Yaji. It's
-grains of selim, whole Ashanti pepper,(any good dry chillies) crushed kuli-kuli — that's crushed
+grains of paradise, grains of selim, whole Ashanti pepper,(any good dry chillies) crushed kuli-kuli — that's crushed
 peanut puffs — ginger powder, a crumbled stock
 cube, salt, and black pepper, all combined into one dry rub. Same mix,
-whether you call it chinchinga or suya.
+whether you call it chinchinga or suya. And that list isn't exhaustive — it's
+a starting point, so add your own extra spices and play with the proportions.
 
-**[ON-SCREEN TEXT]:** "YAJI: grains of selim + Fudi people mix smoked dry chillis or any dry chillis + kuli-kuli + ginger  pow+ stock cube + salt + black pepper"
+**[ON-SCREEN TEXT]:** "YAJI: grains of paradise + grains of selim + Fudi people mix smoked dry chillis or any dry chillis + kuli-kuli + ginger  pow+ stock cube + salt + black pepper"
 **[B-ROLL]:** Hands mixing the dry rub, close-up texture shots
 
 *(Note: the book gives the ingredient list, not exact measurements — worth
@@ -103,6 +104,7 @@ locks in for filming.
 | Ingredient | v1 amount | Role |
 |---|---|---|
 | Crushed kuli-kuli (peanut puffs) | 4 tbsp | Bulk/base — carries everything else |
+| Ground grains of paradise | 1 tsp | Warm, peppery heat — gentler than black pepper, so 2–3x as much works (starting amount, untested) |
 | Ground grains of selim | 1 tsp | Musky backbone — potent, start low |
 | Cayenne pepper flakes | 1–2 tsp | Adjust to your real heat tolerance |
 | Fudi people mix smoked dry chillies (or any good dry chillies |1 spoon| Adjust to your real heat tolerance |

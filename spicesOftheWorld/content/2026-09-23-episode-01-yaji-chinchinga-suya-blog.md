@@ -20,7 +20,7 @@ There's real research behind this one too, not just history. Research suggests g
 
 ## The blend: Yaji
 
-This is the mix that ties Ghana and Nigeria together for me. Yaji is grains of selim, dry chillies, crushed kuli-kuli (that's crushed peanut puffs), ginger powder, a crumbled stock cube, salt, and black pepper, all combined into one dry rub. Same mix, whether you call it chinchinga or suya. [Note: the exact ratios below are a working starting point, not yet locked — worth test-cooking before this is called final.]
+This is the mix that ties Ghana and Nigeria together for me. Yaji is grains of paradise, grains of selim, dry chillies, crushed kuli-kuli (that's crushed peanut puffs), ginger powder, a crumbled stock cube, salt, and black pepper, all combined into one dry rub. Same mix, whether you call it chinchinga or suya. The list isn't exhaustive, so feel free to add your own extra spices and adjust the proportions. [Note: the exact ratios below are a working starting point, not yet locked — worth test-cooking before this is called final.]
 
 **Yaji, a starting point:**
 - 4 tbsp crushed kuli-kuli (peanut puffs) — the base that carries everything else
@@ -56,9 +56,9 @@ The full written recipe and the exact Yaji blend are up at fudipeople.com.
 2. Title: "Grains of Paradise: The Spice Europe Forgot, West Africa Never Did" — Meta: "The history and science of grains of paradise and grains of selim, the West African spices behind Fudi People's Yaji blend."
 3. Title: "Suya vs. Chinchinga: One Spice Mix, Two Countries" — Meta: "Suya and chinchinga are the same dish made with the same spice blend, Yaji — one from Nigeria, one from Ghana. Here's the full story and recipe."
 
-**Product description (short):** Yaji — a grains of selim, dried chilli, and ground peanut spice blend from West Africa, traditionally rubbed onto suya and chinchinga skewers before grilling. [VERIFY ALLERGENS AGAINST SUPPLIER — contains peanuts.]
+**Product description (short):** Yaji — a grains of paradise, grains of selim, dried chilli, and ground peanut spice blend from West Africa, traditionally rubbed onto suya and chinchinga skewers before grilling. [VERIFY ALLERGENS AGAINST SUPPLIER — contains peanuts.]
 
-**Product description (long):** Yaji ties two countries' street food together: Ghana's chinchinga and Nigeria's suya, the same grilled meat skewers made with the same dry rub. Built on grains of selim, dried chilli, crushed peanut, and ginger, it's rubbed onto meat before and after grilling for a deep, musky crust. Grown and blended by Fudi People, from farm to jar. [VERIFY ALLERGENS AGAINST SUPPLIER — contains peanuts.]
+**Product description (long):** Yaji ties two countries' street food together: Ghana's chinchinga and Nigeria's suya, the same grilled meat skewers made with the same dry rub. Built on grains of paradise, grains of selim, dried chilli, crushed peanut, and ginger, it's rubbed onto meat before and after grilling for a deep, musky crust. The ingredients are a starting point, not a complete list: add your own spices and change the proportions to suit your taste. Grown and blended by Fudi People, from farm to jar. [VERIFY ALLERGENS AGAINST SUPPLIER — contains peanuts.]
 
 **Image alt text:** "Yaji spice blend, the West African dry rub behind suya and chinchinga" / "Grains of paradise and grains of selim seeds close up" / "West African market stall selling plantain and dried spices" / "Grilled suya skewers coated in Yaji rub over an open fire"
 

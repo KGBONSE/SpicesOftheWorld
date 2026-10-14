@@ -44,7 +44,7 @@ There's real modern research behind this one too, not just history: grains of pa
 
 #### The blend: Yaji
 
-This is the one that ties Ghana and Nigeria together for me: **Yaji**. It's grains of selim, dry chillies, crushed kuli-kuli (that's crushed peanut puffs), ginger powder, a crumbled stock cube, salt, and black pepper, all combined into one dry rub. Same mix, whether you call it chinchinga or suya.
+This is the one that ties Ghana and Nigeria together for me: **Yaji**. It's grains of paradise, grains of selim, dry chillies, crushed kuli-kuli (that's crushed peanut puffs), ginger powder, a crumbled stock cube, salt, and black pepper, all combined into one dry rub. Same mix, whether you call it chinchinga or suya. The list isn't exhaustive: it's a starting point, so add your own extra spices and play with the proportions.
 
 **Yaji — starting point for your own kitchen**
 
@@ -81,10 +81,10 @@ The full recipe is right here, no gate, no signup required. If you'd rather skip
 ## Product descriptions
 
 **Short description (for the product listing):**
-Yaji is a West African dry spice rub built on grains of selim, ginger and chilli — the blend behind Ghana's chinchinga and Nigeria's suya, grown and mixed with chillies from our own farm in Sidcup, London.
+Yaji is a West African dry spice rub built on grains of paradise, grains of selim, ginger and chilli — the blend behind Ghana's chinchinga and Nigeria's suya, grown and mixed with chillies from our own farm in Sidcup, London.
 
 **Long description (memory-first, but leads with what it is):**
-Yaji is a West African dry spice rub — grains of selim, dry chillies, crushed peanut puffs, ginger, stock cube, salt and black pepper — used to season grilled meat skewers known as chinchinga in Ghana and suya in Nigeria. For Kofi, it starts further back than any kitchen: at a single stall in Makola Market, Accra, where his mother would crack a grains-of-paradise seed between her fingers and let him smell it before anything else on the shopping list. That memory is what led, years later, to a farm in Sidcup, London, growing the same chillies and spices that go into this jar today. Rub it onto skewers before the grill, dust it over roasted plantain or corn, or use it the way it's used across Ghana and Nigeria's markets — as a rub for kilishi, the region's dried spiced beef. *`[VERIFY ALLERGENS AGAINST SUPPLIER]` — contains peanuts (kuli-kuli).*
+Yaji is a West African dry spice rub — grains of paradise, grains of selim, dry chillies, crushed peanut puffs, ginger, stock cube, salt and black pepper — used to season grilled meat skewers known as chinchinga in Ghana and suya in Nigeria. For Kofi, it starts further back than any kitchen: at a single stall in Makola Market, Accra, where his mother would crack a grains-of-paradise seed between her fingers and let him smell it before anything else on the shopping list. That memory is what led, years later, to a farm in Sidcup, London, growing the same chillies and spices that go into this jar today. Rub it onto skewers before the grill, dust it over roasted plantain or corn, or use it the way it's used across Ghana and Nigeria's markets — as a rub for kilishi, the region's dried spiced beef. The ingredients are a starting point, not a complete list: add your own spices and change the proportions. *`[VERIFY ALLERGENS AGAINST SUPPLIER]` — contains peanuts (kuli-kuli).*
 
 ---
 

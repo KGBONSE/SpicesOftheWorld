@@ -105,13 +105,15 @@ to juggle.*
 
 ### 5 · The Blend — Yaji
 This is the one that ties Ghana and Nigeria together for me — Yaji. It's
-grains of selim, whole Ashanti pepper or any good dry chillies, crushed
+grains of paradise, grains of selim, whole Ashanti pepper or any good dry chillies, crushed
 kuli-kuli — that's crushed peanut puffs — ginger powder, a crumbled stock
 cube, salt, and black pepper, all combined into one dry rub.
 
-Same mix, whether you call it chinchinga or suya.
+Same mix, whether you call it chinchinga or suya. And that list isn't
+exhaustive — it's a starting point, so add your own extra spices and play
+with the proportions.
 
-*On-screen: "YAJI: grains of selim + dry chillies + kuli-kuli + ginger +
+*On-screen: "YAJI: grains of paradise + grains of selim + dry chillies + kuli-kuli + ginger +
 stock cube + salt + black pepper" · B-roll: Hands mixing the dry rub,
 close-up texture shots*
 
