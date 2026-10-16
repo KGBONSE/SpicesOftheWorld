@@ -22,7 +22,7 @@ ffmpeg -i final.mp4 -i voiceover.m4a -c:v copy -map 0:v:0 -map 1:a:0 \
 ## Assets so far
 
 - `Fudi_People_Mokola_Market.mp4` — compiled vertical Makola Market intro
-  (title card + 5 clips, title card still spelled the old way, "Mokola" — needs re-rendering as "Makola", crossfade/title
+  (title card + 5 clips, title card corrected to "Makola" 2026-10-16 across the base, with-voiceover and 1080p files, crossfade/title
   treatment)
 - `Family_Okra_Harvest_Clip.mp4` — 109-second continuous take of family
   harvesting okra on the Sidcup farm, normalised to match the market
