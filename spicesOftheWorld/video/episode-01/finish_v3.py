@@ -207,6 +207,26 @@ def draw_product(W, H, cta, out):
         cx, ty = x0 + bw / 2, y0 + bh + 10
         c.d.rounded_rectangle((c.u(cx - tw / 2), c.u(ty), c.u(cx + tw / 2), c.u(ty + 18)), c.u(9), fill=MARIGOLD)
         c.text((cx, ty + 9), tag, fnt, INK, anchor="mm")
+    if cta.get("product2"):                 # round jar label (the Yaji blend) beside the bottle
+        j = Image.open(os.path.join(ROOT, cta["product2"])).convert("RGBA")
+        dm = 128
+        jx, jy = x0 - 16 - dm, y0 + bh / 2 - dm / 2 - 10
+        j = j.resize((c.u(dm), c.u(dm)), Image.LANCZOS)
+        m = Image.new("L", j.size, 0)
+        ImageDraw.Draw(m).ellipse((0, 0, j.width - 1, j.height - 1), fill=255)
+        j.putalpha(m)
+        sh = Image.new("RGBA", c.img.size, (0, 0, 0, 0))
+        ImageDraw.Draw(sh).ellipse((c.u(jx - 3), c.u(jy + 1), c.u(jx + dm + 3), c.u(jy + dm + 7)), fill=(0, 0, 0, 150))
+        c.img.alpha_composite(sh.filter(ImageFilter.GaussianBlur(c.u(8))))
+        c.d.ellipse((c.u(jx - 3), c.u(jy - 3), c.u(jx + dm + 3), c.u(jy + dm + 3)), fill=CREAM)
+        c.img.alpha_composite(j, (c.u(jx), c.u(jy)))
+        tag2 = cta.get("product2_tag")
+        if tag2:
+            fnt = c.f("Bold", 10)
+            tw = c.tw(tag2, fnt) + 16
+            cx, ty = jx + dm / 2, jy + dm + 10
+            c.d.rounded_rectangle((c.u(cx - tw / 2), c.u(ty), c.u(cx + tw / 2), c.u(ty + 18)), c.u(9), fill=MARIGOLD)
+            c.text((cx, ty + 9), tag2, fnt, INK, anchor="mm")
     c.save(out)
 
 
@@ -286,7 +306,9 @@ def render_broll(br, W, H, out):
                                        "stream=color_transfer", "-of", "csv=p=0", src]).decode().strip()
         tm = ("zscale=t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,tonemap=mobius,"
               "zscale=t=bt709:m=bt709:r=tv,format=yuv420p," if trc in ("arib-std-b67", "smpte2084") else "")
-        vf = f"{tm}fps=30,{fill},setsar=1,format=yuv420p"
+        grade = br.get("grade", "")
+        vf = (f"{tm}setparams=colorspace=bt709:color_trc=bt709:color_primaries=bt709:range=tv,"
+              f"{grade + ',' if grade else ''}fps=30,{fill},setsar=1,format=yuv420p")
         cmd = ["ffmpeg", "-y", "-v", "error", "-ss", f"{br['in']}", "-t", f"{d:.3f}", "-i", src, "-vf", vf]
     else:
         # still: compose the fill frame at 1.15x, then push in slowly towards `focus`
@@ -310,7 +332,10 @@ def render_broll(br, W, H, out):
         vf = (f"fps=30,scale=w='trunc({W}*{z}/2)*2':h='trunc({H}*{z}/2)*2':eval=frame:flags=lanczos,"
               f"crop={W}:{H}:'(in_w-out_w)*{fx}':'(in_h-out_h)*{fy}',setsar=1,format=yuv420p")
         cmd = ["ffmpeg", "-y", "-v", "error", "-loop", "1", "-t", f"{d:.3f}", "-i", still, "-vf", vf]
-    cmd += ["-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-r", "30", out]
+    # tag as SDR bt709: left as the iPhone's bt2020/HLG tags, the overlay later reads the
+    # colours with the wrong matrix (orange Scotch bonnets came out yellow)
+    cmd += ["-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-r", "30",
+            "-colorspace", "bt709", "-color_trc", "bt709", "-color_primaries", "bt709", "-color_range", "tv", out]
     subprocess.run(cmd, check=True)
 
 

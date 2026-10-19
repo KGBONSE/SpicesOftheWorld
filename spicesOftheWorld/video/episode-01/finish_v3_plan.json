@@ -122,14 +122,16 @@
     "line1": "Full recipe + get the blend",
     "line2": "fudipeople.com",
     "product": "graphics/labels/chilli-oil/marketing/chilli_oil_three_journeys.jpg",
-    "reason": "Replaces the [cta] placeholder; shows the new Spices of Africa chilli oil label while he says where to get it",
+    "reason": "Replaces the [cta] placeholder; shows the Yaji blend he cooked with plus the new Spices of Africa chilli oil while he says where to get them",
     "product_crop": [
       8,
       205,
       352,
       1195
     ],
-    "product_tag": "Chilli Oil · Spices of Africa"
+    "product_tag": "Chilli Oil · Spices of Africa",
+    "product2": "graphics/labels/production/ep01-yaji-digital-1200.png",
+    "product2_tag": "Yaji Blend"
   },
   "zooms": [
     {
@@ -180,7 +182,8 @@
       "kind": "video",
       "src": "video/raw/ep01-ending/IMG_0638.MOV",
       "in": 76.7,
-      "reason": "'...and spices' — a handful of our Scotch bonnets"
+      "reason": "'...and spices' — a handful of our Scotch bonnets (graded back to their real orange)",
+      "grade": "selectivecolor=yellows=-0.1 0.7 0.1 0:reds=0 0.1 0 0:correction_method=relative,eq=saturation=1.15:gamma=0.95"
     },
     {
       "start": 488.3,
