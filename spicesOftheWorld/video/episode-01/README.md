@@ -32,6 +32,24 @@ The iPhone footage is HDR (HLG). It's tonemapped to SDR bt709 with zscale + `ton
 - Use `--jobs 1`: three parallel jobs ran the PC out of memory.
 - `--only N` re-renders one shot; `--resume` renders anything missing, then reassembles.
 
+## v4 finishing pass (2026-10-19, from Kofi's v3)
+
+Kofi's own v3 cut (`video/raw/ep01_v3_16x9_480p.mp4`, 8:30, 16:9) still has the
+rough-cut markers burned in: a `#NN 0m00s` label top-left and `[close]`/`[cta]`
+style placeholder tags where on-screen text should go. `finish_v3.py` +
+`finish_v3_plan.json` finish the ending (6:45 onwards) on top of that file:
+
+- Fudi People bug top-left (covers the cut labels)
+- "From our farm · Sidcup, London" chapter title, "Makola Market · Accra, Ghana" tag
+- Captions for the Africa close, with "Ghana / Nigeria never let them go" emphasised + a slow push-in
+- "Spices of Africa — grown in Sidcup, rooted in Ghana" lower third (the scripted [close] text)
+- The "for the smell · for the memory · for the market · for her" list-close built up word by word
+- CTA panel + the Yaji jar label (the scripted [cta] text)
+- A 15s end screen (YouTube end-screen elements need 5–20s; the old card was 4s)
+
+`--preview` renders only the ending at 480p; `--final` renders the whole episode at 1080p.
+Renders go to `out/` (git-ignored).
+
 ## Open (Kofi to review)
 
 - 32s health voiceover (optional), to drop in at the health card (~4:08)

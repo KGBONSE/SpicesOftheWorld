@@ -1,0 +1,44 @@
+{
+  "source": "video/raw/ep01_v3_16x9_480p.mp4",
+  "notes": "Finishing pass on Kofi's v3 assembly. Times are in v3 episode seconds. Placeholder tags ([close], [cta]) and the top-left '#NN' cut labels are burned into v3, so every beat below either replaces a placeholder or keeps it covered.",
+  "preview_start": 400.0,
+  "label_cover_from": 0.0,
+  "chapter": [
+    {"start": 404.6, "end": 408.8, "kicker": "FROM OUR FARM", "title": "Sidcup, London",
+     "reason": "Cut from the finished suya to the polytunnel: tells the viewer where we are now"}
+  ],
+  "location": [
+    {"start": 452.8, "end": 456.6, "text": "MAKOLA MARKET  ·  Accra, Ghana",
+     "reason": "Market footage under 'that stall' — names the place the whole episode starts from"}
+  ],
+  "captions": [
+    [452.3, 454.6, "That's what stays with me"],
+    [454.6, 456.8, "about that stall,"],
+    [456.8, 460.7, "about my mum cracking those seeds"],
+    [460.7, 463.3, "open in her hand."],
+    [463.3, 465.7, "The rest of the world had"],
+    [465.7, 468.0, "grains of paradise,"],
+    [468.0, 470.3, "grains of selim,"],
+    [470.3, 471.9, "for a moment,"],
+    [471.9, 474.8, "and then let them go."],
+    [474.8, 477.2, "Ghana never let them go.", "emph"],
+    [477.2, 480.3, "Nigeria never let them go.", "emph"],
+    [488.3, 492.1, "trying to carry that same handful forward"]
+  ],
+  "lower_third": [
+    {"start": 480.4, "end": 488.2, "title": "Spices of Africa", "sub": "Grown in Sidcup, rooted in Ghana",
+     "reason": "Replaces the scripted [close] on-screen text, landing on 'on a farm in Sidcup, London'"}
+  ],
+  "list_close": {"start": 492.1, "end": 499.0, "items": [
+    [492.2, "for the smell"], [494.2, "for the memory"], [495.6, "for the market"], [497.1, "for her."]],
+    "reason": "Kofi's trailing list-close — the emotional payoff, built up word by word"},
+  "cta": {"start": 499.0, "end": 506.3, "line1": "Full recipe + get the blend", "line2": "fudipeople.com",
+          "product": "graphics/labels/production/ep01-yaji-digital-1200.png",
+          "reason": "Replaces the [cta] placeholder; shows the actual Yaji jar while he says where to get it"},
+  "zooms": [
+    {"start": 474.8, "end": 480.3, "peak": 1.07, "reason": "Ghana / Nigeria never let them go — emotional peak"},
+    {"start": 499.0, "end": 503.0, "peak": 1.04, "reason": "CTA lands"}
+  ],
+  "end_screen": {"start": 506.3, "duration": 15.0,
+                 "reason": "Old end card was 4s; YouTube end-screen elements need 5-20s, so this leaves room for a watch-next video + subscribe"}
+}
