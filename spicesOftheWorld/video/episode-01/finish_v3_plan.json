@@ -5,6 +5,50 @@
   "label_cover_from": 0.0,
   "chapter": [
     {
+      "start": 20.1,
+      "end": 24.9,
+      "kicker": "GROWING UP IN GHANA",
+      "title": "Makola Market, Accra",
+      "reason": "Personal hook starts: names the stall's market as the market footage begins"
+    },
+    {
+      "start": 80.1,
+      "end": 88.4,
+      "kicker": "WHERE IT COMES FROM",
+      "title": "Right here, West Africa",
+      "reason": "Geography beat ('they come from right here, West Africa'); also covers the [geo] placeholder in #9"
+    },
+    {
+      "start": 122.5,
+      "end": 127.7,
+      "kicker": "THE TRADE",
+      "title": "Across the Sahara to Europe",
+      "reason": "History beat opens on 'hundreds of years ago... traders'"
+    },
+    {
+      "start": 175.2,
+      "end": 182.9,
+      "kicker": "THE SCIENCE",
+      "title": "Where the heat comes from",
+      "reason": "Science beat opens on 'the warmth in grains of paradise builds slowly'; covers [paradol] until the compound is named",
+      "fade": "in"
+    },
+    {
+      "start": 241.4,
+      "end": 247.9,
+      "kicker": "THE BLEND",
+      "title": "Yaji",
+      "reason": "'This is the one that ties Ghana and Nigeria together — Yaji'"
+    },
+    {
+      "start": 304.3,
+      "end": 315.45,
+      "kicker": "THE DISH",
+      "title": "Yaji-rubbed grilled skewers",
+      "reason": "'What Yaji is really for is grilled meat skewers'; covers [samefire] in #42 until the names are said",
+      "fade": "in"
+    },
+    {
       "start": 404.6,
       "end": 408.8,
       "kicker": "FROM OUR FARM",
@@ -135,6 +179,30 @@
   },
   "zooms": [
     {
+      "start": 14.0,
+      "end": 18.6,
+      "peak": 1.05,
+      "reason": "'the two forgotten pepper substitutes' — the promise"
+    },
+    {
+      "start": 61.6,
+      "end": 68.3,
+      "peak": 1.05,
+      "reason": "'planted the seeds for everything that came after' — brand motif"
+    },
+    {
+      "start": 169.0,
+      "end": 175.4,
+      "peak": 1.05,
+      "reason": "'ours never left' — emotional turn"
+    },
+    {
+      "start": 329.8,
+      "end": 334.2,
+      "peak": 1.06,
+      "reason": "'the whole story of this episode in one bite'"
+    },
+    {
       "start": 474.8,
       "end": 480.3,
       "peak": 1.07,
@@ -208,6 +276,284 @@
         0.45
       ],
       "reason": "'for the memory · for the market' — the chilli oil she helped make (crates stay under 'for the smell')"
+    }
+  ],
+  "target_lufs": -14,
+  "cards": [
+    {
+      "type": "title",
+      "start": 0.0,
+      "end": 4.0,
+      "reason": "[title] placeholder: cold-open title over Makola Market",
+      "fade": "out"
+    },
+    {
+      "type": "label",
+      "start": 38.5,
+      "end": 45.85,
+      "text": "Grains of paradise",
+      "reason": "[l_gop]: 'small, reddish-brown seeds'"
+    },
+    {
+      "type": "caption",
+      "start": 75.9,
+      "end": 80.3,
+      "title": "The spice Europe forgot.",
+      "sub": "West Africa never did.",
+      "reason": "Scripted hook on-screen text, on 'the spice Europe once called grains of paradise'"
+    },
+    {
+      "type": "caption",
+      "start": 88.8,
+      "end": 96.4,
+      "title": "Ghana",
+      "sub": "Still the world's main grower of grains of paradise",
+      "reason": "[geo] text, moved to where he actually says 'Ghana today is still the main place in the world growing it'"
+    },
+    {
+      "type": "side",
+      "start": 96.8,
+      "end": 102.5,
+      "left": "THE GRAIN\nCOAST",
+      "right": "THE PEPPER\nCOAST",
+      "right_at": 101.4,
+      "reason": "Map shot: fills the empty side panels with the two names as he says them"
+    },
+    {
+      "type": "label",
+      "start": 106.7,
+      "end": 115.25,
+      "text": "Grains of selim",
+      "reason": "[l_selim]: 'its cousin, grains of selim'"
+    },
+    {
+      "type": "side",
+      "start": 127.5,
+      "end": 133.85,
+      "left": "ACROSS\nTHE SAHARA",
+      "right": "TO\nEUROPE",
+      "right_at": 132.0,
+      "reason": "Trade-route map: 'carried these grains across the Sahara, all the way to Europe'"
+    },
+    {
+      "type": "label",
+      "start": 127.5,
+      "end": 133.85,
+      "text": "The trans-Saharan trade",
+      "reason": "Covers [trade] on the map shot without hiding the route"
+    },
+    {
+      "type": "caption",
+      "start": 135.3,
+      "end": 143.9,
+      "title": "Europe named it “grains of paradise”",
+      "sub": "and sold it as a cheap stand-in for black pepper",
+      "reason": "Breaks up the 26s talking stretch on the key fact"
+    },
+    {
+      "type": "caption",
+      "start": 149.6,
+      "end": 158.0,
+      "title": "Then Portugal found a sea route to Asia",
+      "sub": "and Europe moved on to real black pepper",
+      "reason": "Second beat of the same stretch: why it was forgotten"
+    },
+    {
+      "type": "caption",
+      "start": 168.9,
+      "end": 175.3,
+      "title": "Once Europe's pepper substitute.",
+      "sub": "Now West Africa's secret.",
+      "reason": "Scripted [trade] text, on 'ours never left, it just stopped being anyone else's'"
+    },
+    {
+      "type": "caption",
+      "start": 182.8,
+      "end": 191.75,
+      "title": "Paradol",
+      "sub": "The same heat compound as ginger",
+      "reason": "[paradol]: 'a compound called paradol, the same one that gives ginger its heat'",
+      "fade": false
+    },
+    {
+      "type": "caption",
+      "start": 191.65,
+      "end": 198.65,
+      "title": "Also inside",
+      "sub": "Gingerol for pungency  ·  humulone for a bitter, earthy note",
+      "reason": "Rest of the [paradol] span: the other two compounds he names",
+      "fade": false
+    },
+    {
+      "type": "caption",
+      "start": 198.55,
+      "end": 208.45,
+      "title": "Grains of selim",
+      "sub": "Musky, almost smoky  ·  from a compound called fenchone",
+      "reason": "[l_selim] on the selim pods while he explains fenchone",
+      "fade": "out"
+    },
+    {
+      "type": "caption",
+      "start": 213.3,
+      "end": 223.35,
+      "title": "Cooking tip",
+      "sub": "Use 2–3x more grains of paradise than black pepper",
+      "reason": "[dose]"
+    },
+    {
+      "type": "research",
+      "start": 228.4,
+      "end": 241.25,
+      "title": "What the research says",
+      "rows": [
+        [
+          229.0,
+          "Grains of paradise",
+          "shown to rev up metabolism"
+        ],
+        [
+          235.5,
+          "…and activate brown fat",
+          "the kind that burns calories for heat"
+        ]
+      ],
+      "reason": "[health]: only the two claims kept in this cut (the selim/ginger/pepper lines were cut, so they're not shown)"
+    },
+    {
+      "type": "label",
+      "start": 247.8,
+      "end": 251.6,
+      "text": "Grains of selim + grains of paradise",
+      "y": 286,
+      "minw": 360,
+      "reason": "Covers the plain burned-in '+ Grains of Paradise' box with the branded pill"
+    },
+    {
+      "type": "build",
+      "start": 247.8,
+      "end": 272.0,
+      "title": "What goes into Yaji",
+      "items": [
+        [
+          248.3,
+          "Grains of paradise"
+        ],
+        [
+          249.6,
+          "Grains of selim"
+        ],
+        [
+          252.0,
+          "Dried chillies"
+        ],
+        [
+          256.2,
+          "Kuli-kuli"
+        ],
+        [
+          260.6,
+          "Ginger"
+        ],
+        [
+          262.5,
+          "Stock cube"
+        ],
+        [
+          265.0,
+          "Salt & pepper"
+        ],
+        [
+          268.3,
+          "= YAJI"
+        ]
+      ],
+      "reason": "Replaces the run of [l_*] pills with one recipe that builds up shot by shot"
+    },
+    {
+      "type": "build",
+      "start": 274.4,
+      "end": 296.5,
+      "title": "Yaji also seasons",
+      "items": [
+        [
+          274.8,
+          "Kilishi (dried beef)"
+        ],
+        [
+          289.3,
+          "Roasted plantain & corn"
+        ],
+        [
+          292.6,
+          "Boiled eggs"
+        ]
+      ],
+      "reason": "[alsoseasons], items appear as he names them"
+    },
+    {
+      "type": "build",
+      "start": 315.35,
+      "end": 329.85,
+      "title": "Same mix, same fire",
+      "items": [
+        [
+          315.4,
+          "CHINCHINGA · Ghana"
+        ],
+        [
+          319.8,
+          "SUYA · Nigeria"
+        ],
+        [
+          325.8,
+          "Two names, one street food"
+        ]
+      ],
+      "reason": "[samefire], names appear as he says them",
+      "fade": "out"
+    },
+    {
+      "type": "label",
+      "start": 334.0,
+      "end": 343.75,
+      "text": "Soak the skewers first",
+      "reason": "[l_soak]"
+    },
+    {
+      "type": "label",
+      "start": 343.8,
+      "end": 347.2,
+      "text": "Season lightly to start",
+      "reason": "Method step he says over the raw meat"
+    },
+    {
+      "type": "label",
+      "start": 347.0,
+      "end": 358.15,
+      "text": "Spray with water (or beer) to keep it tender",
+      "reason": "[l_spray]"
+    },
+    {
+      "type": "label",
+      "start": 358.3,
+      "end": 361.3,
+      "text": "Nearly done? Take them off",
+      "reason": "Method step"
+    },
+    {
+      "type": "label",
+      "start": 361.5,
+      "end": 366.25,
+      "text": "Rub the Yaji in properly",
+      "reason": "[l_late]"
+    },
+    {
+      "type": "label",
+      "start": 366.6,
+      "end": 371.3,
+      "text": "Back on the fire to finish",
+      "reason": "Method step"
     }
   ]
 }

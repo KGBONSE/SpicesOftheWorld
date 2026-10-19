@@ -54,6 +54,19 @@ style placeholder tags where on-screen text should go. `finish_v3.py` +
 - CTA shows the new Spices of Africa chilli-oil label; the end screen carries the chilli-oil banner
   (`graphics/labels/chilli-oil/marketing/`).
 
+### 0:00–6:45 pass (2026-10-19)
+
+Every burned-in placeholder tag in v3 is now covered by its matching graphic, using the
+text from `make_overlays.py` redrawn for 16:9 as opaque bottom-centre tabs/pills:
+cold-open title, ingredient pills, Ghana/paradol/selim/dose captions, a research card (only the
+two claims kept in this cut), a Yaji ingredient list that builds shot by shot, "Yaji also seasons"
+and "Same mix, same fire" lists that build as Kofi names each item, and the cooking-method pills.
+Also: six chapter titles (Makola Market · Where it comes from · The trade · The science · The
+blend · The dish), side text on the two portrait map shots, captions to break up the 26s trade
+stretch, four zoom punch-ins, and -14 LUFS two-pass loudnorm (the edit-engine standard) over
+the whole soundtrack. Every entry in `finish_v3_plan.json` carries its `reason`.
+
+`--preview --start 0` renders the whole episode at 480p; `--until N` stops early for quick checks.
 `--preview` renders only the ending at 480p; `--final` renders the whole episode at 1080p.
 Renders go to `out/` (git-ignored).
 

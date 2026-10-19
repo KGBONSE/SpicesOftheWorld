@@ -339,6 +339,150 @@ def render_broll(br, W, H, out):
     subprocess.run(cmd, check=True)
 
 
+# ---------------------------------------------------------------- cards for 0:00-6:45
+# All bottom-centre cards are "tabs" that bleed off the bottom edge and are fully opaque, so
+# they always hide v3's burned-in [tag] placeholder (x ~340-515, y ~420-462 at 854x480).
+
+def spaced(t):
+    """Letter-spaced kicker that still reads as words: 'THE DISH' -> 'T H E    D I S H'."""
+    return "    ".join(" ".join(w) for w in t.split())
+
+
+def _tab(c, w, y0=398):
+    w = max(w, 230)
+    x0 = REF_W / 2 - w / 2
+    c.panel((x0, y0, x0 + w, 492), alpha=255)
+    return x0
+
+
+def draw_chapter_c(W, H, kicker, title, out):
+    c = Canvas(W, H)
+    fk, ft = c.f("Bold", 11), c.f("ExtraBold", 25)
+    k = spaced(kicker)
+    w = max(c.tw(title, ft), c.tw(k, fk)) + 70
+    _tab(c, w)
+    c.text((REF_W / 2, 414), k, fk, GOLD, anchor="mm")
+    c.d.rectangle((c.u(REF_W / 2 - 18), c.u(425), c.u(REF_W / 2 + 18), c.u(427)), fill=MARIGOLD)
+    c.text((REF_W / 2, 451), title, ft, CREAM, anchor="mm")
+    c.save(out)
+
+
+def draw_caption_c(W, H, title, sub, out):
+    c = Canvas(W, H)
+    ft, fs = c.f("ExtraBold", 22), c.f("Medium", 15)
+    w = max(c.tw(title, ft), c.tw(sub or "", fs)) + 64
+    _tab(c, w)
+    if sub:
+        c.text((REF_W / 2, 425), title, ft, CREAM, anchor="mm")
+        c.text((REF_W / 2, 453), sub, fs, GOLD, anchor="mm")
+    else:
+        c.text((REF_W / 2, 440), title, ft, CREAM, anchor="mm")
+    c.save(out)
+
+
+def draw_label(W, H, text, out, y=418, minw=200):
+    """Ingredient / method pill, marigold, centred."""
+    c = Canvas(W, H)
+    fnt = c.f("Bold", 18)
+    w = max(c.tw(text, fnt) + 44, minw)
+    x0 = REF_W / 2 - w / 2
+    sh = Image.new("RGBA", c.img.size, (0, 0, 0, 0))
+    ImageDraw.Draw(sh).rounded_rectangle((c.u(x0), c.u(y + 3), c.u(x0 + w), c.u(y + 49)), c.u(23), fill=(0, 0, 0, 120))
+    c.img.alpha_composite(sh.filter(ImageFilter.GaussianBlur(c.u(5))))
+    c.d.rounded_rectangle((c.u(x0), c.u(y), c.u(x0 + w), c.u(y + 46)), c.u(23), fill=MARIGOLD)
+    c.text((REF_W / 2, y + 23), text, fnt, INK, anchor="mm")
+    c.save(out)
+
+
+def draw_title_card(W, H, out):
+    """Cold open: SUYA / CHINCHINGA, one spice mix, two names."""
+    c = Canvas(W, H)
+    fb, fs = c.f("ExtraBold", 50), c.f("Medium", 16)
+    w = c.tw("CHINCHINGA", fb) + 90
+    _tab(c, w, y0=268)
+    c.text((REF_W / 2, 310), "SUYA", fb, CREAM, anchor="mm")
+    c.d.rectangle((c.u(REF_W / 2 - 26), c.u(343), c.u(REF_W / 2 + 26), c.u(346)), fill=MARIGOLD)
+    c.text((REF_W / 2, 380), "CHINCHINGA", fb, CREAM, anchor="mm")
+    c.text((REF_W / 2, 428), "One spice mix  ·  two names", fs, GOLD, anchor="mm")
+    c.text((REF_W / 2, 456), "Spices of the World  ·  Episode 1", c.f("Bold", 11), CREAM, anchor="mm")
+    c.save(out)
+
+
+def draw_build(W, H, title, items, upto, out):
+    """A titled tab whose items accumulate as they are said; the newest is marigold."""
+    c = Canvas(W, H)
+    fk = c.f("Bold", 11)
+    sep = "  ·  "
+    shown = items[: upto + 1]
+    size = 17
+    while True:                                  # shrink long lists to fit the frame
+        fi = c.f("SemiBold", size)
+        full_w = c.tw(sep.join(items), fi)       # size the tab for the full list so it never jumps
+        if full_w <= 790 or size <= 12:
+            break
+        size -= 1
+    k = spaced(title.upper())
+    _tab(c, max(full_w, c.tw(k, fk)) + 56)
+    c.text((REF_W / 2, 420), k, fk, GOLD, anchor="mm")
+    cur_w = c.tw(sep.join(shown), fi)
+    x = REF_W / 2 - cur_w / 2
+    for i, it in enumerate(shown):
+        c.text((x, 452), it, fi, MARIGOLD if i == upto else CREAM, anchor="lm")
+        x += c.tw(it, fi)
+        if i < upto:
+            c.text((x, 452), sep, fi, GOLD, anchor="lm")
+            x += c.tw(sep, fi)
+    c.save(out)
+
+
+def draw_research(W, H, title, rows, upto, out):
+    """Research card: a heading and rows that appear as they are said."""
+    c = Canvas(W, H)
+    fh, fa, fb = c.f("ExtraBold", 21), c.f("Bold", 16), c.f("Medium", 15)
+    w = max([c.tw(title, fh)] + [max(c.tw(a, fa), c.tw(b, fb)) for a, b in rows]) + 80
+    y0 = 474 - 60 - 50 * len(rows)            # keep the last row clear of the bottom edge (480)
+    _tab(c, w, y0=y0)
+    c.text((REF_W / 2, y0 + 24), title, fh, CREAM, anchor="mm")
+    c.d.rectangle((c.u(REF_W / 2 - 18), c.u(y0 + 41), c.u(REF_W / 2 + 18), c.u(y0 + 43)), fill=MARIGOLD)
+    for i, (a, b) in enumerate(rows[: upto + 1]):
+        y = y0 + 66 + i * 50
+        c.text((REF_W / 2, y), a, fa, GOLD, anchor="mm")
+        c.text((REF_W / 2, y + 21), b, fb, CREAM, anchor="mm")
+    c.save(out)
+
+
+def draw_side(W, H, left, right, out, show_right=True):
+    """Text in the dark side panels around the portrait map shots (map sits at x 290-562)."""
+    c = Canvas(W, H)
+    for txt, cx, on in ((left, 145, True), (right, 709, show_right)):
+        if not (txt and on):
+            continue
+        lines = txt.split("\n")
+        fk = c.f("ExtraBold", 22)
+        y = 240 - (len(lines) - 1) * 15
+        for ln in lines:
+            c.text((cx, y), ln, fk, CREAM, anchor="mm")
+            y += 30
+        c.d.rectangle((c.u(cx - 20), c.u(y - 6), c.u(cx + 20), c.u(y - 3)), fill=MARIGOLD)
+    c.save(out)
+
+
+def loudnorm_filter(src, target):
+    """Two-pass loudnorm (the edit-engine's -14 LUFS standard), measured once over the whole v3 track."""
+    cache = os.path.join(HERE, "out", f"loudnorm_{os.path.basename(src)}_{target}.json")
+    if os.path.exists(cache) and os.path.getmtime(cache) > os.path.getmtime(src):
+        js = json.load(open(cache))
+    else:
+        r = subprocess.run(["ffmpeg", "-hide_banner", "-i", src, "-vn", "-af",
+                            f"loudnorm=I={target}:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"],
+                           capture_output=True, text=True)
+        js = json.loads(r.stderr[r.stderr.rfind("{"):r.stderr.rfind("}") + 1])
+        json.dump(js, open(cache, "w"))
+    return (f"loudnorm=I={target}:TP=-1.5:LRA=11:measured_I={js['input_i']}:measured_TP={js['input_tp']}:"
+            f"measured_LRA={js['input_lra']}:measured_thresh={js['input_thresh']}:"
+            f"offset={js['target_offset']}:linear=true,aresample=48000")
+
+
 def zoom_expr(zooms, t0):
     """Zoom factor z(t): ease in 0.5s to peak, hold, ease out 0.5s (t = output time)."""
     parts = []
@@ -355,19 +499,28 @@ def main():
     g.add_argument("--preview", action="store_true")
     g.add_argument("--final", action="store_true")
     ap.add_argument("--plan", default=os.path.join(HERE, "finish_v3_plan.json"))
+    ap.add_argument("--start", type=float, help="preview: start here (default: plan preview_start)")
+    ap.add_argument("--until", type=float, help="preview: stop here, no end screen (quick checks)")
     args = ap.parse_args()
 
     plan = json.load(open(args.plan))
     src = os.path.join(ROOT, plan["source"])
     if args.preview:
-        W, H, t0, crf, preset, name = 854, 480, plan["preview_start"], 23, "veryfast", "ep01_v4_ending_preview.mp4"
+        t0 = plan["preview_start"] if args.start is None else args.start
+        name = "ep01_v4_ending_preview.mp4" if t0 >= 400 else f"ep01_v4_preview_from_{int(t0)}s.mp4"
+        W, H, crf, preset = 854, 480, 23, "veryfast"
     else:
         W, H, t0, crf, preset, name = 1920, 1080, 0.0, 18, "medium", "ep01_v4_16x9_1080p.mp4"
-    es = plan["end_screen"]
+    es = dict(plan["end_screen"])
     cut = es["start"]                              # main picture ends here
+    if args.preview and args.until:
+        cut, es["duration"] = min(args.until, cut), 0.0
     total = (cut - t0) + es["duration"]
     src_dur = float(subprocess.check_output(
         ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", src]).decode())
+
+    os.makedirs(os.path.join(HERE, "out"), exist_ok=True)
+    ln = loudnorm_filter(src, plan.get("target_lufs", -14))
 
     tmp = tempfile.mkdtemp(prefix="ep01v4_")
     layers = []  # (png, start, end, fade)
@@ -377,7 +530,36 @@ def main():
 
     p = os.path.join(tmp, "bug.png"); draw_bug(W, H, p); add(p, max(plan["label_cover_from"], t0), cut)
     for i, ch in enumerate(plan["chapter"]):
-        p = os.path.join(tmp, f"ch{i}.png"); draw_chapter(W, H, ch["kicker"], ch["title"], p); add(p, ch["start"], ch["end"], True)
+        p = os.path.join(tmp, f"ch{i}.png"); draw_chapter_c(W, H, ch["kicker"], ch["title"], p); add(p, ch["start"], ch["end"], ch.get("fade", True))
+    for i, cd in enumerate(plan.get("cards", [])):
+        ty = cd["type"]
+        base = os.path.join(tmp, f"card{i}")
+        if ty == "title":
+            draw_title_card(W, H, base + ".png"); add(base + ".png", cd["start"], cd["end"], cd.get("fade", True))
+        elif ty == "caption":
+            draw_caption_c(W, H, cd["title"], cd.get("sub"), base + ".png"); add(base + ".png", cd["start"], cd["end"], cd.get("fade", True))
+        elif ty == "label":
+            draw_label(W, H, cd["text"], base + ".png", cd.get("y", 418), cd.get("minw", 200)); add(base + ".png", cd["start"], cd["end"], cd.get("fade", True))
+        elif ty in ("build", "research", "side"):
+            steps = cd["items"] if ty == "build" else cd["rows"] if ty == "research" else [[cd["start"]], [cd["right_at"]]]
+            n = len(steps)
+            for k in range(n):
+                p = f"{base}_{k}.png"
+                if ty == "build":
+                    draw_build(W, H, cd["title"], [x[1] for x in steps], k, p)
+                elif ty == "research":
+                    draw_research(W, H, cd["title"], [(x[1], x[2]) for x in steps], k, p)
+                else:
+                    draw_side(W, H, cd["left"], cd["right"], p, show_right=(k == 1))
+                a = cd["start"] if k == 0 else steps[k][0]
+                b = steps[k + 1][0] if k + 1 < n else cd["end"]
+                f_in, f_out = cd.get("fade", True) in (True, "in"), cd.get("fade", True) in (True, "out")
+                fd = ("in" if f_in else False) if k == 0 else False
+                if k == n - 1 and f_out:
+                    fd = True if fd == "in" else "out"
+                add(p, a, b, fd)
+        else:
+            raise ValueError(f"unknown card type {ty!r}")
     for i, lo in enumerate(plan["location"]):
         p = os.path.join(tmp, f"loc{i}.png"); draw_location(W, H, lo["text"], p); add(p, lo["start"], lo["end"], True)
     for i, cap in enumerate(plan["captions"]):
@@ -400,7 +582,7 @@ def main():
     # cutaways (new farm footage / photos): pre-rendered, laid over the picture under all graphics
     brolls = []
     for i, br in enumerate(plan.get("broll", [])):
-        if br["end"] <= t0:
+        if br["end"] <= t0 or br["start"] >= cut:
             continue
         bp = os.path.join(tmp, f"broll{i}.mp4")
         print("cutaway", i, br["src"])
@@ -416,9 +598,9 @@ def main():
            "-ss", f"{t0}", "-t", f"{cut - t0:.3f}", "-i", src]
     for bp, *_ in brolls:
         cmd += ["-i", bp]
-    for png, *_ in layers:
-        cmd += ["-loop", "1", "-t", f"{cut - t0:.3f}", "-i", png]   # no longer than the main picture
-    cmd += ["-loop", "1", "-t", f"{es['duration']}", "-i", endpng]
+    for png, a, b, _ in layers:
+        cmd += ["-loop", "1", "-t", f"{b - a:.3f}", "-i", png]      # only as long as its own window
+    cmd += ["-loop", "1", "-t", f"{max(es['duration'], 0.1)}", "-i", endpng]
     cmd += ["-ss", f"{t0}", "-i", src]           # audio: runs on under the end card
 
     zexpr = zoom_expr([z for z in plan["zooms"] if z["end"] > t0], t0)
@@ -433,18 +615,24 @@ def main():
         last = f"vb{j}"
     nb = len(brolls)
     for i, (png, a, b, fade) in enumerate(layers, start=1):
-        chain = f"[{i + nb}:v]format=rgba"
-        if fade:
-            chain += f",fade=t=in:st={a:.3f}:d=0.3:alpha=1,fade=t=out:st={b - 0.3:.3f}:d=0.3:alpha=1"
+        chain = f"[{i + nb}:v]format=rgba,setpts=PTS-STARTPTS+{a:.3f}/TB"
+        if fade in (True, "in"):
+            chain += f",fade=t=in:st={a:.3f}:d=0.25:alpha=1"
+        if fade in (True, "out"):
+            chain += f",fade=t=out:st={b - 0.25:.3f}:d=0.25:alpha=1"
         fc.append(chain + f"[o{i}]")
-        fc.append(f"[{last}][o{i}]overlay=0:0:shortest=1:enable='between(t,{a:.3f},{b:.3f})'[v{i}]")
+        fc.append(f"[{last}][o{i}]overlay=0:0:eof_action=pass:enable='between(t,{a:.3f},{b:.3f})'[v{i}]")
         last = f"v{i}"
     ei = len(layers) + nb + 1
-    fc.append(f"[{ei}:v]format=yuv420p,fps=30,fade=t=in:st=0:d=0.5,"
-              f"fade=t=out:st={es['duration'] - 0.8}:d=0.8,setsar=1[ve]")
-    fc.append(f"[{last}][ve]concat=n=2:v=1:a=0[vout]")
-    a_end = src_dur - t0
-    fc.append(f"[{ei + 1}:a]atrim=duration={a_end:.3f},asetpts=PTS-STARTPTS,"
+    if es["duration"] > 0:
+        fc.append(f"[{ei}:v]format=yuv420p,fps=30,fade=t=in:st=0:d=0.5,"
+                  f"fade=t=out:st={es['duration'] - 0.8}:d=0.8,setsar=1[ve]")
+        fc.append(f"[{last}][ve]concat=n=2:v=1:a=0[vout]")
+    else:
+        fc.append(f"[{ei}:v]nullsink")
+        fc.append(f"[{last}]null[vout]")
+    a_end = min(src_dur, cut if es["duration"] == 0 else src_dur) - t0
+    fc.append(f"[{ei + 1}:a]atrim=duration={a_end:.3f},asetpts=PTS-STARTPTS,{ln},"
               f"afade=t=out:st={a_end - 1.0:.3f}:d=1.0,apad=whole_dur={total:.3f}[aout]")
 
     os.makedirs(os.path.join(HERE, "out"), exist_ok=True)
