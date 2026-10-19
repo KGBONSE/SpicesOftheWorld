@@ -47,6 +47,13 @@ style placeholder tags where on-screen text should go. `finish_v3.py` +
 - CTA panel + the Yaji jar label (the scripted [cta] text)
 - A 15s end screen (YouTube end-screen elements need 5–20s; the old card was 4s)
 
+- New farm cutaways (2026-10-19): daughter picking chillies + Scotch bonnets in hand (IMG_0637/0638),
+  the daughters-in-the-polytunnel photo under "carry that same handful forward", and the
+  chilli-oil photo under "for the memory · for the market". These sources live in
+  `video/raw/ep01-ending/` locally (git-ignored: ~500MB of iPhone HLG footage).
+- CTA shows the new Spices of Africa chilli-oil label; the end screen carries the chilli-oil banner
+  (`graphics/labels/chilli-oil/marketing/`).
+
 `--preview` renders only the ending at 480p; `--final` renders the whole episode at 1080p.
 Renders go to `out/` (git-ignored).
 

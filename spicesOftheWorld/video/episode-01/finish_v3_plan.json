@@ -4,41 +4,207 @@
   "preview_start": 400.0,
   "label_cover_from": 0.0,
   "chapter": [
-    {"start": 404.6, "end": 408.8, "kicker": "FROM OUR FARM", "title": "Sidcup, London",
-     "reason": "Cut from the finished suya to the polytunnel: tells the viewer where we are now"}
+    {
+      "start": 404.6,
+      "end": 408.8,
+      "kicker": "FROM OUR FARM",
+      "title": "Sidcup, London",
+      "reason": "Cut from the finished suya to the polytunnel: tells the viewer where we are now"
+    }
   ],
   "location": [
-    {"start": 452.8, "end": 456.6, "text": "MAKOLA MARKET  ·  Accra, Ghana",
-     "reason": "Market footage under 'that stall' — names the place the whole episode starts from"}
+    {
+      "start": 452.8,
+      "end": 456.6,
+      "text": "MAKOLA MARKET  ·  Accra, Ghana",
+      "reason": "Market footage under 'that stall' — names the place the whole episode starts from"
+    }
   ],
   "captions": [
-    [452.3, 454.6, "That's what stays with me"],
-    [454.6, 456.8, "about that stall,"],
-    [456.8, 460.7, "about my mum cracking those seeds"],
-    [460.7, 463.3, "open in her hand."],
-    [463.3, 465.7, "The rest of the world had"],
-    [465.7, 468.0, "grains of paradise,"],
-    [468.0, 470.3, "grains of selim,"],
-    [470.3, 471.9, "for a moment,"],
-    [471.9, 474.8, "and then let them go."],
-    [474.8, 477.2, "Ghana never let them go.", "emph"],
-    [477.2, 480.3, "Nigeria never let them go.", "emph"],
-    [488.3, 492.1, "trying to carry that same handful forward"]
+    [
+      452.3,
+      454.6,
+      "That's what stays with me"
+    ],
+    [
+      454.6,
+      456.8,
+      "about that stall,"
+    ],
+    [
+      456.8,
+      460.7,
+      "about my mum cracking those seeds"
+    ],
+    [
+      460.7,
+      463.3,
+      "open in her hand."
+    ],
+    [
+      463.3,
+      465.7,
+      "The rest of the world had"
+    ],
+    [
+      465.7,
+      468.0,
+      "grains of paradise,"
+    ],
+    [
+      468.0,
+      470.3,
+      "grains of selim,"
+    ],
+    [
+      470.3,
+      471.9,
+      "for a moment,"
+    ],
+    [
+      471.9,
+      474.8,
+      "and then let them go."
+    ],
+    [
+      474.8,
+      477.2,
+      "Ghana never let them go.",
+      "emph"
+    ],
+    [
+      477.2,
+      480.3,
+      "Nigeria never let them go.",
+      "emph"
+    ],
+    [
+      488.3,
+      492.1,
+      "trying to carry that same handful forward"
+    ]
   ],
   "lower_third": [
-    {"start": 480.4, "end": 488.2, "title": "Spices of Africa", "sub": "Grown in Sidcup, rooted in Ghana",
-     "reason": "Replaces the scripted [close] on-screen text, landing on 'on a farm in Sidcup, London'"}
+    {
+      "start": 480.4,
+      "end": 488.2,
+      "title": "Spices of Africa",
+      "sub": "Grown in Sidcup, rooted in Ghana",
+      "reason": "Replaces the scripted [close] on-screen text, landing on 'on a farm in Sidcup, London'"
+    }
   ],
-  "list_close": {"start": 492.1, "end": 499.0, "items": [
-    [492.2, "for the smell"], [494.2, "for the memory"], [495.6, "for the market"], [497.1, "for her."]],
-    "reason": "Kofi's trailing list-close — the emotional payoff, built up word by word"},
-  "cta": {"start": 499.0, "end": 506.3, "line1": "Full recipe + get the blend", "line2": "fudipeople.com",
-          "product": "graphics/labels/production/ep01-yaji-digital-1200.png",
-          "reason": "Replaces the [cta] placeholder; shows the actual Yaji jar while he says where to get it"},
+  "list_close": {
+    "start": 492.1,
+    "end": 498.95,
+    "items": [
+      [
+        492.2,
+        "for the smell"
+      ],
+      [
+        494.2,
+        "for the memory"
+      ],
+      [
+        495.6,
+        "for the market"
+      ],
+      [
+        497.1,
+        "for her."
+      ]
+    ],
+    "reason": "Kofi's trailing list-close — the emotional payoff, built up word by word"
+  },
+  "cta": {
+    "start": 499.0,
+    "end": 506.3,
+    "line1": "Full recipe + get the blend",
+    "line2": "fudipeople.com",
+    "product": "graphics/labels/chilli-oil/marketing/chilli_oil_three_journeys.jpg",
+    "reason": "Replaces the [cta] placeholder; shows the new Spices of Africa chilli oil label while he says where to get it",
+    "product_crop": [
+      8,
+      205,
+      352,
+      1195
+    ],
+    "product_tag": "Chilli Oil · Spices of Africa"
+  },
   "zooms": [
-    {"start": 474.8, "end": 480.3, "peak": 1.07, "reason": "Ghana / Nigeria never let them go — emotional peak"},
-    {"start": 499.0, "end": 503.0, "peak": 1.04, "reason": "CTA lands"}
+    {
+      "start": 474.8,
+      "end": 480.3,
+      "peak": 1.07,
+      "reason": "Ghana / Nigeria never let them go — emotional peak"
+    },
+    {
+      "start": 499.0,
+      "end": 503.0,
+      "peak": 1.04,
+      "reason": "CTA lands"
+    }
   ],
-  "end_screen": {"start": 506.3, "duration": 15.0,
-                 "reason": "Old end card was 4s; YouTube end-screen elements need 5-20s, so this leaves room for a watch-next video + subscribe"}
+  "end_screen": {
+    "start": 506.3,
+    "duration": 15.0,
+    "reason": "Old end card was 4s; YouTube end-screen elements need 5-20s, so this leaves room for a watch-next video + subscribe",
+    "banner": "graphics/labels/chilli-oil/marketing/chilli_oil_banner.jpg",
+    "banner_crop": [
+      340,
+      0,
+      1584,
+      396
+    ]
+  },
+  "broll": [
+    {
+      "start": 480.3,
+      "end": 485.2,
+      "kind": "video",
+      "src": "video/raw/ep01-ending/IMG_0637.MOV",
+      "in": 171.5,
+      "reason": "'now on a farm in Sidcup, London' — daughter picking chillies in our polytunnel (replaces the old two-up stills)"
+    },
+    {
+      "start": 485.2,
+      "end": 486.6,
+      "kind": "video",
+      "src": "video/raw/ep01-ending/IMG_0637.MOV",
+      "in": 159.7,
+      "reason": "'I'm growing my own chillies' — she holds one up to camera"
+    },
+    {
+      "start": 486.6,
+      "end": 488.3,
+      "kind": "video",
+      "src": "video/raw/ep01-ending/IMG_0638.MOV",
+      "in": 76.7,
+      "reason": "'...and spices' — a handful of our Scotch bonnets"
+    },
+    {
+      "start": 488.3,
+      "end": 492.1,
+      "kind": "photo",
+      "src": "video/raw/ep01-ending/daughters_polytunnel.jpg",
+      "push": 1.08,
+      "focus": [
+        0.5,
+        0.42
+      ],
+      "reason": "'trying to carry that same handful forward' — the next generation, in the same polytunnel"
+    },
+    {
+      "start": 494.2,
+      "end": 496.3,
+      "kind": "photo",
+      "src": "video/raw/ep01-ending/daughter_chilli_oil_garden.jpg",
+      "push": 1.06,
+      "focus": [
+        0.5,
+        0.45
+      ],
+      "reason": "'for the memory · for the market' — the chilli oil she helped make (crates stay under 'for the smell')"
+    }
+  ]
 }

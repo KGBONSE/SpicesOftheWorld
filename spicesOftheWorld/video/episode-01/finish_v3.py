@@ -20,7 +20,7 @@ import shutil
 import subprocess
 import tempfile
 
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
+from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageOps
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
@@ -168,20 +168,52 @@ def draw_cta(W, H, line1, line2, out):
     c.save(out)
 
 
-def draw_product(W, H, product, out):
+def rounded(im, r):
+    m = Image.new("L", im.size, 0)
+    ImageDraw.Draw(m).rounded_rectangle((0, 0, im.width - 1, im.height - 1), r, fill=255)
+    im = im.convert("RGBA")
+    im.putalpha(m)
+    return im
+
+
+def draw_product(W, H, cta, out):
     c = Canvas(W, H)
-    im = Image.open(os.path.join(ROOT, product)).convert("RGBA")
-    size = c.u(196)
-    im = im.resize((size, size), Image.LANCZOS)
+    im = Image.open(os.path.join(ROOT, cta["product"])).convert("RGBA")
+    if "product_crop" not in cta:          # square jar label (old layout)
+        size = c.u(196)
+        im = im.resize((size, size), Image.LANCZOS)
+        sh = Image.new("RGBA", c.img.size, (0, 0, 0, 0))
+        ImageDraw.Draw(sh).ellipse((c.u(628), c.u(96), c.u(628) + size, c.u(96) + size), fill=(0, 0, 0, 150))
+        c.img.alpha_composite(sh.filter(ImageFilter.GaussianBlur(c.u(10))))
+        c.img.alpha_composite(im, (c.u(624), c.u(88)))
+        c.save(out)
+        return
+    # portrait bottle photo in a rounded card, right of frame, with a small name tag
+    im = im.crop(tuple(cta["product_crop"]))
+    bw = 118
+    bh = bw * im.height / im.width
+    x0, y0 = 708, 46
+    card = rounded(im.resize((c.u(bw), c.u(bh)), Image.LANCZOS), c.u(10))
     sh = Image.new("RGBA", c.img.size, (0, 0, 0, 0))
-    ImageDraw.Draw(sh).ellipse((c.u(628), c.u(96), c.u(628) + size, c.u(96) + size), fill=(0, 0, 0, 150))
-    c.img.alpha_composite(sh.filter(ImageFilter.GaussianBlur(c.u(10))))
-    c.img.alpha_composite(im, (c.u(624), c.u(88)))
+    ImageDraw.Draw(sh).rounded_rectangle((c.u(x0 - 3), c.u(y0), c.u(x0 + bw + 3), c.u(y0 + bh + 6)),
+                                         c.u(12), fill=(0, 0, 0, 150))
+    c.img.alpha_composite(sh.filter(ImageFilter.GaussianBlur(c.u(8))))
+    c.d.rounded_rectangle((c.u(x0 - 3), c.u(y0 - 3), c.u(x0 + bw + 3), c.u(y0 + bh + 3)), c.u(12), fill=CREAM)
+    c.img.alpha_composite(card, (c.u(x0), c.u(y0)))
+    tag = cta.get("product_tag")
+    if tag:
+        fnt = c.f("Bold", 10)
+        tw = c.tw(tag, fnt) + 16
+        cx, ty = x0 + bw / 2, y0 + bh + 10
+        c.d.rounded_rectangle((c.u(cx - tw / 2), c.u(ty), c.u(cx + tw / 2), c.u(ty + 18)), c.u(9), fill=MARIGOLD)
+        c.text((cx, ty + 9), tag, fnt, INK, anchor="mm")
     c.save(out)
 
 
-def draw_end_screen(W, H, out):
+def draw_end_screen(W, H, out, banner=None, crop=None):
     """Room for YouTube end-screen elements: a video (left) + subscribe (right)."""
+    if banner:
+        return draw_end_screen_banner(W, H, out, banner, crop)
     c = Canvas(W, H)
     bg = Image.new("RGBA", (W, H))
     bd = ImageDraw.Draw(bg)
@@ -206,6 +238,80 @@ def draw_end_screen(W, H, out):
     c.text((REF_W / 2, 432), "Spices of Africa  ·  grown in Sidcup, rooted in Ghana",
            c.f("Medium", 15), CREAM, anchor="mm")
     c.save(out)
+
+
+def draw_end_screen_banner(W, H, out, banner, crop=None):
+    """End screen with the chilli-oil brand banner along the bottom (it carries fudipeople.com)."""
+    c = Canvas(W, H)
+    bg = Image.new("RGBA", (W, H))
+    bd = ImageDraw.Draw(bg)
+    for y in range(H):  # deep brown, matches the banner's own background
+        k = y / H
+        bd.line([(0, y), (W, y)], fill=(int(70 - 18 * k), int(24 - 6 * k), int(18 - 5 * k), 255))
+    c.img = bg
+    c.d = ImageDraw.Draw(c.img)
+    lg = logo(ROOT)
+    lh = c.u(50)
+    lg = lg.resize((int(lg.width * lh / lg.height), lh), Image.LANCZOS)
+    c.img.alpha_composite(lg, ((W - lg.width) // 2, c.u(12)))
+    c.text((REF_W / 2, 88), "Thanks for watching", c.f("ExtraBold", 24), CREAM, anchor="mm")
+    c.d.rounded_rectangle((c.u(118), c.u(112), c.u(418), c.u(281)), c.u(12),
+                          outline=GOLD, width=max(2, c.u(2)))
+    c.text((268, 196), "WATCH NEXT", c.f("Bold", 13), GOLD, anchor="mm")
+    cx, cy, r = 598, 196, 64
+    c.d.ellipse((c.u(cx - r), c.u(cy - r), c.u(cx + r), c.u(cy + r)), outline=GOLD, width=max(2, c.u(2)))
+    c.text((cx, cy), "SUBSCRIBE", c.f("Bold", 13), GOLD, anchor="mm")
+    b = Image.open(os.path.join(ROOT, banner)).convert("RGBA")
+    if crop:
+        b = b.crop(tuple(crop))
+    bw = 560
+    bh = bw * b.height / b.width
+    bx, by = (REF_W - bw) / 2, 296
+    b = rounded(b.resize((c.u(bw), c.u(bh)), Image.LANCZOS), c.u(12))
+    c.img.alpha_composite(b, (c.u(bx), c.u(by)))
+    c.save(out)
+
+
+def render_broll(br, W, H, out):
+    """Pre-render one cutaway as a silent W x H, 30fps clip of exactly (end - start) seconds.
+    Portrait sources sit sharp in the middle over a blurred, darkened fill of themselves.
+    iPhone HLG footage is tonemapped to SDR the same way as build_ep01.py."""
+    d = br["end"] - br["start"]
+    src = os.path.join(ROOT, br["src"])
+    fill = (f"split[a][b];[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},"
+            f"boxblur=luma_radius={max(8, W // 40)}:luma_power=2,eq=brightness=-0.10:saturation=0.85[bg];"
+            f"[b]scale=-2:{H}:flags=lanczos[fg];[bg][fg]overlay=(W-w)/2:0")
+    if br["kind"] == "video":
+        trc = subprocess.check_output(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
+                                       "stream=color_transfer", "-of", "csv=p=0", src]).decode().strip()
+        tm = ("zscale=t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,tonemap=mobius,"
+              "zscale=t=bt709:m=bt709:r=tv,format=yuv420p," if trc in ("arib-std-b67", "smpte2084") else "")
+        vf = f"{tm}fps=30,{fill},setsar=1,format=yuv420p"
+        cmd = ["ffmpeg", "-y", "-v", "error", "-ss", f"{br['in']}", "-t", f"{d:.3f}", "-i", src, "-vf", vf]
+    else:
+        # still: compose the fill frame at 1.15x, then push in slowly towards `focus`
+        im = Image.open(src)
+        im = ImageOps.exif_transpose(im).convert("RGB")
+        S = 1.15
+        CW, CH = int(W * S) // 2 * 2, int(H * S) // 2 * 2
+        bg = im.copy()
+        k = max(CW / bg.width, CH / bg.height)
+        bg = bg.resize((int(bg.width * k) + 1, int(bg.height * k) + 1), Image.LANCZOS)
+        bg = bg.crop(((bg.width - CW) // 2, (bg.height - CH) // 2, (bg.width - CW) // 2 + CW, (bg.height - CH) // 2 + CH))
+        bg = bg.filter(ImageFilter.GaussianBlur(CW // 60))
+        bg = Image.eval(bg, lambda v: int(v * 0.85))
+        fg = im.resize((int(im.width * CH / im.height), CH), Image.LANCZOS)
+        bg.paste(fg, ((CW - fg.width) // 2, 0))
+        still = out + ".png"
+        bg.save(still)
+        p = br.get("push", 1.06)
+        fx, fy = br.get("focus", [0.5, 0.5])
+        z = f"(1+{p - 1:.4f}*t/{d:.3f})"                    # 1 -> push over the shot
+        vf = (f"fps=30,scale=w='trunc({W}*{z}/2)*2':h='trunc({H}*{z}/2)*2':eval=frame:flags=lanczos,"
+              f"crop={W}:{H}:'(in_w-out_w)*{fx}':'(in_h-out_h)*{fy}',setsar=1,format=yuv420p")
+        cmd = ["ffmpeg", "-y", "-v", "error", "-loop", "1", "-t", f"{d:.3f}", "-i", still, "-vf", vf]
+    cmd += ["-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-r", "30", out]
+    subprocess.run(cmd, check=True)
 
 
 def zoom_expr(zooms, t0):
@@ -263,8 +369,18 @@ def main():
         add(p, a, b)
     cta = plan["cta"]
     p = os.path.join(tmp, "cta.png"); draw_cta(W, H, cta["line1"], cta["line2"], p); add(p, cta["start"], cta["end"])
-    p = os.path.join(tmp, "prod.png"); draw_product(W, H, cta["product"], p); add(p, cta["start"] + 0.4, cta["end"], True)
-    endpng = os.path.join(tmp, "end.png"); draw_end_screen(W, H, endpng)
+    p = os.path.join(tmp, "prod.png"); draw_product(W, H, cta, p); add(p, cta["start"] + 0.4, cta["end"], True)
+    endpng = os.path.join(tmp, "end.png"); draw_end_screen(W, H, endpng, es.get("banner"), es.get("banner_crop"))
+
+    # cutaways (new farm footage / photos): pre-rendered, laid over the picture under all graphics
+    brolls = []
+    for i, br in enumerate(plan.get("broll", [])):
+        if br["end"] <= t0:
+            continue
+        bp = os.path.join(tmp, f"broll{i}.mp4")
+        print("cutaway", i, br["src"])
+        render_broll(br, W, H, bp)
+        brolls.append((bp, br["start"] - t0, br["end"] - t0))
 
     # keep only layers that touch the render window, shift to output time
     layers = [(png, max(a, t0) - t0, b - t0, f) for png, a, b, f in layers if b > t0]
@@ -273,6 +389,8 @@ def main():
     # letting ffmpeg rebuild the graph there resets trim/overlay timing and drops ~30s.
     cmd = ["ffmpeg", "-y", "-v", "error", "-stats", "-reinit_filter", "0",
            "-ss", f"{t0}", "-t", f"{cut - t0:.3f}", "-i", src]
+    for bp, *_ in brolls:
+        cmd += ["-i", bp]
     for png, *_ in layers:
         cmd += ["-loop", "1", "-t", f"{cut - t0:.3f}", "-i", png]   # no longer than the main picture
     cmd += ["-loop", "1", "-t", f"{es['duration']}", "-i", endpng]
@@ -284,14 +402,19 @@ def main():
           f"crop={W}:{H}:'(in_w-out_w)/2':'(in_h-out_h)/2',"
           f"setsar=1,format=yuv420p[v0]"]
     last = "v0"
+    for j, (bp, a, b) in enumerate(brolls, start=1):
+        fc.append(f"[{j}:v]setpts=PTS-STARTPTS+{a:.3f}/TB,format=yuv420p[b{j}]")
+        fc.append(f"[{last}][b{j}]overlay=0:0:eof_action=pass:enable='between(t,{a:.3f},{b:.3f})'[vb{j}]")
+        last = f"vb{j}"
+    nb = len(brolls)
     for i, (png, a, b, fade) in enumerate(layers, start=1):
-        chain = f"[{i}:v]format=rgba"
+        chain = f"[{i + nb}:v]format=rgba"
         if fade:
             chain += f",fade=t=in:st={a:.3f}:d=0.3:alpha=1,fade=t=out:st={b - 0.3:.3f}:d=0.3:alpha=1"
         fc.append(chain + f"[o{i}]")
         fc.append(f"[{last}][o{i}]overlay=0:0:shortest=1:enable='between(t,{a:.3f},{b:.3f})'[v{i}]")
         last = f"v{i}"
-    ei = len(layers) + 1
+    ei = len(layers) + nb + 1
     fc.append(f"[{ei}:v]format=yuv420p,fps=30,fade=t=in:st=0:d=0.5,"
               f"fade=t=out:st={es['duration'] - 0.8}:d=0.8,setsar=1[ve]")
     fc.append(f"[{last}][ve]concat=n=2:v=1:a=0[vout]")
