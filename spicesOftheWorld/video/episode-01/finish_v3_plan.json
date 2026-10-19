@@ -34,8 +34,8 @@
       "fade": "in"
     },
     {
-      "start": 241.4,
-      "end": 247.9,
+      "start": 244.7,
+      "end": 247.85,
       "kicker": "THE BLEND",
       "title": "Yaji",
       "reason": "'This is the one that ties Ghana and Nigeria together — Yaji'"
@@ -404,21 +404,37 @@
     {
       "type": "research",
       "start": 228.4,
-      "end": 241.25,
+      "end": 244.6,
       "title": "What the research says",
       "rows": [
         [
-          229.0,
+          228.4,
           "Grains of paradise",
-          "shown to rev up metabolism"
+          "revs up metabolism"
         ],
         [
           235.5,
-          "…and activate brown fat",
-          "the kind that burns calories for heat"
+          "Grains of paradise",
+          "activates calorie-burning brown fat"
+        ],
+        [
+          237.6,
+          "Grains of selim",
+          "gut & respiratory health"
+        ],
+        [
+          239.4,
+          "Ginger",
+          "digestion & nausea"
+        ],
+        [
+          241.2,
+          "Black pepper",
+          "helps you absorb more from the rest"
         ]
       ],
-      "reason": "[health]: only the two claims kept in this cut (the selim/ginger/pepper lines were cut, so they're not shown)"
+      "reason": "[health]: the two grains-of-paradise claims he says, plus the selim/ginger/black-pepper lines from the script (cut from the voice track, added on screen at Kofi's request). Wording from scripts/episode-01-west-africa-yaji.md",
+      "compact": true
     },
     {
       "type": "label",

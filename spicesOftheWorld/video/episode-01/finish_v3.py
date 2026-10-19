@@ -435,6 +435,26 @@ def draw_build(W, H, title, items, upto, out):
     c.save(out)
 
 
+def draw_research_compact(W, H, title, rows, upto, out):
+    """Research card, one line per row ('Ginger  ·  digestion & nausea'); rows appear in turn."""
+    c = Canvas(W, H)
+    fh, fa, fb = c.f("ExtraBold", 21), c.f("Bold", 15), c.f("Medium", 15)
+    sep = "  ·  "
+    widths = [c.tw(a + sep, fa) + c.tw(b, fb) for a, b in rows]
+    w = max([c.tw(title, fh)] + widths) + 80
+    rh = 27
+    y0 = 474 - 58 - rh * len(rows)
+    _tab(c, w, y0=y0)
+    c.text((REF_W / 2, y0 + 24), title, fh, CREAM, anchor="mm")
+    c.d.rectangle((c.u(REF_W / 2 - 18), c.u(y0 + 41), c.u(REF_W / 2 + 18), c.u(y0 + 43)), fill=MARIGOLD)
+    for i, (a, b) in enumerate(rows[: upto + 1]):
+        y = y0 + 62 + i * rh
+        x = REF_W / 2 - widths[i] / 2
+        c.text((x, y), a + sep, fa, GOLD, anchor="lm")
+        c.text((x + c.tw(a + sep, fa), y), b, fb, CREAM, anchor="lm")
+    c.save(out)
+
+
 def draw_research(W, H, title, rows, upto, out):
     """Research card: a heading and rows that appear as they are said."""
     c = Canvas(W, H)
@@ -548,7 +568,8 @@ def main():
                 if ty == "build":
                     draw_build(W, H, cd["title"], [x[1] for x in steps], k, p)
                 elif ty == "research":
-                    draw_research(W, H, cd["title"], [(x[1], x[2]) for x in steps], k, p)
+                    (draw_research_compact if cd.get("compact") else draw_research)(
+                        W, H, cd["title"], [(x[1], x[2]) for x in steps], k, p)
                 else:
                     draw_side(W, H, cd["left"], cd["right"], p, show_right=(k == 1))
                 a = cd["start"] if k == 0 else steps[k][0]
