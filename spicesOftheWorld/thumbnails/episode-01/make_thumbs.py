@@ -4,7 +4,7 @@ from finish_v3 import font, MARIGOLD, CREAM, INK, GOLD
 from PIL import Image, ImageDraw, ImageFilter, ImageEnhance
 W,H=1280,720
 def load(t, crop=None):
-    im=Image.open(f'frames/f_{t}.png').convert('RGB')
+    im=Image.open(t if isinstance(t,str) else f'frames/f_{t}.png').convert('RGB')
     if crop: im=im.crop(crop)
     return im
 def fill(im,w,h):
@@ -26,7 +26,7 @@ def logo_bug(img):
     lg=lg.resize((int(lg.width*70/lg.height),70),Image.LANCZOS); img.alpha_composite(lg,(W-lg.width-28,H-lg.height-22))
 
 # A: skewer heap + origin claim (no face)
-a=fill(load(395,(60,40,854,480)),W,H).convert('RGBA'); grad(a,True,215,0.6)
+a=fill(load('source/IMG_4576_26s.jpg',(0,560,1080,1240)),W,H).convert('RGBA'); grad(a,True,215,0.6)
 f1=font('ExtraBold',118)
 shadow_text(a,(54,40),'THE SPICE',f1,CREAM); d=ImageDraw.Draw(a)
 x=54+d.textlength('THE ',font=f1)
@@ -35,22 +35,23 @@ shadow_text(a,(54,160),'EUROPE FORGOT',f1,CREAM)
 logo_bug(a); a.convert('RGB').save('A_spice_europe_forgot.jpg',quality=92)
 
 # B: ingredient catalogue grid + "WHAT'S IN YAJI?"
-tiles=[(41,'GRAINS OF PARADISE'),(203,'GRAINS OF SELIM'),(253,'DRIED CHILLIES'),(257.5,'KULI-KULI'),(261,'GINGER'),(269.5,'= YAJI')]
+tiles=[('source/p05.jpg','GRAINS OF PARADISE'),('source/p09.jpg','GRAINS OF SELIM'),('source/p11.jpg','SMOKED CHILLIES'),('source/p06.jpg','KULI-KULI'),('source/p07.jpg','GINGER'),('source/p08.jpg','SALT & PEPPER')]
+crops={'source/p05.jpg':(150,380,1360,1300),'source/p09.jpg':(380,640,1180,1480),'source/p11.jpg':(200,560,1150,1350),'source/p06.jpg':(250,420,1300,1450),'source/p07.jpg':(180,560,1300,1450),'source/p08.jpg':(220,640,1300,1500)}
 b=Image.new('RGBA',(W,H),(58,18,16,255)); top=150; tw,th=W//3,(H-top)//2
 for i,(t,lab) in enumerate(tiles):
-    tile=fill(load(t,(110,40,854,420)),tw-6,th-6).convert('RGBA')
+    tile=fill(load(t,crops[t]),tw-6,th-6).convert('RGBA')
     b.alpha_composite(tile,((i%3)*tw+3, top+(i//3)*th+3))
     fl=font('ExtraBold',26); bx=(i%3)*tw+16; by=top+(i//3)*th+th-52
     d=ImageDraw.Draw(b); w=d.textlength(lab,font=fl)+28
-    d.rounded_rectangle((bx,by,bx+w,by+40),20,fill=MARIGOLD if lab=='= YAJI' else (107,27,31,235))
-    d.text((bx+14,by+20),lab,font=fl,fill=INK if lab=='= YAJI' else CREAM,anchor='lm')
+    d.rounded_rectangle((bx,by,bx+w,by+40),20,fill=(107,27,31,235))
+    d.text((bx+14,by+20),lab,font=fl,fill=CREAM,anchor='lm')
 fb=font('ExtraBold',96)
 d=ImageDraw.Draw(b); t1="WHAT'S IN "; wt=d.textlength(t1+'YAJI?',font=fb); x0=(W-wt)/2
 d.text((x0,22),t1,font=fb,fill=CREAM); d.text((x0+d.textlength(t1,font=fb),22),'YAJI?',font=fb,fill=MARIGOLD)
 b.convert('RGB').save('B_whats_in_yaji.jpg',quality=92)
 
 # C: one spice, two names — suya heap with SUYA / CHINCHINGA split + Kofi face badge
-c=fill(load(398,(60,40,854,480)),W,H).convert('RGBA'); grad(c,False,230,0.55)
+c=fill(load('source/IMG_4576_26s.jpg',(0,520,1080,1200)),W,H).convert('RGBA'); grad(c,False,230,0.55)
 fc=font('ExtraBold',104); fs=font('Bold',40)
 shadow_text(c,(W/2,500),'SUYA = CHINCHINGA',fc,CREAM,anchor='mm')
 shadow_text(c,(W/2,600),'ONE SPICE  ·  TWO COUNTRIES',fs,GOLD,anchor='mm')

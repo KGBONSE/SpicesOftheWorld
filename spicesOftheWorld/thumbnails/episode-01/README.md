@@ -9,5 +9,6 @@ Built from `competitors/channel-list.md` in the SpicesProject repo: the best per
 | `B_whats_in_yaji.jpg` | No face. Catalogue grid of the six ingredient bowls (Curious Bites format) + "WHAT'S IN YAJI?" |
 | `C_suya_chinchinga_face.jpg` | Face badge test. Skewer heap + "SUYA = CHINCHINGA" |
 
-Mock-ups only: frames come from the 480p v3 cut, so they are soft at 1280x720. Rebuild from the original
-iPhone stills/footage before upload. `make_thumbs.py` expects frames in `frames/` (`f_<seconds>.png` from v3).
+Rebuilt 2026-10-20 at full quality from Kofi's originals in `source/`: the skewer heap is a frame from
+IMG_4576 (26s, HDR tonemapped to SDR); the six ingredient tiles are his iPhone photos. Only the face badge in C
+still comes from the 480p v3 cut (`frames/f_8.png`, not committed). Run `make_thumbs.py` from this folder.
