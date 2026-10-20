@@ -471,6 +471,18 @@ def draw_research(W, H, title, rows, upto, out):
     c.save(out)
 
 
+def draw_box(W, H, title, sub, rect, out):
+    """Branded panel laid exactly over a plain text box Kofi burned into v3 (same words, Fudi style)."""
+    c = Canvas(W, H)
+    x0, y0, x1, y1 = rect
+    c.panel((x0, y0, x1, y1), alpha=255)
+    cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
+    c.d.rectangle((c.u(x0), c.u(y0 + 14), c.u(x0 + 5), c.u(y1 - 14)), fill=MARIGOLD)
+    c.text((cx, cy - 14), title, c.f("ExtraBold", 26), CREAM, anchor="mm")
+    c.text((cx, cy + 22), sub, c.f("Medium", 17), GOLD, anchor="mm")
+    c.save(out)
+
+
 def draw_side(W, H, left, right, out, show_right=True):
     """Text in the dark side panels around the portrait map shots (map sits at x 290-562)."""
     c = Canvas(W, H)
@@ -560,6 +572,8 @@ def main():
             draw_caption_c(W, H, cd["title"], cd.get("sub"), base + ".png"); add(base + ".png", cd["start"], cd["end"], cd.get("fade", True))
         elif ty == "label":
             draw_label(W, H, cd["text"], base + ".png", cd.get("y", 418), cd.get("minw", 200)); add(base + ".png", cd["start"], cd["end"], cd.get("fade", True))
+        elif ty == "box":
+            draw_box(W, H, cd["title"], cd["sub"], cd["rect"], base + ".png"); add(base + ".png", cd["start"], cd["end"], cd.get("fade", False))
         elif ty in ("build", "research", "side"):
             steps = cd["items"] if ty == "build" else cd["rows"] if ty == "research" else [[cd["start"]], [cd["right_at"]]]
             n = len(steps)

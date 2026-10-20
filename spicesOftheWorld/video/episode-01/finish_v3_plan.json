@@ -66,6 +66,12 @@
   ],
   "captions": [
     [
+      412.9,
+      418.8,
+      "“One of the best vegetables in the whole world”",
+      "emph"
+    ],
+    [
       452.3,
       454.6,
       "That's what stays with me"
@@ -570,6 +576,44 @@
       "end": 371.3,
       "text": "Back on the fire to finish",
       "reason": "Method step"
+    },
+    {
+      "type": "label",
+      "start": 409.0,
+      "end": 412.8,
+      "text": "Picking okra with the girls",
+      "reason": "Farm section: says what we're watching (Kofi + daughters harvesting okra)"
+    },
+    {
+      "type": "caption",
+      "start": 420.4,
+      "end": 427.2,
+      "title": "The chilli harvest",
+      "sub": "Scotch bonnets, grown on our farm in Sidcup",
+      "reason": "Kofi asked for a line on the chilli harvest over the crates of red and yellow bonnets"
+    },
+    {
+      "type": "caption",
+      "start": 427.3,
+      "end": 434.25,
+      "title": "Red and yellow Scotch bonnets",
+      "sub": "Picked by hand, then into the smoker",
+      "reason": "Bridges the harvest to the smoke-drying shot that follows"
+    },
+    {
+      "type": "box",
+      "start": 434.3,
+      "end": 443.35,
+      "title": "Smoke-drying our chillies",
+      "sub": "This is what makes them special",
+      "rect": [
+        202,
+        280,
+        640,
+        392
+      ],
+      "fade": false,
+      "reason": "Kofi's own burned-in text (plain white on grey), restyled in Fudi colours over the same spot, same words"
     }
   ]
 }
