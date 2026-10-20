@@ -333,7 +333,7 @@ def render_broll(br, W, H, out):
               f"crop={W}:{H}:'(in_w-out_w)*{fx}':'(in_h-out_h)*{fy}',setsar=1,format=yuv420p")
         cmd = ["ffmpeg", "-y", "-v", "error", "-loop", "1", "-t", f"{d:.3f}", "-i", still, "-vf", vf]
     # tag as SDR bt709: left as the iPhone's bt2020/HLG tags, the overlay later reads the
-    # colours with the wrong matrix (orange Scotch bonnets came out yellow)
+    # colours with the wrong matrix (orange habaneros came out yellow)
     cmd += ["-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-r", "30",
             "-colorspace", "bt709", "-color_trc", "bt709", "-color_primaries", "bt709", "-color_range", "tv", out]
     subprocess.run(cmd, check=True)

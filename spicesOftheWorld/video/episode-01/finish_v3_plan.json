@@ -256,7 +256,7 @@
       "kind": "video",
       "src": "video/raw/ep01-ending/IMG_0638.MOV",
       "in": 76.7,
-      "reason": "'...and spices' — a handful of our Scotch bonnets (graded back to their real orange)",
+      "reason": "'...and spices' — a handful of our orange habaneros (graded back to their real orange)",
       "grade": "selectivecolor=yellows=-0.1 0.7 0.1 0:reds=0 0.1 0 0:correction_method=relative,eq=saturation=1.15:gamma=0.95"
     },
     {
@@ -589,14 +589,14 @@
       "start": 420.4,
       "end": 427.2,
       "title": "The chilli harvest",
-      "sub": "Scotch bonnets, grown on our farm in Sidcup",
+      "sub": "Habaneros, ghost peppers & Carolina Reapers, grown in Sidcup",
       "reason": "Kofi asked for a line on the chilli harvest over the crates of red and yellow bonnets"
     },
     {
       "type": "caption",
       "start": 427.3,
       "end": 434.25,
-      "title": "Red and yellow Scotch bonnets",
+      "title": "Naga Morich  ·  Trinidad Moruga",
       "sub": "Picked by hand, then into the smoker",
       "reason": "Bridges the harvest to the smoke-drying shot that follows"
     },
