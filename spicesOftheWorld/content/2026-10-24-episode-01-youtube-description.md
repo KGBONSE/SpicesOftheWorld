@@ -39,8 +39,28 @@ X: https://x.com/fudipeople
 
 ## Notes for Kofi
 
-- Chapter times come from `HANDOFF.md`; re-check them against the final render before publishing.
+- Chapter times checked against the final render (2026-10-24): each lands on its on-screen chapter title.
 - The "Contains peanuts" line follows the blog's allergen flag. Verify against the supplier before publishing.
 - No health claims are made, to match the brand's citation and claims convention.
 - The final line in the description's first paragraph ("borrowed from West Africa and then forgot") comes from the blog post's framing, not a new claim.
 - Upload with thumbnail A, then set up the end screen, trailer, playlist and pinned comment in YouTube Studio as in the HANDOFF launch checklist.
+
+## Pinned comment
+
+Grains of paradise was once Europe's go-to pepper, and then it just... vanished from its kitchens. West Africa never let it go. 🌶️
+
+Have you ever cooked with grains of paradise or grains of selim? And is it suya or chinchinga where you grew up? 👇
+
+Full recipe + the blend: https://fudipeople.com
+
+## Instagram launch post (feed, with thumbnail A or a 30s clip)
+
+Episode 1 of Spices of the World is LIVE 🌶️
+
+It starts at Makola Market in Accra, at the stall my mum always stopped at first, and ends on our farm in Sidcup with a plate of suya. In between: the spice Europe forgot, how it crossed the Sahara, and Yaji, the blend that ties Ghana and Nigeria together.
+
+Thank you to everyone who voted on the thumbnail. A won! 🙌
+
+Link in bio · Full episode on YouTube
+
+#FudiPeople #SpicesOfTheWorld #Suya #Yaji #WestAfricanFood
