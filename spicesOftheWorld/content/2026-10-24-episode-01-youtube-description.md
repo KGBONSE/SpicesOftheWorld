@@ -2,9 +2,13 @@
 
 Replaces the old `docs/*Title-Description.docx` files, which had two errors: "Mokola" (correct: **Makola**) and a Yaji list without grains of paradise.
 
-## Title (recommended; pairs with thumbnail A)
+## Title (chosen by Kofi 2026-10-24; pairs with thumbnail A)
 
-The Spice Europe Forgot: Grains of Paradise, Yaji & Suya
+Suya & Chinchinga: The Forgotten Spice Ghana and Nigeria Share
+
+(Yaji is the spice mix; suya (Nigeria) and chinchinga (Ghana) are the skewers. Earlier draft "The Spice Europe Forgot: Grains of Paradise, Yaji & Suya" dropped chinchinga and repeated the thumbnail text.)
+
+Publish: Sunday 25 Oct 2026, 12:00 London time (GMT; clocks go back that morning).
 
 ## Description
 
