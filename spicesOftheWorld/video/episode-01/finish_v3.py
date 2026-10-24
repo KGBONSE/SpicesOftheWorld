@@ -230,10 +230,10 @@ def draw_product(W, H, cta, out):
     c.save(out)
 
 
-def draw_end_screen(W, H, out, banner=None, crop=None):
+def draw_end_screen(W, H, out, banner=None, crop=None, nxt=None):
     """Room for YouTube end-screen elements: a video (left) + subscribe (right)."""
     if banner:
-        return draw_end_screen_banner(W, H, out, banner, crop)
+        return draw_end_screen_banner(W, H, out, banner, crop, nxt)
     c = Canvas(W, H)
     bg = Image.new("RGBA", (W, H))
     bd = ImageDraw.Draw(bg)
@@ -260,7 +260,7 @@ def draw_end_screen(W, H, out, banner=None, crop=None):
     c.save(out)
 
 
-def draw_end_screen_banner(W, H, out, banner, crop=None):
+def draw_end_screen_banner(W, H, out, banner, crop=None, nxt=None):
     """End screen with the chilli-oil brand banner along the bottom (it carries fudipeople.com)."""
     c = Canvas(W, H)
     bg = Image.new("RGBA", (W, H))
@@ -273,8 +273,15 @@ def draw_end_screen_banner(W, H, out, banner, crop=None):
     lg = logo(ROOT)
     lh = c.u(50)
     lg = lg.resize((int(lg.width * lh / lg.height), lh), Image.LANCZOS)
-    c.img.alpha_composite(lg, ((W - lg.width) // 2, c.u(12)))
-    c.text((REF_W / 2, 88), "Thanks for watching", c.f("ExtraBold", 24), CREAM, anchor="mm")
+    if nxt:  # "coming next" teaser replaces the thank-you line; logo moves up a touch to make room
+        lh2 = c.u(40)
+        lg = lg.resize((int(lg.width * lh2 / lg.height), lh2), Image.LANCZOS)
+        c.img.alpha_composite(lg, ((W - lg.width) // 2, c.u(8)))
+        c.text((REF_W / 2, 64), nxt["kicker"], c.f("Bold", 12), GOLD, anchor="mm")
+        c.text((REF_W / 2, 90), nxt["title"], c.f("ExtraBold", 21), CREAM, anchor="mm")
+    else:
+        c.img.alpha_composite(lg, ((W - lg.width) // 2, c.u(12)))
+        c.text((REF_W / 2, 88), "Thanks for watching", c.f("ExtraBold", 24), CREAM, anchor="mm")
     c.d.rounded_rectangle((c.u(118), c.u(112), c.u(418), c.u(281)), c.u(12),
                           outline=GOLD, width=max(2, c.u(2)))
     c.text((268, 196), "WATCH NEXT", c.f("Bold", 13), GOLD, anchor="mm")
@@ -614,7 +621,7 @@ def main():
     cta = plan["cta"]
     p = os.path.join(tmp, "cta.png"); draw_cta(W, H, cta["line1"], cta["line2"], p); add(p, cta["start"], cta["end"])
     p = os.path.join(tmp, "prod.png"); draw_product(W, H, cta, p); add(p, cta["start"] + 0.4, cta["end"], True)
-    endpng = os.path.join(tmp, "end.png"); draw_end_screen(W, H, endpng, es.get("banner"), es.get("banner_crop"))
+    endpng = os.path.join(tmp, "end.png"); draw_end_screen(W, H, endpng, es.get("banner"), es.get("banner_crop"), es.get("next"))
 
     # cutaways (new farm footage / photos): pre-rendered, laid over the picture under all graphics
     brolls = []

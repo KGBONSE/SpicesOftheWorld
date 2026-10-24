@@ -225,7 +225,12 @@
       0,
       1584,
       396
-    ]
+    ],
+    "next": {
+      "kicker": "NEXT EPISODE  ·  SPICES OF THE WORLD",
+      "title": "Senegal: the birthplace of jollof & grains of selim's smoky secret",
+      "reason": "Kofi 2026-10-24: tell viewers what's coming next, matching the Watch Next slot"
+    }
   },
   "broll": [
     {
@@ -616,6 +621,14 @@
       "title": "Our first go at growing okra",
       "sub": "It's gone so well, we don't need to buy okra any more",
       "reason": "Kofi's own line for the okra picking (replaces the uncertain transcript quote)"
+    },
+    {
+      "type": "caption",
+      "start": 381.0,
+      "end": 389.8,
+      "title": "Tip: a drizzle of olive oil after the Yaji",
+      "sub": "It drips onto the coals, and the smoke flavours the meat",
+      "reason": "Kofi 2026-10-24: the olive-oil step was cut from his recording; added as a tip over the second Yaji rub, before the plated skewers"
     }
   ]
 }
