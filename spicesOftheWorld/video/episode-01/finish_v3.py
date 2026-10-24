@@ -533,10 +533,12 @@ def main():
     ap.add_argument("--plan", default=os.path.join(HERE, "finish_v3_plan.json"))
     ap.add_argument("--start", type=float, help="preview: start here (default: plan preview_start)")
     ap.add_argument("--until", type=float, help="preview: stop here, no end screen (quick checks)")
+    ap.add_argument("--source", help="override the plan's source video, e.g. a 1080p re-export of v3 "
+                                     "(must have exactly the same cuts and timings as the 480p file)")
     args = ap.parse_args()
 
     plan = json.load(open(args.plan))
-    src = os.path.join(ROOT, plan["source"])
+    src = os.path.abspath(args.source) if args.source else os.path.join(ROOT, plan["source"])
     if args.preview:
         t0 = plan["preview_start"] if args.start is None else args.start
         name = "ep01_v4_ending_preview.mp4" if t0 >= 400 else f"ep01_v4_preview_from_{int(t0)}s.mp4"
