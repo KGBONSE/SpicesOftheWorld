@@ -68,3 +68,9 @@ Thank you to everyone who voted on the thumbnail. A won! 🙌
 Link in bio · Full episode on YouTube
 
 #FudiPeople #SpicesOfTheWorld #Suya #Yaji #WestAfricanFood
+
+## Scheduled (2026-10-24 22:20)
+
+Scheduled via Blotato to YouTube @fudi.people for **2026-10-25 12:00 GMT** (public, notify subscribers, thumbnail A).
+Blotato submission `8c1d67b7-fb4e-4b39-a9b2-f83d4539bb30`. File: `video/episode-01/out/Spices_of_the_World_Ep1_FINAL.mp4`
+(olive-oil tip, Ep 2 teaser end screen, original afrobeat bed −3 dB, −14.5 LUFS). Pinned comment + Studio steps still manual.
