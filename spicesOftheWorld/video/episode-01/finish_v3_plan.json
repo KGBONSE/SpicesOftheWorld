@@ -66,12 +66,6 @@
   ],
   "captions": [
     [
-      412.9,
-      418.8,
-      "“One of the best vegetables in the whole world”",
-      "emph"
-    ],
-    [
       452.3,
       454.6,
       "That's what stays with me"
@@ -614,6 +608,14 @@
       ],
       "fade": false,
       "reason": "Kofi's own burned-in text (plain white on grey), restyled in Fudi colours over the same spot, same words"
+    },
+    {
+      "type": "caption",
+      "start": 412.9,
+      "end": 419.0,
+      "title": "Our first go at growing okra",
+      "sub": "It's gone so well, we don't need to buy okra any more",
+      "reason": "Kofi's own line for the okra picking (replaces the uncertain transcript quote)"
     }
   ]
 }
