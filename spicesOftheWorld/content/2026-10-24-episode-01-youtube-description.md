@@ -73,6 +73,6 @@ Link in bio · Full episode on YouTube
 ## Scheduled (2026-10-24 22:20)
 
 Scheduled via Blotato to YouTube @fudi.people for **2026-10-25 12:00 GMT** (public, notify subscribers, thumbnail A).
-**Superseded 2026-10-25 08:50:** final is the longer v8 cut (9:41), Blotato schedule `6003869` (submission `26172adb-d81b-4406-9df4-b6a4d5ec61ab`),
-file `video/episode-01/out/Spices_of_the_World_Ep1_v8.mp4`: Kofi's IMG_0616 clip for the rub/grill/oil, 60 s 'full cook' insert at 6:44 (chapters: From our farm now 7:44),
+**Superseded 2026-10-25 10:15:** final is v9 (9:41), Blotato schedule `6005522` (submission `d9afae1a-1f31-4cbb-813d-69dd84f7ddcf`),
+file `video/episode-01/out/Spices_of_the_World_Ep1_v9.mp4`; v9 adds Kofi's full-bowl Yaji ingredient photos (4:08-4:31) and raw skewers at 'season lightly' (5:44). Based on v8: Kofi's IMG_0616 clip for the rub/grill/oil, 60 s 'full cook' insert at 6:44 (chapters: From our farm now 7:44),
 Ep 2 teaser end screen, original afrobeat bed, −14.7 LUFS. Pinned comment + Studio steps still manual.
