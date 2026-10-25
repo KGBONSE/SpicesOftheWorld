@@ -81,3 +81,5 @@ Ep 2 teaser end screen, original afrobeat bed, −14.7 LUFS. Pinned comment + St
 **Superseded 2026-10-25 12:15:** final is v12 (8:52), rescheduled to **13:30 GMT**, submission `61d56c55-2400-4131-a706-f54ebd54fef4`, file `video/episode-01/out/Spices_of_the_World_Ep1_v12.mp4`. v12 adds Kofi's own on-camera olive-oil explanation (IMG_0616 1:50-2:01, live audio) at 394 s, before the 'done' line. Chapter: From our farm now 6:55. Script: `video/episode-01/patch_oil_voice.py`.
 
 **Superseded 2026-10-25 12:55:** final is v13 (8:52), 13:30 GMT, submission `de5cd25d-207d-461e-9621-641d1cf8443b`, file `video/episode-01/out/Spices_of_the_World_Ep1_v13.mp4`. v13 = v12 with 'back on the fire' grill footage from 370 s and the early drizzle cutaway (380-394) removed. Script: `video/episode-01/patch_fire_early.py`.
+
+**Superseded 2026-10-25 13:42:** final is v15 (8:52), **14:00 GMT**, submission `22d61fda-9c1c-469b-acc0-a2356ec92403`, file `video/episode-01/out/Spices_of_the_World_Ep1_v15.mp4`. v15 = v13 with the grill footage slowed further and held over 6:33-6:34 so the bowl shot no longer shows before the oil insert.

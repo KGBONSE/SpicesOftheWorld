@@ -7,7 +7,7 @@ import finish_v3 as f
 W, H = 1920, 1080
 tmp = tempfile.mkdtemp(prefix="fire_")
 S, E = 370.0, 394.0
-b = {"start": S, "end": E, "kind": "video", "src": "video/raw/ep01-ending/IMG_0616.MOV", "in": 62.2, "speed": 12.4 / (E - S)}
+b = {"start": S, "end": E, "kind": "video", "src": "video/raw/ep01-ending/IMG_0616.MOV", "in": 62.6, "speed": 10.8 / (E - S), "grade": "minterpolate=fps=30:mi_mode=blend"}
 vid = os.path.join(tmp, "b.mp4"); f.render_broll(b, W, H, vid)
 bug = os.path.join(tmp, "bug.png"); f.draw_bug(W, H, bug)
 lab = os.path.join(tmp, "lab.png"); f.draw_label(W, H, "Back on the fire to finish", lab, 418, 200)
