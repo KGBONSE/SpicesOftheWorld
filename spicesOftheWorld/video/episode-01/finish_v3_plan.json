@@ -234,6 +234,33 @@
   },
   "broll": [
     {
+      "start": 343.8,
+      "end": 347.0,
+      "kind": "video",
+      "src": "video/raw/ep01-ending/IMG_0616.MOV",
+      "in": 22.0,
+      "speed": 2.0,
+      "reason": "'season lightly': coating the skewers in the full Yaji bowl (IMG_0616)"
+    },
+    {
+      "start": 361.5,
+      "end": 382.0,
+      "kind": "video",
+      "src": "video/raw/ep01-ending/IMG_0616.MOV",
+      "in": 72.0,
+      "speed": 2.0,
+      "reason": "rub the Yaji in properly: full bowl, both hands (IMG_0616 1:12-1:53 at 2x)"
+    },
+    {
+      "start": 382.0,
+      "end": 400.0,
+      "kind": "video",
+      "src": "video/raw/ep01-ending/IMG_0616.MOV",
+      "in": 112.0,
+      "speed": 1.6,
+      "reason": "back on the grill + brushing the olive oil on (IMG_0616 1:52+ at 1.6x)"
+    },
+    {
       "start": 480.3,
       "end": 485.2,
       "kind": "video",
@@ -544,7 +571,7 @@
     {
       "type": "label",
       "start": 343.8,
-      "end": 347.2,
+      "end": 347.0,
       "text": "Season lightly to start",
       "reason": "Method step he says over the raw meat"
     },
@@ -560,20 +587,6 @@
       "start": 358.3,
       "end": 361.3,
       "text": "Nearly done? Take them off",
-      "reason": "Method step"
-    },
-    {
-      "type": "label",
-      "start": 361.5,
-      "end": 366.25,
-      "text": "Rub the Yaji in properly",
-      "reason": "[l_late]"
-    },
-    {
-      "type": "label",
-      "start": 366.6,
-      "end": 371.3,
-      "text": "Back on the fire to finish",
       "reason": "Method step"
     },
     {
@@ -623,12 +636,26 @@
       "reason": "Kofi's own line for the okra picking (replaces the uncertain transcript quote)"
     },
     {
+      "type": "label",
+      "start": 361.5,
+      "end": 380.5,
+      "text": "Rub the Yaji in properly",
+      "reason": "Kofi's new clip IMG_0616: whole bowl in view"
+    },
+    {
+      "type": "label",
+      "start": 382.2,
+      "end": 387.2,
+      "text": "Back on the fire to finish",
+      "reason": "clip IMG_0616 grill shot"
+    },
+    {
       "type": "caption",
-      "start": 381.0,
-      "end": 389.8,
+      "start": 387.6,
+      "end": 399.6,
       "title": "Tip: a drizzle of olive oil after the Yaji",
       "sub": "It drips onto the coals, and the smoke flavours the meat",
-      "reason": "Kofi 2026-10-24: the olive-oil step was cut from his recording; added as a tip over the second Yaji rub, before the plated skewers"
+      "reason": "Kofi's own clip of him brushing the oil on (IMG_0616 1:52+)"
     }
   ]
 }

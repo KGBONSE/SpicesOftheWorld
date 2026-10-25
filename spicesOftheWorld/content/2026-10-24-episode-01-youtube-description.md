@@ -30,7 +30,8 @@ CHAPTERS
 2:55 The science
 4:01 The blend: Yaji
 5:04 The dish
-6:44 From our farm
+6:44 The full cook: suya & chinchinga start to finish
+7:44 From our farm
 
 Fudi People grows chillies and spices on a farm in Sidcup, London, and hand-blends them into chilli oils and spice mixes from around the world.
 
@@ -43,7 +44,7 @@ X: https://x.com/fudipeople
 
 ## Notes for Kofi
 
-- Chapter times checked against the final render (2026-10-24): each lands on its on-screen chapter title.
+- Chapter times: v8 cut (2026-10-25) adds a 60 s 'full cook' insert at 6:44, so 'From our farm' moved 6:44 -> 7:44. Check each lands on its on-screen title after render.
 - The "Contains peanuts" line follows the blog's allergen flag. Verify against the supplier before publishing.
 - No health claims are made, to match the brand's citation and claims convention.
 - The final line in the description's first paragraph ("borrowed from West Africa and then forgot") comes from the blog post's framing, not a new claim.

@@ -314,9 +314,11 @@ def render_broll(br, W, H, out):
         tm = ("zscale=t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,tonemap=mobius,"
               "zscale=t=bt709:m=bt709:r=tv,format=yuv420p," if trc in ("arib-std-b67", "smpte2084") else "")
         grade = br.get("grade", "")
+        sp = float(br.get("speed", 1.0))               # >1 = fast-forward (reads this much more source)
         vf = (f"{tm}setparams=colorspace=bt709:color_trc=bt709:color_primaries=bt709:range=tv,"
+              f"{'setpts=PTS/%s,' % sp if sp != 1.0 else ''}"
               f"{grade + ',' if grade else ''}fps=30,{fill},setsar=1,format=yuv420p")
-        cmd = ["ffmpeg", "-y", "-v", "error", "-ss", f"{br['in']}", "-t", f"{d:.3f}", "-i", src, "-vf", vf]
+        cmd = ["ffmpeg", "-y", "-v", "error", "-ss", f"{br['in']}", "-t", f"{d * sp:.3f}", "-i", src, "-vf", vf]
     else:
         # still: compose the fill frame at 1.15x, then push in slowly towards `focus`
         im = Image.open(src)
