@@ -29,9 +29,8 @@ CHAPTERS
 2:02 The trade
 2:55 The science
 4:01 The blend: Yaji
-5:04 The dish
-6:44 The full cook: suya & chinchinga start to finish
-7:44 From our farm
+5:04 The dish: suya & chinchinga
+6:44 From our farm
 
 Fudi People grows chillies and spices on a farm in Sidcup, London, and hand-blends them into chilli oils and spice mixes from around the world.
 
@@ -76,3 +75,5 @@ Scheduled via Blotato to YouTube @fudi.people for **2026-10-25 12:00 GMT** (publ
 **Superseded 2026-10-25 10:15:** final is v9 (9:41), Blotato schedule `6005522` (submission `d9afae1a-1f31-4cbb-813d-69dd84f7ddcf`),
 file `video/episode-01/out/Spices_of_the_World_Ep1_v9.mp4`; v9 adds Kofi's full-bowl Yaji ingredient photos (4:08-4:31) and raw skewers at 'season lightly' (5:44). Based on v8: Kofi's IMG_0616 clip for the rub/grill/oil, 60 s 'full cook' insert at 6:44 (chapters: From our farm now 7:44),
 Ep 2 teaser end screen, original afrobeat bed, −14.7 LUFS. Pinned comment + Studio steps still manual.
+
+**Superseded 2026-10-25 11:32:** final is v11 (8:41), Blotato schedule `6007973` (submission `be4c2d8b-ea65-40ae-a289-7186201775d9`), file `video/episode-01/out/Spices_of_the_World_Ep1_v11.mp4`. The 60 s 'full cook' insert was removed because it replayed the rub and grill right after the oil shot. Grains of paradise (0:39) and selim (1:47) now show the full bowl. Chapters: The dish 5:04, From our farm 6:44. The cook footage (`out/ep01_insert.mp4`) is kept for a Short or bonus video.
