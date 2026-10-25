@@ -30,7 +30,7 @@ CHAPTERS
 2:55 The science
 4:01 The blend: Yaji
 5:04 The dish: suya & chinchinga
-6:44 From our farm
+6:55 From our farm
 
 Fudi People grows chillies and spices on a farm in Sidcup, London, and hand-blends them into chilli oils and spice mixes from around the world.
 
@@ -77,3 +77,5 @@ file `video/episode-01/out/Spices_of_the_World_Ep1_v9.mp4`; v9 adds Kofi's full-
 Ep 2 teaser end screen, original afrobeat bed, −14.7 LUFS. Pinned comment + Studio steps still manual.
 
 **Superseded 2026-10-25 11:32:** final is v11 (8:41), Blotato schedule `6007973` (submission `be4c2d8b-ea65-40ae-a289-7186201775d9`), file `video/episode-01/out/Spices_of_the_World_Ep1_v11.mp4`. The 60 s 'full cook' insert was removed because it replayed the rub and grill right after the oil shot. Grains of paradise (0:39) and selim (1:47) now show the full bowl. Chapters: The dish 5:04, From our farm 6:44. The cook footage (`out/ep01_insert.mp4`) is kept for a Short or bonus video.
+
+**Superseded 2026-10-25 12:15:** final is v12 (8:52), rescheduled to **13:30 GMT**, submission `61d56c55-2400-4131-a706-f54ebd54fef4`, file `video/episode-01/out/Spices_of_the_World_Ep1_v12.mp4`. v12 adds Kofi's own on-camera olive-oil explanation (IMG_0616 1:50-2:01, live audio) at 394 s, before the 'done' line. Chapter: From our farm now 6:55. Script: `video/episode-01/patch_oil_voice.py`.
