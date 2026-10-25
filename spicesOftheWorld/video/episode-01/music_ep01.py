@@ -3,6 +3,7 @@ Royalty-free because it is generated here. Sections follow the episode's chapter
 import numpy as np, wave, sys
 SR=44100; BPM=104; BEAT=60/BPM; S16=BEAT/4; BAR=4*BEAT
 DUR=float(sys.argv[1]); OUT=sys.argv[2]
+SHIFT=float(sys.argv[3]) if len(sys.argv)>3 else 0.0   # seconds inserted at 404.6; later sections move with it
 N=int(SR*(DUR+3)); L=np.zeros(N); R=np.zeros(N)
 rng=np.random.default_rng(11)
 def add(sig,t,g=1.0,pan=0.0):
@@ -58,6 +59,7 @@ SECT=[(0,'A','pad gtr'),(20,'A','pad gtr shk'),(80,'B','pad gtr shk kick log bas
       (241,'C','pad gtr shk kick clap rim log mar bass'),(304,'C','pad gtr shk kick clap rim log bass'),
       (404,'B','pad gtr shk kick clap rim log mar bass'),(480,'A','pad gtr shk kick log mar'),
       (506,'C','pad gtr shk kick clap rim log mar bass')]
+SECT=[(x[0]+SHIFT if x[0]>404.3 else x[0],)+x[1:] for x in SECT]
 def sect(t):
     s=SECT[0]
     for x in SECT:
