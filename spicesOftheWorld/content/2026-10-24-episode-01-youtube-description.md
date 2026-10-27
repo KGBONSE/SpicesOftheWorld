@@ -83,3 +83,9 @@ Ep 2 teaser end screen, original afrobeat bed, −14.7 LUFS. Pinned comment + St
 **Superseded 2026-10-25 12:55:** final is v13 (8:52), 13:30 GMT, submission `de5cd25d-207d-461e-9621-641d1cf8443b`, file `video/episode-01/out/Spices_of_the_World_Ep1_v13.mp4`. v13 = v12 with 'back on the fire' grill footage from 370 s and the early drizzle cutaway (380-394) removed. Script: `video/episode-01/patch_fire_early.py`.
 
 **Superseded 2026-10-25 13:42:** final is v15 (8:52), **14:00 GMT**, submission `22d61fda-9c1c-469b-acc0-a2356ec92403`, file `video/episode-01/out/Spices_of_the_World_Ep1_v15.mp4`. v15 = v13 with the grill footage slowed further and held over 6:33-6:34 so the bowl shot no longer shows before the oil insert.
+
+## Ep1 Shorts (scheduled 2026-10-27, YouTube @fudi.people, public, not made for kids, no subscriber notification)
+- Wed 28 Oct 12:00 GMT: "The spice Europe forgot #Shorts" (submission `51dc9c88-7be0-4939-856e-7381550c70ed`, `video/episode-01/out` source: make_shorts.py 1)
+- Thu 29 Oct 12:00 GMT: "Europe called it paradise #Shorts" (`3faf95e4-fd95-4c77-817f-4518f81e80ec`, make_shorts.py 2)
+- Fri 30 Oct 12:00 GMT: "One rub, two names: Suya vs Chinchinga #Shorts" (`dad51a10-84ba-4adf-bb19-db72a00e82c0`, make_shorts.py 3)
+- Still to do by hand in Studio after each goes live: set Related video to Episode 1.
