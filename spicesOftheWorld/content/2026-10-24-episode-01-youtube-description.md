@@ -89,3 +89,4 @@ Ep 2 teaser end screen, original afrobeat bed, −14.7 LUFS. Pinned comment + St
 - Thu 29 Oct 12:00 GMT: "Europe called it paradise #Shorts" (`3faf95e4-fd95-4c77-817f-4518f81e80ec`, make_shorts.py 2)
 - Fri 30 Oct 12:00 GMT: "One rub, two names: Suya vs Chinchinga #Shorts" (`dad51a10-84ba-4adf-bb19-db72a00e82c0`, make_shorts.py 3)
 - Still to do by hand in Studio after each goes live: set Related video to Episode 1.
+- Cross-posted 2026-10-27 at 18:30 GMT same days: Instagram Reels (@fudi.people; 09ca40c2-5c0f-43da-b5ad-a8021944b945, 1dbdfc84-e3ff-4367-a7f7-4f90ffef7ba2, afd88067-562d-48e5-9dd1-e27d39445839) and TikTok (@fudi.people; 4e456f8d-91ca-4f5f-9461-e4b8470a0c8b, e2f235fe-03ac-42ec-97e4-1cb7f89e2112, cb5c9069-db7b-4ffb-9ec2-00a62ec9be54). Instagram caps hashtags at 5.
