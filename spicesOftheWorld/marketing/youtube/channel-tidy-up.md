@@ -10,17 +10,19 @@ Studio -> Content -> click the video's thumbnail -> Details -> Title -> type the
 Studio -> Content -> hover the video -> click the Visibility column ("Public") -> Unlisted -> Save.
 (Unlisted videos stay on the channel for anyone with the link but disappear from search, the channel page and suggestions.)
 
-## 1. Retitle and keep public (2018 videos, 8 of them)
+## 1. Retitle and keep public (2018 videos, 8 of them) - spicy versions chosen by Kofi 2026-10-28
 | Current title | New title |
 |---|---|
-| Stop eating those powdered fufu and start enjoying Ghana style fufu | Stop Eating Powdered Fufu: Make Ghana-Style Fufu at Home |
-| Ghanaian Meat pie with a difference | Ghanaian Meat Pie With a Difference |
-| Gizzard kebab made easy | Gizzard Kebab Made Easy |
-| Make your jollof rice simple and easy, in the oven | Simple Oven Jollof Rice (Easy Method) |
-| Roasted plantain and peanut, with a Ghanaian touch | Roasted Plantain and Peanuts, Ghanaian Style |
-| INSPIRING PEOPLE TO START GROWING THEIR OWN FOOD | Inspiring People to Start Growing Their Own Food |
-| GOOD SALAD MAKING TIPS WITH VEGETABLES FROM MY GARDEN | Good Salad Making Tips with Vegetables from My Garden |
-| (organic farming video, whatever its current title is) | Title Case it, e.g. "Organic Farming at Home in London" (check what it shows first) |
+| Stop eating those powdered fufu and start enjoying Ghana style fufu | (Kofi already retitled this one himself) |
+| Ghanaian Meat pie with a difference | Stop Buying Meat Pie: Make the Ghanaian Kind at Home |
+| Gizzard kebab made easy | Gizzard Kebab: The Cheap Cut That Tastes Like Street Food |
+| Make your jollof rice simple and easy, in the oven | No Pot, No Stress: Jollof Rice in the Oven |
+| Roasted plantain and peanut, with a Ghanaian touch | Roasted Plantain and Peanuts: Ghana's Best Street Snack |
+| INSPIRING PEOPLE TO START GROWING THEIR OWN FOOD | Why I Grow My Own Food (and You Should Too) |
+| GOOD SALAD MAKING TIPS WITH VEGETABLES FROM MY GARDEN | Your Salad Is Boring: Do This With Vegetables From Your Garden |
+| (organic farming video) | I Turned My London Garden Into a Farm (check it fits the video) |
+
+Meat pie alternatives: "Ghanaian Meat Pie Like You've Never Had It" / "The Meat Pie Secret Nobody Tells You" (only if the video really shows a secret).
 
 ## 2. Unlist (3 videos)
 - simple egg spinach muffins with prawns and chorizos
