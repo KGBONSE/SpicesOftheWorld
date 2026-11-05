@@ -1,0 +1,86 @@
+{
+ "name": "ep02-yassa-mix",
+ "fps": 30,
+ "target_lufs": -14,
+ "work_dir": "/home/claude/ep02/work-yassa",
+ "output_dir": "/home/claude/ep02/output",
+ "sources": {
+  "T1": {
+   "path": "/mnt/user-data/uploads/IMG_0678_9.mov",
+   "kind": "hdr",
+   "noautorotate": true,
+   "rotate": 180
+  },
+  "T2": {
+   "path": "/mnt/user-data/uploads/IMG_0674_8.mov",
+   "kind": "hdr",
+   "noautorotate": true,
+   "rotate": 180
+  }
+ },
+ "timeline": [
+  {
+   "type": "sync",
+   "src": "T1",
+   "a0": 1.75,
+   "a1": 25.8,
+   "note": "T1 intro and first ingredients"
+  },
+  {
+   "type": "sync",
+   "src": "T1",
+   "a0": 26.0,
+   "a1": 28.6,
+   "note": "T1"
+  },
+  {
+   "type": "sync",
+   "src": "T1",
+   "a0": 28.9,
+   "a1": 43.6,
+   "note": "T1"
+  },
+  {
+   "type": "sync",
+   "src": "T1",
+   "a0": 43.9,
+   "a1": 56.5,
+   "note": "T1"
+  },
+  {
+   "type": "sync",
+   "src": "T1",
+   "a0": 57.0,
+   "a1": 58.9,
+   "note": "T1 (pause removed)"
+  },
+  {
+   "type": "sync",
+   "src": "T1",
+   "a0": 60.1,
+   "a1": 63.8,
+   "note": "T1 (pause removed)"
+  },
+  {
+   "type": "sync",
+   "src": "T1",
+   "a0": 64.3,
+   "a1": 74.6,
+   "note": "T1"
+  },
+  {
+   "type": "sync",
+   "src": "T1",
+   "a0": 75.0,
+   "a1": 87.1,
+   "note": "T1"
+  },
+  {
+   "type": "sync",
+   "src": "T1",
+   "a0": 87.4,
+   "a1": 127.9,
+   "note": "T1 to the end of the take"
+  }
+ ]
+}

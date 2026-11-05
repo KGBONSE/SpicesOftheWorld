@@ -82,8 +82,15 @@ class Edit:
             first = False
 
     # ------------------------------------------------------------ render
-    def vfilter(self, kind):
+    def vfilter(self, kind, key=None):
         body = {"hdrflip": TONEMAP + ",hflip,", "hdr": TONEMAP + ",", "flip": "hflip,"}.get(kind, "")
+        spec = self.src.get(key, {}) if key else {}
+        if spec.get("rotate") == 180:  # phone saved a wrong rotation flag: use with "noautorotate": true
+            body = "hflip,vflip," + body
+        if spec.get("fit") == "pad":  # whole frame kept, centred on a solid colour (e.g. portrait footage in a landscape cut)
+            col = spec.get("pad_color", "0x2b1a10")
+            return (f"setpts=PTS-STARTPTS,{body}scale={self.W}:{self.H}:force_original_aspect_ratio=decrease:flags=lanczos,"
+                    f"pad={self.W}:{self.H}:(ow-iw)/2:(oh-ih)/2:color={col},setsar=1,fps={self.fps},format=yuv420p")
         return (f"setpts=PTS-STARTPTS,{body}scale={self.W}:{self.H}:force_original_aspect_ratio=increase:flags=lanczos,"
                 f"crop={self.W}:{self.H},setsar=1,fps={self.fps},format=yuv420p")
 
@@ -121,8 +128,9 @@ class Edit:
             base = (f"[0:v]scale={self.W}:{self.H},setsar=1,fps={self.fps},format=yuv420p,"
                     f"fade=t=in:d=0.4,fade=t=out:st={max(0, d - 1.0):.3f}:d=1.0[base]")
         else:
-            cmd = ["ffmpeg", "-v", "error", "-y", "-ss", f"{s['vs']:.3f}", "-t", f"{d + 0.5:.3f}", "-i", path] + pngs
-            base = f"[0:v]{self.vfilter(kind)}[base]"
+            na = ["-noautorotate"] if self.src[s["v"]].get("noautorotate") else []
+            cmd = ["ffmpeg", "-v", "error", "-y"] + na + ["-ss", f"{s['vs']:.3f}", "-t", f"{d + 0.5:.3f}", "-i", path] + pngs
+            base = f"[0:v]{self.vfilter(kind, s['v'])}[base]"
         tp, last = self.text_chain(s["texts"], 1)
         self.run(cmd + ["-filter_complex", ";".join([base] + tp), "-map", f"[{last}]", "-t", f"{d:.3f}", "-an"]
                  + self.x264 + [vout])
