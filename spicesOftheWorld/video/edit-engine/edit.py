@@ -83,6 +83,10 @@ class Edit:
 
     # ------------------------------------------------------------ render
     def vfilter(self, kind, key=None):
+        if kind == "pillar":  # portrait clip on a landscape canvas: whole frame centred over a blurred copy of itself
+            return (f"setpts=PTS-STARTPTS,tpad=stop=-1:stop_mode=clone,split[pa][pb];[pa]scale={self.W}:{self.H}:force_original_aspect_ratio=increase,"
+                    f"crop={self.W}:{self.H},boxblur=40:4[pbg];[pb]scale=-2:{self.H}[pfg];"
+                    f"[pbg][pfg]overlay=(W-w)/2:0,setsar=1,fps={self.fps},format=yuv420p")
         body = {"hdrflip": TONEMAP + ",hflip,", "hdr": TONEMAP + ",", "flip": "hflip,"}.get(kind, "")
         spec = self.src.get(key, {}) if key else {}
         if spec.get("rotate") == 180:  # phone saved a wrong rotation flag: use with "noautorotate": true
