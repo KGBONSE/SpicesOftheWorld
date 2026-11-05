@@ -1,0 +1,30 @@
+{
+ "name": "ep02-yassa-mix-v2",
+ "fps": 30,
+ "target_lufs": -14,
+ "work_dir": "/home/claude/ep02/work-yassa",
+ "output_dir": "/home/claude/ep02/output",
+ "sources": {
+  "T1": {
+   "path": "/mnt/user-data/uploads/IMG_0678_9.mov",
+   "kind": "hdr",
+   "noautorotate": true,
+   "rotate": 180
+  },
+  "T2": {
+   "path": "/mnt/user-data/uploads/IMG_0674_8.mov",
+   "kind": "hdr",
+   "noautorotate": true,
+   "rotate": 180
+  }
+ },
+ "timeline": [
+  {
+   "type": "sync",
+   "src": "T2",
+   "a0": 1.9,
+   "a1": 103.0,
+   "note": "T2 (0674) from the start to just before he starts the mix again"
+  }
+ ]
+}
