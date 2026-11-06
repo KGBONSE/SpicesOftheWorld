@@ -1,0 +1,47 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --color-cream: #fbf3e7;
+  --color-cream-dark: #f3e6d0;
+  --color-ink: #3a1210;
+  --color-marigold: #e07610;
+  --color-marigold-dark: #b85c08; /* darker for text-size use on cream (contrast) */
+  --color-maroon: #6b1b1f;
+  --color-gold: #e79a2e;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cream font-sans text-ink antialiased;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-marigold-dark;
+  }
+}
+
+@utility btn {
+  @apply inline-flex min-h-11 cursor-pointer items-center justify-center rounded-full px-6 py-2.5 text-sm font-bold transition-colors;
+}
+@utility btn-primary {
+  @apply btn bg-marigold text-ink hover:bg-gold;
+}
+@utility btn-dark {
+  @apply btn bg-maroon text-cream hover:bg-ink;
+}
+@utility btn-outline {
+  @apply btn border-2 border-ink/30 hover:border-ink;
+}
+@utility field {
+  @apply w-full rounded-lg border border-ink/25 bg-white px-3 py-2.5 text-base focus:border-maroon;
+}
+@utility label {
+  @apply mb-1 block text-sm font-semibold;
+}
+@utility container-page {
+  @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+}

@@ -1,0 +1,159 @@
+{
+  "name": "ep02-senegal",
+  "fps": 30,
+  "target_lufs": -14,
+  "work_dir": "work",
+  "output_dir": "output",
+  "sources": {
+    "M": {
+      "path": "C:/Users/mark/OneDrive/Documents/Spices of the world/copy/IMG_0632.MOV",
+      "kind": "hdr",
+      "gain": 0.0
+    },
+    "MAP1": {
+      "path": "../../graphics/episode-02/broll/ep02-broll-senegal-coastline-map.mp4",
+      "kind": "pillar"
+    },
+    "MAP2": {
+      "path": "../../graphics/episode-02/broll/ep02-broll-senegal-nigeria-ghana-trade-route.mp4",
+      "kind": "pillar"
+    },
+    "MAP3": {
+      "path": "../../graphics/episode-01/broll/ep01-broll-trade-route-animation.mp4",
+      "kind": "pillar"
+    }
+  },
+  "timeline": [
+    {
+      "type": "main",
+      "a0": 9.8,
+      "a1": 22.2
+    },
+    {
+      "type": "main",
+      "a0": 88.55,
+      "a1": 111.623,
+      "broll": [
+        [
+          98.0,
+          108.0,
+          "MAP1",
+          0.0
+        ]
+      ]
+    },
+    {
+      "type": "main",
+      "a0": 112.023,
+      "a1": 117.084
+    },
+    {
+      "type": "main",
+      "a0": 118.149,
+      "a1": 139.031,
+      "broll": [
+        [
+          119.5,
+          125.5,
+          "MAP2",
+          0.0
+        ]
+      ]
+    },
+    {
+      "type": "main",
+      "a0": 139.49,
+      "a1": 146.031
+    },
+    {
+      "type": "main",
+      "a0": 146.566,
+      "a1": 162.603,
+      "broll": [
+        [
+          147.0,
+          153.0,
+          "MAP3",
+          0.0
+        ]
+      ]
+    },
+    {
+      "type": "main",
+      "a0": 163.146,
+      "a1": 165.507
+    },
+    {
+      "type": "main",
+      "a0": 165.953,
+      "a1": 175.384
+    },
+    {
+      "type": "main",
+      "a0": 175.985,
+      "a1": 191.013
+    },
+    {
+      "type": "main",
+      "a0": 191.775,
+      "a1": 202.348
+    },
+    {
+      "type": "main",
+      "a0": 202.904,
+      "a1": 207.108
+    },
+    {
+      "type": "main",
+      "a0": 207.628,
+      "a1": 222.764
+    },
+    {
+      "type": "main",
+      "a0": 223.353,
+      "a1": 230.327
+    },
+    {
+      "type": "main",
+      "a0": 231.095,
+      "a1": 235.646
+    },
+    {
+      "type": "main",
+      "a0": 236.984,
+      "a1": 270.529,
+      "texts": [
+        [
+          "health_yassa",
+          248.5,
+          262.0
+        ]
+      ]
+    },
+    {
+      "type": "main",
+      "a0": 271.079,
+      "a1": 277.434
+    },
+    {
+      "type": "main",
+      "a0": 278.028,
+      "a1": 329.168
+    },
+    {
+      "type": "main",
+      "a0": 329.92,
+      "a1": 344.273
+    },
+    {
+      "type": "main",
+      "a0": 344.798,
+      "a1": 366.217
+    },
+    {
+      "type": "main",
+      "a0": 367.306,
+      "a1": 375.2
+    }
+  ]
+}

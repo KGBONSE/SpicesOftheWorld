@@ -1,0 +1,4 @@
+project_id = "fudi-spice-encyclopedia"
+
+[functions.stripe-webhook]
+verify_jwt = false
