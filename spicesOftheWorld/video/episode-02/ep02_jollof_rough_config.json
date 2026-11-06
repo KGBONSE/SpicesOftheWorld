@@ -1,0 +1,119 @@
+{
+ "name": "ep02-jollof-rough",
+ "fps": 30,
+ "target_lufs": -14,
+ "work_dir": "/home/claude/ep02/work-jollof",
+ "output_dir": "/home/claude/ep02/output",
+ "sources": {
+  "C50": {
+   "path": "/mnt/user-data/uploads/1794001324016_IMG_0650.MOV",
+   "kind": "hdr",
+   "noautorotate": true
+  },
+  "C51": {
+   "path": "/mnt/user-data/uploads/1794001324016_IMG_0651.MOV",
+   "kind": "hdr",
+   "noautorotate": true
+  },
+  "C52": {
+   "path": "/mnt/user-data/uploads/1794001324016_IMG_0652.MOV",
+   "kind": "hdr",
+   "noautorotate": true
+  },
+  "C53": {
+   "path": "/mnt/user-data/attachments/ff905dd5-c169-50bc-ae08-49d42a766c89/edfa4095-1794001324016_IMG_0653.MOV",
+   "kind": "hdr",
+   "noautorotate": true
+  },
+  "C54": {
+   "path": "/mnt/user-data/uploads/1794001324014_IMG_0654.MOV",
+   "kind": "hdr",
+   "noautorotate": true
+  },
+  "C55": {
+   "path": "/mnt/user-data/attachments/ff905dd5-c169-50bc-ae08-49d42a766c89/294a371b-1794001324015_IMG_0655.MOV",
+   "kind": "hdr",
+   "noautorotate": true
+  },
+  "C56": {
+   "path": "/mnt/user-data/uploads/1794001324015_IMG_0656.MOV",
+   "kind": "hdr",
+   "noautorotate": true
+  },
+  "C57": {
+   "path": "/mnt/user-data/uploads/1794001324015_IMG_0657.MOV",
+   "kind": "hdr",
+   "noautorotate": true
+  },
+  "C58": {
+   "path": "/mnt/user-data/uploads/1794001324016_IMG_0658.MOV",
+   "kind": "hdr",
+   "noautorotate": true
+  }
+ },
+ "timeline": [
+  {
+   "type": "sync",
+   "src": "C50",
+   "a0": 0.2,
+   "a1": 39.2,
+   "note": "IMG_0650 in filming order"
+  },
+  {
+   "type": "sync",
+   "src": "C51",
+   "a0": 0.2,
+   "a1": 107.7,
+   "note": "IMG_0651 in filming order"
+  },
+  {
+   "type": "sync",
+   "src": "C52",
+   "a0": 0.2,
+   "a1": 127.6,
+   "note": "IMG_0652 in filming order"
+  },
+  {
+   "type": "sync",
+   "src": "C53",
+   "a0": 0.2,
+   "a1": 15.5,
+   "note": "IMG_0653 in filming order"
+  },
+  {
+   "type": "sync",
+   "src": "C54",
+   "a0": 0.2,
+   "a1": 38.2,
+   "note": "IMG_0654 in filming order"
+  },
+  {
+   "type": "sync",
+   "src": "C55",
+   "a0": 0.2,
+   "a1": 23.2,
+   "note": "IMG_0655 in filming order"
+  },
+  {
+   "type": "sync",
+   "src": "C56",
+   "a0": 0.2,
+   "a1": 43.5,
+   "note": "IMG_0656 in filming order"
+  },
+  {
+   "type": "sync",
+   "src": "C57",
+   "a0": 0.2,
+   "a1": 63.6,
+   "note": "IMG_0657 in filming order"
+  },
+  {
+   "type": "sync",
+   "src": "C58",
+   "a0": 0.2,
+   "a1": 50.0,
+   "note": "IMG_0658 in filming order"
+  }
+ ]
+}
