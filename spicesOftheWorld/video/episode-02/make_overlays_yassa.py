@@ -56,4 +56,5 @@ if __name__ == "__main__":
     banner("y_blend", "Then blend to a fine powder", "Your finished Yassa mix")
     banner("y_marinate", "Marinate the lamb", "Rub in the Yassa mix")
     banner("y_grill", "Grill it", "Yassa lamb, ready")
+    banner("y_onions", "Serve with the onions", "Raw red onions on the side")
     print("ok")
