@@ -38,8 +38,22 @@ def title(file, line1, line2):
     d.text(((W - w2) / 2, y0 + 195), line2, font=f2, fill=GOLD)
     img.save(os.path.join(OUT, file + ".png"))
 
+def banner(file, text, sub=None):
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
+    f1, f2 = inter(62, "ExtraBold"), inter(40, "Medium")
+    w1 = d.textlength(text, font=f1); w2 = d.textlength(sub, font=f2) if sub else 0
+    pw = max(w1, w2) + 90; h = 110 if not sub else 165; x0, y0 = 70, 70
+    d.rounded_rectangle((x0, y0, x0 + pw, y0 + h), 28, fill=DARK + (225,))
+    d.text((x0 + 45, y0 + 20), text, font=f1, fill=CREAM)
+    if sub: d.text((x0 + 45, y0 + 100), sub, font=f2, fill=GOLD)
+    img.save(os.path.join(OUT, file + ".png"))
+
 if __name__ == "__main__":
     os.makedirs(OUT, exist_ok=True)
     for k, (n, g) in LABELS.items(): label(k, n, g)
     title("y_title", "YASSA MIX", "Part 1: build the blend (per 100 g)")
+    banner("y_toast", "TOAST the spices", "Dry pan, 2 to 3 minutes")
+    banner("y_blend", "Then blend to a fine powder", "Your finished Yassa mix")
+    banner("y_marinate", "Marinate the lamb", "Rub in the Yassa mix")
+    banner("y_grill", "Grill it", "Yassa lamb, ready")
     print("ok")
