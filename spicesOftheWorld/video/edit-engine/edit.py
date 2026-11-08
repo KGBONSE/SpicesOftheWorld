@@ -89,6 +89,8 @@ class Edit:
                     f"[pbg][pfg]overlay=(W-w)/2:0,setsar=1,fps={self.fps},format=yuv420p")
         body = {"hdrflip": TONEMAP + ",hflip,", "hdr": TONEMAP + ",", "flip": "hflip,"}.get(kind, "")
         spec = self.src.get(key, {}) if key else {}
+        if spec.get("crop"):  # e.g. "iw:ih*0.66:0:0" to trim away unwanted edge (floor) before fitting
+            body += f"crop={spec['crop']},"
         if spec.get("rotate") == 180:  # phone saved a wrong rotation flag: use with "noautorotate": true
             body = "hflip,vflip," + body
         if spec.get("fit") == "pad":  # whole frame kept, centred on a solid colour (e.g. portrait footage in a landscape cut)

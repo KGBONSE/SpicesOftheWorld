@@ -1,0 +1,230 @@
+{
+ "name": "ep02-yassa-full-rough-v4",
+ "fps": 30,
+ "target_lufs": -14,
+ "work_dir": "/home/claude/ep02/work-yassa-full4",
+ "output_dir": "/home/claude/ep02/output",
+ "sources": {
+  "Y": {
+   "path": "/mnt/user-data/uploads/IMG_0702.MOV",
+   "kind": "hdr",
+   "noautorotate": true
+  },
+  "M": {
+   "path": "/mnt/user-data/attachments/ff905dd5-c169-50bc-ae08-49d42a766c89/1ff8a4ac-IMG_5105.mov",
+   "kind": "hdr",
+   "noautorotate": true
+  },
+  "MA": {
+   "path": "/mnt/user-data/attachments/ff905dd5-c169-50bc-ae08-49d42a766c89/4df0dcea-IMG_5109.mov",
+   "kind": "hdr",
+   "noautorotate": true,
+   "crop": "iw:ih*0.66:0:0",
+   "fit": "pad",
+   "pad_color": "0x2b1a10"
+  },
+  "MB": {
+   "path": "/mnt/user-data/uploads/IMG_5106.mov",
+   "kind": "hdr",
+   "noautorotate": true
+  },
+  "L": {
+   "path": "/mnt/user-data/uploads/IMG_5112_3.mov",
+   "kind": "hdr",
+   "noautorotate": true
+  },
+  "L2": {
+   "path": "/mnt/user-data/uploads/IMG_5113_3.mov",
+   "kind": "hdr",
+   "noautorotate": true
+  }
+ },
+ "timeline": [
+  {
+   "type": "sync",
+   "src": "Y",
+   "a0": 0.3,
+   "a1": 13.0,
+   "texts": [
+    [
+     "y_title",
+     0.5,
+     3.6
+    ],
+    [
+     "y_onion",
+     4.2,
+     12.6
+    ]
+   ],
+   "note": "0.3-13.0"
+  },
+  {
+   "type": "sync",
+   "src": "Y",
+   "a0": 13.6,
+   "a1": 23.6,
+   "texts": [
+    [
+     "y_garlic",
+     15.0,
+     23.0
+    ]
+   ],
+   "note": "13.6-23.6"
+  },
+  {
+   "type": "sync",
+   "src": "Y",
+   "a0": 23.6,
+   "a1": 34.2,
+   "texts": [
+    [
+     "y_mustard",
+     24.2,
+     33.6
+    ]
+   ],
+   "note": "23.6-34.2"
+  },
+  {
+   "type": "sync",
+   "src": "Y",
+   "a0": 34.2,
+   "a1": 41.5,
+   "texts": [
+    [
+     "y_lemon",
+     35.0,
+     41.0
+    ]
+   ],
+   "note": "34.2-41.5"
+  },
+  {
+   "type": "sync",
+   "src": "Y",
+   "a0": 41.5,
+   "a1": 54.5,
+   "texts": [
+    [
+     "y_salt",
+     42.0,
+     54.0
+    ]
+   ],
+   "note": "41.5-54.5"
+  },
+  {
+   "type": "sync",
+   "src": "Y",
+   "a0": 54.5,
+   "a1": 63.5,
+   "texts": [
+    [
+     "y_pepper",
+     55.5,
+     63.0
+    ]
+   ],
+   "note": "54.5-63.5"
+  },
+  {
+   "type": "sync",
+   "src": "Y",
+   "a0": 63.5,
+   "a1": 66.0,
+   "texts": [],
+   "note": "63.5-66.0"
+  },
+  {
+   "type": "sync",
+   "src": "Y",
+   "a0": 76.0,
+   "a1": 86.0,
+   "texts": [
+    [
+     "y_thyme",
+     76.6,
+     85.6
+    ]
+   ],
+   "note": "76-86 thyme pour"
+  },
+  {
+   "type": "sync",
+   "src": "Y",
+   "a0": 86.0,
+   "a1": 95.5,
+   "texts": [
+    [
+     "y_chilli",
+     86.8,
+     95.0
+    ]
+   ],
+   "note": "86.0-95.5"
+  },
+  {
+   "type": "sync",
+   "src": "Y",
+   "a0": 95.5,
+   "a1": 103.8,
+   "texts": [
+    [
+     "y_bay",
+     96.2,
+     103.2
+    ]
+   ],
+   "note": "95.5-103.8"
+  },
+  {
+   "type": "sync",
+   "src": "M",
+   "a0": 0.2,
+   "a1": 10.4,
+   "texts": [
+    [
+     "y_toast",
+     0.6,
+     5.0
+    ],
+    [
+     "y_blend",
+     5.4,
+     10.0
+    ]
+   ],
+   "note": "mix + toast tip"
+  },
+  {
+   "type": "sync",
+   "src": "MA",
+   "a0": 0.0,
+   "a1": 1.8,
+   "texts": [
+    [
+     "y_three",
+     0.0,
+     1.8
+    ]
+   ],
+   "note": "meat reveal"
+  },
+  {
+   "type": "sync",
+   "src": "L2",
+   "a0": 0.5,
+   "a1": 14.0,
+   "texts": [
+    [
+     "y_onions",
+     1.0,
+     13.5
+    ]
+   ],
+   "note": "lamb + onions"
+  }
+ ]
+}
