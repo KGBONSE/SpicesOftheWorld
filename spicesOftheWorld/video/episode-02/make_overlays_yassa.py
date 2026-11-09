@@ -48,6 +48,21 @@ def banner(file, text, sub=None):
     if sub: d.text((x0 + 45, y0 + 100), sub, font=f2, fill=GOLD)
     img.save(os.path.join(OUT, file + ".png"))
 
+def card(file, title, lines, cols=None):
+    """Bottom band: title + bullet lines in 1-2 columns."""
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
+    ft, fl = inter(54, "ExtraBold"), inter(42, "SemiBold")
+    n = len(lines); cols = cols or (2 if n > 3 else 1); per = (n + cols - 1) // cols
+    h = 40 + 70 + per * 58 + 30; y0 = H - h - 50
+    d.rounded_rectangle((70, y0, W - 70, y0 + h), 30, fill=DARK + (232,))
+    d.text((115, y0 + 28), title, font=ft, fill=GOLD)
+    for i, t in enumerate(lines):
+        c, r = divmod(i, per)
+        x = 115 + c * 840; y = y0 + 110 + r * 58
+        d.ellipse((x, y + 16, x + 14, y + 30), fill=ORANGE)
+        d.text((x + 34, y), t, font=fl, fill=CREAM)
+    img.save(os.path.join(OUT, file + ".png"))
+
 if __name__ == "__main__":
     os.makedirs(OUT, exist_ok=True)
     for k, (n, g) in LABELS.items(): label(k, n, g)
@@ -60,4 +75,7 @@ if __name__ == "__main__":
     banner("y_lamb", "Lamb & goat", "Marinated in the Yassa mix")
     banner("y_pork", "Pork", "Marinated in the Yassa mix")
     banner("y_onions", "Serve with the onions", "Raw red onions on the side")
+    card("y_ing1", "Yassa onion sauce: ingredients", ["750 g onions, thinly sliced (from the marinade)", "100 ml leftover marinade (lemon, mix, oil)", "2 tbsp oil"])
+    card("y_ing2", "Plus", ["150 ml water or stock", "1 tbsp Dijon mustard (optional)", "1 tsp Yassa mix, top-up (optional)", "1/2 tsp salt, to taste", "Juice of 1/2 fresh lemon, to finish"])
+    card("y_method", "How it's made", ["Cook the drained onions low and slow until golden", "Add the marinade and water; boil, then simmer", "Simmer until thick and glossy; add the lemon", "Pour over the grilled meat, serve with rice"], cols=1)
     print("ok")
