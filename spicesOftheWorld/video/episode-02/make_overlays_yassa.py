@@ -68,6 +68,7 @@ if __name__ == "__main__":
     for k, (n, g) in LABELS.items(): label(k, n, g)
     title("y_title", "YASSA MIX", "Part 1: build the blend (per 100 g)")
     banner("y_toast", "TOAST the spices", "Dry pan, 2 to 3 minutes")
+    banner("y_toast_fire", "Toast before you blend", "It releases the flavours")
     banner("y_blend", "Then blend to a fine powder", "Your finished Yassa mix")
     banner("y_marinate", "Marinate the lamb", "Rub in the Yassa mix")
     banner("y_grill", "Grill it", "Yassa lamb, ready")

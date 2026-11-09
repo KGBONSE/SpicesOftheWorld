@@ -1,0 +1,16 @@
+{
+  "name": "ep02-yassa-full-rough-v6",
+  "fps": 30,
+  "target_lufs": -14,
+  "work_dir": "work/yassa-full6",
+  "output_dir": "output",
+  "sources": {
+    "V5": {"path": "../raw/ep02/yassa_v5_joined.mp4", "kind": "sdr"},
+    "T": {"path": "../raw/ep02/toast_spices.mov", "kind": "pillar", "gain": 3.0}
+  },
+  "timeline": [
+    {"type": "sync", "src": "V5", "a0": 0.0, "a1": 92.9, "note": "v5 0:00-1:32.9 (build-up, ends on whole-spice bowl)"},
+    {"type": "sync", "src": "T", "a0": 0.3, "a1": 48.5, "texts": [["y_toast_fire", 1.0, 7.0]], "note": "NEW: toasting the spices over the fire, before blending"},
+    {"type": "sync", "src": "V5", "a0": 92.9, "a1": 127.4, "note": "v5 1:32.9-end (blended powder + toast/blend banners, meat, onion sauce)"}
+  ]
+}
