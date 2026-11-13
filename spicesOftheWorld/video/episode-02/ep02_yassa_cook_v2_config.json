@@ -1,0 +1,181 @@
+{
+ "name": "ep02-yassa-cook-rough-v2",
+ "fps": 30,
+ "target_lufs": -14,
+ "work_dir": "work-yassa-cook2",
+ "output_dir": "output",
+ "sources": {
+  "C5122": {
+   "path": "../raw/IMG_5122.MOV",
+   "kind": "hdr"
+  },
+  "C5123": {
+   "path": "../raw/IMG_5123.MOV",
+   "kind": "hdr"
+  },
+  "C5124": {
+   "path": "../raw/IMG_5124.MOV",
+   "kind": "hdr"
+  },
+  "C5125": {
+   "path": "../raw/IMG_5125.MOV",
+   "kind": "hdr"
+  },
+  "C5127": {
+   "path": "../raw/IMG_5127.MOV",
+   "kind": "hdr"
+  },
+  "C5128": {
+   "path": "../raw/IMG_5128.MOV",
+   "kind": "hdr"
+  },
+  "C5129": {
+   "path": "../raw/IMG_5129.MOV",
+   "kind": "hdr"
+  },
+  "C5130": {
+   "path": "../raw/IMG_5130.MOV",
+   "kind": "hdr"
+  },
+  "C5131": {
+   "path": "../raw/IMG_5131.MOV",
+   "kind": "hdr"
+  },
+  "C5136": {
+   "path": "../raw/IMG_5136.MOV",
+   "kind": "sdr"
+  },
+  "C5140": {
+   "path": "../raw/IMG_5140.MOV",
+   "kind": "sdr"
+  }
+ },
+ "timeline": [
+  {
+   "type": "sync",
+   "src": "C5122",
+   "a0": 0,
+   "a1": 38.8,
+   "note": "IMG_5122 0.0-38.8"
+  },
+  {
+   "type": "sync",
+   "src": "C5123",
+   "a0": 0.3,
+   "a1": 69.4,
+   "note": "IMG_5123 0.3-69.4"
+  },
+  {
+   "type": "sync",
+   "src": "C5124",
+   "a0": 0.2,
+   "a1": 8.1,
+   "note": "IMG_5124 0.2-8.1"
+  },
+  {
+   "type": "sync",
+   "src": "C5124",
+   "a0": 8.9,
+   "a1": 11.5,
+   "note": "IMG_5124 8.9-11.5"
+  },
+  {
+   "type": "sync",
+   "src": "C5124",
+   "a0": 12.1,
+   "a1": 51.0,
+   "note": "IMG_5124 12.1-51.0"
+  },
+  {
+   "type": "sync",
+   "src": "C5125",
+   "a0": 2.8,
+   "a1": 43.1,
+   "note": "IMG_5125 2.8-43.1"
+  },
+  {
+   "type": "sync",
+   "src": "C5127",
+   "a0": 18.0,
+   "a1": 57.6,
+   "note": "IMG_5127 18.0-57.6"
+  },
+  {
+   "type": "sync",
+   "src": "C5127",
+   "a0": 58.5,
+   "a1": 90.9,
+   "note": "IMG_5127 58.5-90.9"
+  },
+  {
+   "type": "sync",
+   "src": "C5128",
+   "a0": 0.5,
+   "a1": 6.6,
+   "note": "IMG_5128 0.5-6.6"
+  },
+  {
+   "type": "sync",
+   "src": "C5128",
+   "a0": 7.7,
+   "a1": 25.7,
+   "note": "IMG_5128 7.7-25.7"
+  },
+  {
+   "type": "sync",
+   "src": "C5129",
+   "a0": 0.5,
+   "a1": 70.5,
+   "note": "IMG_5129 0.5-70.5"
+  },
+  {
+   "type": "sync",
+   "src": "C5129",
+   "a0": 71.3,
+   "a1": 79.9,
+   "note": "IMG_5129 71.3-79.9"
+  },
+  {
+   "type": "sync",
+   "src": "C5130",
+   "a0": 0.2,
+   "a1": 111.3,
+   "note": "IMG_5130 0.2-111.3"
+  },
+  {
+   "type": "sync",
+   "src": "C5130",
+   "a0": 112.7,
+   "a1": 130.6,
+   "note": "IMG_5130 112.7-130.6"
+  },
+  {
+   "type": "sync",
+   "src": "C5131",
+   "a0": 0.6,
+   "a1": 78.9,
+   "note": "IMG_5131 0.6-78.9"
+  },
+  {
+   "type": "sync",
+   "src": "C5136",
+   "a0": 0.2,
+   "a1": 16.8,
+   "note": "IMG_5136 0.2-16.8"
+  },
+  {
+   "type": "sync",
+   "src": "C5136",
+   "a0": 17.4,
+   "a1": 22.5,
+   "note": "IMG_5136 17.4-22.5"
+  },
+  {
+   "type": "sync",
+   "src": "C5140",
+   "a0": 0,
+   "a1": 41.4,
+   "note": "IMG_5140 0.0-41.4"
+  }
+ ]
+}

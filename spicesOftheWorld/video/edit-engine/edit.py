@@ -40,6 +40,10 @@ class Edit:
                      "-crf", "28" if preview else "18", "-pix_fmt", "yuv420p", "-r", str(self.fps),
                      "-g", str(self.fps * 2), "-video_track_timescale", "15360"]
 
+    @property
+    def tonemap(self):  # config "tonemap": "hable" gives natural HLG colour; default keeps the old mobius look
+        return TONEMAP.replace("tonemap=mobius", "tonemap=" + self.cfg.get("tonemap", "mobius"))
+
     def p(self, path):
         path = os.path.expandvars(os.path.expanduser(path))
         return path if os.path.isabs(path) else os.path.join(self.cfg_dir, path)
@@ -83,11 +87,12 @@ class Edit:
 
     # ------------------------------------------------------------ render
     def vfilter(self, kind, key=None):
-        if kind == "pillar":  # portrait clip on a landscape canvas: whole frame centred over a blurred copy of itself
-            return (f"setpts=PTS-STARTPTS,tpad=stop=-1:stop_mode=clone,split[pa][pb];[pa]scale={self.W}:{self.H}:force_original_aspect_ratio=increase,"
+        if kind in ("pillar", "hdrpillar"):  # portrait clip on a landscape canvas: whole frame centred over a blurred copy of itself (hdrpillar tonemaps HLG first)
+            tm = self.tonemap + "," if kind == "hdrpillar" else ""
+            return (f"setpts=PTS-STARTPTS,{tm}tpad=stop=-1:stop_mode=clone,split[pa][pb];[pa]scale={self.W}:{self.H}:force_original_aspect_ratio=increase,"
                     f"crop={self.W}:{self.H},boxblur=40:4[pbg];[pb]scale=-2:{self.H}[pfg];"
                     f"[pbg][pfg]overlay=(W-w)/2:0,setsar=1,fps={self.fps},format=yuv420p")
-        body = {"hdrflip": TONEMAP + ",hflip,", "hdr": TONEMAP + ",", "flip": "hflip,"}.get(kind, "")
+        body = {"hdrflip": self.tonemap + ",hflip,", "hdr": self.tonemap + ",", "flip": "hflip,"}.get(kind, "")
         spec = self.src.get(key, {}) if key else {}
         if spec.get("crop"):  # e.g. "iw:ih*0.66:0:0" to trim away unwanted edge (floor) before fitting
             body += f"crop={spec['crop']},"

@@ -1,0 +1,131 @@
+{
+ "name": "ep02-yassa-cook-rough-v1",
+ "fps": 30,
+ "target_lufs": -14,
+ "work_dir": "work-yassa-cook",
+ "output_dir": "output",
+ "sources": {
+  "A": {
+   "path": "../raw/IMG_5122.MOV",
+   "kind": "hdr"
+  },
+  "B": {
+   "path": "../raw/IMG_5123.MOV",
+   "kind": "hdr"
+  },
+  "C": {
+   "path": "../raw/IMG_5124.MOV",
+   "kind": "hdr"
+  },
+  "D": {
+   "path": "../raw/IMG_5127.MOV",
+   "kind": "hdr"
+  },
+  "E": {
+   "path": "../raw/IMG_5129.MOV",
+   "kind": "hdr"
+  },
+  "F": {
+   "path": "../raw/IMG_5130.MOV",
+   "kind": "hdr"
+  },
+  "G": {
+   "path": "../raw/IMG_5131.MOV",
+   "kind": "hdr"
+  },
+  "H": {
+   "path": "../raw/IMG_5136.MOV",
+   "kind": "sdr"
+  },
+  "I": {
+   "path": "../raw/IMG_5140.MOV",
+   "kind": "sdr"
+  }
+ },
+ "timeline": [
+  {
+   "type": "sync",
+   "src": "A",
+   "a0": 0.0,
+   "a1": 8.3,
+   "note": "fire ready, chicken+pork on"
+  },
+  {
+   "type": "sync",
+   "src": "B",
+   "a0": 12.5,
+   "a1": 29.6,
+   "note": "boiled chicken, Senegal tip"
+  },
+  {
+   "type": "sync",
+   "src": "B",
+   "a0": 44.3,
+   "a1": 54.1,
+   "note": "yassa mix + Dijon"
+  },
+  {
+   "type": "sync",
+   "src": "C",
+   "a0": 0.4,
+   "a1": 19.3,
+   "note": "basting mix"
+  },
+  {
+   "type": "sync",
+   "src": "D",
+   "a0": 31.2,
+   "a1": 49.8,
+   "note": "bay leaves on the coals"
+  },
+  {
+   "type": "sync",
+   "src": "D",
+   "a0": 68.4,
+   "a1": 84.4,
+   "note": "smoke, smells fantastic"
+  },
+  {
+   "type": "sync",
+   "src": "E",
+   "a0": 0.7,
+   "a1": 30.7,
+   "note": "onion sauce"
+  },
+  {
+   "type": "sync",
+   "src": "F",
+   "a0": 4.4,
+   "a1": 20.4,
+   "note": "foil, flavour in the onions"
+  },
+  {
+   "type": "sync",
+   "src": "G",
+   "a0": 0.8,
+   "a1": 13.8,
+   "note": "finished meats"
+  },
+  {
+   "type": "sync",
+   "src": "G",
+   "a0": 29.8,
+   "a1": 45.8,
+   "note": "yassa goes with everything"
+  },
+  {
+   "type": "sync",
+   "src": "H",
+   "a0": 0.4,
+   "a1": 16.4,
+   "note": "onion sauce done, fresh bay"
+  },
+  {
+   "type": "sync",
+   "src": "I",
+   "a0": 0.0,
+   "a1": 25.9,
+   "note": "dinner is served"
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "name": "ep02-jollof-broll-test",
+ "fps": 30,
+ "target_lufs": -14,
+ "work_dir": "work-jtest",
+ "output_dir": "output",
+ "sources": {
+  "M": {
+   "path": "C:/Users/mark/OneDrive/Documents/Spices of the world/senegal/IMG_0707.MOV",
+   "kind": "hdr",
+   "gain": 0.0
+  },
+  "MAP1": {
+   "path": "../../graphics/episode-02/broll/ep02-broll-senegal-coastline-map.mp4",
+   "kind": "pillar"
+  },
+  "MAP2": {
+   "path": "../../graphics/episode-02/broll/ep02-broll-senegal-nigeria-ghana-trade-route.mp4",
+   "kind": "pillar"
+  },
+  "MAP3": {
+   "path": "../../graphics/episode-01/broll/ep01-broll-trade-route-animation.mp4",
+   "kind": "pillar"
+  },
+  "POT": {
+   "path": "C:/Users/mark/OneDrive/Documents/Spices of the world/senegal/IMG_0658.MOV",
+   "kind": "hdr",
+   "noautorotate": true
+  },
+  "PLATE": {
+   "path": "../../graphics/episode-02/broll/plate_yassa_1080.png",
+   "kind": "png"
+  },
+  "FIRE": {
+   "path": "../raw/IMG_5127.MOV",
+   "kind": "hdr"
+  },
+  "J55": {
+   "path": "C:/Users/mark/OneDrive/Documents/Spices of the world/senegal/IMG_0655.MOV",
+   "kind": "hdr",
+   "noautorotate": true
+  },
+  "J54": {
+   "path": "C:/Users/mark/OneDrive/Documents/Spices of the world/senegal/IMG_0654.MOV",
+   "kind": "hdr",
+   "noautorotate": true
+  },
+  "J58": {
+   "path": "C:/Users/mark/OneDrive/Documents/Spices of the world/senegal/IMG_0658.MOV",
+   "kind": "hdr",
+   "noautorotate": true
+  }
+ },
+ "timeline": [
+  {
+   "type": "main",
+   "a0": 43.097,
+   "a1": 51.579,
+   "broll": [
+    [
+     44.6,
+     50.6,
+     "J55",
+     2.0
+    ]
+   ]
+  },
+  {
+   "type": "main",
+   "a0": 52.242,
+   "a1": 65.47,
+   "broll": [
+    [
+     55.8,
+     61.6,
+     "J54",
+     16.5
+    ],
+    [
+     61.6,
+     65.4,
+     "J58",
+     1.5
+    ]
+   ]
+  }
+ ],
+ "tonemap": "hable"
+}

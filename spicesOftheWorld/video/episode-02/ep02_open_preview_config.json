@@ -1,0 +1,113 @@
+{
+ "name": "ep02-open-preview",
+ "fps": 30,
+ "target_lufs": -14,
+ "work_dir": "work-open",
+ "output_dir": "output",
+ "sources": {
+  "M": {
+   "path": "C:/Users/mark/OneDrive/Documents/Spices of the world/senegal/IMG_0707.MOV",
+   "kind": "hdr",
+   "gain": 0.0
+  },
+  "MAP1": {
+   "path": "../../graphics/episode-02/broll/ep02-broll-senegal-coastline-map.mp4",
+   "kind": "pillar"
+  },
+  "MAP2": {
+   "path": "../../graphics/episode-02/broll/ep02-broll-senegal-nigeria-ghana-trade-route.mp4",
+   "kind": "pillar"
+  },
+  "MAP3": {
+   "path": "../../graphics/episode-01/broll/ep01-broll-trade-route-animation.mp4",
+   "kind": "pillar"
+  },
+  "POT": {
+   "path": "C:/Users/mark/OneDrive/Documents/Spices of the world/senegal/IMG_0658.MOV",
+   "kind": "hdr",
+   "noautorotate": true
+  },
+  "PLATE": {
+   "path": "../../graphics/episode-02/broll/plate_yassa_1080.png",
+   "kind": "png"
+  },
+  "FIRE": {
+   "path": "../raw/IMG_5127.MOV",
+   "kind": "hdr"
+  }
+ },
+ "timeline": [
+  {
+   "type": "main",
+   "a0": 93.8,
+   "a1": 106.3,
+   "note": "COLD OPEN: claim, stops at 'by the way'",
+   "broll": [
+    [
+     93.8,
+     98.0,
+     "POT",
+     3.0
+    ],
+    [
+     98.0,
+     102.5,
+     "PLATE",
+     0
+    ],
+    [
+     102.5,
+     106.3,
+     "MAP2",
+     0.0
+    ]
+   ]
+  },
+  {
+   "type": "main",
+   "a0": 1.7,
+   "a1": 14.561,
+   "broll": [
+    [
+     10.2,
+     14.56,
+     "FIRE",
+     76.0
+    ]
+   ],
+   "note": "intro line"
+  },
+  {
+   "type": "main",
+   "a0": 107.801,
+   "a1": 109.823,
+   "broll": [
+    [
+     107.801,
+     109.823,
+     "MAP1",
+     0.001
+    ]
+   ]
+  },
+  {
+   "type": "main",
+   "a0": 111.12,
+   "a1": 118.489,
+   "broll": [
+    [
+     111.12,
+     117.8,
+     "MAP1",
+     2.942
+    ]
+   ]
+  },
+  {
+   "type": "main",
+   "a0": 120.966,
+   "a1": 126.092
+  }
+ ],
+ "tonemap": "hable"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ep02-jollof-mini",
+  "fps": 30,
+  "target_lufs": -14,
+  "work_dir": "work-jollof",
+  "output_dir": "output",
+  "sources": {
+    "J2": {"path": "C:/Users/mark/OneDrive/Documents/Spices of the world/senegal/IMG_0652.MOV", "kind": "hdrpillar"},
+    "J4": {"path": "C:/Users/mark/OneDrive/Documents/Spices of the world/senegal/IMG_0654.MOV", "kind": "hdrpillar"},
+    "J7": {"path": "C:/Users/mark/OneDrive/Documents/Spices of the world/senegal/IMG_0657.MOV", "kind": "hdrpillar"}
+  },
+  "timeline": [
+    {"type": "sync", "src": "J2", "a0": 23.6, "a1": 38.9, "note": "0652 mum's jollof, traditional pot"},
+    {"type": "sync", "src": "J2", "a0": 40.8, "a1": 57.2, "note": "0652 own tomatoes/chillies, spice base"},
+    {"type": "sync", "src": "J4", "a0": 1.0, "a1": 12.7, "note": "0654 rice in, steam does the work"},
+    {"type": "sync", "src": "J4", "a0": 22.3, "a1": 31.6, "note": "0654 sauce tastes good"},
+    {"type": "sync", "src": "J7", "a0": 7.8, "a1": 23.0, "note": "0657 finished, fluffy, smell"},
+    {"type": "sync", "src": "J7", "a0": 41.8, "a1": 61.4, "note": "0657 dedication to the mums"}
+  ]
+}
