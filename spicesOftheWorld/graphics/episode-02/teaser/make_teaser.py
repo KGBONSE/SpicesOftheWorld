@@ -8,7 +8,7 @@ THUMB = os.path.join(HERE, "..", "thumbnail", "thumb_D_which_one.png")
 FONTS = os.path.join(HERE, "..", "..", "..", "video", "episode-01", "fonts")
 DARK = (74, 16, 20); DARK2 = (107, 27, 31); ORANGE = (224, 118, 16); CREAM = (253, 243, 228); GOLD = (253, 214, 66); RED = (200, 28, 34)
 DAY = "TOMORROW"
-SUB = "Sunday 15 November  ·  on YouTube"
+SUB = "Sunday 15 November  ·  1pm  ·  on YouTube"
 def F(s, w="ExtraBold"): return ImageFont.truetype(os.path.join(FONTS, f"Inter-{w}.otf"), s)
 
 def bg(w, h):
@@ -45,7 +45,7 @@ def landscape():
     centre(d, cx, 385, "DROPS", F(110), CREAM)
     pill(d, cx, 550, DAY, F(78), GOLD, DARK, padx=36, pady=26)
     centre(d, cx, 740, "Sunday 15 November", F(42, "SemiBold"), CREAM)
-    centre(d, cx, 800, "on YouTube", F(42, "SemiBold"), CREAM)
+    centre(d, cx, 800, "1pm on YouTube", F(42, "SemiBold"), CREAM)
     centre(d, cx, 900, "@fudi.people", F(46), ORANGE)
     im.save(os.path.join(HERE, "ep02_tomorrow_landscape_1920x1080.png"))
 
@@ -68,7 +68,7 @@ def vertical():
     centre(d, W / 2, 560, "DROPS", F(104), CREAM)
     pill(d, W / 2, 710, DAY, F(116), GOLD, DARK, padx=50, pady=28)
     tw = 1000; th = place_thumb(im, (W - tw) // 2, 940, tw); d = ImageDraw.Draw(im)
-    centre(d, W / 2, 940 + th + 44, "Sunday 15 November", F(48, "SemiBold"), CREAM)
+    centre(d, W / 2, 940 + th + 44, "Sunday 15 November  ·  1pm", F(48, "SemiBold"), CREAM)
     centre(d, W / 2, 940 + th + 108, "on YouTube  ·  @fudi.people", F(48), ORANGE)
     im.save(os.path.join(HERE, "ep02_tomorrow_vertical_1080x1920.png"))
 
