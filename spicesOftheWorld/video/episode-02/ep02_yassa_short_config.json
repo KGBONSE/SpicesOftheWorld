@@ -1,0 +1,273 @@
+{
+ "fps": 30,
+ "target_lufs": -14,
+ "output_dir": "/home/claude/ep02/output",
+ "name": "ep02-yassa-short",
+ "work_dir": "/home/claude/ep02/work-yassa-short",
+ "overlays_dir": "overlays-vertical-short",
+ "sources": {
+  "Y": {
+   "path": "/mnt/user-data/uploads/IMG_0702.MOV",
+   "kind": "hdr",
+   "noautorotate": true,
+   "cx": 0.5
+  },
+  "M": {
+   "path": "/mnt/user-data/attachments/ff905dd5-c169-50bc-ae08-49d42a766c89/1ff8a4ac-IMG_5105.mov",
+   "kind": "hdr",
+   "noautorotate": true,
+   "cx": 0.5
+  },
+  "MA": {
+   "path": "/mnt/user-data/attachments/ff905dd5-c169-50bc-ae08-49d42a766c89/4df0dcea-IMG_5109.mov",
+   "kind": "hdr",
+   "noautorotate": true,
+   "fit": "blurpad",
+   "crop": "iw:ih*0.66:0:0"
+  },
+  "G23": {
+   "kind": "hdr",
+   "noautorotate": true,
+   "path": "/mnt/user-data/uploads/IMG_5123_2.mov",
+   "cx": 0.5
+  },
+  "G24": {
+   "kind": "hdr",
+   "noautorotate": true,
+   "path": "/mnt/user-data/uploads/IMG_5124_6.mov",
+   "cx": 0.35
+  },
+  "G25": {
+   "kind": "hdr",
+   "noautorotate": true,
+   "path": "/mnt/user-data/uploads/IMG_5125_6.mov",
+   "cx": 0.55
+  },
+  "G29": {
+   "kind": "hdr",
+   "noautorotate": true,
+   "rotate": 180,
+   "path": "/mnt/user-data/uploads/IMG_5129_2.mov",
+   "cx": 0.62
+  },
+  "G31": {
+   "kind": "hdr",
+   "noautorotate": true,
+   "rotate": 180,
+   "path": "/mnt/user-data/uploads/IMG_5131_6.mov",
+   "cx": 0.42
+  },
+  "G40": {
+   "kind": "hdr",
+   "noautorotate": true,
+   "path": "/mnt/user-data/uploads/IMG_5140_6.mov",
+   "cx": 0.55
+  },
+  "L2": {
+   "path": "/mnt/user-data/uploads/IMG_5113_3.mov",
+   "kind": "hdr",
+   "noautorotate": true,
+   "fit": "blurpad"
+  }
+ },
+ "timeline": [
+  {
+   "type": "sync",
+   "src": "G40",
+   "a0": 1.0,
+   "a1": 3.6,
+   "texts": [
+    [
+     "s_hook",
+     1.0,
+     3.6
+    ]
+   ],
+   "note": "hook plate"
+  },
+  {
+   "type": "sync",
+   "src": "Y",
+   "a0": 4.0,
+   "a1": 6.4,
+   "texts": [
+    [
+     "s_onion",
+     4.0,
+     6.4
+    ]
+   ],
+   "note": "onion"
+  },
+  {
+   "type": "sync",
+   "src": "Y",
+   "a0": 15.0,
+   "a1": 17.2,
+   "texts": [
+    [
+     "s_garlic",
+     15.0,
+     17.2
+    ]
+   ],
+   "note": "garlic"
+  },
+  {
+   "type": "sync",
+   "src": "Y",
+   "a0": 25.0,
+   "a1": 27.2,
+   "texts": [
+    [
+     "s_mustard",
+     25.0,
+     27.2
+    ]
+   ],
+   "note": "mustard"
+  },
+  {
+   "type": "sync",
+   "src": "Y",
+   "a0": 87.0,
+   "a1": 89.2,
+   "texts": [
+    [
+     "s_chilli",
+     87.0,
+     89.2
+    ]
+   ],
+   "note": "chilli"
+  },
+  {
+   "type": "sync",
+   "src": "Y",
+   "a0": 97.0,
+   "a1": 99.4,
+   "texts": [
+    [
+     "s_bay",
+     97.0,
+     99.4
+    ]
+   ],
+   "note": "bay"
+  },
+  {
+   "type": "sync",
+   "src": "M",
+   "a0": 0.6,
+   "a1": 4.4,
+   "texts": [
+    [
+     "s_toast",
+     0.8,
+     4.2
+    ]
+   ],
+   "note": "toast"
+  },
+  {
+   "type": "sync",
+   "src": "MA",
+   "a0": 0.0,
+   "a1": 1.8,
+   "texts": [
+    [
+     "s_bowls",
+     0.0,
+     1.8
+    ]
+   ],
+   "note": "three bowls"
+  },
+  {
+   "type": "sync",
+   "src": "G23",
+   "a0": 1.0,
+   "a1": 5.0,
+   "texts": [
+    [
+     "s_grill",
+     1.2,
+     4.8
+    ]
+   ],
+   "note": "on grill"
+  },
+  {
+   "type": "sync",
+   "src": "G24",
+   "a0": 2.0,
+   "a1": 5.2,
+   "texts": [
+    [
+     "s_baste",
+     2.2,
+     5.0
+    ]
+   ],
+   "note": "baste"
+  },
+  {
+   "type": "sync",
+   "src": "G25",
+   "a0": 7.0,
+   "a1": 10.6,
+   "texts": [
+    [
+     "s_turn",
+     7.2,
+     10.4
+    ]
+   ],
+   "note": "turning"
+  },
+  {
+   "type": "sync",
+   "src": "G29",
+   "a0": 31.0,
+   "a1": 34.6,
+   "texts": [],
+   "note": "cooking"
+  },
+  {
+   "type": "sync",
+   "src": "G31",
+   "a0": 19.0,
+   "a1": 22.8,
+   "texts": [],
+   "note": "off grill"
+  },
+  {
+   "type": "sync",
+   "src": "L2",
+   "a0": 1.0,
+   "a1": 5.0,
+   "texts": [
+    [
+     "s_onions",
+     1.2,
+     4.8
+    ]
+   ],
+   "note": "onion sauce"
+  },
+  {
+   "type": "sync",
+   "src": "G40",
+   "a0": 3.6,
+   "a1": 9.0,
+   "texts": [
+    [
+     "s_end",
+     4.2,
+     9.0
+    ]
+   ],
+   "note": "end plate"
+  }
+ ]
+}

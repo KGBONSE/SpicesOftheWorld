@@ -98,6 +98,13 @@ class Edit:
             body += f"crop={spec['crop']},"
         if spec.get("rotate") == 180:  # phone saved a wrong rotation flag: use with "noautorotate": true
             body = "hflip,vflip," + body
+        if spec.get("fit") == "blurpad":  # whole frame fitted to width, over a blurred full-bleed copy (landscape shot in a vertical cut)
+            return (f"setpts=PTS-STARTPTS,{body}split[ba][bb];[ba]scale={self.W}:{self.H}:force_original_aspect_ratio=increase,"
+                    f"crop={self.W}:{self.H},boxblur=40:4,eq=brightness=-0.08[bbg];[bb]scale={self.W}:-2:flags=lanczos[bfg];"
+                    f"[bbg][bfg]overlay=(W-w)/2:(H-h)/2,setsar=1,fps={self.fps},format=yuv420p")
+        if "cx" in spec:  # horizontal focus 0..1 for the cover crop (0 = left edge, 0.5 = centre)
+            return (f"setpts=PTS-STARTPTS,{body}scale={self.W}:{self.H}:force_original_aspect_ratio=increase:flags=lanczos,"
+                    f"crop={self.W}:{self.H}:(iw-ow)*{spec['cx']}:(ih-oh)/2,setsar=1,fps={self.fps},format=yuv420p")
         if spec.get("fit") == "pad":  # whole frame kept, centred on a solid colour (e.g. portrait footage in a landscape cut)
             col = spec.get("pad_color", "0x2b1a10")
             return (f"setpts=PTS-STARTPTS,{body}scale={self.W}:{self.H}:force_original_aspect_ratio=decrease:flags=lanczos,"
