@@ -10,7 +10,7 @@
    "path": "/mnt/user-data/uploads/IMG_0702.MOV",
    "kind": "hdr",
    "noautorotate": true,
-   "cx": 0.5
+   "cx": 0.62
   },
   "M": {
    "path": "/mnt/user-data/attachments/ff905dd5-c169-50bc-ae08-49d42a766c89/1ff8a4ac-IMG_5105.mov",
@@ -88,13 +88,13 @@
   {
    "type": "sync",
    "src": "Y",
-   "a0": 4.0,
-   "a1": 6.4,
+   "a0": 5.0,
+   "a1": 7.6,
    "texts": [
     [
      "s_onion",
-     4.0,
-     6.4
+     5.0,
+     7.6
     ]
    ],
    "note": "onion"
@@ -130,13 +130,13 @@
   {
    "type": "sync",
    "src": "Y",
-   "a0": 87.0,
-   "a1": 89.2,
+   "a0": 88.4,
+   "a1": 90.9,
    "texts": [
     [
      "s_chilli",
-     87.0,
-     89.2
+     88.4,
+     90.9
     ]
    ],
    "note": "chilli"
@@ -145,12 +145,12 @@
    "type": "sync",
    "src": "Y",
    "a0": 97.0,
-   "a1": 99.4,
+   "a1": 100.6,
    "texts": [
     [
      "s_bay",
      97.0,
-     99.4
+     100.6
     ]
    ],
    "note": "bay"
